@@ -1,0 +1,71 @@
+/* STRUCTURE > HEADER
+//////////////////////////////////////////////////*/
+
+#header {background:#42661d url(../images/article/bg_header.png) 0 0 repeat-x;}
+
+#header a.backButton {background:url(../images/article/bt_back.png) top center no-repeat; width:70px; position:absolute; left:5px;}
+
+#header a.backButton:hover {background:url(../images/article/bt_back.png) bottom center no-repeat;}
+
+#header a.homeButton {background:url(../images/article/bt_home.png) top center no-repeat; width:34px; right:5px;}
+
+#header a.homeButton:hover {background:url(../images/article/bt_home.png) bottom center no-repeat;}
+
+#header a.searchButton {background:url(../images/article/bt_search.png) top center no-repeat; width:34px; right:5px;}
+
+#header a.searchButton:hover {background:url(../images/article/bt_search.png) bottom center no-repeat;}
+
+/* STRUCTURE > CONTENT > SEARCH
+//////////////////////////////////////////////////*/
+
+#content div.search {background: url(../images/article/search.png) 0 0 no-repeat;}
+
+/* STRUCTURE > CONTENT
+//////////////////////////////////////////////////*/
+
+#content {color:#000; font: normal 14px Arial, Helvetica, sans-serif;}
+
+/* STRUCTURE > CONTENT > FRONT
+//////////////////////////////////////////////////*/
+
+#content div.front {border-bottom:1px solid #EEE;}
+
+#content div.front h1 {margin:10px; font: bold 20px Arial, Helvetica, sans-serif; color:#2B3C54;}
+
+#content div.front h1 span {color:#5D7392;}
+
+#content li.active {background: #5D7392;}
+
+/* STRUCTURE > CONTENT > RESULTS
+//////////////////////////////////////////////////*/
+
+div.results {padding:5px; border-bottom:1px solid #EEE;}
+
+div.results p.searchResults {text-align:center; font:normal 13px Arial, Helvetica, sans-serif; color:#333;}
+
+div.results div.itemViewDetail {background:url(../images/listArrow.png) right center no-repeat;}
+
+div.results div.itemViewDetail,
+div.results div.itemView {padding:10px 0 10px 0; border-top:1px solid #EEE; margin:0; font:normal 12px Arial, Helvetica, sans-serif;}
+
+div.results div.itemViewDetail h1,
+div.results div.itemViewDetail address,
+div.results div.itemViewDetail p {width:57.4%; padding:0 25px 0 0; float:right;}
+
+div.results div.itemViewDetail span img {padding:2px; background:#F1F3F8; border:2px double #E2E7F1; float:left; margin:0 5px 0 5px;}
+
+div.results div.itemViewDetail h1,
+div.results div.itemView h1 {font:bold 14px Arial, Helvetica, sans-serif; color:#647C97;}
+
+#content div.itemViewDetail.active {background: #5D7392;}
+
+/* STRUCTURE > CONTENT > DETAIL
+//////////////////////////////////////////////////*/
+
+div.detail {padding:5px; font:normal 14px Arial, Helvetica, sans-serif; color:#000;}
+
+div.detail div.itemDetail h1 {font:bold 18px/22px Arial, Helvetica, sans-serif; color:#647C97; text-align:center; border-bottom:1px solid #647C97; margin:0 0 10px 0; padding:0 0 5px 0;}
+
+div.detail div.itemDetail div.img {text-align: center; margin:0 0 10px 0;}
+
+div.detail div.itemDetail div.img img {padding:2px; background:#F1F3F8; border:2px double #E2E7F1;}

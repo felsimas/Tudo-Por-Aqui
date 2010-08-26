@@ -1,0 +1,221 @@
+/**
+* General Results
+*
+* @section	general-results
+*/
+
+.generalResults
+{ margin: 0 0 10px 0; }
+
+.generalResults dt
+{ margin: 0 0 5px 0; padding: 0; }
+
+	.generalResults dt a, .generalResults dt a:visited
+	{ color: #333; }
+
+/**
+* Categories
+*
+* @section	categories
+*/
+
+.categories h3 a, .categories h3 a:visited
+{ padding: 2px 0 0 8px; }
+
+.categories .complementaryInfo a, .categories .complementaryInfo a:hover
+{ color: #333; font: normal 10px/15px Verdana, Arial, Helvetica, sans-serif; }
+
+/**
+* Related categories
+*
+* @section	related-categories
+*/
+
+.relatedCategories
+{ font-size: 14px; padding: 10px 0 10px 0; }
+
+/**
+* Typograph
+*
+* @section	typograph
+*/
+
+
+.standardSubTitle
+{ padding: 5px 10px 5px 10px; }
+
+/**
+* Summary results
+*
+* @section	summary
+*/
+
+.summary
+{ border-bottom: 1px solid #EEE; color: #000; font: normal 11px/15px Verdana, Arial, Helvetica, sans-serif; height: 100%; margin: 15px 10px 0 10px; overflow: hidden; padding: 5px; }
+
+.baseIconNavbar
+{ clear: both; height: 40px; line-height: 25px; margin: 0 0 10px 0; }
+
+.summaryContent
+{ clear: both; padding: 0; }
+
+.summaryImage
+{ float: left; margin: 10px 10px 0 0; padding: 10px; text-align: center; width: 100px; }
+
+	.summaryImage a, .summaryImage a:visited, .summaryImage a:hover
+	{ display: block; text-decoration: none; }
+		
+.summaryNumber
+{ background: url(images/design/bg_map_number_left.gif) no-repeat 0 0; display: block; float: left; height: 29px; margin: 0 5px 0 0; padding: 0 0 0 3px; }
+
+	.summaryNumber span
+	{ background: url(images/design/bg_map_number_right.gif) 100% 0; color: #FFF; cursor: pointer; display: block; float: left; font-size: 18px; height: 29px; line-height: 29px; padding: 0 5px 0 2px; }
+		
+.claim a, .claim a:visited
+{ background: url(images/design/bg_claim.gif) no-repeat 0 0; color: #C00; display: block; margin: 5px 0 5px 0; padding: 0 0 0 15px; }
+
+.summarySpacer
+{ margin-bottom: 5px; }
+
+.summaryBottom
+{ display: block; height: 15px;  }
+
+/**
+* Summary Typgraph
+*
+* @section	summary
+* @section	typograph
+*/
+
+.summary h3, .summary h3 a, .summary h3 a:visited
+{ color: #000; font: bold 14px/normal Arial, Helvetica, sans-serif; }
+
+.summary h3 a, .summary h3 a:visited
+{ padding: 0 0 0 5px; }
+
+.summary .complementaryInfo
+{ color: #000; }
+
+.summaryDescription
+{ margin: 10px 0 0 0; }
+
+.summaryComplementaryContent
+{ clear: both; }
+
+.summary address
+{ font-size: 11px; font-style: normal; }
+
+	.summary address span
+	{ display: block; }
+
+.summaryComplementaryContent strong
+{ color: #000; font-size: 11px;  }
+
+.summaryComplementaryContent .complementaryInfo a, .summaryComplementaryContent .complementaryInfo a:visited
+{ font-weight: normal; }
+
+
+/**
+* Summary Showcase
+*
+* Appy highlighting to showcase results
+*
+* @section	summary
+* @section	showcase
+*/
+
+.showcase .summaryContent
+{ float: left; }
+
+.showcase .summaryDescription
+{ float: left; width: 335px; }
+
+.showcase .summaryComplementaryContent
+{ padding: 0 0 0 140px; }
+		
+/**
+* Summary Icon Navbar 
+*
+* @section		common
+* @subsection	summary-iconnavbar
+*/
+
+.iconNavbar
+{ clear: both; width: 100%; }
+
+.iconNavbar li a, .iconNavbar li a:visited
+{ font-weight: normal; }
+
+/**
+* Social Bookmark Icons
+*
+* @section		common
+* @subsection	social-bookmark
+*/
+
+.socialBookmarkIcons
+{ clear: both; float: right; height: 25px; overflow: hidden; padding: 0; }
+
+.socialBookmarkIcons li
+{ padding: 0 0 0 5px; }
+		
+/**
+* Summary rating
+*
+* @section		summary
+* @subsection	rating
+*/
+
+.rating
+{ margin: 10px 0 0 0; }
+	
+/**
+* Paging Navigation
+*
+* @section	paging
+*/
+
+.paging
+{ font: normal 10px Verdana, Arial, Helvetica, sans-serif; padding: 0 0 0 10px; text-align: center; }
+
+	.paging a, .paging a:visited
+	{ color: #666; }
+
+	.paging .complementaryInfo
+	{ color: #000; font-size: 10px; }
+
+	.paging .pagingNavigation
+	{ padding: 10px 10px 5px 5px; }
+
+	.paging span
+	{ display: block; padding: 10px 0 0 0; }
+
+	.paging input
+	{ font-size: 11px; height: 12px; margin-right: 3px; width: 25px; }
+	
+	.paging select
+	{ border: 1px solid #666; }
+
+	.paging	button
+	{ border: 0; background: url(../images/content/btn_GoTo.gif) no-repeat 0 0; color: #FFF; height: 18px; width: 20px; }
+
+.descNavigation
+{ font-size: 14px; }
+
+	.descNavigation strong
+	{ color: #069; }
+
+.letraNavigation
+{ clear: both; color: #999; font: normal 10px/18px Verdana, Arial, Helvetica, sans-serif; text-align: center; }
+
+	.letraNavigation a, .letraNavigation a:visited
+	{ color: #666; padding: 0 0 0 8px; }
+
+/**
+* Results Map
+*
+* @section	map
+*/
+
+.resultsMap
+{ background: #F7F7F7 url(../images/img_loading.gif) no-repeat 50% 50%; border: 1px solid #CCC; height: 250px; margin: 0 auto 15px auto; width: 488px; }

@@ -1,0 +1,113 @@
+/**
+* eDirectory - Mobile Style Definitions
+*
+* @package		layout-mobile
+* @author			Sis Dir 2009 - Classificados
+* @copyright	Copyright (c) 2009, Sis Dir 2009 - Classificados Inc.
+*/
+
+/** Structure */
+
+* { margin: 0; padding: 0; border: 0; text-decoration: none; }
+
+body { background-color: #FFF; }
+
+br.clear { clear: both; line-height: 0; height: 0; }
+
+.warning { color: #C00; font: normal x-small/normal sans-serif; padding: 5px; text-align: center; }
+
+.wrapper p { font:normal x-small sans-serif; color: #333; padding: 1px 5px 1px 5px; }
+
+a, a:visited { color: #069; }
+
+h1 { color: #000; font: bold small/normal sans-serif; padding: 2px 5px 2px 5px; }
+
+h1 span { color: #069; }
+
+span.bold { font-weight: bold; }
+
+/** Structure >> Header */
+
+.header { background-color: #FFF; text-align: center; }
+
+/** Structure >> Navbar */
+
+ul.navbar { background: #F7F7F7; border-top: 1px solid #CCC; list-style: none; margin: 5px 0 5px 0; }
+
+ul.navbar li { display: inline; }
+
+ul.navbar li a, ul.navbar li a:visited { border-bottom: 1px solid #CCC; color: #666; display: block; font: bold small sans-serif; padding: 3px 0 3px 10px; }
+
+ul.navbar li a:hover { background: #FFF; border-left: 5px solid #069; border-bottom: 1px solid #069; color: #069; padding: 3px 0 3px 5px; }
+
+/** Structure >> Breadcrumb */
+
+div.breadcrumb { border-bottom: 1px solid #CCC; color: #666; font: bold x-small/normal sans-serif; padding:3px 0 3px 5px; }
+
+div.breadcrumb a { font-weight:normal; }
+
+div.breadcrumb a:hover { text-decoration:underline; }
+
+/** Structure >> Search */
+
+div.search { margin: 5px; padding: 5px 10px 5px 10px; text-align: left; }
+
+div.search p { color: #690; font: bold small/normal sans-serif; padding: 0 0 3px 0; text-align: left; }
+
+div.search input { background: #FFF; border: 1px solid #CCC; border-right: 1px solid #EEE; border-bottom: 1px solid #EEE; font: x-small sans-serif; padding: 2px; width: 98%; }
+
+div.search input.searchButton { background: #690; border: none; color: #FFF; font: bold x-small/normal sans-serif; margin: 5px 0 0 0; padding:3px 10px 3px 10px; width: auto; }
+
+/** Structure >> Footer */
+
+.wrapper p.basePowered,
+.wrapper p.copyright { color: #666; font-size: x-small; }
+
+p.copyright { margin:0 0 5px 0; }
+
+/** Structure >> Footer >> Language Flags */
+
+.languageFlags { padding: 0 0 0 5px; }
+
+.languageFlags img { margin: 0 0 0 2px; padding: 1px; }
+
+.languageFlags .flagActive { border: 1px solid #666; padding: 0; }
+
+/** Structure >> Results */
+
+p.generalResults { border-bottom: 1px solid #CCC; padding: 6px 0 3px 5px; }
+
+p.generalResults a { font: bold small/normal sans-serif; }
+
+p.generalResults span { color: #666; font-weight: normal; }
+
+p.moreResults { margin-bottom: 5px; }
+
+p.moreResults a { color: #C00; font-weight: bold; }
+
+p.moreResults a:hover { text-decoration:underline; }
+
+/** Structure >> Results >> View */
+
+div.itemView { border-bottom: 1px solid #EEE; margin: 0 5px 0 5px; padding: 5px 0 5px 0; }
+
+div.itemView h1 { font: bold small/normal sans-serif; }
+
+div.itemView address { color: #666; font: normal normal x-small/normal sans-serif; padding: 2px 5px 2px 5px; }
+
+div.itemView address span { display: block; }
+
+div.itemView h1 { color: #000; }
+
+div.itemView .eventDateTime,
+div.itemView .articleInfo { color: #666; }
+
+/** Structure >> Results >> Paging */
+
+.wrapper p.paging { padding: 5px 0 5px 0; text-align: center; }
+
+p.paging span { padding: 0 10px 0 10px; }
+
+p.paging a { font-weight: bold; }
+
+p.paging a:hover { text-decoration: underline; }

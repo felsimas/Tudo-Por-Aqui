@@ -1,0 +1,55 @@
+/**
+* eDirectory - Style Definitions for Listing Templates
+*
+* @package		layout
+* @author			Sis Dir 2009 - Classificados
+* @copyright	Copyright (c) 2009, Sis Dir 2009 - Classificados Inc.
+*/
+
+/**
+* Template 1
+*
+* @section	template1
+*/
+
+.template1 .detailTitle
+{ background: none; padding-bottom: 5px; }
+
+/**
+* Template 2
+*
+* @section	template2
+*/
+
+.template2 .detailContent
+{ float: right; }
+
+.template2 .detailComplementaryContent
+{ float: left; }
+
+.template2 .floatLayer
+{ left: 235px; }
+
+.template2 .detailTitle
+{ background: none; padding-bottom: 5px; }
+
+/**
+* Template 3
+*
+* @section	template3
+*/
+
+.template3 .detailContent
+{ float: left; padding: 5px 10px 5px 10px; width: 47%; }
+
+.template3 .designations
+{ clear: both; float: right; padding-top: 5px; }
+
+.template3 .googleBase
+{ margin-bottom: 0; }
+
+.template3 .floatLayer
+{ top: -80px; left: -10px; width: 280px; }
+
+.template3 .detailTitle
+{ background: none; padding-bottom: 5px; }

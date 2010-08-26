@@ -1,0 +1,132 @@
+/**
+* Special color scheme for modules
+*
+* @section		scheme
+* @subsection	event
+*/
+
+/** Navbar */
+
+.navbar
+{ border-bottom: 1px solid #F60; }
+
+.navbar li a:hover, .navbar li.menuActived a, .navbar li.menuActived a:visited
+{ background:url(images/design/bg_navbar_eventOn.gif) bottom center repeat-x; }
+
+/** Typograph */
+
+.standardTitle span
+{ color: #F60; }
+
+.viewMore a, .viewMore a:visited
+{ color: #B40; }
+
+/** Member Join */
+
+.memberJoin h2, .memberJoin h2 a, .memberJoin h2 a:visited
+{ color: #F60; }
+
+.memberJoin p, .memberJoin p a, .memberJoin p a:visited
+{ color: #333; }
+
+/** Search */
+
+.search
+{ background: #FFCA8D; border: 5px solid #FFA044; }
+
+.search label, .search .altLabel, .search legend
+{ color: #B40; }
+
+.search input, .search select, .search textarea
+{ border: 1px solid #FFA044; border-bottom: 1px solid #FFF; border-right: 1px solid #FFF; }
+
+.advancedSearch a, .advancedSearch a:visited,
+.advancedSearchClose a, .advancedSearchClose a:visited
+{ color: #B40; }
+
+.standardButton button, .standardButton a, .standardButton a:visited
+{ background: url(images/design/bg_eventButton.gif) repeat-x 0 0; }
+
+.searchCategory
+{ background: #FFE4D5; color: #8F2B00; }
+
+.searchSubcategory
+{ background: #FFF9F4; color: #AA4000; }
+
+.templateActive a, .templateActive a:visited
+{ border: 1px solid #FFA044; border-bottom: none; color: #8F2B00; }
+
+.templateTabContent
+{ border: 1px solid #FFA044; }
+
+
+/** Categories */
+
+.categories
+{ border: 5px solid #FFF2EA; }
+
+.categories h3 a, .categories h3 a:visited
+{ background: url(images/design/bullet_events.gif) no-repeat 0 5px; }
+
+.categories h3 a:hover
+{ color: #F60 !important; }
+
+/** Featured */
+
+.highlightBox
+{ background: #FFF2EA; border: 3px solid #FFE6D5; }
+
+.featuredEventImage
+{ border: 5px solid #FFE6D5; }
+
+.featuredEventImage:hover
+{ border: 5px solid #F60; }
+
+.featuredItems h3 a, .featuredItems h3 a:visited
+{ color: #B40; }
+
+.featuredItems .complementaryInfo a, .featuredItems .complementaryInfo a:visited
+{ color: #F60; }
+
+/** Results */
+
+.standardSubTitle strong
+{ color: #F60; }
+
+.summary a, .summary a:visited
+{ color: #B40; }
+
+.summary h3 a, .summary h3 a:visited
+{ border-left: 5px solid #F60; }
+
+.summary h3 a:hover
+{ color: #F60 !important; }
+
+.summaryImage
+{ background: #FFF2EA; border: 5px solid #FFE6D5; }
+
+.summary .complementaryInfo strong
+{ color: #D84; }
+
+/** Detail */
+
+.detail h2
+{ color: #F60; }
+
+.detail a, .detail a:visited
+{ color: #B40; }
+
+.detailContent strong
+{ color: #D84; }
+
+.imgDetail, .detailGallery img
+{ background: #FFF2EA; border: 5px solid #FFE6D5; padding: 5px; }
+
+.detailGallery img
+{  border: 3px solid #FFE6D5; }
+
+.iconNavbar a, .iconNavbar a:visited
+{ color: #B40; }
+
+.iconNavbar a:hover
+{ border: 1px solid #FFE6D5; color: #F60 !important; text-decoration: none; }

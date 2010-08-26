@@ -1,0 +1,194 @@
+/**
+* Global Definitions
+*
+* @section		popup
+* @subsection global
+*/
+
+*
+{ border: none; margin: 0; padding: 0; }
+
+ul
+{ list-style: none; }
+
+body
+{ background: #246; font: normal 10px/16px Verdana, Arial, Helvetica, sans-serif; color: #333; margin: 15px; text-align: center; }
+
+a, a:visited
+{ color: #037; text-decoration: none; }
+
+	a:hover
+	{ color: #000 !important; }
+
+input, select, textarea
+{ border: 1px solid #CCC; border-bottom: 1px solid #EEE; border-right: 1px solid #EEE; color: #666; padding: 2px; }
+
+.clear
+{ clear: both; display: block; height: 0px; line-height: 0px; overflow: hidden; }
+
+/**
+* Popup Structure
+*
+* @section		popup
+* @subsection structure
+*/
+
+.wrapper
+{ background: #FFF; border: 10px solid #235; text-align: left; }
+
+/**
+* Typograph
+*
+* Headings and text styles
+*
+* @section		popup
+* @subsection	typograph
+*/
+
+h1
+{ background: #FBFBFB; border-left: 5px solid #EEE; border-right: 15px solid #EEE; color: #000; font: normal 18px/30px Arial, Helvetica, sans-serif; margin: 10px 0 10px 0; padding: 0 0 0 10px; }
+
+	h1 span
+	{ font-weight: bold; color: #069; }
+	
+h2
+{ color: #333; font: bold 14px/24px Arial, Helvetica, sans-serif; padding: 0 0 10px 15px; }
+
+	h2 a, h2 a:visited
+	{ color: #664; }
+
+.complementaryInfo
+{ color: #640; display: block; font: normal 10px Verdana, Arial, Helvetica, sans-serif; }
+
+p
+{ padding: 5px 15px 5px 15px; }
+
+address
+{ color: #666; font-size: 11px; font-style: normal; font-weight: bold; padding: 0 0 0 15px; }
+
+/**
+* Standard Form
+*
+* @section		popup
+* @subsection	standard-form
+*/
+
+.standardForm
+{ background: #FAFAFA; border: 3px solid #EEE; margin: 0 auto 10px auto; padding: 10px; width: 95%; }
+
+	.standardForm td, .standardForm th
+	{ padding: 3px; vertical-align: top; }
+	
+	.standardForm th
+	{ color: #666; font-weight: normal; line-height: 20px; text-align: right; }
+	
+	.standardForm input, .standardForm select, .standardForm textarea
+	{ font-size: 11px; padding: 4px; width: 95%; }
+	
+	.standardForm .formCode
+	{ width: 100px; }
+
+/**
+* Standard Button
+*
+* @section		popup
+* @subsection	standard-button
+*/
+
+.standardButton, .standardForm .standardButton
+{ padding: 0; }
+
+	.standardForm .standardButton
+	{ float: right; }
+
+	.standardForm .standardButton button, 
+	.standardForm .standardButton a, 
+	.standardForm .standardButton a:visited
+	{ background: #FFF; border-bottom: 5px solid #EEE; border-right: 5px solid #EEE; color: #333; cursor: pointer; display: block; font: bold 10px/28px Verdana, Arial, Helvetica, sans-serif; text-align: center; }
+
+	.standardButton,
+	.standardButton button, .standardButton a, .standardButton a:visited
+	{ height: 28px; width: 73px; }
+	
+.closeButton button, .closeButton a, .closeButton a:visited, .closeButton a:hover
+{ color: #FFF !important; cursor: pointer; display: block; font: bold 10px/28px Verdana, Arial, Helvetica, sans-serif; text-align: center; }
+
+.closeButton,
+.closeButton button, .closeButton a, .closeButton a:visited
+{ clear: both; height: 28px; margin: 0 auto 10px auto; width: 180px; width: 180px; }
+
+	
+/**
+* System Messages
+*
+* @section		popup
+* @subsection	system-messages
+*/
+
+.informationMessage, .errorMessage, .successMessage
+{ border: 1px solid #CCC; font-size: 11px; font-weight: bold; margin: 10px; padding: 15px 15px 15px 45px; text-align: left; }
+
+	.informationMessage
+	{ background: #F9FDFF url(images/design/bg_icon_information.gif) 10px 10px no-repeat; color: #135DA2; }
+	
+		.informationMessage a, .informationMessage a:visited
+		{ color:#2E4E6B; }
+		
+	.errorMessage
+	{ background: #FFF9F9 url(images/design/bg_icon_error.gif) 10px 10px no-repeat; color: #C10924; }
+	
+		.errorMessage a, .errorMessage a:visited
+		{ color: #C94601; }
+
+	.successMessage
+	{ background: #F9FCEB url(images/design/bg_icon_success.gif) 10px 10px no-repeat; color: #692; }
+	
+		.successMessage a, .successMessage a:visited
+		{ color:#351; }
+
+/**
+* Slideshow Gallery
+*
+* @section		popup
+* @subsection	slideshow
+*/
+
+.galleryWrapper
+{ padding: 0; }
+
+.galleryNav
+{ background: #F2F2F2; color: #666; font-size: 10px; height: 20px; line-height: 20px; padding: 10px; }
+
+	.galleryNav dt, .galleryNav dd
+	{ float: left; }
+	
+	.galleryNav dd
+	{ float: right; margin: 0 2px 0 0; }
+	
+.galleryPicture
+{ padding: 10px; text-align: center; }
+
+	.galleryPicture p
+	{ border-top: 1px solid #CCC; margin: 10px 0 0 0; padding: 5px 10px 5px 0; }
+	
+/**
+* Promotion
+*
+* @section		popup
+* @subsection	promotion
+*/
+
+.promotionImage
+{ border: 5px solid #FFF3D5; float: left; margin: 10px 10px 10px 20px; }
+
+.promotionNavbar
+{ background: #FBFBFB; border: 1px solid #EEE; clear: both; font-size: 10px; height: 30px; line-height: 30px; }
+
+	.promotionNavbar li
+	{ border-left: 1px solid #EEE; float: right; padding: 0 10px 0 10px; text-align: center; width: 100px; }
+	
+	.promotionNavbar a, .promotionNavbar a:visited
+	{ color: #640; }
+	
+.warning
+{ clear: both; color: #640; font-size: 10px; margin: 10px 0 10px 0; padding: 5px; }

@@ -1,0 +1,23 @@
+
+/* LINUX PROBLEM - REDUCE THE FONT SIZE ON LINUX
+   STRUCTURE > NAVBAR
+/////////////////////////////////////////////////////*/
+
+	div.wrapper ul.navbar li a:link,
+	div.wrapper ul.navbar li a:active,
+	div.wrapper ul.navbar li a:visited,
+	div.wrapper ul.navbar li a:hover
+	{font: bold 12px/45px Arial, Verdana, Arial, Helvetica, sans-serif;}
+	
+
+/* FRONT > GLOBAL SEARCH
+/////////////////////////////////////////////////////*/
+	
+	dl.simpleSearch dt.simplesearchFrontTitle
+	{font: bold 16px/20px Arial, Helvetica, sans-serif;}
+		
+		
+/* STRUCTURE > CONTENT > LEFT CONTENT > BASE JOIN
+/////////////////////////////////////////////////////*/
+	dl.base-join dt
+	{font: bold 12pt Arial, Verdana, sans-serif;}

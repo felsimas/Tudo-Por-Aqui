@@ -1,0 +1,115 @@
+h1.standardTitle,
+p.standardTitle
+{font: normal 18px/20px Arial, Helvetica, sans-serif; color: #000; text-align:left; margin: 0; padding: 10px 15px 10px 15px;}
+
+	h1.standardTitle span,
+	p.standardTitle span
+	{color: #BF4D00;}
+
+	div.dynamicContent
+	{padding: 5px;}
+	
+	div.dynamicContent p,
+	div.dynamicContent h1,
+	div.dynamicContent h2,
+	div.dynamicContent h3,
+	div.dynamicContent h4,
+	div.dynamicContent h5,
+	div.dynamicContent h6
+	{color:#BF4D00;}
+
+/* ARTICLE > COLOR > NAVBAR
+///////////////////////////////////////////////////*/
+
+	div.wrapper ul.navbar
+	{border-bottom: 1px solid #425A7E;}
+
+		div.wrapper ul.navbar li a:hover,
+		div.wrapper ul.navbar li a.menuActived:link,
+		div.wrapper ul.navbar li a.menuActived:active,
+		div.wrapper ul.navbar li a.menuActived:visited,
+		div.wrapper ul.navbar li a.menuActived:hover
+		{color: #000; background: url("../images/design/bg_navbar_articleOn.gif") 0 100% repeat-x;}
+
+/* ARTICLE > STRUCTURE > LEFT CONTENT > SEARCH
+////////////////////////////////////////////////*/
+
+	fieldset.articleSearchForm
+	{ margin: 0 auto 0 auto; padding: 0;}
+	
+		fieldset.articleSearchForm p
+		{padding: 0 0 10px 0; border: 0;}
+
+		fieldset.articleSearchForm label
+		{font: normal 18px Arial, Verdana, Helvetica, sans-serif; color:#000; text-align: left; text-transform: capitalize; padding: 0; display: block;}
+
+			fieldset.articleSearchForm label span
+			{color: #BF4D00;}
+
+		fieldset.articleSearchForm p input,
+		fieldset.articleSearchForm p button
+		{width: 60%; margin-right: 5px; font: normal 10px Verdana, Arial, sans-serif; color: #2D405B; padding: 5px; background: #F1F3F8; border: 1px solid #8D9DC7; border-right-color: #FFF; border-bottom-color: #FFF;}
+
+		fieldset.articleSearchForm p button.articleSearchButton
+		{width: 55px; color: #FFF; cursor: pointer; margin-right: 0; background: #263E5C url("../images/design/bg_standardButton.gif") 0 0 repeat-x; border: 0;}
+
+/* ARTICLE > STRUCTURE > LEFT CONTENT > CATEGORIES
+/////////////////////////////////////////////////////////*/
+
+		div.articleCategories
+		{font: normal 10px Verdana, Arial, Helvetica, sans-serif; text-align: left; border: 5px solid #F4F4F4; margin-bottom: 10px;}
+		
+			div.articleCategories dl dt {padding: 5px 5px 5px 10px;}
+			
+				div.articleCategories dl dt a:link,
+				div.articleCategories dl dt a:active,
+				div.articleCategories dl dt a:visited,
+				div.articleCategories dl dt a:hover {font: bold 14px Arial, Helvetica, sans-serif; color:#000; text-decoration: none; padding: 0 0 0 7px; background: url("../images/design/bullet_article.gif") 0 4px no-repeat;}
+
+				div.articleCategories dl dt a:hover {color: #425A7E; text-decoration:underline;}
+
+			div.articleCategories dl dd
+			{padding: 0 15px 0 20px; margin-bottom: 5px;}
+			
+				div.articleCategories dl dd a:link,
+				div.articleCategories dl dd a:active,
+				div.articleCategories dl dd a:visited,
+				div.articleCategories dl dd a:hover	{font: normal 10px Verdana, Arial, Helvetica, sans-serif; color:#333}
+
+				div.articleCategories dl dd a:hover {text-decoration: underline;}	
+				
+			div.articleCategories p.viewAllCategories
+			{font:bold 11px/normal Verdana, Arial, Helvetica, sans-serif; border-top:1px solid #EEE; padding:10px 5px 10px 0; margin:10px 10px 0 10px; text-align:right;}
+			
+			div.articleCategories p.viewAllCategories a:link,
+			div.articleCategories p.viewAllCategories a:active,
+			div.articleCategories p.viewAllCategories a:visited,
+			div.articleCategories p.viewAllCategories a:hover
+			{color:#BF4D00;}
+			
+			div.articleCategories p.viewAllCategories a:hover
+			{color:#000; text-decoration:underline;}
+
+/* ARTICLE > STRUCTURE > MISC CLASSES > STANDARD ICON
+/////////////////////////////////////////////////////*/
+		
+		ul.standard-iconlink
+		{margin-bottom: 10px; font: normal 11px/20px Verdana, Arial, Helvetica, sans-serif; color:#000;}
+				
+		ul.standard-iconlink li.remove-icon
+		{background: url("../images/icon_delete.gif") 15px 4px no-repeat; text-align: left; padding-left:35px}
+		
+		ul.standard-iconlink li.favoritesview-icon
+		{background: url("../images/content/bullet_viewQuickListArticle.gif") 5px 7px no-repeat; text-align: left; padding-left: 13px;}
+		
+			ul.standard-iconlink li.favoritesview-icon a:link,
+			ul.standard-iconlink li.favoritesview-icon a:active,
+			ul.standard-iconlink li.favoritesview-icon a:visited,
+			ul.standard-iconlink li.favoritesview-icon a:hover
+			{color: #BF4D00;}
+
+			ul.standard-iconlink li.remove-icon a:link,
+			ul.standard-iconlink li.remove-icon a:active,
+			ul.standard-iconlink li.remove-icon a:visited,
+			ul.standard-iconlink li.remove-icon a:hover
+			{color: #CC0000;}

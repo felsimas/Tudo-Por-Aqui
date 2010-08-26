@@ -1,0 +1,185 @@
+/**
+* Global Definitions
+*
+* @section		popup
+* @subsection global
+*/
+
+*
+{ border: none; margin: 0; padding: 0; }
+
+ul
+{ list-style: none; }
+
+body
+{ background: #F90; font: normal 12px/16px "Trebuchet MS", Arial, Verdana, sans-serif; color: #333; margin: 15px; text-align: center; }
+
+a, a:visited
+{ color: #783; font-weight: bold; text-decoration: none; }
+
+	a:hover
+	{ text-decoration: underline; }
+
+input, select, textarea
+{ border: 1px solid #CCC; border-bottom: 1px solid #EEE; border-right: 1px solid #EEE; color: #666; padding: 2px; }
+
+.clear
+{ clear: both; display: block; height: 0px; line-height: 0px; overflow: hidden; }
+
+/**
+* Popup Structure
+*
+* @section		popup
+* @subsection structure
+*/
+
+.wrapper
+{ background: #FFF; border: 1px solid #F60; padding: 10px; text-align: left; }
+
+/**
+* Typograph
+*
+* Headings and text styles
+*
+* @section		popup
+* @subsection	typograph
+*/
+
+h1
+{ border-bottom: 1px solid #EEE; clear: both; color: #069; font-size: 18px; font-weight: normal; line-height: 18px; margin: 0 0 10px 0; padding: 5px 0 5px 10px; }
+
+	h1 span
+	{ font-weight: bold; color: #069; }
+	
+h2
+{ color: #333; font-size: 14px; font-weight: bold; padding: 0 0 10px 0; }
+
+.complementaryInfo
+{ color: #666; display: block; font-size: 11px; font-weight: normal; }
+
+p
+{ padding: 5px 0 5px 0; }
+
+address
+{ color: #666; font-size: 11px; font-style: normal; font-weight: bold; }
+
+/**
+* Standard Form
+*
+* @section		popup
+* @subsection	standard-form
+*/
+
+.standardForm
+{ width: 100%; }
+
+	.standardForm td, .standardForm th
+	{ padding: 3px; vertical-align: top; }
+	
+	.standardForm th
+	{ color: #666; font-size: 11px; font-weight: normal; line-height: 20px; text-align: right; }
+	
+	.standardForm input, .standardForm select, .standardForm textarea
+	{ width: 95%; }
+	
+	.standardForm .formCode
+	{ width: 100px; }
+
+/**
+* Standard Button
+*
+* @section		popup
+* @subsection	standard-button
+*/
+
+.standardButton, .standardForm .standardButton
+{ background: url(images/bg_button_right.gif) no-repeat 100% 0; padding: 0; }
+
+	.standardForm .standardButton
+	{ float: right; }
+
+	.standardButton button, .standardButton a, .standardButton a:visited
+	{ background: url(images/bg_button_left.gif) no-repeat 0 0; color: #FFF; cursor: pointer; display: block; font: bold 14px/30px Arial, Helvetica, sans-serif; text-align: center; }
+
+	.standardButton,
+	.standardButton button, .standardButton a, .standardButton a:visited
+	{ height: 30px; width: 95px; }
+	
+.closeButton,
+.closeButton button, .closeButton a, .closeButton a:visited
+{ margin: 0 auto 0 auto; width: 180px; }
+	
+/**
+* System Messages
+*
+* @section		popup
+* @subsection	system-messages
+*/
+
+.informationMessage, .errorMessage, .successMessage
+{ border: 1px solid #CCC; font-size: 11px; font-weight: bold; margin: 10px; padding: 15px 15px 15px 45px; text-align: left; }
+
+	.informationMessage
+	{ background: #F9FDFF url(images/bg_icon_information.gif) 10px center no-repeat; color: #135DA2; }
+	
+		.informationMessage a, .informationMessage a:visited
+		{ color:#2E4E6B; }
+		
+	.errorMessage
+	{ background: #FFF9F9 url(images/bg_icon_error.gif) 10px 10px no-repeat; color: #C10924; }
+	
+		.errorMessage a, .errorMessage a:visited
+		{ color: #C94601; }
+
+	.successMessage
+	{ background: #F9FCEB url(images/bg_icon_success.gif) 10px 10px no-repeat; color: #692; }
+	
+		.successMessage a, .successMessage a:visited
+		{ color:#351; }
+
+/**
+* Slideshow Gallery
+*
+* @section		popup
+* @subsection	slideshow
+*/
+
+.galleryWrapper
+{ padding: 0; }
+
+.galleryNav
+{ background: url(images/bg_top_navigation.gif) repeat-x 0 100%; border-bottom: 1px solid #EEE; color: #666; font-size: 11px; height: 20px; line-height: 20px; padding: 10px; }
+
+	.galleryNav dt, .galleryNav dd
+	{ float: left; }
+	
+	.galleryNav dd
+	{ float: right; margin: 0 2px 0 0; }
+	
+.galleryPicture
+{ padding: 10px; text-align: center; }
+
+	.galleryPicture p
+	{ border-top: 1px solid #CCC; margin: 10px 0 0 0; padding: 5px 10px 5px 0; }
+	
+/**
+* Promotion
+*
+* @section		popup
+* @subsection	promotion
+*/
+
+.promotionImage
+{ border: 1px solid #CCC; float: left; margin: 0 10px 20px 0; padding: 2px; }
+
+.promotionNavbar
+{ background: #FAF9F5; border: 1px solid #E3DCC2; clear: both; font-size: 11px; height: 30px; line-height: 30px; }
+
+	.promotionNavbar li
+	{ float: right; padding: 0 10px 0 10px; }
+	
+	.promotionNavbar a, .promotionNavbar a:visited
+	{ color: #666; }
+	
+.warning
+{ background: #F7F7F7; border-bottom: 1px solid #CCC; border-top: 1px solid #CCC; clear: both; color: #666; font-size: 11px; margin: 10px 0 10px 0; padding: 5px; }

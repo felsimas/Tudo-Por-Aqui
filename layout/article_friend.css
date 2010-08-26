@@ -1,0 +1,88 @@
+* {text-decoration: none; padding: 0; margin: 0; /* border: 0; */}
+
+body {text-align: center; margin: 10px; background: #2E4C6B;}
+
+/* ARTICLE > EMAIL TO FRIEND
+/////////////////////////////////////////////////////*/
+
+div.emailFriendWrapper
+{width: 96%; font: normal 11px Verdana, Arial, Helvetica, sans-serif; text-align: left; margin: 0 auto 0 auto; padding: 0 0 15px 0; background: #FFF; border: 10px solid #253E57;}
+
+	div.emailFriendWrapper * {margin: 0;}
+
+	div.emailFriendWrapper p
+	{text-align: left; padding: 10px 15px 5px 15px;}
+
+	div.emailFriendWrapper p.warning { text-align: center; padding: 0 0 20px 0;}
+	
+	div.emailFriendWrapper table.standardForm {margin:0 auto 0 auto;}
+
+	div.emailFriendWrapper h2
+	{font: normal 18px/20px Arial, Helvetica, sans-serif; color: #000; text-align:left; margin: 10px 0 0 0; padding: 5px 15px 5px 15px; background: #FBFBFB; border-left: 5px solid #647C97; border-right: 15px solid #647C97;}
+
+	div.emailFriendWrapper input.simpleButton,
+	div.emailFriendWrapper button.simpleButton
+	{ width: 80px; float: right; font: bold 10px Verdana, Arial, Helvetica, sans-serif; color: #647C97; background: #FFF; cursor: pointer; border: 0; border-bottom: 5px solid #EEE; border-right: 5px solid #EEE;}
+
+/* ARTICLE > EMAIL TO FRIEND > MISC
+/////////////////////////////////////////////////////*/
+
+	ul.standardButton li button,
+	ul.standardButton li input,
+	ul.standardButton li a:link,
+	ul.standardButton li a:active,
+	ul.standardButton li a:visited,
+	ul.standardButton li a:hover{color: #E3ECDB; background: #355416 url("../images/design/bg_businessButton.gif") 0 0 repeat-x; border: 0;}
+	
+/* ARTICLE > EMAIL TO FRIEND > MISC CLASSES > MESSAGES
+/////////////////////////////////////////////////////*/
+
+div.emailFriendWrapper .informationMessage,
+div.emailFriendWrapper .errorMessage,
+div.emailFriendWrapper .successMessage
+{font: bold 11px/18px Verdana, Arial, Helvetica, sans-serif; text-align:left; margin: 10px 20px 10px 20px; padding: 15px 15px 15px 45px; height:1%; /* IE HACK */}
+	
+/* ARTICLE > EMAIL TO FRIEND > MISC CLASSES > MESSAGES > INFORMATION MESSAGE
+/////////////////////////////////////////////////////*/
+
+div.emailFriendWrapper .informationMessage
+{color: #135DA2; border: 5px solid #E6F3FB; background: #F9FDFF url(../images/design/bg_icon_information.gif) 10px center no-repeat;}
+
+	div.emailFriendWrapper .informationMessage a:link,
+	div.emailFriendWrapper .informationMessage a:active,
+	div.emailFriendWrapper .informationMessage a:visited,
+	div.emailFriendWrapper .informationMessage a:hover
+	{color:#2E4E6B; text-decoration:underline;}
+	
+	div.emailFriendWrapper .informationMessage a:hover
+	{color:#000; text-decoration:none;}
+
+/* ARTICLE > EMAIL TO FRIEND > MISC CLASSES > MESSAGES > ERROR MESSAGE
+/////////////////////////////////////////////////////*/
+
+div.emailFriendWrapper .errorMessage
+{color: #C10924; border: 5px solid #FFEAEA; background: #FFF9F9 url(../images/design/bg_icon_error.gif) 10px 10px no-repeat;}
+
+	div.emailFriendWrapper .errorMessage a:link,
+	div.emailFriendWrapper .errorMessage a:active,
+	div.emailFriendWrapper .errorMessage a:visited,
+	div.emailFriendWrapper .errorMessage a:hover
+	{color:#C94601; text-decoration:underline;}
+	
+	div.emailFriendWrapper .errorMessage a:hover
+	{color:#000; text-decoration:none;}
+
+/* ARTICLE > EMAIL TO FRIEND > MISC CLASSES > MESSAGES > SUCCESS MESSAGE
+/////////////////////////////////////////////////////*/
+
+div.emailFriendWrapper .successMessage
+{color: #609629; border: 5px solid #F1F7D4; background: #F9FCEB url(../images/design/bg_icon_success.gif) 10px 10px no-repeat;}
+
+	div.emailFriendWrapper .successMessage a:link,
+	div.emailFriendWrapper .successMessage a:active,
+	div.emailFriendWrapper .successMessage a:visited,
+	div.emailFriendWrapper .successMessage a:hover
+	{color:#4D6B2E; text-decoration:underline;}
+	
+	div.emailFriendWrapper .successMessage a:hover
+	{color:#000; text-decoration:none;}	

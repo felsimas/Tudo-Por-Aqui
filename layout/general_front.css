@@ -1,0 +1,215 @@
+/* FRONT > FEATURED BUSINESSES
+/////////////////////////////////////////////////////*/
+
+	div.frontBusinesses
+	{padding-bottom: 10px; padding-left: 15px; clear: both; border-bottom: 1px solid #EEE;}
+
+		div.frontBusinesses *
+		{margin: 0; padding: 0;}
+
+	div.frontBusinesses p.standardTitle{padding: 0 0 10px 0; margin: 0;}
+
+		div.frontBusinesses p.standardTitle span {color: #6AA72E;}
+
+	blockquote.highlightBusinesses {
+border:0 none;
+float:left;
+height:155px;
+margin:0 0 15px 15px;
+position:relative;
+width:105px;
+}
+
+		blockquote.highlightBusinesses a.frontBusinessesIMAGE:link,
+		blockquote.highlightBusinesses a.frontBusinessesIMAGE:active,
+		blockquote.highlightBusinesses a.frontBusinessesIMAGE:visited,
+		blockquote.highlightBusinesses a.frontBusinessesIMAGE:hover,
+
+		blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:link,
+		blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:active,
+		blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:visited,
+		blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:hover
+		{display: block; border: 5px solid #EEE;}
+
+		blockquote.highlightBusinesses a.frontBusinessesIMAGE:hover,
+		blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:hover
+		{border: 5px solid #609629;}
+
+		blockquote.highlightBusinesses	h3,
+		blockquote.highlightBusinesses	h3 a:link,
+		blockquote.highlightBusinesses	h3 a:active,
+		blockquote.highlightBusinesses	h3 a:visited,
+		blockquote.highlightBusinesses	h3 a:hover
+		{font: normal 13px Arial, Helvetica, sans-serif; color: #3F631B; text-align: left; padding: 5px 0 0 0; margin: 0;}
+
+			blockquote.highlightBusinesses	h3 a:hover
+			{color: #000; text-decoration: underline;}
+
+/* FRONT PAGE > FEATURED PROMOTIONS
+/////////////////////////////////////////////////////*/
+
+	div.frontPromotions
+	{padding-bottom: 10px; padding-left: 15px; clear: both; border-bottom: 1px solid #EEE;}
+
+		div.frontPromotions *
+		{margin: 0; padding: 0;}
+
+	div.frontPromotions p.standardTitle{padding: 10px 0 10px 0; margin: 0;}
+
+		div.frontPromotions p.standardTitle span {color: #FFB504;}
+
+	blockquote.highlightPromotions
+	{position:relative; margin: 0 0 0 13px; float: left; border: 0;}
+	
+		blockquote.highlightPromotions a.frontPromotionsIMAGE:link,
+		blockquote.highlightPromotions a.frontPromotionsIMAGE:active,
+		blockquote.highlightPromotions a.frontPromotionsIMAGE:visited,
+		blockquote.highlightPromotions a.frontPromotionsIMAGE:hover,
+		
+		blockquote.highlightPromotions a.frontPromotionsNOIMAGE:link,
+		blockquote.highlightPromotions a.frontPromotionsNOIMAGE:active,
+		blockquote.highlightPromotions a.frontPromotionsNOIMAGE:visited,
+		blockquote.highlightPromotions a.frontPromotionsNOIMAGE:hover
+		{display: block; border: 5px solid #EEE;}
+		
+		blockquote.highlightPromotions a.frontPromotionsIMAGE:hover,
+		blockquote.highlightPromotions a.frontPromotionsNOIMAGE:hover
+		{border: 5px solid #FFB504;}
+	
+		blockquote.highlightPromotions	h3,
+		blockquote.highlightPromotions	h3 a:link,
+		blockquote.highlightPromotions	h3 a:active,
+		blockquote.highlightPromotions	h3 a:visited,
+		blockquote.highlightPromotions	h3 a:hover
+		{font: normal 13px Arial, Helvetica, sans-serif; color: #6A6546; text-align: left; padding: 5px 0 0 0; margin: 0;}
+	
+			blockquote.highlightPromotions	h3 a:hover
+			{color: #000; text-decoration: underline;}
+
+/* FRONT PAGE > FEATURED CLASSIFIEDS
+/////////////////////////////////////////////////////*/
+
+	div.frontClassified
+	{padding-bottom: 10px; padding-left: 15px; clear: both; voice-family: "\"}\""; voice-family:inherit; margin-bottom: 20px; border-bottom: 1px solid #EEE;}
+	html>body div.frontClassified
+	{margin-bottom: 10px;}
+
+		div.frontClassified *
+		{margin: 0; padding: 0;}
+
+	div.frontClassified p.standardTitle{padding: 10px 0 10px 0; margin: 0;}
+
+		div.frontClassified p.standardTitle span {color: #7D654F;}
+
+	blockquote.highlightClassified
+	{position:relative; margin: 0 0 0 13px; float: left; border: 0;}
+	
+		blockquote.highlightClassified a.frontClassifiedIMAGE:link,
+		blockquote.highlightClassified a.frontClassifiedIMAGE:active,
+		blockquote.highlightClassified a.frontClassifiedIMAGE:visited,
+		blockquote.highlightClassified a.frontClassifiedIMAGE:hover,
+		
+		blockquote.highlightClassified a.frontClassifiedNOIMAGE:link,
+		blockquote.highlightClassified a.frontClassifiedNOIMAGE:active,
+		blockquote.highlightClassified a.frontClassifiedNOIMAGE:visited,
+		blockquote.highlightClassified a.frontClassifiedNOIMAGE:hover
+		{display: block; border: 5px solid #EEE;}
+		
+		blockquote.highlightClassified a.frontClassifiedIMAGE:hover,
+		blockquote.highlightClassified a.frontClassifiedNOIMAGE:hover
+		{border: 5px solid #5F4D3C;}
+	
+		blockquote.highlightClassified h3,
+		blockquote.highlightClassified h3 a:link,
+		blockquote.highlightClassified h3 a:active,
+		blockquote.highlightClassified h3 a:visited,
+		blockquote.highlightClassified h3 a:hover
+		{font: normal 13px Arial, Helvetica, sans-serif; color: #493A2E; text-align: left; padding: 5px 0 0 0; margin: 0;}
+	
+			blockquote.highlightClassified h3 a:hover
+			{color: #000; text-decoration: underline;}
+
+/* FRONT PAGE > FEATURED ARTICLES
+/////////////////////////////////////////////////////*/
+
+dl.baseFrontArticles
+{text-align: left; color: #333; clear: both; margin: 20px 10px 0 10px; padding: 0; background: #FFF;  border: 5px solid #E2E7F1;}
+
+	dl.baseFrontArticles dt
+	{font: normal 18px/20px Arial, Helvetica, sans-serif; margin: 10px 10px 0 10px; padding: 0 0 10px 0; border-bottom: 1px solid #EEE; color: #28374F;}
+	
+		dl.baseFrontArticles dt span
+		{color: #425A7E;}
+
+	dl.baseFrontArticles dd
+	{font: normal 11px Verdana, Arial, Helvetica, sans-serif; padding: 0 0 5px 0; margin: 0 10px 5px 10px; border-bottom: 1px dashed #F4F4F4;}
+
+	dl.baseFrontArticles dd.lastFrontArticles
+	{padding-bottom: 0; border-bottom: 0;}
+	
+		dl.baseFrontArticles dd h3.frontArticlesTitle {margin:0; padding:0;}
+
+			dl.baseFrontArticles dd h3.frontArticlesTitle a:link,
+			dl.baseFrontArticles dd h3.frontArticlesTitle a:active,
+			dl.baseFrontArticles dd h3.frontArticlesTitle a:visited,
+			dl.baseFrontArticles dd h3.frontArticlesTitle a:hover
+			{font: normal 11px Verdana, Arial, Helvetica, sans-serif; color: #2C3C54; padding: 5px 5px 5px 12px; display: block; background: url("../images/design/bullet_frontArticles.gif") 5px 8px no-repeat;}
+	
+				dl.baseFrontArticles dd h3.frontArticlesTitle a:hover
+				{color: #8A6936; text-decoration: underline;}
+
+			dl.baseFrontArticles dd a:link,
+			dl.baseFrontArticles dd a:active,
+			dl.baseFrontArticles dd a:visited,
+			dl.baseFrontArticles dd a:hover
+			{color: #647C97;}
+		
+			dl.baseFrontArticles dd a:hover
+			{color: #000; text-decoration: underline;}
+
+/* FRONT PAGE > FEATURED EVENTS
+/////////////////////////////////////////////////////*/
+
+dl.baseFrontEvents
+{font: normal 11px Verdana, Arial, Helvetica, sans-serif; color: #000; margin: 0 0 10px 0; padding: 10px; background: #FFF;  border: 5px solid #FFF2EA;}
+
+	dl.baseFrontEvents dt
+	{font: normal 18px/20px Arial, Helvetica, sans-serif; margin: 0 0 10px 0; padding-bottom: 10px; border-bottom: 1px solid #EEE; color: #773000;}
+
+		dl.baseFrontEvents dt span
+		{color: #F46200;}
+
+	dl.baseFrontEvents dd
+	{font: normal 11px Verdana, Arial, Helvetica, sans-serif; padding: 0 0 0 10px ; margin: 0; background: url("../images/design/bullet_frontArticles.gif") 0 4px no-repeat;}
+	
+			dl.baseFrontEvents dd a:link,
+			dl.baseFrontEvents dd a:active,
+			dl.baseFrontEvents dd a:visited,
+			dl.baseFrontEvents dd a:hover
+			{color: #973D00;}
+	
+			dl.baseFrontEvents h3 {margin:0; padding:0; display:inline;}
+		
+				dl.baseFrontEvents h3 a:link,
+				dl.baseFrontEvents h3 a:active,
+				dl.baseFrontEvents h3 a:visited,
+				dl.baseFrontEvents h3 a:hover
+				{font: normal 11px Verdana, Arial, Helvetica, sans-serif;}
+	
+		dl.baseFrontEvents dd.firstFrontEvents
+		{ background: none; padding-bottom: 5px; margin-bottom: 10px; height:100%; border-bottom: 1px dashed #EEE;}
+		
+		dl.baseFrontEvents dd.firstFrontEvents img
+		{float: left; display:block; margin: 0 10px 0 0; padding: 2px; border: 1px solid #EEE;}
+	
+			dl.baseFrontEvents dd a:hover
+			{color: #000; text-decoration: underline;}
+			
+			dl.baseFrontEvents dd a.frontEventMore:link,
+			dl.baseFrontEvents dd a.frontEventMore:active,
+			dl.baseFrontEvents dd a.frontEventMore:visited,
+			dl.baseFrontEvents dd a.frontEventMore:hover
+			{color: #96293F;}
+
+				dl.baseFrontEvents dd a.frontEventMore:hover
+				{color: #000; text-decoration: underline;}

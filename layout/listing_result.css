@@ -1,0 +1,310 @@
+/* LISTING RESULTS > MIDDLE CONTENT > LISTING SUMMARY 
+/////////////////////////////////////////////////////*/
+
+div.listingSummary
+{width: 590px; clear: left; text-align: left; padding:0 0 10px 0; margin: 0 auto 10px auto; border-bottom: 1px solid #EEE; background-image:url(img/listingback.gif); background-repeat:no-repeat; background-position:top center;}
+
+	div.listingSummary a:link,
+	div.listingSummary a:active,
+	div.listingSummary a:visited,
+	div.listingSummary a:hover
+	{color: #96293F;}
+	
+	div.listingSummary a:hover
+	{color: #000; text-decoration: underline;}
+	
+	div.listingSummary h2
+	{font: bold 14px Arial, Helvetica, sans-serif; margin: 0; padding-top: 3px; border: 0;}
+
+		div.listingSummary h2 a:link,
+		div.listingSummary h2 a:active,
+		div.listingSummary h2 a:visited,
+		div.listingSummary h2 a:hover
+		{color: #3d4c7b; padding-left: 5px;}
+
+			div.listingSummary h2 a:hover
+			{color: #77AA44;}
+			
+	div.listingSummary .baseIconNavbar
+	{padding:5px 0 0 0;}
+	
+	div.listingSummary div.listingSummaryIMAGE
+	{float:left; padding:10px 0 0 0;}
+	
+	div.listingSummary div.listingSummaryIMAGE div.imgListingSummary
+	{background:#F2F7EE; border:1px solid #E5EFDC; padding:0 0 0px 0; text-align:center; margin-top:-5px;}
+	
+		div.listingSummaryIMAGE div.imgListingSummary div.noimage
+		{border:none; margin:0 auto 0 auto;}
+		
+		div.listingSummaryIMAGE div.imgListingSummary div.noimage a
+		{display:block; text-decoration:none;}
+		
+	div.listingSummary div.listingSummaryContent
+	{padding:0 10px 0 0;}
+	
+	div.listingSummary div.contentShowcase
+	{float:right; width:445px; padding-top:10px;}
+	
+	div.listingSummary p,
+	div.listingSummary address
+	{font: normal 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000; margin:0; padding:0;}
+	
+	div.listingSummary p.listingSummaryDescription
+	{padding:0 0 5px 0;}
+	
+	div.listingSummary address
+	{font-style:normal;  margin: 0 0 5px 0;}
+	
+		div.listingSummary address span
+		{display:block;}
+		
+	div.listingSummary p.moreInfo a:link,
+	div.listingSummary p.moreInfo a:active,
+	div.listingSummary p.moreInfo a:visited,
+	div.listingSummary p.moreInfo a:hover
+	{font: bold 11px Arial, Helvetica, sans-serif; color: #3d4c7b; text-align: right; padding: 0; display: block; width:570px;}
+
+		div.listingSummary p.moreInfo a:hover
+		{color: #000; text-decoration: underline;}
+		
+		div.listingSummary ul.rating
+		{width:auto;}
+		
+		div.listingSummary ul.rating li.ratingSeeComment,
+		div.listingSummary ul.rating li.ratingText
+		{clear: left;} /* THIS code put the comment, rate it button and 'be the first' phrase bellow the image */
+
+/* LISTING RESULTS > MIDDLE CONTENT > CATEGORIES BASE  
+/////////////////////////////////////////////////////*/
+
+div.listingCATEGORIES
+{margin: 0 15px 0 15px; padding: 10px; background: #FFF; border: 5px solid #F3FAEF;}
+
+	div.listingCATEGORIES blockquote,
+	div.listingCATEGORIES blockquote.listingCATEGORIESrightcolumn	
+	{width: 50%; font: normal 10px/normal Verdana, Arial, Helvetica, sans-serif; text-align: left; padding: 0; float: left;}
+	
+		div.listingCATEGORIES blockquote.listingCATEGORIESrightcolumn
+		{width: 48%; float: right;}
+
+		div.listingCATEGORIES blockquote a:link,
+		div.listingCATEGORIES blockquote a:active,
+		div.listingCATEGORIES blockquote a:visited,
+		div.listingCATEGORIES blockquote a:hover
+		{font: normal 10px/15px Verdana, Arial, Helvetica, sans-serif; color: #555; text-decoration: none;}
+	
+			div.listingCATEGORIES blockquote a:hover
+			{color: #000; text-decoration: underline;}
+			
+		div.listingCATEGORIES blockquote a.listingCATEGORIEStitle:link,
+		div.listingCATEGORIES blockquote a.listingCATEGORIEStitle:active,
+		div.listingCATEGORIES blockquote a.listingCATEGORIEStitle:visited,
+		div.listingCATEGORIES blockquote a.listingCATEGORIEStitle:hover
+		{font: bold 14px/20px Arial, Helvetica, sans-serif; color: #000; display: block; text-decoration: none; margin: 0; padding: 0 0 0 7px; background: url("../images/design/bg_CATbullet.gif") 0 7px no-repeat; border: 0;}
+
+				div.listingCATEGORIES blockquote a.listingCATEGORIEStitle:hover
+				{color: #609629; text-decoration: underline;}
+
+					div.listingCATEGORIES blockquote a.listingCATEGORIEStitle span {color: #999;}
+
+/* LISTING RESULTS > MIDDLE CONTENT > BASE CATEGORIES 
+/////////////////////////////////////////////////////*/
+
+.base-categoriesRESULTS
+{font: normal 11px Verdana, Arial, Helvetica, sans-serif; text-align: left; margin: 0 10px 0 10px; color: #000;}
+
+	.base-categoriesRESULTS strong.base-categoriesRESULTSdetail
+	{color: #000; margin-right: 5px;}
+
+		.base-categoriesRESULTS a:link,
+		.base-categoriesRESULTS a:visited,
+		.base-categoriesRESULTS a:active,
+		.base-categoriesRESULTS a:hover
+		{font: normal 11px/17px Verdana, Arial, Helvetica, sans-serif; color: #000;}
+
+			.base-categoriesRESULTS a.highlighted:link,
+			.base-categoriesRESULTS a.highlighted:visited,
+			.base-categoriesRESULTS a.highlighted:active,
+			.base-categoriesRESULTS a.highlighted:hover
+			{color: #000; text-decoration: none;}
+			
+				.base-categoriesRESULTS a:hover,
+				.base-categoriesRESULTS a.highlighted:hover
+				{color: #609629; text-decoration: underline;}
+		
+				.categories-active:link,
+				.categories-active:active,
+				.categories-active:visited,
+				.categories-active:hover
+				{color: #609629;}
+
+			.categories-link:link,
+			.categories-link:active,
+			.categories-link:visited,
+			.categories-link:hover
+			{font-weight: normal; text-decoration: none; color: #000;}
+	
+				.categories-link:hover
+				{color: #609629; text-decoration: underline;}
+			
+		.categories-activeBOLD:link,
+		.categories-activeBOLD:active,
+		.categories-activeBOLD:visited,
+		.categories-activeBOLD:hover {font-weight: bold; color: #000;}
+
+/* LISTING RESULTS > MIDDLE CONTENT > SUMMARY CATEGORY TREE
+/////////////////////////////////////////////////////*/
+
+.categoriesTreeRESULTS {font: 11px/18px Verdana, Geneva, Arial, Helvetica, sans-serif; text-align: left; margin: 0 auto 10px auto; padding: 0; border: 0;}
+
+	div.categoriesTreeRESULTS blockquote {line-height: 5px; height: 5px; margin: 5px 10px 0 10px; padding: 0; }
+
+		div.categoriesTreeRESULTS blockquote.relatedCategoriesBase {padding: 0 10px 0 10px; margin: 0; line-height: normal; height: auto; border-bottom: 0;} 
+
+	.categoriesTreeRESULTS p.relatedCategoriesTitle {font: bold 11px/18pt Verdana, Arial, Geneva, Helvetica, sans-serif; color: #000; text-align: left; margin: 0; padding: 5px 15px 0 10px; background: none;}
+
+	.categoriesTreeRESULTS strong {color: #5E932C;}
+
+	.categoriesTreeRESULTS a:link,
+	.categoriesTreeRESULTS a:active,
+	.categoriesTreeRESULTS a:visited,
+	.categoriesTreeRESULTS a:hover {font-weight: bold; color: #5E932C; text-decoration: none; margin: 0 0 0 5px; border: 0;}
+	
+		.categoriesTreeRESULTS a:hover {text-decoration: none;}
+
+	.categoriesTreeRESULTS a.highlighted:link,
+	.categoriesTreeRESULTS a.highlighted:visited,
+	.categoriesTreeRESULTS a.highlighted:active,
+	.categoriesTreeRESULTS a.highlighted:hover{font: normal 11px/17px Verdana, Arial, Helvetica, sans-serif; color: #5E932C; text-decoration: none;}
+	
+		.categoriesTreeRESULTS a.highlighted:hover {text-decoration: underline;}	
+
+/* LISTING RESULTS > MIDDLE CONTENT > SUBCATEGORIES RESULTS
+/////////////////////////////////////////////////////*/
+
+div.base-subcategoriesRESULTS {margin: 0 auto 10px auto; padding: 10px; border: 0;}
+
+	div.base-subcategoriesRESULTS div.summary-content {padding-top:10px; margin-bottom:20px;}
+
+	div.base-subcategoriesRESULTS blockquote {line-height: 5px; height: 5px; margin: 5px 0 0 0; padding: 0; border-bottom: 1px solid #EEE; }
+
+	div.base-subcategoriesRESULTS h1 {font: normal 18px/23px Arial, Verdana, Geneva, Helvetica, sans-serif; text-align: center; margin: 5px 0 0 0; padding: 0 15px 7px 10px; color: #355416; border-bottom: 1px solid #EEE;}
+	
+	div.base-subcategoriesRESULTS h2 {margin:0; padding:0; display:inline;}
+	
+	div.base-subcategoriesRESULTS p.categoriesSubtitle {font: bold 11px/18pt Verdana, Arial, Geneva, Helvetica, sans-serif; color: #000; text-align: left; margin: 0; padding: 5px 15px 0 20px; padding-left: 10px; background: none;}
+
+		div.base-subcategoriesRESULTS table	{padding: 0;}
+		
+			div.base-subcategoriesRESULTS table td {width: 172px; text-align: left; vertical-align: top; padding: 3px;}
+
+				div.base-subcategoriesRESULTS table td,
+				div.base-subcategoriesRESULTS table td a:link,
+				div.base-subcategoriesRESULTS table td a:visited,
+				div.base-subcategoriesRESULTS table td a:active,
+				div.base-subcategoriesRESULTS table td a:hover {font: normal 11px Verdana, Arial, Helvetica, sans-serif; color: #000; text-decoration: none;}
+
+					div.base-subcategoriesRESULTS table td a:hover {color: #000; text-decoration: underline;}
+
+/* LISTING RESULTS > MIDDLE CONTENT > ADVANCED SEARCH
+/////////////////////////////////////////////////////*/
+
+h1.advancedsearchTITLE {font: normal 18px/20px Arial, Helvetica, sans-serif; color: #3F631B; text-align:left; margin: 0; padding: 10px 15px 10px 15px;}
+
+	h1.advancedsearchTITLE span {color: #6AA72E;}
+
+table.advancedsearch {width: 95%; margin: 10px auto 10px auto; background: #FAFAFA; border: 3px solid #EEEEEE;}
+
+	table.advancedsearch td,
+	table.advancedsearch th {font: normal 10px Verdana, Arial, Helvetica, sans-serif; text-align: left; vertical-align: top; padding: 0; border: 0;}
+
+		table.advancedsearch th {width: 80px;color: #555; white-space: nowrap; text-align: right;}
+
+			table.advancedsearch th span {display: block;}
+
+			table.advancedsearch td span
+			{display: block; margin: 10px 0 0 0;}
+
+	table.advancedsearch td {width: 200px;}
+
+		table.advancedsearch select,
+		table.advancedsearch input {width: 90%; font: normal 10px Verdana, Arial, Helvetica, sans-serif; padding: 3px; display: block; border: 1px solid #E7E7E7; border-bottom: 1px solid #FFF; border-right: 1px solid #FFF;}
+		
+		table.advancedsearch select {width: 97%; margin-bottom: 5px;}
+		
+		table.advancedsearch input.advancedInputSmall {display: inline; width:40%; margin-bottom:5px; vertical-align:middle;}
+
+		table.advancedsearch ul.standardButton {margin: 0;}
+		
+			table.advancedsearch ul.standardButton li {width: 80px; float: right; padding: 0;}
+			
+			table.advancedsearch ul.standardButton li input {width: 80px; background: #355416;}
+
+/* LISTING RESULTS > MIDDLE CONTENT > REVIEW > RATE STAR
+/////////////////////////////////////////////////////*/
+
+dl.rateStars {font: normal 11px/25px Verdana, Arial, Helvetica, sans-serif; height: 20px; padding-left: 33%; clear: both;}
+	
+	dl.rateStars dt{font-weight: bold; margin-right: 10px;}
+	
+	dl.rateStars dt,
+	dl.rateStars dd{float: left;}
+	
+	dl.rateStars dd img{cursor: pointer; margin-right: 1px;}
+
+/* LISTING RESULTS > MIDDLE CONTENT > REVIEW > RATE FORM
+/////////////////////////////////////////////////////*/
+
+	table.formRate
+	{width: 95%; font: normal 10px Verdana, Arial, Helvetica, sans-serif; margin: 10px auto 10px auto; clear: both; background: #FAFAFA; border: 3px solid #EEE;}
+
+		table.formRate th,
+		table.formRate td{padding: 3px;}
+		
+			table.formRate td{width: 50%;}
+			
+				table.formRate td table {width: 100%;}
+		
+			table.formRate th {font-weight: normal; color: #000; white-space: nowrap; text-align: right; border: 0; width: 25%;}
+
+		table.formRate td input,
+		table.formRate td textarea {width: 120px; font: normal 10px Verdana, Arial, Helvetica, sans-serif; padding: 3px; border: 0; border-top: 1px solid #E1E1E1; border-left: 1px solid #E1E1E1;}
+		
+		table.formRate ul.standardButton li	{float: right; padding-top: 5px;}
+		
+			table.formRate ul.standardButton li input {width:70px; color: #E3ECDB; font-weight: bold; background: #355416; border: 0;}
+
+/* LISTING RESULTS > MIDDLE CONTENT > REVIEW > RATE COMMENT
+/////////////////////////////////////////////////////*/
+
+	table.rateComments {width: 95%; font: normal 11px Verdana, Arial, Helvetica, sans-serif; text-align: left; margin: 10px auto 10px auto; background: #FAFAFA; border: 3px solid #EEE; clear: both;}
+	
+	table.rateComments th,
+	table.rateComments td {padding: 5px;}
+	
+		table.rateComments th,
+		table.rateComments th a:link,
+		table.rateComments th a:active,
+		table.rateComments th a:visited,
+		table.rateComments th a:hover {font: bold 14px Arial, Helvetica, sans-serif; color: #3F631B; text-align: left;}
+		
+		table.rateComments th.rateCommentssubTitle {font: normal 10px Verdana, Arial, Helvetica, sans-serif; color: #609629; padding: 5px;}
+		
+			table.rateComments th.rateCommentssubTitle img {margin-right: 1px;}
+
+/* LISTINGS > MISC CLASSES > SOCIAL BOOKMARK ICONS
+/////////////////////////////////////////////////////*/
+
+	ul.socialBookmarkIcons {height: 30px;}
+
+		ul.socialBookmarkIcons, ul.socialBookmarkIcons * { margin: 0; padding: 0; border: 0;}
+
+		ul.socialBookmarkIcons  li {float: right; width: 25px; height: 25px; line-height: 25px; margin-left: 2px; list-style: none; }
+
+		ul.socialBookmarkIcons  li a:link,
+		ul.socialBookmarkIcons  li a:active,
+		ul.socialBookmarkIcons  li a:visited,
+		ul.socialBookmarkIcons  li a:hover {float: none; width: 25px; height: 25px; line-height: 25px; text-decoration: none; display: block; cursor: pointer; }
+
+		ul.socialBookmarkIcons  li a img {behavior: url("../layout/iepngfix2.htc");}

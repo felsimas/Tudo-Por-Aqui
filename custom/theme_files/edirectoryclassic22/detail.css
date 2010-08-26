@@ -1,0 +1,185 @@
+/**
+* Columns
+*
+* Specific main content extended for detail pages
+*
+* @section				structure
+* @subsection			content
+* @subsubsection	columns-extended
+*/
+
+.mainContent
+{ border-left: 1px solid #EEE; border-right: none; float: left; margin: 0 0 0 15px; padding: 0 0 20px 10px; width: 700px; }
+
+/**
+* Module Detail
+*
+* @section	detail
+*/
+
+.detail
+{ color: #333; font: normal 11px/15px Verdana, Arial, Helvetica, sans-serif; height: 100%; overflow: hidden; padding: 5px; }
+
+.detailContent
+{ float: left; padding: 20px 0 20px 0; width: 345px; }
+
+.detailComplementaryContent
+{ float: right; padding: 5px 0 0 0; }
+
+.baseIconNavbar
+{ height: 30px; }
+
+.socialBookmarkIcons
+{ padding: 5px 0 0 0; }
+
+.iconNavbar li
+{ line-height: 30px; }
+
+.designations
+{ padding: 15px 0 0 0; }
+
+.detailSpacer
+{ padding: 10px 0 10px 0; }
+
+/**
+* Detail Typograph
+*
+* @section		detail
+* @subsection	typograph
+*/
+
+.detail h2
+{ color: #000; font: bold 24px/30px Arial, Helvetica, sans-serif; }
+
+.detail address
+{ font-style: normal; }
+
+	.detail address span
+	{ display: block; }
+
+.detailTitle
+{ font-size: 11px; font-weight: bold; margin: 0 0 5px 0; padding: 15px 0 0 0; }
+
+	.detailTitle .complementaryInfo
+	{ position: absolute; right: 0; top: 15px; }
+	
+	.detailRatings .detailTitle
+	{ position: relative; }
+
+.summaryDescription
+{ font-size: 11px; padding: 5px 0 5px 0; }
+
+.detail .summaryDescription
+{ color: #333; }
+	
+/**
+* Detail Media Gallery
+*
+* @section		detail
+* @subsection	gallery
+*/
+
+.imgDetail,
+.videoDetail
+{ padding: 5px 0 5px 0; text-align: center; }
+
+	.imgDetail .noimage
+	{ margin: 0 auto 0 auto; }
+
+	.detailGallery .complementaryInfo
+	{ padding: 0 0 0 10px; }
+	
+	.detailGallery .viewMore
+	{ margin: 10px 0 0 0; }
+
+	.detailGallery ul
+	{ height: 100%; overflow: hidden; padding: 5px 0 5px 0; }
+
+	.detailGallery li
+	{ float: left; padding: 0 0 0 2px; }
+	
+/**
+* Google Map
+*
+* @section		detail
+* @subsection	google-maps
+*/
+
+.googleMapsWrapper
+{ position: relative; }
+	
+.googleBase
+{  background: #F7F7F7; border: 1px solid #CCC; height: 250px; margin: 0 auto 10px auto; width: 318px; z-index: 1; }
+
+	.floatLayer
+	{ background: #FAFAFA; border: 5px solid #EEE; height: auto; left: -235px; position: absolute; top: -9px; visibility: hidden; width: 350px; z-index: 2; }
+	
+		.viewMapInfo
+		{ padding: 10px; }
+		
+		.viewMapInfo img
+		{ background: #FFF; border: 5px solid #EEE; float: left; margin: 0 10px 10px 0; padding: 2px; }
+		
+		.viewMapInfo h1
+		{ color: #000; font: bold 14px Arial, Helvetica, sans-serif; }
+		
+		.viewMapInfo p
+		{ font-size: 11px; }
+		
+		.viewMapInfo .googleRating img
+		{ border: 0; margin: 0; float: none; }
+		
+		#map span { font-size: 8px; }
+		
+/**
+* Google Map
+*
+* @section		detail
+* @subsection	google-maps
+*/
+
+.formDetail
+{ background: #FAFAFA; border: 3px solid #EEE; clear: both; font-family: Verdana, Arial, Helvetica, sans-serif; margin: 0 0 20px 0; padding: 10px; }
+
+.formDetail form
+{ font-size: 10px; line-height: 18px; padding: 10px; }
+
+	.formDetail .detailTitle
+	{ color: #692; font-size: 11px; padding: 0; }
+
+	.formDetail label, .formDetail .captchaImage
+	{ clear: left; color: #666; display: block; float: left; padding: 0 10px 0 0; text-align: right; white-space: nowrap; width: 130px; }
+	
+	.formDetail .required
+	{ color:#C00; padding: 0 5px 0 0; }
+	
+	.formDetail .formCaptchaWarning
+	{padding:10px 0 10px 140px; line-height:normal;}
+	
+	.formDetail input, .formDetail textarea
+	{ border-left: 1px solid #E1E1E1; border-top: 1px solid #E1E1E1; clear: right; float: left; margin-bottom: 10px; padding: 2px; width: 500px; }
+	
+	.formDetail .formCode
+	{ width: 100px; }
+		
+	.formDetail ul.standardButton
+	{ clear: right; float: right; }
+	
+	.formDetail ul.standardButton button
+	{ background: url(images/design/bg_businessButton.gif) repeat-x 0 0; }
+
+/**
+* Ratings
+*
+* @section		detail
+* @subsection	ratings
+*/
+
+.detailRatings
+{ clear: both; padding: 0 0 10px 0; }
+
+	.rating .ratingStar, .rating .ratingReview
+	{ float: right; }
+
+	.rating .ratingSeeComment, .rating .rateIt
+	{ clear: none; float: right; }

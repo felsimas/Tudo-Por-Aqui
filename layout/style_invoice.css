@@ -1,0 +1,105 @@
+/* INVOICE > STRUCTURE > BODY
+/////////////////////////////////////////////////*/
+
+body.invoice-body
+{
+	text-align: center; background-color: #F9F9F9;
+}
+
+/* INVOICE > STRUCTURE > BASE INVOICE
+/////////////////////////////////////////////////*/
+
+.base-invoice
+{
+	font: 10px/15px Verdana, Arial, Helvetica, sans-serif; color: #333333; padding: 5px; margin: 0 auto; border: 1px solid #E2E2E2;
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width: 640px;
+	}
+	html>body .base-invoice			
+	{
+	width: 630px;
+}
+
+.base-invoice td
+{
+	padding: 10px;
+}
+
+.base-invoice p,
+.base-invoice table
+{
+	font: 10px/15px Verdana, Arial, Helvetica, sans-serif; margin: 0; padding: 0;
+}
+
+.base-invoice h1,
+.base-invoice table h1
+{
+	font: bold 15pt/15px Arial, Helvetica, sans-serif; color: #333333; text-align: right;
+}
+
+.base-invoice div
+{
+	font-weight: bold;
+}
+
+.base-invoice th
+{
+	text-align: left;
+}
+
+.base-invoice h2
+{
+	font-size: 10pt; text-align: center;
+}
+
+/* INVOICE > INVOICE BASE > INVOICE BILL
+///////////////////////////////////////////////////////*/
+
+.invoice-bill
+{
+	width: auto; padding: 5px; background-color: #FBFBFB; border: 1px solid #F7F7F7; border-bottom: 1px solid #E2E2E2; border-right: 1px solid #E2E2E2;
+}
+
+.invoice-bill p
+{
+	margin: 0; font-weight: normal;
+}
+
+/* INVOICE > INVOICE BASE > INVOICE CONTENT
+///////////////////////////////////////////////////////*/
+
+.invoice-content
+{
+	width: 100%; font: 10px/15px Verdana, Arial, Helvetica, sans-serif;	 background-color: #F7F7F7; border-right: 1px solid #E2E2E2;
+}
+
+.invoice-content th
+{
+	color: #333; text-align: left; padding: 5px; background-color: #E1E1E1;
+}
+
+.invoice-content td.invoice-detailbelow
+{
+	border-top: 0; border-bottom: 0; padding: 0; padding-top: 5px; background: #FFF;
+}
+
+.invoice-content td span.itemNote
+{
+	display:block; color:#999; padding-left:45px;
+}
+
+.invoice-content th.invoice-total
+{
+	padding: 0; padding-left: 10px; background-color: #F2F2F2;
+}
+
+.invoice-content th.invoice-total span
+{
+	font-weight: normal;
+}
+
+.invoice-content td
+{
+	border: 0; border-bottom: 1px solid #E2E2E2;
+}

@@ -1,0 +1,164 @@
+/*	ARTICLE FRONT > STRUCTURE > COLUMNS
+////////////////////////////////////////////////*/
+
+blockquote.articleLeftContent,
+blockquote.articleMiddleContent,
+blockquote.articleRightContent,
+blockquote.articleAdvertise
+{margin: 0; margin-right: 10px; padding: 0; float: left; background: none; border: 0;}
+
+	blockquote.articleLeftContent *,
+	blockquote.articleMiddleContent *,
+	blockquote.articleRightContent *
+	{margin: 0; padding: 0;}
+
+	blockquote.articleLeftContent
+	/*{width: 180px;}*/
+	{width: 200px;}
+
+	blockquote.articleMiddleContent
+	{width: 350px; border-left: 1px solid #EEE; border-right: 1px solid #EEE;}
+	
+	blockquote.articleRightContent
+	{width: 150px; padding-right:10px; border-right: 1px solid #EEE;}
+	
+		blockquote.articleAdvertise
+		{width: 200px; margin: 0;}
+			
+/*	ARTICLE FRONT > STRUCTURE > MIDDLE CONTENT > ARTICLE TOP
+/////////////////////////////////////////////////////////*/
+	
+		blockquote.articleMiddleContent div.middleArticleTop,
+		blockquote.articleMiddleContent div.middleArticle
+		{font: normal 10px Verdana, Arial, Helvetica, sans-serif; padding: 10px 0 10px 0; border-top: 1px solid #EEE;}
+		
+			blockquote.articleMiddleContent div.middleArticleTop {padding-top: 0; border: 0;}
+		
+					/* TOP IMAGE */
+					blockquote.articleMiddleContent div.middleArticleTop img
+					{border: 0; margin: 10px; vertical-align: middle;}
+
+						blockquote.articleMiddleContent div.middleArticleTop a.mainImage:link,
+						blockquote.articleMiddleContent div.middleArticleTop a.mainImage:active,
+						blockquote.articleMiddleContent div.middleArticleTop a.mainImage:visited,
+						blockquote.articleMiddleContent div.middleArticleTop a.mainImage:hover
+						{margin: 0 10px 0 10px; text-align: center; text-decoration: none; display: block; background: #F1F3F8; border: 5px solid #E2E7F1;}
+	
+			blockquote.articleMiddleContent div.middleArticleTop h1,
+			blockquote.articleMiddleContent div.middleArticleTop p,
+			blockquote.articleMiddleContent div.middleArticle h1,
+			blockquote.articleMiddleContent div.middleArticle p
+			{text-align: left; padding: 0 10px 0 10px;}
+			
+				blockquote.articleMiddleContent div.middleArticleTop h1
+				{padding-top: 0;}
+				
+					blockquote.articleMiddleContent div.middleArticleTop span.mainImageCaption
+					{color: #666; text-align: right; padding: 5px 10px 0 5px; margin: 0 10px 0 10px;}
+
+					/* ARTICLES TITLE - LINK */
+					blockquote.articleMiddleContent div.middleArticleTop h1 a:link,
+					blockquote.articleMiddleContent div.middleArticleTop h1 a:active,
+					blockquote.articleMiddleContent div.middleArticleTop h1 a:visited,
+					blockquote.articleMiddleContent div.middleArticleTop h1 a:hover,
+					
+					blockquote.articleMiddleContent div.middleArticle h1 a:link,
+					blockquote.articleMiddleContent div.middleArticle h1 a:active,
+					blockquote.articleMiddleContent div.middleArticle h1 a:visited,
+					blockquote.articleMiddleContent div.middleArticle h1 a:hover
+					{font: bold 16px/20px Arial, Helvetica, sans-serif; color: #5D7392; display:block; text-decoration: none;}
+						/*
+						blockquote.articleMiddleContent div.middleArticleTop h1 a:link,
+						blockquote.articleMiddleContent div.middleArticleTop h1 a:active,
+						blockquote.articleMiddleContent div.middleArticleTop h1 a:visited,
+						blockquote.articleMiddleContent div.middleArticleTop h1 a:hover
+						{color: #26354A;}
+						*/
+					
+							blockquote.articleMiddleContent div.middleArticleTop h1 a:hover,
+							blockquote.articleMiddleContent div.middleArticle h1 a:hover
+							{color: #26354A; text-decoration: underline;}
+							
+						/* ARTICLE AUTHOR */							
+						blockquote.articleMiddleContent div.middleArticle h1 span,
+						blockquote.articleMiddleContent div.middleArticleTop span
+						{display: block; font: normal 10px Verdana, Arial, Helvetica, sans-serif; color: #666; text-align: left; padding: 0 10px 0 0;}
+						
+						blockquote.articleMiddleContent div.middleArticleTop h1 span a:link,
+						blockquote.articleMiddleContent div.middleArticleTop h1 span a:active,
+						blockquote.articleMiddleContent div.middleArticleTop h1 span a:visited,
+						blockquote.articleMiddleContent div.middleArticleTop h1 span a:hover,
+						
+						blockquote.articleMiddleContent div.middleArticle h1 span a:link,
+						blockquote.articleMiddleContent div.middleArticle h1 span a:active,
+						blockquote.articleMiddleContent div.middleArticle h1 span a:visited,
+						blockquote.articleMiddleContent div.middleArticle h1 span a:hover
+						{font: normal 10px Verdana, Arial, Helvetica, sans-serif; color: #666;}
+				
+				blockquote.articleMiddleContent div.middleArticleTop a:link,
+				blockquote.articleMiddleContent div.middleArticleTop a:active,
+				blockquote.articleMiddleContent div.middleArticleTop a:visited,
+				blockquote.articleMiddleContent div.middleArticleTop a:hover,
+				/* ARTICLES LINK */
+				blockquote.articleMiddleContent div.middleArticle a:link,
+				blockquote.articleMiddleContent div.middleArticle a:active,
+				blockquote.articleMiddleContent div.middleArticle a:visited,
+				blockquote.articleMiddleContent div.middleArticle a:hover
+				{color: #BF4D00; text-transform: capitalize;}
+
+					blockquote.articleMiddleContent div.middleArticleTop a:hover,
+					blockquote.articleMiddleContent div.middleArticle a:hover,
+					
+					blockquote.articleMiddleContent div.middleArticleTop h1 span a:hover,
+					blockquote.articleMiddleContent div.middleArticle h1 span a:hover
+					{color: #000; text-decoration: underline;}
+
+
+/*	ARTICLE FRONT > STRUCTURE > RIGHT CONTENT > RIGHT ARTICLE
+/////////////////////////////////////////////////////////*/
+
+		blockquote.articleRightContent div.rightArticleTop,
+		blockquote.articleRightContent div.rightArticle {font: normal 10px Verdana, Arial, Helvetica, sans-serif; text-align: left; padding-bottom: 10px; padding-top: 10px; border-top: 1px solid #EEE;}
+		
+			blockquote.articleRightContent div.rightArticleTop {padding-top: 0; border-top: 0;}
+
+				blockquote.articleRightContent div.rightArticleTop h2,
+				blockquote.articleRightContent div.rightArticle h2 {font: bold 17px Arial, Helvetica, sans-serif;}
+
+					blockquote.articleRightContent div.rightArticle h2 {font-size: 14px;}
+
+					/* ARTICLES TITLE - LINK */
+					blockquote.articleRightContent div.rightArticleTop h2 a:link,
+					blockquote.articleRightContent div.rightArticleTop h2 a:active,
+					blockquote.articleRightContent div.rightArticleTop h2 a:visited,
+					blockquote.articleRightContent div.rightArticleTop h2 a:hover,
+					
+					blockquote.articleRightContent div.rightArticle h2 a:link,
+					blockquote.articleRightContent div.rightArticle h2 a:active,
+					blockquote.articleRightContent div.rightArticle h2 a:visited,
+					blockquote.articleRightContent div.rightArticle h2 a:hover {color: #000; text-decoration: none;}
+
+						blockquote.articleRightContent div.rightArticleTop h2 a:hover,
+						blockquote.articleRightContent div.rightArticle h2 a:hover {color: #C64F00; text-decoration: underline;}
+
+						/* ARTICLE AUTHOR */
+						blockquote.articleRightContent div.rightArticleTop h2 span,
+						blockquote.articleRightContent div.rightArticle h2 span {display: block; font: normal 10px Verdana, Arial, Helvetica, sans-serif; color: #666;}
+
+				/* ARTICLE LINK */
+				blockquote.articleRightContent div.rightArticleTop a:link,
+				blockquote.articleRightContent div.rightArticleTop a:active,
+				blockquote.articleRightContent div.rightArticleTop a:visited,
+				blockquote.articleRightContent div.rightArticleTop a:hover,
+
+				blockquote.articleRightContent div.rightArticle a:link,
+				blockquote.articleRightContent div.rightArticle a:active,
+				blockquote.articleRightContent div.rightArticle a:visited,
+				blockquote.articleRightContent div.rightArticle a:hover {color: #C64F00; text-transform: capitalize;}
+
+					blockquote.articleRightContent div.rightArticleTop a:hover,
+					blockquote.articleRightContent div.rightArticle a:hover {color: #000; text-decoration: underline;}
+
+				/* ARTICLE IMAGE */
+				blockquote.articleRightContent div.rightArticleTop img,
+				blockquote.articleRightContent div.rightArticle img { float: left; margin: 3px 3px 0 3px; padding: 2px; border: 1px solid #EEE;}

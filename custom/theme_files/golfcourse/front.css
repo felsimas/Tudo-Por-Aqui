@@ -1,0 +1,65 @@
+/**
+* Columns
+*
+* Specific main content extended for front pages
+*
+* @section				structure
+* @subsection			content
+* @subsubsection	columns-extended
+*/
+
+.mainContent
+{ width: 500px; margin:0; padding: 0 20px 0 20px; }
+
+
+/**
+* Categories
+*
+* @section		common
+* @subsection	categories
+*/
+
+.categories
+{ padding: 5px 10px 15px 10px; }
+
+.sidebar .categories h3
+{ font-size: 12px; line-height: 24px; padding-left: 0; }
+
+.sidebar .categories .categoriesColumn
+{ float: none; padding: 0; width: auto; }
+
+/**
+* Location
+*
+* @section		common
+* @subsection	location
+*/
+
+.locations
+{ height: 100%; overflow: hidden; }
+
+	.locations h3
+	{ font-size: 12px; padding-left: 10px; }
+	
+/** All Locations */
+
+.allLocations
+{ border-bottom: 1px solid #EEE; padding: 10px 0 10px 0; }
+
+	.allLocations .complementaryInfo
+	{ padding: 0 0 0 14px; }
+
+/**
+* Quick List
+*
+* @section	quicklist
+*/
+	
+.quickList
+{ padding: 10px 0 10px 0; }
+
+.sidebar .featuredItems
+{ padding: 0; }
+
+	.sidebar .quickList h3
+	{ line-height: 24px; }

@@ -1,0 +1,270 @@
+/**
+* Main Content
+*
+* Specific Main structure extended for Search Results Page
+*
+* @section				structure
+* @subsection			content
+* @subsubsection	columns-extended
+*/
+
+.mainContent 
+{ width: 730px; padding: 0 5px 0 16px; margin: 0; }
+
+/**
+* Related categories
+*
+* @section	related-categories
+*/
+
+.relatedCategories
+{ font-size: 14px; padding: 10px 0 10px 0; }
+
+.generalResults
+{ margin: 0 0 10px 0; }
+
+.generalResults dt
+{ margin: 0 0 5px 0; padding-left: 10px; }
+
+	.generalResults dt a, .generalResults dt a:visited
+	{ color: #333; }
+	
+.generalResults dd
+{ padding: 0 0 0 10px; }
+
+/**
+* Related categories
+*
+* @section	related-categories
+*/
+
+.relatedCategories
+{ font-size: 14px; padding: 10px 0 10px 0; }
+
+/**
+* Summary results
+*
+* @section	summary
+*/
+
+.summary
+{ color: #333; height: 100%; margin: 25px 0 0 0; overflow: hidden; padding: 5px 4px 5px 4px; }
+
+.baseIconNavbar
+{ height: 25px; line-height: 25px; margin: 0 0 10px 0; }
+
+.summaryContent
+{ float: left; padding: 0; width: 480px; }
+
+.summaryComplementaryContent
+{ float: right; text-align: right; width: 235px; }
+	
+.summaryImage
+{ float: left; margin: 10px 10px 0 0; }
+
+	.summaryImage a, .summaryImage a:visited, .summaryImage a:hover
+	{ display: block; text-decoration: none; }
+		
+.summaryNumber
+{ background: url(images/bg_map_number_left.gif) no-repeat 0 0; display: block; float: left; height: 29px; margin: 0 5px 0 0; padding: 0 0 0 3px; }
+
+	.summaryNumber span
+	{ background: url(images/bg_map_number_right.gif) 100% 0; color: #FFF; cursor: pointer; display: block; float: left; font-size: 18px; height: 29px; line-height: 29px; padding: 0 5px 0 2px; }
+		
+.claim a, .claim a:visited
+{ background: #D5B181 url(images/bg_claim.gif) no-repeat 5px 5px; border: 1px solid #CC7B29; color: #C00; display: block; margin: 5px 0 0 0; padding: 5px 5px 5px 20px; }
+
+.summarySpacer
+{ margin-bottom: 5px; }
+
+.summaryBottom
+{ display: block; height: 15px;  }
+
+/**
+* Summary Typgraph
+*
+* @section	summary
+* @section	typograph
+*/
+
+.summary h3, .summary h3 a, .summary h3 a:visited
+{ color: #000; font-size: 16px; }
+
+.summaryDescription
+{ margin: 10px 0 0 0; }
+
+.summary address
+{ font-size: 11px; font-style: normal; }
+
+	.summary address span
+	{ display: block; }
+
+.summaryComplementaryContent strong
+{ color: #C00; font-size: 11px;  }
+
+.summaryComplementaryContent .complementaryInfo a, .summaryComplementaryContent .complementaryInfo a:visited
+{ font-weight: normal; }
+
+
+/**
+* Summary Showcase
+*
+* Appy highlighting to showcase results
+*
+* @section	summary
+* @section	showcase
+*/
+
+.showcase
+{ background: #F2F8EE; border: 1px solid #EEE; overflow: hidden; }
+
+	.showcase. summaryContent
+	{ float: left; }
+	
+	.showcase	.summaryComplementaryContent
+	{ float: right; text-align: right; width: 230px; }
+	
+	.showcase	.summaryDescription
+	{ float: left; width: 360px; }
+	
+/* Claim specific */
+
+.extendedContent .showcase
+{ margin: 15px; padding: 5px; }
+	
+		
+/**
+* Summary Icon Navbar 
+*
+* @section	common
+* @subsection	summary-iconnavbar
+*/
+
+.iconNavbar li a, .iconNavbar li a:visited
+{ font-weight: normal; }
+		
+/**
+* Summary rating
+*
+* @section		summary
+* @subsection	rating
+*/
+
+.rating
+{ margin: 10px 0 0 0; }
+
+/**
+* Paging Navigation
+*
+* @section	paging
+*/
+
+.paging
+{ position: relative; }
+
+	.paging .pagingNavigation
+	{ background: url(../images/design/bg_paging.gif) repeat-x bottom left; padding: 10px 10px 5px 5px; }
+
+	.paging span
+	{ position: absolute; right: 0; top: 5px; }
+
+	.paging input
+	{ font-size: 11px; height: 12px; margin-right: 3px; width: 25px; }
+
+	.paging	button
+	{ border: 0; background: url(../images/content/btn_GoTo.gif) no-repeat 0 0; color: #FFF; height: 18px; width: 20px; }
+
+.descNavigation
+{ font-size: 14px; }
+
+	.descNavigation strong
+	{ color: #069; }
+
+.letraNavigation
+{ color: #999; font-size: 14px; height: 30px; line-height: 18px; padding: 10px 0 0 0; }
+
+	.letraNavigation a, .letraNavigation a:visited
+	{ color: #6E290B; padding: 0 0 0 17px; }
+
+/**
+* Icon Navbar
+*
+* @section		common
+* @subsection	icon-navbar
+*/
+
+.baseIconNavbar
+{ border-bottom: 1px solid #CC7B29; }
+
+.socialBookmarkIcons
+{ float: left; }
+
+	.socialBookmarkIcons li
+	{ float: left; padding: 0 5px 0 0; }
+
+.iconNavbar
+{ float: right; }
+
+	.iconNavbar li
+	{ color: #A55708; float: left; font-size: 11px; height: 14px; line-height: 25px; padding: 0 2px 0 3px; }
+	
+		.iconNavbar li a, .iconNavbar li a:visited
+		{ color: #A55708; }
+/**
+* Ratings
+*
+* @section		common
+* @subsection	ratings
+*/
+
+.rating
+{ float: right; font-size: 11px; }
+
+	.rating li
+	{ padding: 0 3px 0 2px; }
+
+	.rating .ratingStar
+	{ float: right; padding: 2px 2px 0 0; }
+	
+	.rating .ratingStar img
+	{ padding: 0 2px 0 0; }
+
+	.rating .ratingReview
+	{ float: right; }
+	
+		.rating .ratingReview a, .rating .ratingReview a:visited
+		{ font-weight: normal; }
+	
+	.rating .ratingSeeComment, .rating .rateIt
+	{ clear: both; float: right; white-space: nowrap; }
+	
+	.rating .rateIt a, .rating .rateIt a:visited
+	{ color: #6E290B; }
+
+/**
+* Reviews
+*
+* @section		common
+* @subsection	reviews
+*/
+
+.rateComments
+{ border-bottom: 1px solid #CCC; padding: 5px 10px 10px 10px; }
+
+	.rateStars
+	{ padding: 0 0 5px 0; }
+	
+		.rateStars img
+		{ padding: 0 2px 0 0; }
+		
+	.rateComments .review
+	{ padding: 5px 0 0 0; }
+
+/**
+* Results Map
+*
+* @section	map
+*/
+
+.resultsMap
+{ background: #F7F7F7 url(images/img_loading.gif) no-repeat 50% 50%; border: 1px solid #CCC; height: 250px; margin: 0 0 15px 0; width: 728px; }

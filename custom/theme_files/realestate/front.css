@@ -1,0 +1,52 @@
+/**
+* Categories
+*
+* @section	categories
+*/
+
+.categories
+{ height: 100%; overflow: hidden; }
+
+	.categories h3
+	{ font-size: 14px; line-height: 18px; padding: 5px 0 0 0; }
+
+	.categories .categoriesColumn
+	{ float: left; padding: 0 10px 0 0; width: 48%; }
+	
+	.categories .categoriesRightColumn
+	{ padding: 0; }
+
+/**
+* Locations
+*
+* @section	locations
+*/
+
+.locations
+{ height: 100%; overflow: hidden; }
+
+	.locations h3
+	{ font-size: 12px; }
+	
+/** All Locations */
+
+.allLocations
+{ border-bottom: 1px solid #EEE; padding: 10px; }
+
+	.allLocations .complementaryInfo
+	{ padding: 0 0 0 14px; }
+	
+/**
+* Quick List
+*
+* @section	quicklist
+*/
+	
+.quickList
+{ padding: 10px 0 10px 0; }
+
+.sidebar .featuredItems
+{ padding: 0; }
+
+	.sidebar .quickList h3
+	{ line-height: 24px; }

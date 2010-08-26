@@ -1,0 +1,54 @@
+* {text-decoration: none; padding: 0; margin: 0; /* border: 0; */}
+
+body {margin: 10px;}
+
+/* LISTING > PROMOTION POP-UP
+/////////////////////////////////////////////////////*/
+
+div.baseCoupon
+{width: 96%; font: normal 11px Verdana, Arial, Helvetica, sans-serif; text-align: left; margin: 0 auto 0 auto; padding: 0; background: #FFF; border: 10px solid #253E57;}
+
+	div.baseCoupon h1
+	{font: normal 18px/20px Arial, Helvetica, sans-serif; color: #000; text-align:left; margin: 10px 0 0 0; padding: 5px 15px 5PX 15px; background: #FBFBFB; border-left: 5px solid #6699CC; border-right: 15px solid #EEE;}
+	
+	div.baseCoupon h2
+	{font: bold 14px/20px Arial, Helvetica, sans-serif; color: #000; text-align:left; margin: 10px 0 0 0; padding: 0 10px 10px 10px;}
+
+		div.baseCoupon h2 span
+		{font: normal 10px Verdana, Arial, Helvetica, sans-serif; color: #375717; display: block;}
+		
+	div.baseCoupon h3
+	{font:bold 11px Verdana, Arial, Helvetica, sans-serif;}
+
+	div.baseCoupon img
+	{float: left; margin: 20px; border: 5px solid #E2ECF5;}
+
+	div.baseCoupon blockquote.couponImage
+	{text-align: center; padding: 10px; margin: 0;}
+	
+	div.baseCoupon blockquote.couponImage img
+	{float: none; margin: 0; border: 0;}
+	
+	div.baseCoupon p
+	{padding: 5px 10px 5px 10px;}
+	
+		div.baseCoupon p.validCoupon
+		{font: normal 10px Verdana, Arial, Helvetica, sans-serif; text-align: right; padding: 10px 10px 10px 0}
+
+		div.baseCoupon p.warning
+		{font-size: 10px; text-align: left; clear: both;}
+
+/* LISTING > PROMOTION POP-UP > NAVBAR
+/////////////////////////////////////////////////////*/
+	
+	ul.couponNavbar	
+	{ height: 30px; padding: 0; margin: 0; clear: both; background: #FBFBFB; border: 1px solid #EEE;}
+	
+		ul.couponNavbar li
+		{list-style: none; float: right;}
+		
+		ul.couponNavbar li a
+		{ width: 100px; font: normal 10px/normal Verdana, Arial, Helvetica, sans-serif; color: #4B7720; text-align: center; cursor: pointer; display: block; padding: 8px; background: none;  border: 0; border-left: 1px solid #EEE;}
+		
+		ul.couponNavbar li a:hover
+		{color: #2C69B9;}

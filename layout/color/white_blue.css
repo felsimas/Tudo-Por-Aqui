@@ -1,0 +1,781 @@
+/* GENERAL STRUCTURE
+/////////////////////////////////////////////////////*/
+
+	body {}
+
+	div.wrapper ul.navbar
+	{background: #F8F8F8; border-top: 1px solid #F7F7F7;}
+
+	div.wrapper ul.navbar li a:link,
+	div.wrapper ul.navbar li a:active,
+	div.wrapper ul.navbar li a:visited,
+	div.wrapper ul.navbar li a:hover
+	{border-right: 1px solid #EEE;}
+	
+	div.wrapper ul.navbar li a:hover,
+	div.wrapper ul.navbar li a.menuActived:link,
+	div.wrapper ul.navbar li a.menuActived:active,
+	div.wrapper ul.navbar li a.menuActived:visited,
+	div.wrapper ul.navbar li a.menuActived:hover
+	{background-color: #FFF}
+
+	div.wrapper div.header ul.headerLogin a:link,
+	div.wrapper div.header ul.headerLogin a:active,
+	div.wrapper div.header ul.headerLogin a:visited,
+	div.wrapper div.header ul.headerLogin a:hover
+	{color: #555;}
+	div.wrapper div.header ul.headerLogin a:hover
+	{color: #000;}
+
+	
+	
+	.bannerleftText a.baseRightBanner h3.right-banner-url,
+	blockquote.rightContent .bannerleftText a.baseRightBanner h3.right-banner-url
+	{ color:#5B9124 !important}
+
+	div.wrapper div.footer
+	{background: #FFF; border-top: 1px solid #EEE; border-bottom: 5px solid #1C2F43;}
+	
+	div.wrapper div.footer blockquote
+	{background: #253E57;}
+
+	ul.standardStep li {background: url("../../images/color/white_blue/bg_stepInactive.gif") 0 0 no-repeat;}
+
+	table.standardForm {background: #FAFAFA; border: 3px solid #EEE;}
+
+	.noimage {border: 5px solid #E2ECF5;}
+
+	ul.basePreviewNavbar {background: #FBFBFB; border: 1px solid #EEE;}
+
+	.base-categoriesRESULTS {color: #000;}
+	div.base-subcategoriesRESULTS h1 {color: #355416; border-bottom: 1px solid #EEE;}
+	div.categoriesTreeRESULTS blockquote {border-bottom: 1px solid #EEE;}
+	.categoriesTreeRESULTS p.relatedCategoriesTitle {color: #000;}
+		
+	dl.base-join dt {color: #003F7E;}
+	dl.base-join dt span {color: #658CB8;}
+	dl.base-join dd	{color: #243D55;}
+	div.wrapper div.content blockquote.leftContent p.standardTitle {color:#000;}
+	h1.standardTitle, p.standardTitle {color: #000}
+	div.wrapper div.footer ul.navFooter li a:hover {color: #609629;}
+
+	ul.standard-iconlink a:link,
+	ul.standard-iconlink a:active,
+	ul.standard-iconlink a:visited,
+	ul.standard-iconlink a:hover
+	{color:#003F7E;}
+
+	dl.base-join dd.warning {color: #5E421E;}
+	dl.base-join a:link,
+	dl.base-join a:active,
+	dl.base-join a:visited,
+	dl.base-join a:hover
+	{color: #609629;}
+
+	dl.base-join a:hover
+	{color: #000;}
+	
+	dl.base-join table.table-login th
+	{color: #919191;}
+
+	dl.base-join table.table-login input
+	{color: #2C5783; background: #DEE9F3; border-top: 1px solid #6699CC; border-left: 1px solid #6699CC;}
+
+	.warning {color: #5E421E;}
+
+	div.dynamicContent {color:#000}
+
+	div.dynamicContent a:link,
+	div.dynamicContent a:active,
+	div.dynamicContent a:visited,
+	div.dynamicContent a:hover
+	{color:#003365}
+
+	div.galleryBase
+	{background-color: #FFF; border: 8px solid #253E57;}
+
+/* UNCOMMENT THE LINES BELOW IF YOU USE THE THEME AND NEED TO CHANGE THE STYLE OF THIS TABLE
+
+	table.standard-tableTOPBLUE {background:#FCFCFC;}
+	table.standard-tableTOPBLUE th {background-color: #2E4C6B;}
+	table.standard-tableTOPBLUE td {border:1px solid #EEEEEE;}
+	table.standard-tableTOPBLUE td.tableTOPBLUECheck {background: #FFF;}
+	table.standard-tableTOPBLUE td.tableTOPBLUECheck * {background: #FFF;}
+	table.standard-tableTOPBLUE input { border: 1px solid #D4D4D4; border-bottom: 1px solid #EEE; border-right: 1px solid #EEE;}
+*/
+
+/* GENERAL FRONT
+/////////////////////////////////////////////////////*/
+
+	div.frontBusinesses
+	{border-bottom: 1px solid #EEE;}
+
+	blockquote.highlightBusinesses a.frontBusinessesIMAGE:link,
+	blockquote.highlightBusinesses a.frontBusinessesIMAGE:active,
+	blockquote.highlightBusinesses a.frontBusinessesIMAGE:visited,
+	blockquote.highlightBusinesses a.frontBusinessesIMAGE:hover,
+	blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:link,
+	blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:active,
+	blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:visited,
+	blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:hover
+	{border: 5px solid #EEE;}
+	
+	blockquote.highlightBusinesses a.frontBusinessesIMAGE:hover,
+	blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:hover
+	{border: 5px solid #f1cd00;}
+
+	ul.highlightBusinessesList li a:link,
+	ul.highlightBusinessesList li a:active,
+	ul.highlightBusinessesList li a:visited,
+	ul.highlightBusinessesList li a:hover
+	{color:#3F631B;}
+	ul.highlightBusinessesList li a:hover
+	{color:#000;}
+	
+	div.frontPromotions
+	{border-bottom: 1px solid #EEE;}
+	
+	blockquote.highlightPromotions a.frontPromotionsIMAGE:link,
+	blockquote.highlightPromotions a.frontPromotionsIMAGE:active,
+	blockquote.highlightPromotions a.frontPromotionsIMAGE:visited,
+	blockquote.highlightPromotions a.frontPromotionsIMAGE:hover,
+	blockquote.highlightPromotions a.frontPromotionsNOIMAGE:link,
+	blockquote.highlightPromotions a.frontPromotionsNOIMAGE:active,
+	blockquote.highlightPromotions a.frontPromotionsNOIMAGE:visited,
+	blockquote.highlightPromotions a.frontPromotionsNOIMAGE:hover
+	{border: 5px solid #EEE;}
+	
+	blockquote.highlightPromotions a.frontPromotionsIMAGE:hover,
+	blockquote.highlightPromotions a.frontPromotionsNOIMAGE:hover
+	{border: 5px solid #FFB504;}
+	
+	div.frontClassified
+	{border-bottom: 1px solid #EEE;}
+	
+	blockquote.highlightClassified a.frontClassifiedIMAGE:link,
+	blockquote.highlightClassified a.frontClassifiedIMAGE:active,
+	blockquote.highlightClassified a.frontClassifiedIMAGE:visited,
+	blockquote.highlightClassified a.frontClassifiedIMAGE:hover,
+	blockquote.highlightClassified a.frontClassifiedNOIMAGE:link,
+	blockquote.highlightClassified a.frontClassifiedNOIMAGE:active,
+	blockquote.highlightClassified a.frontClassifiedNOIMAGE:visited,
+	blockquote.highlightClassified a.frontClassifiedNOIMAGE:hover
+	{border: 5px solid #EEE;}
+	
+	blockquote.highlightClassified a.frontClassifiedIMAGE:hover,
+	blockquote.highlightClassified a.frontClassifiedNOIMAGE:hover
+	{border: 5px solid #5F4D3C;}
+
+	blockquote.highlightClassified h1 a:hover
+	{color: #000;}
+
+	dl.baseFrontArticles
+	{background: #FFF;  border: 5px solid #E2E7F1;}
+	
+	dl.baseFrontArticles dt
+	{border-bottom: 1px solid #EEE; color: #28374F;}
+
+	dl.baseFrontArticles dt span
+	{color: #425A7E;}
+
+	dl.baseFrontArticles dd h1.frontArticlesTitle a:link,
+	dl.baseFrontArticles dd h1.frontArticlesTitle a:active,
+	dl.baseFrontArticles dd h1.frontArticlesTitle a:visited,
+	dl.baseFrontArticles dd h1.frontArticlesTitle a:hover
+	{color: #2C3C54;}
+
+	dl.baseFrontArticles dd h1.frontArticlesTitle a:hover
+	{color: #8A6936;}
+
+	dl.baseFrontArticles dd a:link,
+	dl.baseFrontArticles dd a:active,
+	dl.baseFrontArticles dd a:visited,
+	dl.baseFrontArticles dd a:hover
+	{color: #647C97;}
+
+	dl.baseFrontArticles dd a:hover
+	{color: #000; text-decoration: underline;}
+			
+	dl.baseFrontEvents
+	{background: #FFF;  border: 5px solid #FFF2EA;}
+	
+	dl.baseFrontEvents dt
+	{border-bottom: 1px solid #EEE; color: #773000;}
+
+	dl.baseFrontEvents dd a:link,
+	dl.baseFrontEvents dd a:active,
+	dl.baseFrontEvents dd a:visited,
+	dl.baseFrontEvents dd a:hover
+	{color: #973D00;}
+
+	ul.highlightEventList li a:link,
+	ul.highlightEventList li a:active,
+	ul.highlightEventList li a:visited,
+	ul.highlightEventList li a:hover
+	{color:#3F631B;}
+	ul.highlightEventList li a:hover
+	{color:#000;}
+
+	dl.baseFrontEvents dd.firstFrontEvents
+	{border-bottom: 1px dashed #EEE;}
+
+	dl.baseFrontEvents dd.firstFrontEvents img
+	{border: 1px solid #EEE;}
+
+	dl.generalResultsCategories dd a:hover
+	{color: #000; text-decoration: underline;}
+
+/* GENERAL ORDER
+/////////////////////////////////////////////////////*/
+
+	table.orderTable
+	{background: #FFF;}
+	
+	table.orderTable th,
+	table.orderTable td
+	{border:1px solid #F5F4F4;}
+	
+	table.orderTable th.orderTitle
+	{background: #2E4C6B; border: 1px solid #396D9D;}
+
+	table.orderTable td.orderTopdetail
+	{background: #396D9D; border: 1px solid #2E4C6B;}
+
+	table.orderTable td.orderUserTable
+	{background: #FBFBFB;}
+
+	table.orderTable td.orderUserTable table
+	{background: #FFF; border: 2px solid #EFEFEF;}
+
+	table.standardChooseLevel
+	{border: 1px solid #EEF7E6;}
+	
+	table.standardChooseLevel th,
+	table.standardChooseLevel td
+	{background: #FBFBFB; border: 0; border-bottom: 1px solid #E4E4E7;}
+	
+	ul.signupButton li input,
+	ul.signupButton li button
+	{background: url("../../images/color/white_blue/bt_order.gif");}
+
+	table.standardSIGNUPTable td,
+	table.standardSIGNUPTable th
+	{background: #FBFBFB; border: 1px solid #FBFBFB;}
+
+	table.standardSIGNUPTable td.treeView div.treeviewLoadingMessage,
+	table.standardSIGNUPTable td.treeView div.treeviewMainMenu
+	{background: #FFF; border: 1px solid #E6EEF7;}
+
+/* GENERAL MEMBERS
+/////////////////////////////////////////////////////*/
+
+	.bg-tablebilling-active {
+		background: #F0F7FF !important;
+	}
+	.bg-tablebilling-inactive {
+		background: #F9F9F9 !important;
+	}
+
+	dl.memberMenu dt,
+	dl.memberMenu dd
+	{background-color: #FCFCFC; border-bottom: 1px solid #EEE;}
+
+	dl.memberMenu dd
+	{background: #FFF;}
+	
+	table.levelTable
+	{background: #FFF;}
+	
+	table.standardChooseLevel
+	{border: 1px solid #EEF7E6;}
+
+	table.standard-table td,
+	table.standard-table th
+	{background: #FBFBFB;}
+
+	table.levelTable th.levelTitle
+	{background: #2E4C6B; border:1px solid #396D9D;}
+
+	table.levelTable td.levelTopdetail
+	{background: #396D9D; border:1px solid #2E4C6B}
+
+	table.levelTable th.tableOption
+	{background: #E6EBF0; border: 1px solid #CFD9E2; border-top: 5px solid #CFD9E2;}
+
+	table.standard-tableTOPBLUE
+	{background:#FAFAFA;}
+
+	table.standard-tableTOPBLUE th
+	{background-color: #2E4C6B;}
+
+	table.standard-tableTOPBLUE td
+	{border:1px solid #DDD;}
+
+	table.standard-tableTOPBLUE td.tableTOPBLUECheck
+	{background: #FFF;}
+
+	table.standard-tableTOPBLUE td.tableTOPBLUECheck *
+	{background: #FFF;}
+
+	table.standard-table td.treeView div.treeviewLoadingMessage,
+	table.standard-table td.treeView div.treeviewMainMenu
+	{background: #FFF; border: 1px solid #E6EEF7;}
+	
+	table.warningBOX
+	{background: #F6FFF4; border: 1px solid #DADADA;}
+	
+	table.warningBOXtext
+	{background: #FFF;}
+
+	table.warningBOXtext th,
+	table.warningBOXtext td
+	{background: #FFF;}
+
+	.standard-iconDESCRIPTION
+	{ color:#000;}
+
+	.standard-iconDESCRIPTION li.rollback-icon
+	{background: url("../../images/color/white_blue/icon_rollback.gif") no-repeat 0 50%;}
+		
+	.standard-iconDESCRIPTION li.rating-icon
+	{background: url("../../images/color/white_blue/img_rateMiniStarOn.gif") no-repeat 0 50%;}
+
+	.standard-iconDESCRIPTION li.pending-icon
+	{background: url("../../images/color/white_blue/bt_approve.gif") no-repeat 0 50%;}
+	
+	.standard-iconDESCRIPTION li.approved-icon
+	{background: url("../../images/color/white_blue/bt_approved.gif") no-repeat 0 50%;}
+	
+	.standard-iconDESCRIPTION li.claimapprove-icon
+	{background: url("../../images/color/white_blue/icon_claimapprove.gif") no-repeat 0 50%;}
+	
+	.standard-iconDESCRIPTION li.claimdeny-icon
+	{background: url("../../images/color/white_blue/icon_claimdeny.gif") no-repeat 0 50%;}
+	
+	.standard-iconDESCRIPTION li.moreinfo-icon
+	{background: url("../../images/color/white_blue/icon_eye.gif") no-repeat 0 50%;}
+	
+	dl.base-join form,
+	blockquote.middleContent div.formFieldsLogin,
+	blockquote.middleContentExtended div.formFieldsLogin
+	{background:#FFF; border: 5px solid #F4F4F4;}
+
+	div.formFieldsLogin
+	{color: #333;}
+
+	blockquote.middleContentExtended p
+	{color: #333;}
+
+	div.wrapper div.content blockquote.leftContent h3
+	{color:#003F7E;}
+
+	div.wrapper div.content blockquote.leftContent h3 span
+	{color:#658CB8;}
+
+	ul.memberMenu li
+	{border-bottom: 1px solid #EEE;}
+
+	ul.memberMenu li a:link,
+	ul.memberMenu li a:active,
+	ul.memberMenu li a:visited,
+	ul.memberMenu li a:hover
+	{color: #000; background-color: #FCFCFC}
+	ul.memberMenu li a:hover
+	{color: #609629; background-color: #FFF}
+
+	dl.memberMenu dt,
+	dl.memberMenu dd
+	{color:#000;}
+	
+	dl.memberMenu dt a:link,
+	dl.memberMenu dt a:active,
+	dl.memberMenu dt a:visited,
+	dl.memberMenu dt a:hover
+	{color:#000;}
+	dl.memberMenu dt a:hover
+	{color:#609629;}
+
+	dl.memberMenu dd a:link,
+	dl.memberMenu dd a:active,
+	dl.memberMenu dd a:visited,
+	dl.memberMenu dd a:hover
+	{color:#666;}
+	dl.memberMenu dd a:hover
+	{color:#609629;text-decoration:underline;}
+
+	table.standard-table th.standard-tabletitle,
+	table.addBannerTable th.standard-tabletitle
+	{color: #003F7E; border-bottom: 1px solid #EEE;}
+
+	blockquote.middleContentExtended p.warning
+	{color:red;}
+
+	.status-active
+	{color: #90DB18;}
+	
+	.status-suspended
+	{color: #647C84;}
+	
+	.status-expired
+	{color: #EF413D;}
+	
+	.status-pending
+	{color: #990000;}
+
+	ul.headerNav li
+	{color:#000;}
+
+	blockquote.middleContentExtended h2.headerStandardTitle
+	{color: #003F7E; border-bottom: 1px solid #EEE;}
+
+	.list-view li a:link,
+	.list-view li a:visited,
+	.list-view li a:active,
+	.list-view li a:hover
+	{color:#000;}
+	.list-view li a:hover
+	{color: #57802B;}
+
+	.list-view li.list-back a:hover {color: #000;}
+
+	.general-item
+	{background: #FFF; border: 5px solid #F4F4F4; color:#333}
+
+	.general-item strong {color: #0054A8;}
+
+	table.standard-table th.tableOption
+	{background: #FFF; border-bottom: 1px solid #EEE;}
+
+	table.standard-table th.tableOption a:link,
+	table.standard-table th.tableOption a:active,
+	table.standard-table th.tableOption a:visited,
+	table.standard-table th.tableOption a:hover
+	{color: #4F7B22;}
+
+	body.previewmember { background: #FFF;}
+	body.previewmember h5 { font: normal 14pt Arial, Helvetica, sans-serif; color: #666; background:#FFF; text-align: left; margin: 10px; padding:10px; border-bottom: 1px dashed #EEE; border-top: 1px dashed #EEE;}
+
+/* GENERAL CONTENT
+/////////////////////////////////////////////////////*/
+
+	#main-right .list-view li span.ratings
+	{background: url("../../images/color/white_blue/img_rateMiniStarOn.gif") 168px 0 no-repeat;}
+
+	.standard-iconDESCRIPTION li.rating-icon
+	{background: url("../../images/color/white_blue/img_rateMiniStarOn.gif") no-repeat 0 50%;}
+
+
+/* LISTING MODULE
+/////////////////////////////////////////////////////*/
+
+	
+	div.listingSummary,
+	div.listingSummary p
+	{color: #000;}
+	
+	div.listingSummary a:link,
+	div.listingSummary a:active,
+	div.listingSummary a:visited,
+	div.listingSummary a:hover
+	{color: #96293F;}
+	div.listingSummary a:hover
+	{color: #000;}
+	
+	ul.left-list li a:link,
+	ul.left-list li a:visited,
+	ul.left-list li a:active,
+	ul.left-list li a:hover
+	{color: #555;}
+	ul.left-list li a:hover
+	{color: #000;}
+	
+	div.listingDetail
+	{color:#000}
+	
+	div.listingDetail p
+	{color:#333;}
+	
+	div.listingDetail h1.listingDetailTitle
+	{color: #609629;}
+	
+	div.listingDetail a:link,
+	div.listingDetail a:active,
+	div.listingDetail a:visited,
+	div.listingDetail a:hover
+	{color: #96293F;}
+	div.listingDetail a:hover
+	{color: #000; text-decoration:underline;}
+	
+	form.formListingDetail
+	{background: #FAFAFA; border: 3px solid #EEE;}
+	
+	table.rateComments
+	{background: #FAFAFA; border: 3px solid #EEE;}
+	
+	ul.detailGallery p,
+	ul.detailGallery pre
+	{color: #2E4C6B; text-align:center}
+
+	div.emailFriendWrapper
+	{border: 10px solid #253E57;}
+
+	table.formRate
+	{background: #FAFAFA; border: 3px solid #EEE;}
+
+	table.formRate th
+	{ color:#000;}
+	
+	
+/* EVENT MODULE
+/////////////////////////////////////////////////////*/
+
+	div.eventCATEGORIES
+	{border: 5px solid #FFF3E4;}
+	
+	div.eventCATEGORIES blockquote a:hover
+	{color: #555;}
+
+	blockquote.highlightEvents h1,
+	blockquote.highlightEvents h1 a:link,
+	blockquote.highlightEvents h1 a:active,
+	blockquote.highlightEvents h1 a:visited,
+	blockquote.highlightEvents h1 a:hover
+	{color: #000;}
+	blockquote.highlightEvents h1 a:hover
+	{ color: #F46200;}
+
+	blockquote.highlightEvent h1 a:link,
+	blockquote.highlightEvent h1 a:active,
+	blockquote.highlightEvent h1 a:visited,
+	blockquote.highlightEvent h1 a:hover
+	{color: #F46200;}
+	blockquote.highlightEvent h1 a:hover
+	{color: #000;}
+
+	blockquote.highlightEvents p
+	{color: #333;}
+
+	div.eventSummary,
+	div.eventSummary p
+	{color: #000;}
+
+	div.eventSummary h2 a:link,
+	div.eventSummary h2 a:active,
+	div.eventSummary h2 a:visited,
+	div.eventSummary h2 a:hover
+	{color: #000;}
+	div.eventSummary h2 a:hover
+	{color: #F46200;}
+
+	div.eventDetail,
+	div.eventDetail p
+	{color: #000;}
+
+	div.eventDetail h1.eventDetailTitle
+	{color: #F46200;}
+
+	div.eventDetail a:link,
+	div.eventDetail a:active,
+	div.eventDetail a:visited,
+	div.eventDetail a:hover
+	{color: #96293F;}
+	div.eventDetail a:hover
+	{color: #000;}
+
+/* CLASSIFIED MODULE
+/////////////////////////////////////////////////////*/
+
+	div.classifiedCATEGORIES
+	{border: 5px solid #F7F4F2;}
+
+	div.classifiedCATEGORIES ul li h1.classifiedCATEGORIEStitle a:hover {color: #838352;}
+
+	table.tableClassified tr {border-bottom: 1px solid #EEE;}
+
+	table.tableClassified td h1 a:link,
+	table.tableClassified td h1 a:active,
+	table.tableClassified td h1 a:visited,
+	table.tableClassified td h1 a:hover
+	{color: #000;}
+	table.tableClassified td h1 a:hover
+	{color: #5F4D3C;}
+	
+	table.tableClassified th,
+	table.tableClassified td
+	{color: #333;}
+
+	div.classifiedSummary,
+	div.classifiedSummary p
+	{color:#000;}
+
+	div.classifiedSummary a:link,
+	div.classifiedSummary a:active,
+	div.classifiedSummary a:visited,
+	div.classifiedSummary a:hover
+	{color: #737348;}
+	div.classifiedSummary a:hover
+	{color: #000;}
+
+	div.classifiedSummary h2 a:link,
+	div.classifiedSummary h2 a:active,
+	div.classifiedSummary h2 a:visited,
+	div.classifiedSummary h2 a:hover
+	{color: #000;}
+	div.classifiedSummary h2 a:hover
+	{color: #7D654F;}
+
+	div.classifiedDetail,
+	div.classifiedDetail p
+	{color: #000;}
+
+	div.classifiedDetail h1.classifiedDetailTitle
+	{color: #7D654F;}
+
+	div.classifiedDetail a:link,
+	div.classifiedDetail a:active,
+	div.classifiedDetail a:visited,
+	div.classifiedDetail a:hover
+	{color: #737348;}
+	div.classifiedDetail a:hover
+	{color: #000;}
+
+	div.baseClassifiedGallery
+	{border: 1px solid #EEE; border-right: 5px solid #EEE; border-bottom: 5px solid #EEE;}
+
+	p.GreenTitle
+	{color: #000;}
+
+	blockquote.classifiedRandom h1 a.classifiedRandomTitle:link,
+	blockquote.classifiedRandom h1 a.classifiedRandomTitle:active,
+	blockquote.classifiedRandom h1 a.classifiedRandomTitle:visited,
+	blockquote.classifiedRandom h1 a.classifiedRandomTitle:hover
+	{color: #000;}
+	blockquote.classifiedRandom h1 a.classifiedRandomTitle:hover
+	{color: #7D654F;}
+
+	blockquote.classifiedRandom p
+	{color:#000;}
+
+/* PROMOTIONS MODULE
+/////////////////////////////////////////////////////*/
+
+	div.couponCATEGORIES
+	{background: #FFF; border: 5px solid #FFF3D5;}
+
+	blockquote.highlightCoupons	h1,
+	blockquote.highlightCoupons	h1 a:link,
+	blockquote.highlightCoupons	h1 a:active,
+	blockquote.highlightCoupons	h1 a:visited,
+	blockquote.highlightCoupons	h1 a:hover
+	{color: #000;}
+	blockquote.highlightCoupons	h1 a:hover
+	{color: #D59500;}
+
+	div.couponSummary h2 a:link,
+	div.couponSummary h2 a:active,
+	div.couponSummary h2 a:visited,
+	div.couponSummary h2 a:hover
+	{color: #000;}
+	div.couponSummary h2 a:hover
+	{color: #D59500;}
+
+	div.couponSummary,
+	div.couponSummary p
+	{color: #000;}
+
+	div.baseCoupon
+	{border: 10px solid #253E57;}
+
+/* ARTICLE MODULE
+/////////////////////////////////////////////////////*/
+
+	fieldset.articleSearchForm label
+	{color: #000;}
+
+	blockquote.articleMiddleContent
+	{border-left: 1px solid #EEE; border-right: 1px solid #EEE;}
+	
+	blockquote.articleRightContent
+	{border-right: 1px solid #EEE;}
+
+	blockquote.articleMiddleContent div.middleArticleTop,
+	blockquote.articleMiddleContent div.middleArticle
+	{border-top: 1px solid #EEE;}
+	
+	blockquote.articleMiddleContent div.middleArticleTop {border:0;}
+
+	blockquote.articleMiddleContent div.middleArticleTop h1 a:link,
+	blockquote.articleMiddleContent div.middleArticleTop h1 a:active,
+	blockquote.articleMiddleContent div.middleArticleTop h1 a:visited,
+	blockquote.articleMiddleContent div.middleArticleTop h1 a:hover,
+	blockquote.articleMiddleContent div.middleArticle h1 a:link,
+	blockquote.articleMiddleContent div.middleArticle h1 a:active,
+	blockquote.articleMiddleContent div.middleArticle h1 a:visited,
+	blockquote.articleMiddleContent div.middleArticle h1 a:hover
+	{color: #5D7392;}
+
+	blockquote.articleRightContent div.rightArticleTop,
+	blockquote.articleRightContent div.rightArticle
+	{color:#000;}
+
+	div.articleCategories
+	{border: 5px solid #F4F4F4;}
+
+	blockquote.articleRightContent div.rightArticleTop h2 a:link,
+	blockquote.articleRightContent div.rightArticleTop h2 a:active,
+	blockquote.articleRightContent div.rightArticleTop h2 a:visited,
+	blockquote.articleRightContent div.rightArticleTop h2 a:hover,
+	blockquote.articleRightContent div.rightArticle h2 a:link,
+	blockquote.articleRightContent div.rightArticle h2 a:active,
+	blockquote.articleRightContent div.rightArticle h2 a:visited,
+	blockquote.articleRightContent div.rightArticle h2 a:hover
+	{color: #000;}
+	
+	blockquote.articleRightContent div.rightArticleTop h2 a:hover,
+	blockquote.articleRightContent div.rightArticle h2 a:hover
+	{color: #C64F00;}
+
+	div.articleCategories dl dt a:link,
+	div.articleCategories dl dt a:active,
+	div.articleCategories dl dt a:visited,
+	div.articleCategories dl dt a:hover
+	{color: #000;}
+	div.articleCategories dl dt a:hover
+	{color: #425A7E;}
+
+	div.articleDetail,
+	div.articleSummary
+	{color: #000;}
+
+	div.articleSummary h2 a:link,
+	div.articleSummary h2 a:active,
+	div.articleSummary h2 a:visited,
+	div.articleSummary h2 a:hover
+	{color: #000;}
+	div.articleSummary h2 a:hover
+	{color: #647C97;}
+
+	div.articleDetail p.articleContentTitle
+	{ color:#333;}
+
+	blockquote.articleImage	span
+	{color: #2D405B;}
+	
+	div.articleDetail ul.iconNavbar li a:link,
+	div.articleDetail ul.iconNavbar li a:active,
+	div.articleDetail ul.iconNavbar li a:visited,
+	div.articleDetail ul.iconNavbar li a:hover,
+	div.articleSummary ul.iconNavbar li a:link,
+	div.articleSummary ul.iconNavbar li a:active,
+	div.articleSummary ul.iconNavbar li a:visited,
+	div.articleSummary ul.iconNavbar li a:hover
+	{color: #38495C;}
+
+	blockquote.highlightArticle h1,
+	blockquote.highlightArticle h1 a:link,
+	blockquote.highlightArticle h1 a:active,
+	blockquote.highlightArticle h1 a:visited,
+	blockquote.highlightArticle h1 a:hover
+	{color: #3B6E9F;}
+	blockquote.highlightArticle h1 a:hover
+	{color: #000;}

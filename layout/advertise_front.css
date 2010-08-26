@@ -1,0 +1,196 @@
+/* ADVERTISE FRONT > ADVERTISE TAB
+/////////////////////////////////////////////////////*/
+
+dl.advertiseBase
+{width: 890px; margin: 0 auto 0 auto;}
+
+dl.advertiseBase div.dynamicContent
+{background: #FFF;}
+
+	dl.advertiseBase dt
+	{float: left; /*margin-top: 6px;*/}
+
+	dl.advertiseBase dd
+	{clear: left; padding: 10px;  border: 1px solid #E4E4E4;}
+	
+	dl.advertiseBase dt.advertiseMenuActive
+	{margin-top: 0;}
+	
+		dl.advertiseBase dt a:link,
+		dl.advertiseBase dt a:active,
+		dl.advertiseBase dt a:visited,
+		dl.advertiseBase dt a:hover
+		{ width: 177px; font: bold 11px/30px Verdana, Arial, Helvetica, sans-serif; color: #747474; text-transform: capitalize; text-align: center; padding: 0; background: #F2F2F2; display: block; border: 1px solid #E4E4E4; border-bottom: 0; border-right: 0;}
+
+			dl.advertiseBase dt a:hover
+			{color: #000; background: #FFF;}
+			
+			dl.advertiseBase dt a.lastAdvertiseTab:link,
+			dl.advertiseBase dt a.lastAdvertiseTab:active,
+			dl.advertiseBase dt a.lastAdvertiseTab:visited,
+			dl.advertiseBase dt a.lastAdvertiseTab:hover
+			{ width:176px;  border-right: 1px solid #E4E4E4; }
+
+			dl.advertiseBase dt.advertiseMenuActive a:link,
+			dl.advertiseBase dt.advertiseMenuActive a:active,
+			dl.advertiseBase dt.advertiseMenuActive a:visited,
+			dl.advertiseBase dt.advertiseMenuActive a:hover
+			{ font: bold 11px/30px Verdana, Arial, Helvetica, sans-serif; color: #FFF; text-transform: capitalize; padding: 0; background: #81BF3F; display: block; border: 1px solid #73AB38; border-bottom: 0;}
+			
+			table.advertiseScreenDesc {width:100%;}
+			
+			table.advertiseScreenDesc tr th {margin:0; padding:5px; text-align:right; color:#666666; /*border:1px solid black;*/}
+			
+			table.advertiseScreenDesc tr th.detailColumn {width:407px;}
+			
+/* ADVERTISE FRONT > ADVERTISE TAB COLOR
+/////////////////////////////////////////////////////*/
+
+			/* LISTING */
+
+				dl.advertiseBase dt.advertiseMenuActiveListing a:link,
+				dl.advertiseBase dt.advertiseMenuActiveListing a:active,
+				dl.advertiseBase dt.advertiseMenuActiveListing a:visited,
+				dl.advertiseBase dt.advertiseMenuActiveListing a:hover
+				{width: 178px; font: bold 11px/30px Verdana, Arial, Helvetica, sans-serif; color: #FFF; text-transform: capitalize; background: #609629; display: block; border: 0; border-bottom: 1px solid #609629;}
+
+					dl.advertiseBase dd#signupAdvertisementListing
+					{background: #CFEBB4; border: 1px solid #95D257; border-top: 1px solid #609629;}
+					
+					dl.advertiseBase dd#signupAdvertisementListing blockquote
+					{padding: 10px; background: #F3FAEF; border: 1px solid #BAE193;}
+					
+					dl.advertiseBase dd#signupAdvertisementListing blockquote table.advertiseTable th.type
+					{font: normal 19px/20px Arial, Verdana, Helvetica, sans-serif; color: #96293F; text-transform: uppercase; padding: 10px;}
+					
+
+			/* EVENT */
+
+			dl.advertiseBase dt.advertiseMenuActiveEvent a:link,
+			dl.advertiseBase dt.advertiseMenuActiveEvent a:active,
+			dl.advertiseBase dt.advertiseMenuActiveEvent a:visited,
+			dl.advertiseBase dt.advertiseMenuActiveEvent a:hover
+			{width: 178px; font: bold 11px/30px Verdana, Arial, Helvetica, sans-serif; color: #FFF; text-transform: capitalize; background: #F46200; display: block; border: 0; border-bottom: 1px solid #F46200;}
+
+					dl.advertiseBase dd#signupAdvertisementEvent
+					{background: #FFC69F; border: 1px solid #FF9955; border-top: 1px solid #F46200;}
+					
+					dl.advertiseBase dd#signupAdvertisementEvent blockquote
+					{padding: 10px; background: #FFF2EA; border: 1px solid #FFAF80;}
+					
+					dl.advertiseBase dd#signupAdvertisementEvent blockquote table.advertiseTable th.type
+					{font: normal 19px/20px Arial, Verdana, Helvetica, sans-serif; color: #2F5B01; text-transform: uppercase; padding: 10px;}
+
+			/* BANNER */
+
+			dl.advertiseBase dt.advertiseMenuActiveBanner a:link,
+			dl.advertiseBase dt.advertiseMenuActiveBanner a:active,
+			dl.advertiseBase dt.advertiseMenuActiveBanner a:visited,
+			dl.advertiseBase dt.advertiseMenuActiveBanner a:hover
+			{width: 178px; font: bold 11px/30px Verdana, Arial, Helvetica, sans-serif; color: #FFF; text-transform: capitalize; background: #5F4D3C; display: block; border: 0; border-bottom: 1px solid #5F4D3C;}
+
+					dl.advertiseBase dd#signupAdvertisementBanner
+					{background: #DACFC5; border: 1px solid #BDA997; border-top: 1px solid #5F4D3C;}
+					
+					dl.advertiseBase dd#signupAdvertisementBanner blockquote
+					{padding: 10px; background: #F7F4F2; border: 1px solid #CEBCB0;}
+					
+					dl.advertiseBase dd#signupAdvertisementBanner blockquote table.advertiseTable th.type
+					{font: normal 19px/20px Arial, Verdana, Helvetica, sans-serif; color: #000; text-transform: uppercase; padding: 10px;}
+
+			/* CLASSIFIED */
+
+			dl.advertiseBase dt.advertiseMenuActiveClassified a:link,
+			dl.advertiseBase dt.advertiseMenuActiveClassified a:active,
+			dl.advertiseBase dt.advertiseMenuActiveClassified a:visited,
+			dl.advertiseBase dt.advertiseMenuActiveClassified a:hover
+			{width: 178px; font: bold 11px/30px Verdana, Arial, Helvetica, sans-serif; color: #FFF; text-transform: capitalize; background: #BF0000; display: block; border: 0; border-bottom: 1px solid #BF0000;}
+
+					dl.advertiseBase dd#signupAdvertisementClassified
+					{background: #FF9F9F; border: 1px solid #FF5555; border-top: 1px solid #BF0000;}
+					
+					dl.advertiseBase dd#signupAdvertisementClassified blockquote
+					{padding: 10px; background: #FFEAEA; border: 1px solid #FF8080;}
+					
+					dl.advertiseBase dd#signupAdvertisementClassified blockquote table.advertiseTable th.type
+					{font: normal 19px/20px Arial, Verdana, Helvetica, sans-serif; color: #819C23; text-transform: uppercase; padding: 10px;}
+
+			/* ARTICLE */
+
+			dl.advertiseBase dt.advertiseMenuActiveArticle a:link,
+			dl.advertiseBase dt.advertiseMenuActiveArticle a:active,
+			dl.advertiseBase dt.advertiseMenuActiveArticle a:visited,
+			dl.advertiseBase dt.advertiseMenuActiveArticle a:hover
+			{width: 178px; font: bold 11px/30px Verdana, Arial, Helvetica, sans-serif; color: #FFF; text-transform: capitalize; background: #425A7E; display: block; border: 0; border-bottom: 1px solid #425A7E;}
+	
+					dl.advertiseBase dd#signupAdvertisementArticle
+					{background: #C0CCDE; border: 1px solid #ABBBD3; border-top: 1px solid #425A7E;}
+					
+					dl.advertiseBase dd#signupAdvertisementArticle blockquote
+					{padding: 10px; background: #F1F3F8; border: 1px solid #AAB6D5;}
+					
+					dl.advertiseBase dd#signupAdvertisementArticle blockquote table.advertiseTable th.type
+					{font: normal 19px/20px Arial, Verdana, Helvetica, sans-serif; color: #2F5B01; text-transform: uppercase; padding: 10px;}
+
+/* ADVERTISE FRONT > TABLE ADD
+/////////////////////////////////////////////////////*/
+
+table.advertiseTable
+{width: 100%; font: normal 11px Verdana, Arial, Helvetica, sans-serif; color: #000; text-align: left; margin: 0; background: #FFF; border-collapse: collapse; border: 0;}
+
+	table.advertiseTable th,
+	table.advertiseTable td
+	{padding: 5px; vertical-align: top;}
+	
+		table.advertiseTable th.type
+		{font: normal 19px/20px Arial, Verdana, Helvetica, sans-serif; color: #0054A8; text-transform: uppercase; padding: 10px;}
+
+			table.advertiseTable th.type span
+			{border-left: 5px solid #446993; padding-left: 5px;}
+
+		table.advertiseTable th.previewTitle,
+		table.advertiseTable td h2
+		{font: bold 14px/20px Arial, Verdana, Helvetica, sans-serif; color: #559A01; text-transform: uppercase; text-align: left; padding: 10px;}
+		
+			table.advertiseTable td h2
+			{line-height: normal; text-align: right; padding-top: 0; padding-bottom: 0;}
+
+		table.advertiseTable td.prize
+		{font: normal 19px/20px Arial, Verdana, Helvetica, sans-serif; color: #BF0000; white-space: nowrap; text-align: right; padding: 10px;}
+
+			table.advertiseTable td.prize span
+			{font: bold 12px Arial, Verdana, Helvetica, sans-serif; color: #8D0000;}
+			
+	table.advertiseTable td.advertiseTableContent
+	{padding: 10px; vertical-align: top;}
+	
+	table.advertiseTable td.advertiseScreen
+	{ background: #FFF; padding: 0; /*padding-top: 10px;*/ padding-bottom: 10px; text-align: center; vertical-align: top; border-top: 0; /* border-bottom: 10px solid #F1F5FA; */}
+	
+	table.advertiseTable td.advertiseTableContent2
+	{vertical-align: top; border-top: 0;/*  border-bottom: 10px solid #F1F5FA; */}
+	
+		table.advertiseTable td ul
+		{padding-left: 25px;}
+
+		table.advertiseTable td ul li
+		{line-height: 18px;}
+
+	table.advertiseTable td span.advertiseAlert
+	{font: normal 9px Verdana, Arial, Helvetica, sans-serif; display: block; text-align: right; color: #666; padding-top: 10px; padding-right: 10px;}
+
+/* ADVERTISE FRONT > BUTTON
+/////////////////////////////////////////////////////*/
+
+ul.advertiseButton,
+ul.advertiseButton li
+{width: 150px; height: 41px; margin: 10px auto 0 auto; padding: 0; border: 0;}
+
+	ul.advertiseButton li
+	{width:150px; height:41px; display:block; float: left; list-style: none; background:  url("../images/design/bg_advertiseButton_right.gif") 100% 50% no-repeat;}
+
+		ul.advertiseButton li a:link,
+		ul.advertiseButton li a:active,
+		ul.advertiseButton li a:visited,
+		ul.advertiseButton li a:hover
+		{width: 150px; font: bold 12px/41px Verdana, Arial, Helvetica, sans-serif; color: #FFF; text-decoration: none; text-align: center; display: block; background: url("../images/design/bg_advertiseButton_left.gif") 0 50% no-repeat;}

@@ -1,0 +1,105 @@
+/* CLASSIFIED RESULTS > MIDDLE CONTENT > CLASSIFIEDS SUMMARY
+/////////////////////////////////////////////////////*/
+
+div.classifiedSummary
+{width: 95%; clear: left; text-align: left; padding:0 0 10px 0; margin: 0 auto 10px auto; border-bottom: 1px solid #EEE;}
+
+	div.classifiedSummary a:link,
+	div.classifiedSummary a:active,
+	div.classifiedSummary a:visited,
+	div.classifiedSummary a:hover
+	{color: #737348;}
+	
+	div.classifiedSummary a:hover
+	{color: #000; text-decoration: underline;}
+	
+	div.classifiedSummary h2
+	{font: bold 14px Arial, Helvetica, sans-serif; margin: 0; padding: 0; border: 0;}
+
+		div.classifiedSummary h2 a:link,
+		div.classifiedSummary h2 a:active,
+		div.classifiedSummary h2 a:visited,
+		div.classifiedSummary h2 a:hover
+		{color: #000;}
+
+			div.classifiedSummary h2 a:hover
+			{color: #7D654F;}
+			
+		/* TITLE FOR LEVEL SHOWCASE */
+		div.summaryShowcase h2 a:link,
+		div.summaryShowcase h2 a:active,
+		div.summaryShowcase h2 a:visited,
+		div.summaryShowcase h2 a:hover
+		{padding-left: 5px; border-left: 5px solid #5F4D3C;}
+			
+	div.classifiedSummary .baseIconNavbar
+	{padding:5px 0 0 0;}
+	
+	div.classifiedSummary div.classifiedSummaryIMAGE
+	{float:left; padding:10px 0 0 0;}
+	
+	div.classifiedSummary div.classifiedSummaryIMAGE div.imgClassifiedSummary
+	{background: #DED9D4; border: 5px solid #CEC5BB; padding:8px 0 8px 0; text-align:center;}
+	
+		/* IMAGE FOR LEVEL PREMIUM */
+		div.summaryPremium div.classifiedSummaryIMAGE div.imgClassifiedSummary
+		{background: #F5F2EF; border: 5px solid #EBE6E0;}
+		
+		/* IMAGE FOR LEVEL BASIC */
+		div.summaryBasic div.classifiedSummaryIMAGE div.imgClassifiedSummary
+		{background: #FFFFFC; border: 5px solid #F8F3ED;}
+	
+		div.classifiedSummaryIMAGE div.imgClassifiedSummary div.noimage
+		{border:none; margin:0 auto 0 auto;}
+		
+	div.classifiedSummary div.classifiedSummaryContent
+	{padding:0 10px 0 0;}
+	
+	div.classifiedSummary div.contentShowcase
+	{float:right; width:54%; padding-top:10px;}
+	
+	div.classifiedSummary p,
+	div.classifiedSummary address
+	{font: normal 11px/15pt Verdana, Arial, Helvetica, sans-serif; color: #000;}
+	
+	div.classifiedSummary p.classifiedSummaryDescription
+	{padding:0 0 5px 0;}
+	
+	div.classifiedSummary address
+	{font-style:normal;  margin: 0 0 5px 0;}
+	
+		div.classifiedSummary address span
+		{display:block;}
+		
+	div.classifiedSummary p.moreInfo a:link,
+	div.classifiedSummary p.moreInfo a:active,
+	div.classifiedSummary p.moreInfo a:visited,
+	div.classifiedSummary p.moreInfo a:hover
+	{font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #7D654F; text-align: right; padding: 0; display: block;}
+
+		div.classifiedSummary p.moreInfo a:hover
+		{color: #000; text-decoration: underline;}
+
+/* CLASSIFIED RESULTS > LEFT CONTENT > CLASSIFIED RANDOM
+/////////////////////////////////////////////////////*/
+
+	p.GreenTitle
+	{font: normal 18px/20px Arial, Helvetica, sans-serif; color: #000; text-align:left; margin: 0; padding: 0 0 10px 0;}
+				
+	p.GreenTitle span {color: #7D654F;}			
+				
+	blockquote.classifiedRandom {font: normal 10px Verdana, Arial, Helvetica, sans-serif; padding: 0; clear: both; border-bottom: 2px solid #F7F7F7; margin-bottom:5px;}		
+	
+		blockquote.classifiedRandom h1
+		{margin:0; padding:0;}
+	
+		blockquote.classifiedRandom h1 a.classifiedRandomTitle:link,
+		blockquote.classifiedRandom h1 a.classifiedRandomTitle:active,
+		blockquote.classifiedRandom h1 a.classifiedRandomTitle:visited,
+		blockquote.classifiedRandom h1 a.classifiedRandomTitle:hover {font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #000; padding: 0 0 0 10px; display: block; background: url("../images/design/bullet_classified.gif") 3px 4px no-repeat; }
+
+		blockquote.classifiedRandom h1 a.classifiedRandomTitle:hover {color: #7D654F; text-decoration: underline;}
+	
+		blockquote.classifiedRandom p {color:#000; padding: 10px 0 10px 0; margin: 0; border: 0;}
+	
+		blockquote.classifiedRandom img {float: left; padding: 2px; border: 1px solid #EEE;}

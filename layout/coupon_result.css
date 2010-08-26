@@ -1,0 +1,118 @@
+/* COUPON > MIDDLE CONTENT > COUPON SUMMARY
+/////////////////////////////////////////////////////*/
+
+div.couponSummary
+{width: 95%; clear: left; text-align: left; padding:0 0 10px 0; margin: 0 auto 10px auto; border-bottom: 1px solid #EEE;}
+
+	div.couponSummary a:link,
+	div.couponSummary a:active,
+	div.couponSummary a:visited,
+	div.couponSummary a:hover
+	{color: #6F4E00;}
+	
+	div.couponSummary a:hover
+	{color: #000; text-decoration: underline;}
+	
+	div.couponSummary h2
+	{font: bold 14px Arial, Helvetica, sans-serif; margin: 0; padding: 0; border: 0;}
+
+		div.couponSummary h2 a:link,
+		div.couponSummary h2 a:active,
+		div.couponSummary h2 a:visited,
+		div.couponSummary h2 a:hover
+		{color: #000; padding-left: 5px; border-left: 5px solid #FFB504;}
+
+			div.couponSummary h2 a:hover
+			{color: #FFB504;}
+			
+	div.couponSummary .baseIconNavbar
+	{padding:0;}
+	
+	div.couponSummary p,
+	div.couponSummary h3
+	{font: normal 11px/25px Verdana, Arial, Helvetica, sans-serif; color: #000;}
+	
+	div.couponSummary h3 a:link,
+	div.couponSummary h3 a:active,
+	div.couponSummary h3 a:visited,
+	div.couponSummary h3 a:hover
+	{font-weight:bold;}
+		
+	div.couponSummary p.moreInfo a:link,
+	div.couponSummary p.moreInfo a:active,
+	div.couponSummary p.moreInfo a:visited,
+	div.couponSummary p.moreInfo a:hover
+	{font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #336699; text-align: right; padding: 5px 0 0 0; display: block;}
+
+		div.couponSummary p.moreInfo a:hover
+		{color: #000; text-decoration: underline;}
+		
+		div.couponSummary ul.rating li.ratingSeeComment
+		{clear: left;} /* THIS code put the comment, rate it button and 'be the first' phrase bellow the image */
+
+	table.couponSummary th h1
+	{font: bold 14px Arial, Helvetica, sans-serif; margin:0; padding:0;}
+	
+	table.couponSummary th.couponSummaryTitle a:link,
+	table.couponSummary th.couponSummaryTitle a:active,
+	table.couponSummary th.couponSummaryTitle a:visited,
+	table.couponSummary th.couponSummaryTitle a:hover
+	{color: #000;}
+	
+	table.couponSummary th.couponSummaryTitle a:hover
+	{color: #D59500;}
+
+	table.couponSummary th.couponSummaryTitle, /* LISTING TITLE */
+	table.couponSummary th.couponSummaryTitle50,
+	table.couponSummary th.couponSummaryTitle30,
+	table.couponSummary th.couponSummaryTitle10
+	{font: bold 14px Arial, Helvetica, sans-serif; vertical-align: middle;}
+	
+		table.couponSummary th.couponSummaryTitle a:link,
+		table.couponSummary th.couponSummaryTitle a:active,
+		table.couponSummary th.couponSummaryTitle a:visited,
+		table.couponSummary th.couponSummaryTitle a:hover
+		{padding-left: 5px; border-left: 5px solid #FFB504; float: left;}
+
+		table.couponSummary th.couponSummaryTitle50 a:link, /* LISTING TITLE 50 */
+		table.couponSummary th.couponSummaryTitle50 a:active,
+		table.couponSummary th.couponSummaryTitle50 a:visited,
+		table.couponSummary th.couponSummaryTitle50 a:hover
+		{color: #000; padding-left: 5px;}
+		
+		table.couponSummary td h2
+		{font:bold 11px/15pt Verdana, Arial, Helvetica, sans-serif; margin:0; padding:0; display:inline;}
+	
+		table.couponSummary td p
+		{margin: 0 0 5px 0;}
+
+	table.couponSummary td.couponSummaryContent
+	{width: 80%;}
+	
+	table.couponSummary td.baseIconNavbar
+	{padding:0;}
+
+	table.couponSummary table.imgcouponSummary
+	{background-color: #FAEBF3;}
+
+		table.couponSummary table.imgcouponSummary img
+		{margin: 3px;}
+
+	table.couponSummary a:link,
+	table.couponSummary a:active,
+	table.couponSummary a:visited,
+	table.couponSummary a:hover
+	{color: #6F4E00;}
+
+		table.couponSummary a:hover
+		{color: #000; text-decoration: underline;}
+	
+	table.couponSummary a.couponMoreInfo:link,
+	table.couponSummary a.couponMoreInfo:active,
+	table.couponSummary a.couponMoreInfo:visited,
+	table.couponSummary a.couponMoreInfo:hover
+	{font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #336699; text-align: right; padding:
+	 5px; display: block;}
+
+		table.couponSummary a.couponMoreInfo:hover
+		{color: #000; background: none;}

@@ -1,0 +1,1 @@
+<input value="invoice" type="hidden" name="payment_method">

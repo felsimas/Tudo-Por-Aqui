@@ -1,0 +1,252 @@
+/**
+* eDirectory - Style Definitions on Print Pages
+*
+* This style sheet describes the styles applied for the print pages
+* of all modules
+*
+* @package		layout
+* @author			Sis Dir 2009 - Classificados
+* @copyright	Copyright (c) 2009, Sis Dir 2009 - Classificados Inc.
+*
+* @colordef		#333; standard dark gray 			(text colors)
+* @colordef		#4C4C4C; standard link color	(in replacement to blue and green)
+* @colordef		#666; standard gray 					(notes, complementary information, in replacement to red)
+* @colordef		#CCC; standard border color
+* @colordef		#EEE; secondary border color
+* @colordef		#F7F7F7; tertiary border color, light gray background color
+* @colordef		#FFC; standard yellow color 	(highlight featured, calendar day's hover)
+*/
+
+/**
+* Module Detail Print
+*
+* Global defintions on print pages
+*
+* @section	print
+*/
+
+*
+{ border: none; margin: 0; padding: 0; }
+
+ul
+{ list-style: none; }
+
+body
+{ background: #FFF; color: #666; font: normal 12px/16px Arial, Helvetica, sans-serif; text-align: left; }
+
+a, a:visited
+{ color: #4C4C4C; font-weight: bold; text-decoration: none; }
+
+	a:hover
+	{ text-decoration: underline; }
+
+input, select, textarea
+{ border: 1px solid #CCC; border-bottom: 1px solid #EEE; border-right: 1px solid #EEE; color: #666; padding: 2px; }
+
+.clear
+{ clear: both; display: block; height: 0px; line-height: 0px; overflow: hidden; }
+
+/** Page Structure */
+
+.basePrint
+{ padding: 10px; width: 740px; }
+
+.basePrintNavbar
+{ background: url(../images/icon_print.gif) no-repeat 5px 5px; border-bottom: 1px solid #EEE; border-top: 1px solid #EEE; font-size: 11px; padding: 5px 10px 5px 30px; }
+
+/** Item Content */
+
+.detail
+{ color: #333; height: 100%; overflow: hidden; padding: 5px; }
+
+.detailContent
+{ float: left; padding: 20px 0 0 0; width: 375px; }
+
+.detailComplementaryContent
+{ float: right; padding: 5px 0 0 0; }
+
+.baseIconNavbar
+{ background: #F7F7F7; border-bottom: 1px solid #CCC; border-top: 1px solid #CCC; height: 30px; padding: 0 10px 0 10px; }
+
+.socialBookmarkIcons
+{ padding: 5px 0 0 0; }
+
+.iconNavbar li
+{ font-size: 11px; line-height: 30px; }
+
+.claim a, .claim a:visited
+{ background: url(../images/design/bg_claim_print.gif) no-repeat 0 0; color: #666; display: block; margin: 5px 0 0 0; padding: 0 0 0 15px; }
+
+.designations
+{ padding: 15px 0 0 0; }
+
+.detailSpacer
+{ padding: 10px 0 10px 0; }
+
+/**
+* Detail Typograph
+*
+* @section		print
+* @subsection	typograph
+*/
+
+.standardTitle
+{ background: url(../images/design/bg_title.gif) repeat-x 0 100%; color: #666; font-size: 18px; font-weight: normal; line-height: 18px; padding: 0 0 15px 0; position:relative; }
+
+	.standardTitle span
+	{ font-weight: bold; color: #069; }
+	
+.standardSubTitle
+{ border-bottom: 1px solid #CCC; color: #333; font-size: 14px; font-weight: bold; padding: 10px 0 5px 0; }
+
+h2
+{ color: #000; font-size: 24px; line-height: 30px; }
+	
+h3
+{ font-size: 12px; font-weight: bold; line-height: 16px; }
+
+	h3, h3 a, h3 a:visited
+	{ color: #000; }
+	
+.complementaryInfo
+{ color: #666; font-size: 11px; font-weight: normal; }
+
+.detail address
+{ font-style: normal; }
+
+	.detail address span
+	{ display: block; }
+
+.detailTitle
+{ background: url(../images/design/bg_title.gif) repeat-x 0 100%; font-size: 14px; font-weight: bold; margin: 0 0 5px 0; padding: 15px 0 10px 0; position: relative; }
+
+	.detailTitle .complementaryInfo
+	{ position: absolute; right: 0; top: 15px; }
+
+.summaryDescription
+{ color: #666; font-size: 11px; padding: 5px 0 5px 0; }
+
+.viewMore
+{ border-top: 1px solid #CCC; font-size: 11px; line-height: 24px; margin: 0 0 10px 0; text-align: right; text-transform: lowercase; }
+
+	.viewMore a, .viewMore a:visited
+	{ color: #666; }
+	
+/**
+* Detail Media Gallery
+*
+* @section		print
+* @subsection	gallery
+*/
+
+.imgDetail,
+.videoDetail
+{ padding: 5px 0 5px 0; text-align: center; }
+
+	.imgDetail img, .detailGallery img
+	{ border: 1px solid #CCC; padding: 2px; }
+
+	.imgDetail .noimage
+	{ margin: 0 auto 0 auto; }
+
+	.detailGallery .complementaryInfo
+	{ padding: 0 0 0 10px; }
+	
+	.detailGallery .viewMore
+	{ margin: 10px 0 0 0; }
+
+	.detailGallery ul
+	{ height: 100%; overflow: hidden; padding: 5px 0 5px 0; }
+
+	.detailGallery li
+	{ float: left; padding: 0 0 0 10px; }
+	
+/**
+* Google Map
+*
+* @section		print
+* @subsection	google-maps
+*/
+
+.googleMapsWrapper
+{ position: relative; }
+	
+.googleBase
+{  background: #F7F7F7; border: 1px solid #CCC; height: 250px; margin: 0 auto 10px auto; width: 318px; z-index: 1; }
+
+	.floatLayer
+	{ background: #FFC; border: 1px solid #CCC; height: auto; left: -235px; position: absolute; top: -9px; visibility: hidden; width: 350px; z-index: 2; }
+	
+		.viewMapInfo
+		{ padding: 10px; }
+		
+		.viewMapInfo img
+		{ background: #FFF; border: 1px solid #CCC; float: left; margin: 0 10px 10px 0; padding: 2px; }
+		
+		.viewMapInfo h1
+		{ color: #000; font-size: 14px; }
+		
+		.viewMapInfo p
+		{ font-size: 11px; }
+		
+		.viewMapInfo .googleRating img
+		{ border: 0; margin: 0; float: none; }
+		
+		#map span { font-size: 8px; }
+
+/**
+* Ratings
+*
+* @section		print
+* @subsection	ratings
+*/
+
+.detailRatings
+{ clear: both; padding: 0 0 10px 0; }
+
+.rating
+{ float: right; font-size: 11px; }
+
+	.rating li
+	{ padding: 0 3px 0 2px; }
+
+	.rating .ratingStar
+	{ float: right; padding: 2px 2px 0 0; }
+
+	.rating .ratingStar img
+	{ padding: 0 2px 0 0; }
+
+	.rating .ratingReview
+	{ float: right; }
+	
+		.rating .ratingReview a, .rating .ratingReview a:visited
+		{ font-weight: normal; }
+	
+	.rating .ratingSeeComment, .rating .rateIt
+	{ float: right; }
+	
+	.rating .rateIt a, .rating .rateIt a:visited
+	{ color: #4C4C4C; }
+	
+/** Rate Comments */
+
+.rateComments
+{ border-bottom: 1px solid #CCC; padding: 10px; }
+
+	.rateStars
+	{ padding: 3px 0 3px 0; }
+	
+		.rateStars img
+		{ padding: 0 2px 0 0; }
+		
+	.rateComments .review
+	{ color: #333; padding: 5px 0 0 0; }
+	
+	.response
+	{ padding: 5px 0 0 50px; }
+	
+	.response h4
+	{ font-size: 12px; font-weight: bold; }
+	
+	.response .review
+	{ color: #666; font-style: italic; }

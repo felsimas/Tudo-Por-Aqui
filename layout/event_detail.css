@@ -1,0 +1,120 @@
+div.wrapper div.content blockquote.middleContentExtended {position: relative;}
+
+/* EVENT DETAIL PAGE > MIDDLE CONTENT EXTENDED > EVENT DETAIL
+/////////////////////////////////////////////////////*/
+
+div.eventDetail
+{width: 96%; text-align: left; margin: 0 auto 10px auto; font: normal 11px/15pt Verdana, Arial, Helvetica, sans-serif; color: #000;}
+	
+	blockquote.middleContentExtended div.eventDetail p
+	{color:#000;}
+	
+	div.eventDetail h1.eventDetailTitle
+	{font: bold 24px/30px Arial, Helvetica, sans-serif; color:#F46200; padding-bottom:10px;}
+	
+	div.eventDetail p.eventContentTitle
+	{font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#333; margin-bottom: 0;}
+	
+	div.eventDetail address
+	{font-style:normal;}
+		
+		div.eventDetail address span
+		{display:block;}
+	
+	div.eventDetail p strong,
+	div.eventDetail address strong
+	{color: #B1490D;}		
+
+	/* CONTENT COLUMN */
+	div.eventDetail div.eventDetailContent
+	{width:53%; float:left;}
+	
+	div.eventDetail div.eventDetailIMAGE
+	{float:right;}
+		
+	div.eventDetail a:link,
+	div.eventDetail a:active,
+	div.eventDetail a:visited,
+	div.eventDetail a:hover
+	{color: #96293F;}
+	
+	div.eventDetail a:hover
+	{color: #000; text-decoration:underline;}
+
+	/* EVENT IMAGE */
+	div.eventDetail div.imgEventDetail
+	{text-align: center; padding: 0; margin:10px 0 10px 0; background-color: #FFF2EA; border: 5px solid #FFE6D5;}
+
+		div.eventDetail div.imgEventDetail img
+		{ margin: 0; padding: 5px; border: 0;}
+		
+		div.eventDetail div.noimage
+		{border:none; margin:5px;}
+				
+	div.eventDetail a.eventMoreInfo:link,
+	div.eventDetail a.eventMoreInfo:active,
+	div.eventDetail a.eventMoreInfo:visited,
+	div.eventDetail a.eventMoreInfo:hover
+	{font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #96293F; /* text-align: right;  display: block; */}
+
+		div.eventDetail a.eventMoreInfo:hover
+		{color: #000;}
+
+/* EVENT > MIDDLE CONTENT EXTENDED > LISTING DETAIL > GOOGLE MAP
+/////////////////////////////////////////////////////*/
+
+div.googleMapsWrapper
+{position:relative;}
+	
+div.googleBase
+{width: 318px; height: 250px; margin: 0 0 10px 0; z-index: 1; background: #E5E3DF; border: 1px solid #BAB5A9;}
+
+	div.floatLayer
+	{/* Old values: top: 310px; left: 150px; */
+		width: 350px; height: auto; top: -9px; left: -235px; position: absolute; visibility: hidden; z-index: 2; border: 3px solid #ECEBEB; voice-family:"\"}\""; voice-family:inherit; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/design/bg_googleFloatLayer.png', sizingMethod='scale')}
+	html>body div.floatLayer{background: url("../images/design/bg_googleFloatLayer.png") 0 0 repeat;}
+	
+		div.floatLayer blockquote
+		{padding: 10px;}
+		
+		div.floatLayer blockquote img
+		{float: left; margin: 0 10px 10px 0; padding: 3px; border: 1px solid #E1E1E1;}
+		
+		div.floatLayer blockquote h1
+		{font: bold 15px Arial, Helvetica, sans-serif; color: #609629;}
+		
+		div.floatLayer blockquote p
+		{font: normal 11px Verdana, Arial, Helvetica, sans-serif; color: #000;}
+		
+		div.floatLayer blockquote p.googleRating img
+		{border: 0; margin: 0; float: none;}
+		
+		#map span {font:normal 8px Arial, Helvetica, sans-serif;}
+		
+/* EVENT DETAIL > EVENT DETAIL > SLIDESHOW
+/////////////////////////////////////////////////////*/
+
+div.eventDetailGallery
+{clear:both; padding:10px 0 0 0;}
+
+ul.detailGallery
+{margin: 10px 0 0 0; border: 0;}
+
+	ul.detailGallery li
+	{float: left; list-style: none; margin: 0 15px 0 0; border:0;}
+	
+		ul.detailGallery li span
+		{display:block; text-align:center; background:#FFF2EA; padding:5px; border: 5px solid #FFE6D5;}
+	
+		ul.detailGallery li img
+		{ /*margin: 10px 10px 0 10px; border: 5px solid #E5EFDC;*/}
+	
+	ul.detailGallery p,
+	ul.detailGallery pre
+	{padding: 5px 5px 0 0;}
+	
+	ul.detailGallery pre
+	{font:normal 11px/14px Verdana, Arial, Helvetica, sans-serif; color: #2E4C6B;}
+	
+	p.galleryMoreInfo
+	{display:block; clear:both; padding-top:10px;padding-bottom:10px;}

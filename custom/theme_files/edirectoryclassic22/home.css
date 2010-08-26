@@ -1,0 +1,125 @@
+/**
+* Featured Items
+*
+* @section	featured
+*/
+
+/** Global */
+
+.frontFeaturedListings, .frontFeaturedPromotions, .frontFeaturedClassifieds
+{ border-bottom: 1px solid #EEE; padding: 10px 0 10px 0; }
+
+.noimage
+{ border: 5px solid #EEE; }
+
+/** Listing */
+
+.frontFeaturedListings .standardTitle span
+{ color: #692; }
+
+.frontFeaturedListings .highlightBox
+{ background: #F2F7EE; border: 3px solid #E5EFDC; }
+
+.frontFeaturedListings .featuredListingImage
+{ border: 5px solid #E5EFDC; }
+
+.frontFeaturedListings .featuredListingImage:hover
+{ border: 5px solid #692; }
+
+.frontFeaturedListings h3 a, .frontFeaturedListings h3 a:visited
+{ color: #351; }
+
+.frontFeaturedListings .complementaryInfo a, .frontFeaturedListings .complementaryInfo a:visited
+{ color: #923; }
+
+.recentReviews
+{ border: none; }
+
+/** Promotion */
+
+.frontFeaturedPromotions .standardTitle span
+{ color: #D90; }
+
+.frontFeaturedPromotions .featuredPromotionImage:hover
+{ border: 5px solid #D90; text-decoration: none; }
+
+.frontFeaturedPromotions h3 a, .frontFeaturedPromotions h3 a:visited
+{ color: #664; }
+
+.frontFeaturedPromotions .complementaryInfo a, .frontFeaturedPromotions .complementaryInfo a:visited
+{ color: #640; }
+
+/** Classified */
+
+.frontFeaturedClassifieds .standardTitle span
+{ color: #764; }
+
+.frontFeaturedClassifieds .featuredClassifiedImage:hover
+{ border: 5px solid #764; text-decoration: none; }
+
+.frontFeaturedClassifieds h3 a, .frontFeaturedClassifieds h3 a:visited
+{ color: #774; }
+
+.frontFeaturedClassifieds .complementaryInfo a, .frontFeaturedClassifieds .complementaryInfo a:visited
+{ color: #764; }
+
+/** Article */
+
+.frontFeaturedArticles
+{ border: 5px solid #E0DEED; margin: 15px 10px 0 10px; padding: 10px; }
+
+.frontFeaturedArticles .standardTitle
+{ border-bottom: 1px solid #EEE; color: #557; padding: 0 0 10px 0; }
+
+.frontFeaturedArticles .standardTitle span
+{ color: #669; }
+
+.frontFeaturedArticles .featured
+{ font: normal 11px/18px Verdana, Arial, Helvetica, sans-serif; padding-top: 0; }
+
+.frontFeaturedArticles .divisor
+{ border-bottom: 1px dashed #EEE; }
+
+.frontFeaturedArticles .featuredItems
+{ padding-top: 0; }
+
+.frontFeaturedArticles h3
+{ font-size: 11px; }
+
+.frontFeaturedArticles h3 a, .frontFeaturedArticles h3 a:visited
+{ background: url(images/design/bullet_frontArticles.gif) no-repeat 0 10px; color: #557; display: block; padding: 5px 0 0 10px; }
+
+.frontFeaturedArticles .complementaryInfo a, .frontFeaturedArticles .complementaryInfo a:visited
+{ color: #557; }
+
+.frontFeaturedArticles .readMore a, .frontFeaturedArticles .readMore a:visited
+{ color: #669; }
+
+/** Event */
+
+.frontFeaturedEvents
+{ border: 5px solid #FFE6D5; margin: 0 0 10px 0; padding: 10px; }
+
+.frontFeaturedEvents .standardTitle
+{ border-bottom: 1px solid #EEE; color: #B40; margin-bottom: 10px; }
+
+.frontFeaturedEvents .standardTitle span
+{ color: #F60; }
+
+.frontFeaturedEvents .highlightBox
+{ background: #FFF2EA; border: 3px solid #FFE6D5; }
+
+.frontFeaturedEvents .featuredEventImage
+{ border: 1px solid #FFE6D5; }
+
+.frontFeaturedEvents .featured
+{ background: url(images/design/bullet_frontArticles.gif) no-repeat 0 10px; border-bottom: 1px dashed #EEE; font: normal 11px/18px Verdana, Arial, Helvetica, sans-serif; padding: 5px 0 5px 10px; }
+
+.frontFeaturedEvents h3
+{ font-size: 11px; }
+
+.frontFeaturedEvents h3 a, .frontFeaturedEvents h3 a:visited
+{ color: #B40; }
+
+.frontFeaturedEvents .complementaryInfo a, .frontFeaturedEvents .complementaryInfo a:visited
+{ color: #B40; }

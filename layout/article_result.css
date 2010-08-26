@@ -1,0 +1,145 @@
+/* ARTICLE RESULTS > COLUMNS
+////////////////////////////////////////////////*/
+
+blockquote.articleLeftContentExtended,
+blockquote.articleRightContent,
+blockquote.articleAdvertise
+{margin: 0; margin-right: 10px; padding: 0; float: left; background: none; border: 0;}
+
+	blockquote.articleLeftContentExtended
+	{width: 510px;}
+
+	blockquote.articleRightContent
+	{width: 200px; padding-right:10px; border-right: 1px solid #EEE;}
+	
+	blockquote.articleAdvertise
+	{width: 200px; margin: 0;}
+	
+/* ARTICLE RESULTS > VIEW ALL CATEGORIES
+/////////////////////////////////////////////////////*/
+
+div.articleCATEGORIES
+{margin: 0 15px 0 15px; padding: 10px; background: #FFF; border: 5px solid #E2E7F1;}
+
+	div.articleCATEGORIES blockquote,
+	div.articleCATEGORIES blockquote.articleCATEGORIESrightcolumn	
+	{width: 47%; font: normal 10px/normal Verdana, Arial, Helvetica, sans-serif; text-align: left; padding: 0; float: left;}
+	
+		div.articleCATEGORIES blockquote.articleCATEGORIESrightcolumn
+		{/*width: 45%;*/ float: right;}
+		
+		/* SCALABILITY FEATURE > CATEGORIES > VIEW ALL CATEGORIES */
+		div.articleCATEGORIES blockquote.allCategories
+		{width:100%; float:none;}
+		
+		div.articleCATEGORIES blockquote h1,
+		div.articleCATEGORIES blockquote h2
+		{line-height:normal; display:inline; margin:0; padding:0;}
+
+		div.articleCATEGORIES blockquote a:link,
+		div.articleCATEGORIES blockquote a:active,
+		div.articleCATEGORIES blockquote a:visited,
+		div.articleCATEGORIES blockquote a:hover
+		{font: normal 10px/15px Verdana, Arial, Helvetica, sans-serif; color: #333; text-decoration: none;}
+	
+			div.articleCATEGORIES blockquote a:hover
+			{color: #000; text-decoration: underline;}
+			
+		div.articleCATEGORIES blockquote h1.articleCATEGORIEStitle a:link,
+		div.articleCATEGORIES blockquote h1.articleCATEGORIEStitle a:active,
+		div.articleCATEGORIES blockquote h1.articleCATEGORIEStitle a:visited,
+		div.articleCATEGORIES blockquote h1.articleCATEGORIEStitle a:hover
+		{font: bold 14px/20px Arial, Helvetica, sans-serif; color: #000; display: block; text-decoration: none; margin: 0; padding: 0 0 0 7px; background: url("../images/design/bullet_article.gif") 0 7px no-repeat; border: 0;}
+
+				div.articleCATEGORIES blockquote h1.articleCATEGORIEStitle a:hover
+				{color: #5D7392; text-decoration: underline;}
+
+					div.articleCATEGORIES blockquote h1.articleCATEGORIEStitle a span {color: #999;}
+
+/* ARTICLE RESULTS > "LEFT" CONTENT EXTENDED > ARTICLE SUMMARY
+////////////////////////////////////////////////*/
+
+div.articleSummary
+{width: 95%; clear: left; text-align: left; padding:0 0 10px 0; margin: 0 auto 10px auto; border-bottom: 1px solid #EEE;}
+
+	div.articleSummary a:link,
+	div.articleSummary a:active,
+	div.articleSummary a:visited,
+	div.articleSummary a:hover
+	{color: #96293F;}
+	
+	div.articleSummary a:hover
+	{color: #000; text-decoration: underline;}
+	
+	div.articleSummary h2
+	{font: bold 14px Arial, Helvetica, sans-serif; margin: 0; padding: 0; border: 0;}
+
+		div.articleSummary h2 a:link,
+		div.articleSummary h2 a:active,
+		div.articleSummary h2 a:visited,
+		div.articleSummary h2 a:hover
+		{color: #000; padding-left: 5px; border-left: 5px solid #647C97;}
+		
+			div.articleSummary h2 span a:link,
+			div.articleSummary h2 span a:active,
+			div.articleSummary h2 span a:visited,
+			div.articleSummary h2 span a:hover
+			{color:#666; padding:0; border:none;}
+
+			div.articleSummary h2 span a:hover,
+			div.articleSummary h2 a:hover
+			{color: #647C97;}
+	
+	div.articleSummary h2 span
+	{display: block; font: normal 10px Verdana, Arial, Helvetica, sans-serif; color: #666; text-align: left; padding: 5px 0 5px 10px;}
+			
+	div.articleSummary .baseIconNavbar
+	{padding:0;}
+	
+	div.articleSummary div.articleSummaryIMAGE
+	{float:left; padding:10px 0 0 0;}
+	
+	div.articleSummary div.articleSummaryIMAGE div.imgArticleSummary
+	{background: #F1F3F8; border: 5px solid #E2E7F1; padding:8px 0 8px 0; text-align:center;}
+	
+		div.articleSummaryIMAGE div.imgArticleSummary div.noimage
+		{border:none; margin:0 auto 0 auto;}
+		
+	div.articleSummary div.articleSummaryContent
+	{padding:0 10px 0 0;}
+	
+	div.articleSummary div.contentShowcase
+	{float:right; width:54%; padding-top:10px;}
+	
+	div.articleSummary p,
+	div.articleSummary address
+	{font: normal 11px/normal Verdana, Arial, Helvetica, sans-serif; color: #000;}
+	
+	div.articleSummary p.articleSummaryDescription
+	{padding:0 0 5px 0;}
+	
+	div.articleSummary address
+	{font-style:normal;  margin: 0 0 5px 0;}
+	
+		div.articleSummary address span
+		{display:block;}
+		
+	div.articleSummary p.moreInfo a:link,
+	div.articleSummary p.moreInfo a:active,
+	div.articleSummary p.moreInfo a:visited,
+	div.articleSummary p.moreInfo a:hover
+	{font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #BF4D00; text-align: right; padding: 0; display: block;}
+
+		div.articleSummary p.moreInfo a:hover
+		{color: #000; text-decoration: underline;}
+
+/* ARTICLE RESULTS > MISC CLASSES > ICON NAVBAR
+/////////////////////////////////////////////////////*/
+
+	ul.iconNavbar li a:link,
+	ul.iconNavbar li a:active,
+	ul.iconNavbar li a:visited,
+	ul.iconNavbar li a:hover {color: #38495C;}
+
+		ul.iconNavbar li a:hover {border: 1px solid #B0BFCF;}
+		

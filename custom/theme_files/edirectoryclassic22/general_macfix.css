@@ -1,0 +1,11 @@
+/**
+* Fix height of the navbar
+*
+* @bugfix
+* @affected	Safari 3.x/Win, Safari 3.x/Mac
+* @valid		yes
+*/
+
+.navbar
+{ font-size: 13px; }
+

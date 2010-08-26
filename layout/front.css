@@ -1,0 +1,71 @@
+/**
+* eDirectory - Style Definitions on Modules Front Page
+*
+* This style sheet describes the styles applied for the front page
+* of all modules
+*
+* @package		layout
+* @author			Sis Dir 2009 - Classificados
+* @copyright	Copyright (c) 2009, Sis Dir 2009 - Classificados Inc.
+*
+* @colordef		#069; standard blue 					(link color and title highlight)
+* @colordef		#333; standard dark gray 			(text colors)
+* @colordef		#666; standard gray 					(notes, complementary information)
+* @colordef		#690; standard green color 		(footer links, membros links, search box)
+* @colordef		#C00; standard red 						(standard hover link, highlight label, calendar day's hover, secondary link color)
+* @colordef		#CCC; standard border color
+* @colordef		#EEE; secondary border color
+* @colordef		#FFC; standard yellow color 	(highlight featured, calendar day's hover)
+* @colordef		#F7F7F7; tertiary border color, light gray background color
+* @colordef		#FFFFEF; secondary yellow		 	(showcase background, subcategories' dropdown)
+*/
+
+/**
+* Categories
+*
+* @section	categories
+*/
+
+.categories
+{ height: 100%; overflow: hidden; }
+
+	.categories h3
+	{ font-size: 14px; line-height: 18px; padding: 5px 0 0 0; }
+
+	.categories .categoriesColumn
+	{ float: left; padding: 0 10px 0 0; width: 48%; }
+	
+	.categories .categoriesRightColumn
+	{ padding: 0; }
+
+/**
+* Locations
+*
+* @section	locations
+*/
+
+.locations
+{ height: 100%; overflow: hidden; }
+
+	.locations h3
+	{ font-size: 12px; padding: 5px 0 5px 10px; }
+	
+/** All Locations */
+
+.allLocations
+{ border-bottom: 1px solid #EEE; padding: 10px 0 10px 0; }
+	
+/**
+* Quick List
+*
+* @section	quicklist
+*/
+	
+.quickList
+{ padding: 10px 0 10px 0; }
+
+.sidebar .featuredItems
+{ padding: 0; }
+
+	.sidebar .quickList h3
+	{ line-height: 24px; }

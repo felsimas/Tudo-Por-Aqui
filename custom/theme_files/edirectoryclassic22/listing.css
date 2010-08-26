@@ -1,0 +1,143 @@
+/**
+* Special color scheme for modules
+*
+* @section		scheme
+* @subsection	listing
+*/
+
+/** Navbar */
+
+.navbar
+{ border-bottom: 1px solid #692; }
+
+.navbar li a:hover, .navbar li.menuActived a, .navbar li.menuActived a:visited
+{ background:url(images/design/bg_navbar_businessOn.gif) bottom center repeat-x; }
+
+/** Typograph */
+
+.standardTitle span
+{ color: #692; }
+
+.viewMore a, .viewMore a:visited
+{ color: #923; }
+
+/** Member Join */
+
+.memberJoin h2, .memberJoin h2 a, .memberJoin h2 a:visited
+{ color: #692; }
+
+.memberJoin p, .memberJoin p a, .memberJoin p a:visited
+{ color: #333; }
+
+/** Search */
+
+.search
+{ background: #CFEBB4; border: 5px solid #95D257; }
+
+.search label, .search .altLabel, .search legend
+{ color: #351; }
+
+.search input, .search select, .search textarea
+{ border: 1px solid #95D257; border-bottom: 1px solid #FFF; border-right: 1px solid #FFF; }
+
+.templateTabContent input, .templateTabContent select
+{ border-bottom: 1px solid #ECF7E1; border-right: 1px solid #ECF7E1; }
+
+.advancedSearch a, .advancedSearch a:visited,
+.advancedSearchClose a, .advancedSearchClose a:visited
+{ color: #351; }
+
+.standardButton button, .standardButton a, .standardButton a:visited
+{ background: url(images/design/bg_businessButton.gif) repeat-x 0 0; }
+
+.searchCategory
+{ background: #E8F4DF; color: #284213; }
+
+.searchSubcategory
+{ background: #F9FDF7; color: #518426; }
+
+.templateActive a, .templateActive a:visited
+{ border: 1px solid #95D257; border-bottom: none; color: #284213; }
+
+.templateTabContent
+{ border: 1px solid #95D257; }
+
+
+/** Categories */
+
+.categories
+{ border: 5px solid #F2F7EE; }
+
+.sidebar .categories
+{ border: none; }
+
+.sidebar .categories h3
+{ background: none; padding: 0; }
+
+.categories h3 a, .categories h3 a:visited
+{ background: url(images/design/bg_CATbullet.gif) no-repeat 0 5px; }
+
+.categories h3 a:hover
+{ color: #692 !important; }
+
+/** Featured */
+
+.highlightBox
+{ background: #F2F7EE; border: 3px solid #E5EFDC; }
+
+.featuredListingImage
+{ border: 5px solid #E5EFDC; }
+
+.featuredListingImage:hover
+{ border: 5px solid #692; }
+
+.featuredItems h3 a, .featuredItems h3 a:visited
+{ color: #351; }
+
+.featuredItems .complementaryInfo a, .featuredItems .complementaryInfo a:visited
+{ color: #923; }
+
+/** Results */
+
+.standardSubTitle strong
+{ color: #692; }
+
+.summary a, .summary a:visited
+{ color: #923; }
+
+.summary h3 a, .summary h3 a:visited
+{ border-left: 5px solid #692; }
+
+.summary h3 a:hover
+{ color: #692 !important; }
+
+.summaryImage
+{ background: #F2F7EE; border: 5px solid #E5EFDC; }
+
+/** Detail */
+
+.detail h2
+{ color: #692; }
+
+.detail a, .detail a:visited
+{ color: #923; }
+
+.imgDetail, .detailGallery img
+{ background: #F2F7EE; border: 5px solid #E5EFDC; padding: 5px; }
+
+.detailGallery img
+{  border: 3px solid #E5EFDC; }
+
+/** General */
+
+.iconNavbar a, .iconNavbar a:visited
+{ color: #351; }
+
+.iconNavbar a:hover
+{ border: 1px solid #E5EFDC; color: #692 !important; text-decoration: none; }
+
+/** Ratings */
+
+.rateComments .complementaryInfo,
+.rateComments h4 a, .rateComments h4 a:visited
+{ color: #692; background:black; }

@@ -1,0 +1,13 @@
+Ionics Isapi Rewrite Filter
+http://www.codeplex.com/IIRF
+
+ONLY FOR WINDOWS SETUP
+
+Install
+1. Write down the DOCUMENT_ROOT at RewriteLog path at IsapiRewrite4.ini
+2. Uncomment RewriteLog, RewriteLogLevel and MaxMatchCount at IsapiRewrite4.ini
+3. Uncomment all RewriteRule useful
+4. Give the IsapiRewrite4.dll and IsapiRewrite4.ini read permissions to the IIS user or "Everyone".
+5. Register the dll as an ISAPI Filter at the website IIS Configuration.
+
+License: http://www.codeplex.com/IIRF/license

@@ -1,0 +1,71 @@
+/**
+* Global Definitions
+*
+* @section		popup
+* @subsection global
+*/
+
+.wrapper
+{ background: #FFF url(images/bg_wrapper.gif) repeat-x 0 0; margin: 0 auto 0 auto; padding: 0 10px 0 10px; width: 980px; }
+
+.header
+{ height: 193px; }
+
+h1
+{ border: none; color: #FFF; }
+
+/**
+* FAQ
+*
+* @section		popup
+* @subsection	faq
+*/
+
+.faqQuestion
+{ padding: 0 0 10px 0; }
+
+	.faqQuestion h2
+	{ padding-bottom: 5px; }
+	
+/** FAQ Paging */
+	
+.paging
+{ background: #FAF9F5; height: 100%; overflow: hidden; position: relative; }
+
+	.paging p
+	{ border-bottom: 1px solid #EEE; padding: 10px 10px 5px 5px; }
+
+	.paging span
+	{ position: absolute; right: 5px; top: 5px; }
+
+	.paging input
+	{ font-size: 11px; height: 12px; margin-right: 3px; width: 25px; }
+
+.descNavigation
+{ font-size: 14px; }
+
+	.descNavigation strong
+	{ color: #069; }
+
+.letraNavigation
+{ border-bottom: 1px solid #F7F7F7; color: #999; font-size: 14px; line-height: 30px; }
+
+	.letraNavigation a, .letraNavigation a:visited
+	{ color: #069; padding: 0 0 0 17px; }
+	
+/** FAQ Search */
+
+.faqSearch
+{ bottom: -33px; position: absolute; right: 0; }
+
+.faqSearch form
+{ background: url(images/bg_search.gif) repeat 0 0; border: 1px solid #096C9B; clear: both; font-size: 11px; height: 30px; overflow: hidden; line-height: 30px; padding: 5px; float: left; }
+
+.faqSearch input
+{ float: left; margin: 5px 10px 0 10px; }
+
+.faqSearch label
+{ display: block; float: left; }
+
+.faqSearch .standardButton
+{ float: left; }

@@ -1,0 +1,313 @@
+/* FAVORITES PAGE > GLOBAL SEARCH
+/////////////////////////////////////////////////////*/
+
+div.simpleSearch
+{padding: 10px 10px 0 10px; border: 5px solid #A7BFD8;}
+
+	div.simpleSearch label
+	{font: normal 18px/20px Arial, Helvetica, sans-serif; color: #162432; margin: 0 10px 10px 0; padding: 0;}
+
+		div.simpleSearch label span
+		{color: #003F7E;}
+		
+	div.simpleSearch ul.standardButton
+	{height:29px; margin-bottom:0; padding-bottom:10px;}
+
+	div.simpleSearch ul.standardButton li
+	{float: right;}
+	
+		div.simpleSearch ul.standardButton li input,
+		div.simpleSearch ul.standardButton li button
+		{width: 73px;}
+
+/* FAVORITES PAGE > FAVORITE BUSINESSES
+/////////////////////////////////////////////////////*/
+
+	div.favoriteBusinesses
+	{padding-bottom: 10px; margin-left: 15px; clear: both; border-bottom:1px solid #EEE;}
+
+		div.favoriteBusinesses *
+		{margin: 0; padding: 0;}
+
+	div.favoriteBusinesses p.standardTitle{color: #000; padding: 0 0 10px 0; margin: 0;}
+
+		div.favoriteBusinesses p.standardTitle span {color: #6AA72E;}
+
+	blockquote.highlightBusinesses
+	{height: 150px; position:relative; margin: 0 9px 0 0; float: left; border: 0;}
+	
+		html>body blockquote.highlightBusinesses
+		{height:auto; min-height: 150px;}
+	
+		blockquote.highlightBusinesses a.favoriteBusinessesIMAGE:link,
+		blockquote.highlightBusinesses a.favoriteBusinessesIMAGE:active,
+		blockquote.highlightBusinesses a.favoriteBusinessesIMAGE:visited,
+		blockquote.highlightBusinesses a.favoriteBusinessesIMAGE:hover,
+		
+		blockquote.highlightBusinesses a.favoriteBusinessesNOIMAGE:link,
+		blockquote.highlightBusinesses a.favoriteBusinessesNOIMAGE:active,
+		blockquote.highlightBusinesses a.favoriteBusinessesNOIMAGE:visited,
+		blockquote.highlightBusinesses a.favoriteBusinessesNOIMAGE:hover
+		{display: block; border: 5px solid #EEE;}
+	
+			blockquote.highlightBusinesses a.favoriteBusinessesIMAGE:hover,
+			blockquote.highlightBusinesses a.favoriteBusinessesNOIMAGE:hover
+			{border: 5px solid #609629;}
+
+		blockquote.highlightBusinesses h1,
+		blockquote.highlightBusinesses h1 a:link,
+		blockquote.highlightBusinesses h1 a:active,
+		blockquote.highlightBusinesses h1 a:visited,
+		blockquote.highlightBusinesses h1 a:hover
+		{font: normal 13px Arial, Helvetica, sans-serif; color: #3F631B; text-align: left; padding: 5px 0 0 0; margin: 0;}
+		
+			blockquote.highlightBusinesses h1 a:hover
+			{color: #000; text-decoration: underline;}
+			
+		blockquote.highlightBusinesses a.quickListRemove:link,
+		blockquote.highlightBusinesses a.quickListRemove:active,
+		blockquote.highlightBusinesses a.quickListRemove:visited,
+		blockquote.highlightBusinesses a.quickListRemove:hover
+		{width:16px; height:16px; position:absolute; bottom:63px; left:6px;}
+		
+		ul.highlightBusinessesList
+		{clear:both; list-style:none; margin:0; padding:0;}
+		
+			ul.highlightBusinessesList li
+			{text-align:left; padding:0 0 5px 0;}
+			
+				ul.highlightBusinessesList li span
+				{display:block; float:left; padding-top:2px;}
+			
+				ul.highlightBusinessesList li a:link,
+				ul.highlightBusinessesList li a:active,
+				ul.highlightBusinessesList li a:visited,
+				ul.highlightBusinessesList li a:hover
+				{font:12px/18px Arial, Helvetica, sans-serif; color:#3F631B; text-align:left;}
+				
+					ul.highlightBusinessesList li a:hover
+					{color:#000; text-decoration:underline;}
+		
+/* FAVORITES PAGE > FAVORITE PROMOTIONS
+/////////////////////////////////////////////////////*/
+
+	div.favoritePromotions
+	{padding-bottom: 10px; margin-left: 15px; clear: both; border-bottom:1px solid #EEE;}
+
+		div.favoritePromotions *
+		{margin: 0; padding: 0;}
+
+	div.favoritePromotions p.standardTitle{color: #000; padding: 10px 0 10px 0; margin: 0;}
+
+		div.favoritePromotions p.standardTitle span {color: #FFB504;}
+
+	blockquote.highlightPromotions
+	{height: 150px; position:relative; margin: 0 9px 0 0; float: left; border: 0;}
+	
+		html>body blockquote.highlightPromotions
+		{height:auto; min-height: 150px;}
+	
+		blockquote.highlightPromotions a.favoritePromotionsIMAGE:link,
+		blockquote.highlightPromotions a.favoritePromotionsIMAGE:active,
+		blockquote.highlightPromotions a.favoritePromotionsIMAGE:visited,
+		blockquote.highlightPromotions a.favoritePromotionsIMAGE:hover,
+		
+		blockquote.highlightPromotions a.favoritePromotionsNOIMAGE:link,
+		blockquote.highlightPromotions a.favoritePromotionsNOIMAGE:active,
+		blockquote.highlightPromotions a.favoritePromotionsNOIMAGE:visited,
+		blockquote.highlightPromotions a.favoritePromotionsNOIMAGE:hover
+		{display: block; border: 5px solid #EEE;}
+	
+			blockquote.highlightPromotions a.favoritePromotionsIMAGE:hover,
+			blockquote.highlightPromotions a.favoritePromotionsNOIMAGE:hover
+			{border: 5px solid #FFB504;}
+
+		blockquote.highlightPromotions	h1,
+		blockquote.highlightPromotions	h1 a:link,
+		blockquote.highlightPromotions	h1 a:active,
+		blockquote.highlightPromotions	h1 a:visited,
+		blockquote.highlightPromotions	h1 a:hover
+		{font: normal 13px Arial, Helvetica, sans-serif; color: #6A6546; text-align: left; padding: 5px 0 0 0; margin: 0;}
+	
+			blockquote.highlightPromotions	h1 a:hover
+			{color: #000; text-decoration: underline;}
+			
+		blockquote.highlightPromotions a.quickListRemove:link,
+		blockquote.highlightPromotions a.quickListRemove:active,
+		blockquote.highlightPromotions a.quickListRemove:visited,
+		blockquote.highlightPromotions a.quickListRemove:hover
+		{width:16px; height:16px; position:absolute; bottom:71px; left:6px;}
+		
+/* FAVORITES PAGE > FAVORITE EVENTS
+/////////////////////////////////////////////////////*/
+
+	div.favoriteEvent
+	{padding-bottom: 10px; margin-left: 15px; clear: both;	voice-family: "\"}\""; voice-family:inherit; margin-bottom: 20px; border-bottom:1px solid #EEE;}
+	html>body div.favoriteEvent
+	{margin-bottom: 10px;}
+
+		div.favoriteEvent *
+		{margin: 0; padding: 0;}
+
+	div.favoriteEvent p.standardTitle{color: #000; padding: 10px 0 10px 0; margin: 0;}
+
+		div.favoriteEvent p.standardTitle span {color: #F46200;}
+
+	blockquote.highlightEvent
+	{height: 150px; position:relative; margin: 0 9px 0 0; float: left; border: 0;}
+	
+		html>body blockquote.highlightEvent
+		{height:auto; min-height: 150px;}
+	
+		blockquote.highlightEvent a.favoriteEventIMAGE:link,
+		blockquote.highlightEvent a.favoriteEventIMAGE:active,
+		blockquote.highlightEvent a.favoriteEventIMAGE:visited,
+		blockquote.highlightEvent a.favoriteEventIMAGE:hover,
+		
+		blockquote.highlightEvent a.favoriteEventNOIMAGE:link,
+		blockquote.highlightEvent a.favoriteEventNOIMAGE:active,
+		blockquote.highlightEvent a.favoriteEventNOIMAGE:visited,
+		blockquote.highlightEvent a.favoriteEventNOIMAGE:hover
+		{display: block; border: 5px solid #EEE;}
+	
+			blockquote.highlightEvent a.favoriteEventIMAGE:hover,
+			blockquote.highlightEvent a.favoriteEventNOIMAGE:hover
+			{border: 5px solid #F46200;}
+
+		blockquote.highlightEvent h1,
+		blockquote.highlightEvent h1 a:link,
+		blockquote.highlightEvent h1 a:active,
+		blockquote.highlightEvent h1 a:visited,
+		blockquote.highlightEvent h1 a:hover
+		{font: normal 13px Arial, Helvetica, sans-serif; color: #F46200; text-align: left; padding: 5px 0 0 0; margin: 0;}
+	
+			blockquote.highlightEvent h1 a:hover
+			{color: #000; text-decoration: underline;}
+			
+		blockquote.highlightEvent a.quickListRemove:link,
+		blockquote.highlightEvent a.quickListRemove:active,
+		blockquote.highlightEvent a.quickListRemove:visited,
+		blockquote.highlightEvent a.quickListRemove:hover
+		{width:16px; height:16px; position:absolute; bottom:63px; left:6px;}
+		
+		ul.highlightEventList
+		{clear:both; list-style:none; margin:0; padding:0;}
+		
+			ul.highlightEventList li
+			{text-align:left; padding:0 0 5px 0;}
+			
+				ul.highlightEventList li span
+				{display:block; float:left; padding-top:2px;}
+		
+				ul.highlightEventList li a:link,
+				ul.highlightEventList li a:active,
+				ul.highlightEventList li a:visited,
+				ul.highlightEventList li a:hover
+				{font:12px/18px Arial, Helvetica, sans-serif; color:#3F631B; text-align:left;}
+				
+					ul.highlightEventList li a:hover
+					{color:#000; text-decoration:underline;}
+		
+/* FAVORITES PAGE > FAVORITE CLASSIFIEDS
+/////////////////////////////////////////////////////*/
+
+	div.favoriteClassified
+	{padding-bottom: 10px; margin-left: 15px; clear: both;	voice-family: "\"}\""; voice-family:inherit; margin-bottom: 20px; border-bottom:1px solid #EEE;}
+	html>body div.favoriteClassified
+	{margin-bottom: 10px;}
+
+		div.favoriteClassified *
+		{margin: 0; padding: 0;}
+
+	div.favoriteClassified p.standardTitle{color: #000; padding: 10px 0 10px 0; margin: 0;}
+
+		div.favoriteClassified p.standardTitle span {color: #7D654F;}
+
+	blockquote.highlightClassified
+	{height: 150px; position:relative; margin: 0 9px 0 0; float: left; border: 0;}
+	
+		html>body blockquote.highlightClassified
+		{height:auto; min-height: 150px;}
+	
+		blockquote.highlightClassified a.favoriteClassifiedIMAGE:link,
+		blockquote.highlightClassified a.favoriteClassifiedIMAGE:active,
+		blockquote.highlightClassified a.favoriteClassifiedIMAGE:visited,
+		blockquote.highlightClassified a.favoriteClassifiedIMAGE:hover,
+		
+		blockquote.highlightClassified a.favoriteClassifiedNOIMAGE:link,
+		blockquote.highlightClassified a.favoriteClassifiedNOIMAGE:active,
+		blockquote.highlightClassified a.favoriteClassifiedNOIMAGE:visited,
+		blockquote.highlightClassified a.favoriteClassifiedNOIMAGE:hover
+		{display: block; border: 5px solid #EEE;}
+	
+			blockquote.highlightClassified a.favoriteClassifiedIMAGE:hover,
+			blockquote.highlightClassified a.favoriteClassifiedNOIMAGE:hover
+			{border: 5px solid #5F4D3C;}
+
+		blockquote.highlightClassified h1,
+		blockquote.highlightClassified h1 a:link,
+		blockquote.highlightClassified h1 a:active,
+		blockquote.highlightClassified h1 a:visited,
+		blockquote.highlightClassified h1 a:hover
+		{font: normal 13px Arial, Helvetica, sans-serif; color: #7D654F; text-align: left; padding: 5px 0 0 0; margin: 0;}
+	
+			blockquote.highlightClassified h1 a:hover
+			{color: #000; text-decoration: underline;}
+			
+		blockquote.highlightClassified a.quickListRemove:link,
+		blockquote.highlightClassified a.quickListRemove:active,
+		blockquote.highlightClassified a.quickListRemove:visited,
+		blockquote.highlightClassified a.quickListRemove:hover
+		{width:16px; height:16px; position:absolute; bottom:63px; left:6px;}
+
+/* FAVORITES PAGE > FAVORITE ARTICLES
+/////////////////////////////////////////////////////*/
+
+	div.favoriteArticle
+	{padding-bottom: 10px; margin-left: 15px; clear: both;	voice-family: "\"}\""; voice-family:inherit; margin-bottom: 20px; border-bottom:1px solid #EEE;}
+	html>body div.favoriteArticle
+	{margin-bottom: 10px;}
+
+		div.favoriteArticle *
+		{margin: 0; padding: 0;}
+
+	div.favoriteArticle p.standardTitle{color: #000; padding: 10px 0 10px 0; margin: 0;}
+
+		div.favoriteArticle p.standardTitle span {color: #425A7E;}
+
+	blockquote.highlightArticle
+	{ height: 150px; position:relative; margin: 0 9px 0 0; float: left; border: 0;}
+	
+		html>body blockquote.highlightArticle
+		{height:auto; min-height: 150px;}
+	
+		blockquote.highlightArticle a.favoriteArticleIMAGE:link,
+		blockquote.highlightArticle a.favoriteArticleIMAGE:active,
+		blockquote.highlightArticle a.favoriteArticleIMAGE:visited,
+		blockquote.highlightArticle a.favoriteArticleIMAGE:hover,
+		
+		blockquote.highlightArticle a.favoriteArticleNOIMAGE:link,
+		blockquote.highlightArticle a.favoriteArticleNOIMAGE:active,
+		blockquote.highlightArticle a.favoriteArticleNOIMAGE:visited,
+		blockquote.highlightArticle a.favoriteArticleNOIMAGE:hover
+		{display: block; border: 5px solid #EEE;}
+	
+			blockquote.highlightArticle a.favoriteArticleIMAGE:hover,
+			blockquote.highlightArticle a.favoriteArticleNOIMAGE:hover
+			{border: 5px solid #425A7E;}
+
+		blockquote.highlightArticle h1,
+		blockquote.highlightArticle h1 a:link,
+		blockquote.highlightArticle h1 a:active,
+		blockquote.highlightArticle h1 a:visited,
+		blockquote.highlightArticle h1 a:hover
+		{font: normal 13px Arial, Helvetica, sans-serif; color: #3B6E9F; text-align: left; padding: 5px 0 0 0; margin: 0;}
+	
+			blockquote.highlightArticle h1 a:hover
+			{text-decoration: underline;}
+			
+		blockquote.highlightArticle a.quickListRemove:link,
+		blockquote.highlightArticle a.quickListRemove:active,
+		blockquote.highlightArticle a.quickListRemove:visited,
+		blockquote.highlightArticle a.quickListRemove:hover
+		{color: #000; width:16px; height:16px; position:absolute; bottom:68px; left:6px;}

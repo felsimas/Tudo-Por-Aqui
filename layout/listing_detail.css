@@ -1,0 +1,227 @@
+ul.iconNavbar {width: auto;}
+
+div.wrapper div.content blockquote.middleContentExtended {position: relative;}
+
+/* LISTING DETAIL PAGE > MIDDLE CONTENT EXTENDED > LISTING DETAIL
+/////////////////////////////////////////////////////*/
+
+div.listingDetail
+{width: 96%; text-align: left; margin: 0 auto 10px auto; font: normal 11px/14px Verdana, Arial, Helvetica, sans-serif; color: #000;}
+	
+	div.listingDetail p
+	{color:#333; margin: 0 0 5px 0;}
+	
+	div.listingDetail h1.listingDetailTitle
+	{font: bold 24px/30px Arial, Helvetica, sans-serif; color:#609629; padding-bottom:10px;}
+	
+	div.listingDetail p.listingContentTitle
+	{font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#333; margin-bottom: 0;}
+	
+	div.listingDetail p.listingContentTitle span
+	{font-weight:normal; color:#000;}
+	
+		div.listingDetail p.spacingTitle
+		{padding-top:15px;}
+	
+	div.listingDetail address
+	{font-style:normal;  margin: 0 0 5px 0;}
+		
+		div.listingDetail address span
+		{display:block;}
+		
+	div.listingDetail p.listingCategoryTree,
+	div.listingDetail address
+	{line-height:18px;}
+
+	/* CONTENT COLUMN */
+	div.listingDetail div.listingDetailContent
+	{width:53%; float:left;}
+	
+	div.listingDetail div.listingDetailIMAGE
+	{float:right;}
+		
+	div.listingDetail a:link,
+	div.listingDetail a:active,
+	div.listingDetail a:visited,
+	div.listingDetail a:hover
+	{color: #96293F;}
+	
+	div.listingDetail a:hover
+	{color: #000; text-decoration:underline;}
+	
+	ul.rating
+	{ width: 320px; border: 0; height: 20px; padding: 0; voice-family: "\"}\""; voice-family:inherit; margin: 10px 8px 0 0;}
+	html>body table.listingDetail div.baseImgListingDetail ul.rating
+	{margin: 10px 15px 7px 0;}
+	
+	div.listingDetail ul.rating li.ratingSeeComment
+	{clear: none;} /* THIS code put the comment, rate it button and 'be the first' phrase bellow the image */
+	
+		ul.rating li.ratingSeeComment a:link,
+		ul.rating li.ratingSeeComment a:active,
+		ul.rating li.ratingSeeComment a:visited,
+		ul.rating li.ratingSeeComment a:hover,
+		ul.rating li.ratingImage a:link,
+		ul.rating li.ratingImage a:active,
+		ul.rating li.ratingImage a:visited,
+		ul.rating li.ratingImage a:hover
+		{line-height:16px;}
+	
+	ul.rating li.ratingReview { width: auto; padding-right: 1px;}
+
+	ul.rating li.ratingImage{padding-left: 3px;}
+	
+	ul.rating li.ratingText{clear: none; padding: 2px 0 0 0;}
+	
+	div.listingDetail ul.iconNavbar
+	{height:auto; clear:both; float:none;}
+	
+	div.listingDetail ul.iconNavbar li.claimnavbarButton
+	{float:none; text-align:right;}
+
+	/* LISTING IMAGE */
+	div.listingDetail div.videoListingDetail,
+	div.listingDetail div.imgListingDetail
+	{text-align: center; padding: 0; margin:10px 0 10px 0; background-color: #F2F7EE; border: 5px solid #E5EFDC;}
+
+		div.listingDetail div.imgListingDetail img
+		{ margin: 0; padding: 5px; border: 0;}
+		
+		div.listingDetail div.noimage
+		{border:none; margin:5px;}
+				
+	div.listingDetail a.listingMoreInfo:link,
+	div.listingDetail a.listingMoreInfo:active,
+	div.listingDetail a.listingMoreInfo:visited,
+	div.listingDetail a.listingMoreInfo:hover
+	{font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #609629; /* text-align: right;  display: block; */}
+
+		div.listingDetail a.listingMoreInfo:hover
+		{color: #000;}
+		
+	div.listingDetail div.listingDetailGallery,
+	div.listingDetail div.listingDetailRatings
+	{padding:15px 0 0 0; clear:both; height:1%; /* IE HACK */}
+
+/* LISTING DETAIL > GALLERY
+/////////////////////////////////////////////////////*/
+
+ul.detailGallery
+{margin: 10px 0 0 0; border: 0; clear:both;}
+
+	ul.detailGallery li
+	{float: left; list-style: none; margin: 0 15px 0 0; border:0;}
+	
+		ul.detailGallery li span
+		{display:block; text-align:center; background:#F2F7EE; padding:5px; border: 5px solid #E5EFDC;}
+	
+		ul.detailGallery li img
+		{ /*margin: 10px 10px 0 10px; border: 5px solid #E5EFDC;*/}
+	
+	ul.detailGallery p,
+	ul.detailGallery pre
+	{padding: 5px 5px 0 0; color: #2E4C6B; text-align:center}
+	
+	ul.detailGallery pre
+	{font:normal 11px/14px Verdana, Arial, Helvetica, sans-serif; color: #2E4C6B;}
+	
+	p.galleryMoreInfo
+	{display:block; clear:both; padding-top:10px;padding-bottom:10px;}
+	
+/* LISTING DETAIL > CONTACT FORM
+/////////////////////////////////////////////////////*/
+
+form.formListingDetail
+{background: #FAFAFA; border: 3px solid #EEE; margin:15px 0 0 0; padding:10px; font: normal 10px/20px Verdana, Arial, Helvetica, sans-serif;}
+
+	form.formListingDetail label,
+	form.formListingDetail div.captchaImage
+	{width:130px; display:block; float:left; clear:left; color:#555; text-align: right; white-space: nowrap; padding-right:10px;}
+	
+	form.formListingDetail span.required
+	{color:#F00;padding-right:5px;}
+	
+	form.formListingDetail p.formListingTitle
+	{font: bold 11px/normal Verdana, Arial, Helvetica, sans-serif; clear:both; color: #609629; padding-bottom:10px;}
+	
+	form.formListingDetail p.formCaptchaWarning
+	{padding:10px 0 10px 140px; line-height:normal;}
+	
+	form.formListingDetail input,
+	form.formListingDetail textarea
+	{width: 515px; font: normal 10px Verdana, Arial, Helvetica, sans-serif; color: #000; padding: 5px; border: 1px solid #E1E1E1; border-bottom: 0; border-right: 0; margin-bottom:10px; float:left; clear:right;}
+	
+		form.formListingDetail input.formCode
+		{width: 100px;}
+	
+	form.formListingDetail ul.standardButton
+	{float: right;  border: 0; clear:right;}
+	
+		form.formListingDetail ul.standardButton li input,
+		form.formListingDetail ul.standardButton li button
+		{width: 83px; background: #355416 url('../images/design/bg_businessButton.gif') 0 0 repeat-x;}
+
+/* LISTING DETAIL > GOOGLE MAP
+/////////////////////////////////////////////////////*/
+
+div.googleMapsWrapper
+{position:relative;}
+	
+div.googleBase
+{width: 318px; height: 250px; margin: 0 0 10px 0; z-index: 1; background: #E5E3DF; border: 1px solid #BAB5A9;}
+
+	div.floatLayer
+	{	/* Old values: top: 320px; left: 150px; - Changed for case 7113 */
+		width: 350px; height: auto; top: -9px; left: -235px; position: absolute; visibility: hidden; z-index: 2; border: 3px solid #ECEBEB; voice-family:"\"}\""; voice-family:inherit; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/design/bg_googleFloatLayer.png', sizingMethod='scale')}
+	html>body div.floatLayer{background: url("../images/design/bg_googleFloatLayer.png") 0 0 repeat;}
+	
+		div.floatLayer blockquote
+		{padding: 10px;}
+		
+		div.floatLayer blockquote img
+		{float: left; margin: 0 10px 10px 0; padding: 3px; border: 1px solid #E1E1E1;}
+		
+		div.floatLayer blockquote h1
+		{font: bold 15px Arial, Helvetica, sans-serif; color: #609629;}
+		
+		div.floatLayer blockquote p
+		{font: normal 11px Verdana, Arial, Helvetica, sans-serif; color: #000;}
+		
+		div.floatLayer blockquote p.googleRating img
+		{border: 0; margin: 0; float: none;}
+		
+		#map span {font:normal 8px Arial, Helvetica, sans-serif;}
+
+/* LISTING DETAIL > REVIEW > RATE COMMENT
+/////////////////////////////////////////////////////*/
+
+	table.rateComments {width: 100%; font: normal 11px Verdana, Arial, Helvetica, sans-serif; text-align: left; margin: 10px auto 10px auto; clear: both; background: #FAFAFA; border: 3px solid #EEE;}
+		
+		table.rateComments th,
+		table.rateComments td {padding: 5px;}
+		
+			table.rateComments th,
+			table.rateComments th a:link,
+			table.rateComments th a:active,
+			table.rateComments th a:visited,
+			table.rateComments th a:hover {font: bold 14px Arial, Helvetica, sans-serif; color: #3F631B; text-align: left;}
+			
+			table.rateComments th.rateCommentssubTitle {font: normal 10px Verdana, Arial, Helvetica, sans-serif; color: #609629; padding: 5px;}
+		
+			table.rateComments th.rateCommentssubTitle img {margin:0 1px 0 0;}
+			
+/* LISTINGS > MISC CLASSES > SOCIAL BOOKMARK ICONS
+/////////////////////////////////////////////////////*/
+
+	ul.socialBookmarkIcons {height: 30px;}
+
+		ul.socialBookmarkIcons, ul.socialBookmarkIcons * { margin: 0; padding: 0; border: 0;}
+
+		ul.socialBookmarkIcons  li {float: right; width: 25px; height: 25px; line-height: 25px; margin-left: 2px; list-style: none; }
+
+		ul.socialBookmarkIcons  li a:link,
+		ul.socialBookmarkIcons  li a:active,
+		ul.socialBookmarkIcons  li a:visited,
+		ul.socialBookmarkIcons  li a:hover {float: none; width: 25px; height: 25px; line-height: 25px; text-decoration: none; display: block; cursor: pointer; }
+
+		ul.socialBookmarkIcons  li a img {behavior: url("../layout/iepngfix2.htc");}

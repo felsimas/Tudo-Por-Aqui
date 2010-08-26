@@ -1,0 +1,310 @@
+/**
+* Step Order
+*
+* @section	step-order
+*/
+
+.standardStep
+{ padding: 15px 0 20px 0; margin: 0 auto 0 auto; overflow: hidden; width: 820px; }
+
+	.standardStep li
+	{ background: url(images/bg_stepInactive.gif) no-repeat 0 0; color: #666; float: left; font-size: 16px; font-weight: bold; margin: 0 0 0 20px; padding: 8px 2px 12px 13px;  width: 150px; }
+
+	.standardStep li span
+	{ color: #999; margin: 0 12px 0 0; }
+
+	.standardStep li.stepActived span
+	{ color: #F60; margin: 0 12px 0 0; }
+
+	.stepActived
+	{ float: left; }
+
+	.standardStep li.standardStepAD
+	{ background: none; width: 200px; }
+	
+	.standardStep li.standardStepAD span
+	{ color: #F60; }
+
+/**
+* Order structure
+*
+* @section	order-structure
+*/
+
+.standardForm
+{ margin: 0; padding: 0; }
+
+.orderTable
+{ width: 100% }
+
+	.orderTable .standardSubTitle
+	{ border-bottom: 1px solid #EEE; padding: 5px; text-align: left; }
+
+	.standardSIGNUPTable .standardSubTitle
+	{ border-bottom: 1px solid #EEE; padding: 5px; }
+
+	.orderTable td
+	{ vertical-align: top; }
+
+	.orderTitle
+	{ background: #069; color: #FFF; padding: 10px; width: 600px; }
+
+	.orderTopdetail
+	{ color: #000; font-weight: bold; padding: 10px; }
+	
+	orderTable .paddingUserTable
+	{ padding: 10px 5px 15px 5px; }
+	
+	.orderUserTable
+	{ background: #F7F7F7; padding: 0 0 10px 0; vertical-align: top; width: 400px; }
+	
+	.orderUserTable table
+	{ text-align: left; margin: 8px auto 0 auto; background: #FFF; border: 2px solid #EFEFEF; width: 95%; }
+	
+	.orderUserTable table td,
+	.orderUserTable table th
+	{ border: 0; padding: 5px; text-align: left; }
+	
+	.orderUserTable table td.warning
+	{ width: 300px; }
+	
+	.orderTable .orderUserTable .formFieldsLogin
+	{ font-size: 11px; float: left; margin: 0; padding: 10px; width: 300px; overflow: hidden; }
+	
+	.orderTable .orderUserTable .formFieldsLogin label
+	{ display: block; float:left; font-weight:bold; padding-right:10px; width: 100px; text-align: right; }
+
+	.orderTable .orderUserTable .formFieldsLogin input
+	{ border: 1px solid #E1E1E1; border-bottom: 1px solid #EEE; float: left; font-size: 10px; margin-bottom:7px; padding: 2px; width: 110px; }
+	
+	.formFieldsLogin .standardButton
+	{ margin: 0 0 0 110px; }
+	
+/** Order signuptable **/
+	
+	.standardSIGNUPTable
+	{ width: 100%; margin: 0px auto 20px auto; font-size: 11px; line-height: 15px; color: #222; border-collapse: collapse; }
+
+	.standardSIGNUPTable .errorTable
+	{ margin-top:15px; }
+
+	.standardSIGNUPTable table
+	{ width: auto; }
+
+	.standardSIGNUPTable td,
+	.standardSIGNUPTable th
+	{ padding: 5px 2px 5px 2px; vertical-align: top; }
+	
+	.standardSIGNUPTable td
+	{ width: 810px; text-align: left; }
+
+	.standardSIGNUPTable td.errorMessage
+	{ padding: 10px 10px 10px 45px; }
+	
+	.standardSIGNUPTable .alignTop
+	{ vertical-align:top; }
+	
+	.standardSIGNUPTable .textTop 
+	{ vertical-align:text-top; }
+	
+	.standardSIGNUPTable td span
+	{ font-size: 11px; color: #666; display: block; }
+	
+	.standardSIGNUPTable .SIGNUPTable-title
+	{ width: auto; text-align: left; padding-top: 20px; }
+	
+	.standardSIGNUPTable .valignTop 
+	{ vertical-align:top; }
+	
+	.standardSIGNUPTable .SIGNUPTable-title span
+	{ color: #666; display: block; font-size: 11px; font-weight: normal; padding-top: 5px;}
+	
+	.standardSIGNUPTable .errorTitle
+	{ background:#FFEAEA; color:#6B2E37; padding:10px 0 5px 10px; }
+	
+	.standardSIGNUPTable a,
+	.standardSIGNUPTable a:visited
+	{ font-weight: normal; color: #692; }
+	
+	.standardSIGNUPTable a:hover
+	{ color: #000; text-decoration: underline; }
+	
+	.standardSIGNUPTable input,
+	.standardSIGNUPTable button,
+	.standardSIGNUPTable select
+	{ border: 1px solid #CCC; font-size: 11px; padding: 2px; width: 80%; }
+	
+	.standardSIGNUPTable select 
+	{ width: 45%; }
+	
+	.standardSIGNUPTable input.inputRadio
+	{ border: none; width: auto; padding: 0;}
+	
+	.standardSIGNUPTable input.password 
+	{ width: 400px; }
+	
+	.tableOrderEvent_date td
+	{ margin: 0; padding: 0 5px 0 0; width: 300px; }
+	
+	.tableOrderEvent_date td input
+	{ width: 300px; }
+	
+	.standard-tableTOPBLUE th
+	{ color: #783; font-size: 12px; padding: 0 0 10px 0; text-align: left; }
+
+	.standard-tableTOPBLUE td
+	{ padding: 0 10px 10px 0; }
+	
+	.orderTotalAmount
+	{ background:#F7F7F7; border:1px solid #CCC;  margin:15px auto 10px auto; font:normal 14px/40px Arial, Helvetica, sans-serif; text-align:left; color:#783; width:auto; }
+	
+		.orderTotalAmount strong
+		{ padding:0 10px 0 45px; }
+	
+		.loadingOrderCalculate
+		{ background: url(../images/img_loading.gif) 0 0 no-repeat; color: #037; font: bold 11px/32px Verdana, Arial, Helvetica, sans-serif; margin:5px auto 0 auto; padding-left:35px; text-align:left; width:110px; }
+		
+.standardButton
+{ margin: 0 auto 0 auto; }
+
+	.formFieldsLogin .standardButton
+	{ margin: 0 0 0 110px; }
+	
+/**
+* Claim Order
+*
+* @section	order-structure
+* @subsection	claim
+*/
+
+.orderTable .claimUserTable
+{ width: 100%; }
+
+.orderTable .claimUserTable table
+{ width: 95%; }
+
+.orderTable .claimUserTable .formFieldsLogin input
+{ width: 100px; }
+
+	.orderTable .orderUserTable table .radioChooseLevel
+	{ padding: 0 0 0 5px; text-align: center; width: 20px; vertical-align: middle; }
+	
+	.radioChooseLevel input
+	{ border: none; }
+
+	.standardChooseLevel
+	{ margin: 0; text-align: left; width: 95%; }
+	
+	.standardChooseLevel th,
+	.standardChooseLevel td
+	{ border-bottom: 1px solid #EEE; color: #333; font-size: 11px; padding: 5px; text-align: right; vertical-align: middle; white-space: nowrap; }
+	
+	.standardChooseLevel th
+	{ color: #666; padding: 0 10px 0 45px;}
+		
+	.standardChooseLevel td
+	{ width: 100%; }
+	
+	.standardChooseLevel td select
+	{ border:1px solid #D4D4D4; border-right: 1px solid #EEE; border-bottom: 1px solid #EEE; font-size: 11px; padding:2px; width:220px; }
+
+	.standardChooseLevel th.radioChooseLevel
+	{ text-align: center; padding: 0 5px 0 5px; border-right: 0; }
+	
+	.radioChooseLevel input
+	{ border: none; }
+	
+.claimButton,
+.standardButton
+{ margin: 0 auto 0 auto; }
+	
+.claimButton,	.claimButton a, .claimButton a:hover
+{ width: 200px; }
+
+	.claimButton button
+	{ width: 200px; } 
+
+/**
+* Tree View Order
+*
+* @section	order-structure
+* @subsection	tree-view
+*/
+
+.standardSIGNUPTable .treeView
+{ padding: 0 0 0 20px; width: auto; }
+
+	.standardSIGNUPTable .treeView li
+	{ font-size: 11px; font-weight: bold; padding-top: 2px; padding-bottom: 1px; }
+	
+	.standardSIGNUPTable .treeView li a, .standardSIGNUPTable .treeView li a:visited
+	{ color: #783; font-weight: bold; }
+	
+	.standardSIGNUPTable .treeView .informationMessage
+	{ padding: 15px 15px 15px 45px; }
+	
+	.standardSIGNUPTable .treeView li.loading
+	{ clear: both; float: none; padding: 10px 10px 10px 60px; width: auto; }
+
+	.categoryBullet
+	{ background: url(images/bullet_sub_menu.gif) no-repeat 6px 8px; font-size: 11px; padding: 2px 0 2px 22px; }
+
+	.standardSIGNUPTable .treeView li ul li
+	{ margin: 0 0 0 17px; padding: 2px 0 2px 20px; }
+
+	.standardSIGNUPTable .treeView li ul li a, .standardSIGNUPTable .treeView li ul li a:visited
+	{ padding: 0 0 0 2px; text-decoration: underline; }
+	
+	.standardSIGNUPTable .treeView span,
+	.standardSIGNUPTable .treeView .treeviewMainMenu_divNodes2 span
+	{ color: #351; display: inline; text-decoration: underline; } 
+	
+	.standardSIGNUPTable .treeView .treeviewLoadingMessage,
+	.standardSIGNUPTable .treeView .treeviewMainMenu
+	{ background: #FFF; border: 1px solid #BCE; display: block; padding: 0 0 0 50px; }
+	
+	.standardSIGNUPTable .treeView .tableCategoriesADDED
+	{ width: 100%; }
+	
+	.standardSIGNUPTable .treeView .tableCategoriesADDED .alignLeft
+	{ text-align:left; }
+	
+	.standardSIGNUPTable .treeView .tableCategoriesADDED .tableCategoriesCONTENT
+	{ width: auto; text-align: center; border: 0; }
+	
+	.standardSIGNUPTable .treeView .tableCategoriesADDED .tableCategoriesCONTENT textarea
+	{ width: 100%; }
+	
+	.standardSIGNUPTable .treeView .tableCategoriesBUTTONS
+	{ text-align: center; width: auto; }
+	
+	.standardSIGNUPTable .treeView .tableCategoriesBUTTONS input,
+	.standardSIGNUPTable .treeView .tableCategoriesBUTTONS button
+	{ background: url(images/bg_treeview_button.gif) 0 0 repeat-x;  border: 0; color: #000; cursor: pointer;  height: 30px; line-height: 30px; width: 210px;  }
+	
+	.standardSIGNUPTable .treeView textarea
+	{  border: 1px solid red; width: 100%;}
+
+/** Tree-view special typograph */
+
+	.standardSIGNUPTable .treeView .categoryOpen
+	{ background: #C30; border: 1px solid #933; color: #FFF; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; margin: 0 5px 0 0 ; padding: 0px 3px 0px 3px; text-align: center; text-decoration:none; }
+
+	.standardSIGNUPTable .treeView .categoryClose
+	{ background: #C30; border: 1px solid #933; color: #FFF;  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; margin: 0 5px 0 0 ; padding: 0px 6px 0px 4px; text-align: center; text-decoration:none; }
+	
+/*
+* Order message
+*
+*@section order-structure
+*@subsection message error
+*/
+
+.standardMessage
+{ margin: 0 auto 0 auto; }
+
+	.standardMessage .errorMessage
+	{ width: 50%; }
+	
+	.errorTitle
+	{ color: #C00; font-size: 11px; padding: 5px 5px 5px 5px; text-align: left; }

@@ -1,0 +1,109 @@
+/**
+* eDirectory - Style Definitions on Advertise Page
+*
+* This style sheet describes the styles applied for the Advertise Page
+*
+* @package		layout
+* @author			Sis Dir 2009 - Classificados
+* @copyright	Copyright (c) 2009, Sis Dir 2009 - Classificados Inc.
+*
+* @colordef		#069; standard blue 					(link color and title highlight)
+* @colordef		#333; standard dark gray 			(text colors)
+* @colordef		#666; standard gray 					(notes, complementary information)
+* @colordef		#690; standard green color		(footer links, membros links, search box)
+* @colordef		#C00; standard red 						(standard hover link, highlight label, calendar day's hover, secondary link color)
+* @colordef		#CCC; standard border color
+* @colordef		#EEE; secondary border color
+* @colordef		#FFC; standard yellow color 	(highlight featured, calendar day's hover)
+* @colordef		#F7F7F7; tertiary border color, light gray background color
+* @colordef		#FFFFEF; secondary yellow		 	(showcase background, subcategories' dropdown)
+*/
+
+/**
+* Advertise
+*
+* @section	advertise
+*/
+
+/**
+* Advertise Tabs
+*
+* @section		advertise
+* @subsection	advertise-tabs
+*/
+
+.advertiseTabs
+{ background: url(../images/design/bg_advertise_tabs.gif) repeat-x 0 100%; height: 31px; }
+
+	.advertiseTabs li
+	{ float: left; line-height: 30px; width: 19%; }
+
+.advertiseTabs a, .advertiseBase a:visited
+{ background: #F7F7F7; color: #666; display: block; font-size: 11px; margin: 0 2px 0 0; text-align: center; text-decoration: none; }
+
+	.advertiseTabs a:hover
+	{ color: #333; text-decoration: none; }
+
+.advertiseTabs .advertiseMenuActive a, .advertiseTabs .advertiseMenuActive a:visited
+{ background: #FFF; border: 1px solid #CCC; border-bottom: none; color: #C00; font-size: 12px; }
+
+/**
+* Advertise Tabs
+*
+* @section		advertise
+* @subsection	advertise-content
+*/
+
+.advertiseContent
+{ overflow: hidden; }
+
+.advertiseContent
+{ border: 1px solid #CCC; border-top: none; padding: 8px; }
+
+.advertiseContent blockquote
+{ background: #FFF; border-bottom: 1px solid #EEE; margin: 0 0 10px 0; overflow: hidden; padding: 15px; }
+
+.advertiseContent .type
+{ color: #069; font-size: 18px; font-weight: bold; text-align: left; text-transform: uppercase; }
+
+.advertiseContent .prize
+{ color: #C00; font-size: 16px; font-weight: bold; float: right; padding: 0 0 5px 0; text-align: right; }
+
+.advertiseContent ul
+{ list-style-type: disc; }
+
+.orderButton,
+.orderButton button, .orderButton a, .orderButton a:visited
+{ width: 150px; }
+
+.advertiseAlert
+{ display: block; font-size: 11px; }
+
+/** Advertise Screen */
+
+.advertiseScreen
+{ text-align: left; }
+
+.advertiseTable
+{ width: 100%; }
+
+	.advertiseTable td
+	{ padding: 5px 0 0 0; vertical-align: top; width: 50%; }
+	
+	.advertiseTable .advertiseTableContent2
+	{ padding: 5px; }
+	
+	.advertiseTable th
+	{ font-size: 11px; text-align: left; width: 50%; }
+	
+	.advertiseScreenDesc
+	{ width: 100%; }
+	
+	.advertiseTable li
+	{ font-size: 11px; }
+
+	.advertiseScreenDesc th
+	{ font-size: 11px; }
+
+.advertiseTable li
+{ list-style: outside; padding: 0 0 5px 0; margin: 0 0 0 15px; }

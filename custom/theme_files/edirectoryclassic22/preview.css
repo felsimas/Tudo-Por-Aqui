@@ -1,0 +1,72 @@
+/**
+* eDirectory - Preview Pages
+*
+* This style sheet describes the structure of the previews
+* pages on Members and Site Manager section
+*
+* @package		layout
+* @author			Sis Dir 2009 - Classificados
+* @copyright	Copyright (c) 2009, Sis Dir 2009 - Classificados Inc.
+*/
+
+/** Global Definitions */
+
+body
+{ background: #FFF; margin: 10px; text-align: left; }
+
+h5 { border-bottom: 1px dashed #EEE; border-top: 1px dashed #EEE; color: #999; font-size: 18px; font-weight: normal; margin: 10px; padding: 10px 0 10px 0; text-align: left; }
+
+/** Preview Navbar */
+
+.basePreviewNavbar
+{ background: #FBFBFB; border: 1px solid #EEE; height: 30px; margin: 10px 0 10px 0; padding: 0; }
+
+	.basePreviewNavbar li
+	{ float: right; list-style: none; }
+	
+	.basePreviewNavbar li a,
+	.basePreviewNavbar li a:visited
+	{ background: url("../images/icon_delete.gif") 94% 50% no-repeat; border: 0; color: #666; display: block; font-size: 10px; padding: 8px 30px 8px 10px; }
+	
+		ul.basePreviewNavbar li a:hover
+		{ color: #000; }
+		
+/** Summary and Detail Preview */
+		
+.detail .rating
+{ margin: 0; }
+
+.summary .baseIconNavbar
+{ background: none; border-top: none; padding: 0; }
+
+.summary .summaryDescription
+{ color: #333; font-size: 12px; padding: 0; }
+
+.summary .rating .ratingSeeComment,
+.summary .rating .rateIt
+{ clear: both; float: none; }
+
+.galleryDetail
+{ float: left; text-align: center; }
+
+.galleryImgThumb img
+{ background: #FFF; border: 1px solid #CCC; padding: 2px; }
+
+.formDetail .formCaptchaWarning
+{ float: none; }
+
+/** Banner Preview */
+
+.bannerPreview
+{ text-align: center; }
+
+	.sponsoredLink
+	{ margin: 0 auto 0 auto; text-align: left; }
+
+	.sponsoredLink span
+	{ display: block; }
+	
+/** Icon Navbar > Fake Button */
+
+.iconNavbar .fakeButton
+{ background: #C00; color: #FFF; display: block; height: 30px; }

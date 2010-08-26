@@ -1,0 +1,278 @@
+span.textLINK
+{
+	text-decoration: underline; cursor: pointer; font-weight:normal; color:#097D02;
+}
+
+/* ADMIN LAYOUT > CATEGORIES ADDED
+//////////////////////////////////////////////*/
+
+table.tableCategoriesADDED
+{
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif; border: 1px solid #EEE; background: #F7F7F7; border-top: 0;
+}
+
+table.tableCategoriesADDED th.tableCategoriesTITLE
+{
+	text-align: left; color: #000; padding: 5px; border: 2px solid #FFF; border-bottom: 0;
+}
+
+table.tableCategoriesADDED td.tableCategoriesCONTENT
+{
+	text-align: center;background: #F7F7F7;  border: 2px solid #FFF; border-bottom: 0; border-top: 0;
+}
+
+	table.tableCategoriesADDED td.tableCategoriesCONTENT select
+	{
+		width: 100%; border: 1px solid #EEE;
+	}
+
+table.tableCategoriesADDED td.tableCategoriesBUTTONS
+{
+	padding-top: 0;background: #F7F7F7; border: 2px solid #FFF; border-top: 0;
+}
+
+/* CATEGORIES  STRUCTURE */
+
+div.treeviewMainMenu
+{
+	display: none; margin: 0; padding: 8px; border: 1px solid #EEE;
+}
+
+	div.treeviewMainMenu div
+	{
+		text-align:left; clear:left; margin-left: 20px;
+	}
+
+		div.treeviewMainMenu a:link,
+		div.treeviewMainMenu a:active,
+		div.treeviewMainMenu a:visited,
+		div.treeviewMainMenu a:hover
+		{
+			font: normal 10px Verdana, Arial, Helvetica, sans-serif; color: #000; border: 0;
+		}
+
+/* CATEGORIES  STRUCTURE > CONTENT */
+
+.treeviewLoadingMessage
+{
+	display:block; padding:15px; font-weight:bold; font-size:12px; border: 1px solid #EEE;
+}
+
+div.treeviewMainMenu div.treeview_closedNode div
+{
+	display:none;
+}
+
+	/* CATEGORY/SUBCATEGORY */
+
+	div.treeviewMainMenu div.treeview_openedNode a:link,
+	div.treeviewMainMenu div.treeview_openedNode a:visited,
+	div.treeviewMainMenu div.treeview_openedNode a:active,
+	div.treeviewMainMenu div.treeview_openedNode a:hover,
+	
+	div.treeviewMainMenu div.treeview_closedNode a:link,
+	div.treeviewMainMenu div.treeview_closedNode a:visited,
+	div.treeviewMainMenu div.treeview_closedNode a:active,
+	div.treeviewMainMenu div.treeview_closedNode a:hover
+	{
+		color: #000; text-decoration: none;
+	}
+
+	div.treeviewMainMenu div.treeview_openedNode a strong,
+	div.treeviewMainMenu div.treeview_closedNode a strong
+	{
+		text-decoration: underline;
+	}
+	
+	div.treeviewMainMenu div.treeview_EndMarkNode a strong
+	{
+		text-decoration: none; cursor: default;
+	}
+
+	div.treeviewMainMenu div.treeview_EndMarkNode span
+	{
+		text-decoration: none; cursor: pointer;
+	}
+
+
+	/* just one category - circle item */
+	div.treeviewMainMenu div.treeview_EndMarkNode a:hover strong,
+	div.treeviewMainMenu div.treeview_EndMarkNode a:link strong,
+	div.treeviewMainMenu div.treeview_EndMarkNode a:active strong,
+	div.treeviewMainMenu div.treeview_EndMarkNode a:visited strong,
+	div.treeviewMainMenu div.treeview_EndMarkNode a.treeview_activeNode:link
+	{
+		text-decoration: none; cursor: default;
+	}
+
+	div.treeviewMainMenu div.treeview_EndMarkNode a:link,
+	div.treeviewMainMenu div.treeview_EndMarkNode a:visited,
+	div.treeviewMainMenu div.treeview_EndMarkNode a:active,
+	div.treeviewMainMenu div.treeview_EndMarkNode a:hover
+	{
+		text-decoration: none; cursor: default;
+	}
+
+	div.treeviewMainMenu div.treeview_openedNode a:hover strong,
+	div.treeviewMainMenu div.treeview_closedNode a:hover strong
+	{
+		text-decoration: none;
+	}
+
+	div.treeviewMainMenu div.treeview_node a:link,
+	div.treeviewMainMenu div.treeview_node a:visted,
+	div.treeviewMainMenu div.treeview_node a:active,
+	div.treeviewMainMenu div.treeview_node a:hover
+	{
+		font-weight:normal; color:#333;
+	}
+
+/* CATEGORY/SUBCATEGORY > LOAD WARNING MESSAGE */
+
+.treeview_loadingWarning
+{
+	display:block; height:26px; background:url("../images/loading.gif") 0 14px no-repeat; color:#f66; font-weight:bold; border: 0;
+}
+
+/* CATEGORIES > OPEN/CLOSE STRUCTURE */
+
+div.treeviewMainMenu div.treeview_node,
+div.treeviewMainMenu div.treeview_closedNode,
+div.treeviewMainMenu div.treeview_openedNode,
+div.treeviewMainMenu div.treeview_EndMarkNode
+{
+		display:block; margin: 0; padding:2px; clear: both; border: 0;
+}
+
+div.treeviewMainMenu div.treeview_closedNode div,
+div.treeviewMainMenu div.treeview_openedNode div
+{
+       border: 0; padding-bottom:0; margin-left: 12px;
+}
+
+div.treeviewMainMenu div.treeview_EndMarkNode
+{
+	padding-left: 2px;  border: 0;
+}
+
+		div.treeviewMainMenu div.treeview_openedNode div.treeview_EndMarkNode
+		{
+			voice-family: "\"}\""; voice-family:inherit; padding-left: 8px;
+		}
+		html>body div.treeviewMainMenu div.treeview_openedNode div.treeview_EndMarkNode
+		{
+			padding-left: 5px;
+		}
+
+	div.treeviewMainMenu div.treeview_closedNode div.treeview_node,
+	div.treeviewMainMenu div.treeview_openedNode div.treeview_node
+	{
+		margin: 0; padding-top: 3.5px;
+	}
+
+	/* CATEGORY/SUBCATEGORY SELECTED */
+
+	.treeview_activeNode,
+	a.treeview_activeNode:link,
+	a.treeview_activeNode:active,
+	a.treeview_activeNode:visited,
+	a.treeview_activeNode:hover
+	{
+		color: #097D02;
+	}
+
+	div.treeviewMainMenu div.treeview_openedNode div.treeview_node a.treeview_Button:link,
+	div.treeviewMainMenu div.treeview_openedNode div.treeview_node a.treeview_Button:visited,
+	div.treeviewMainMenu div.treeview_openedNode div.treeview_node a.treeview_Button:active,	
+	div.treeviewMainMenu div.treeview_openedNode div.treeview_node a.treeview_Button:hover
+	{
+		padding-left: 0; background: none; text-decoration: none;
+	}
+
+	div.treeviewMainMenu div.treeview_EndMarkNode a.treeview_EndMark:link,
+	div.treeviewMainMenu div.treeview_EndMarkNode a.treeview_EndMark:visited,
+	div.treeviewMainMenu div.treeview_EndMarkNode a.treeview_EndMark:active,
+	div.treeviewMainMenu div.treeview_EndMarkNode a.treeview_EndMark:hover
+	{
+		float:left; width: 5px; height: 11px; line-height: 11px; margin: 1px 5px 0 0; text-decoration:none; cursor: default; border: 0; background: url("../images/img_categoryBullet.gif") 50% 50% no-repeat;
+	}
+
+	div.treeviewMainMenu div.treeview_EndMarkNode a.treeview_EndMarkFirstLevel:link,
+	div.treeviewMainMenu div.treeview_EndMarkNode a.treeview_EndMarkFirstLevel:visited,
+	div.treeviewMainMenu div.treeview_EndMarkNode a.treeview_EndMarkFirstLevel:active,
+	div.treeviewMainMenu div.treeview_EndMarkNode a.treeview_EndMarkFirstLevel:hover
+	{
+		float:left; border:0; width: 11px; height: 11px; line-height: 11px; margin: 1px 5px 0 0; text-decoration: none; cursor: default; background: url("../images/img_categoryOpen.gif") 50% 50% no-repeat;
+	}
+
+	/* CATEGORIES > BUTTONS OPEN/CLOSE */
+
+	.treeview_closedNode .treeview_lkOpenCloseNode,
+	.treeview_openedNode .treeview_closedNode .treeview_lkOpenCloseNode,
+	.treeview_openedNode .treeview_openedNode .treeview_closedNode .treeview_lkOpenCloseNode,
+	.treeview_openedNode .treeview_openedNode .treeview_openedNode .treeview_closedNode .treeview_lkOpenCloseNode,
+	.treeview_openedNode .treeview_openedNode .treeview_openedNode .treeview_openedNode .treeview_closedNode .treeview_lkOpenCloseNode
+	{
+		float:left; width: 11px; height: 11px; line-height: 11px; margin: 1px 5px 0 0; cursor:pointer; background: url("../images/img_categoryClose.gif") 50% 50% no-repeat;
+	}
+	
+	.treeview_openedNode .treeview_lkOpenCloseNode
+	{
+		float:left; width: 11px; height: 11px; line-height: 11px; margin: 1px 5px 0 0; cursor:pointer; background: url("../images/img_categoryOpen.gif") 50% 50% no-repeat;
+	}
+	
+/* BUTTONS STYLE */
+
+div.treeviewMainMenu a.treeview_Button:link,
+div.treeviewMainMenu a.treeview_Button:visited,
+div.treeviewMainMenu a.treeview_Button:active,
+div.treeviewMainMenu a.treeview_Button:hover,
+{
+	text-decoration: none; border: 0;
+}
+
+	div.treeviewMainMenu a.treeview_Button span.buttonEdit,
+	div.treeviewMainMenu a.treeview_Button span.buttonDelete,
+	div.treeviewMainMenu a.treeview_Button span.buttonImage
+	{
+		width: 10px; height: 12px; cursor: pointer; border: #FFF; text-decoration: none;
+	}
+
+	/* EDIT BUTTON */
+	div.treeviewMainMenu a.treeview_Button span.buttonEdit
+	{
+		background:url("../images/bt_edit.gif") 50% 50% no-repeat;
+		/* The Hack start here																			*/
+		display: -moz-inline-box; display: inline-block; voice-family: "\"}\""; voice-family:inherit; padding: 0 5px 0 5px;
+	}
+	html>body div.treeviewMainMenu a.treeview_Button span.buttonEdit
+	{
+		padding: 0 2px 0 2px;
+	}
+
+	/* EDIT BUTTON */
+	div.treeviewMainMenu a.treeview_Button span.buttonDelete
+	{
+		background:url("../images/bt_delete.gif") 50% -1px no-repeat; border: 0;
+		/* The Hack start here																			*/
+		display: -moz-inline-box; display: inline-block; voice-family: "\"}\""; voice-family:inherit; padding: 0 3px 0 4px;
+	}
+	html>body div.treeviewMainMenu a.treeview_Button span.buttonDelete
+	{
+		padding: 0 0.5px 0 0.5px; border: 0;
+	}
+
+	/* IMAGE BUTTON */
+	div.treeviewMainMenu a.treeview_Button span.buttonImage
+	{
+		background:url("../images/bt_img.gif") 50% 50% no-repeat;
+		/* The Hack start here																			*/
+		display: -moz-inline-box; display: inline-block; voice-family: "\"}\""; voice-family:inherit; padding: 0 5px 0 5px;
+	}
+	html>body div.treeviewMainMenu a.treeview_Button span.buttonImage
+	{
+		padding: 0 2px 0 2px;
+	}
+	
+
+	

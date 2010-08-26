@@ -1,0 +1,158 @@
+p.standardTitle
+{font: normal 18px/20px Arial, Helvetica, sans-serif; color: #000; text-align:left; margin: 0; padding: 10px 15px 10px 15px;}
+
+	p.standardTitle span
+	{color: #F46200;}
+	
+	div.dynamicContent p,
+	div.dynamicContent h1,
+	div.dynamicContent h2,
+	div.dynamicContent h3,
+	div.dynamicContent h4,
+	div.dynamicContent h5,
+	div.dynamicContent h6
+	{color:#F46200;}
+
+/* EVENT > COLOR > NAVBAR
+/////////////////////////////////////////////////////*/
+
+	div.wrapper ul.navbar
+	{border-bottom: 1px solid #F46200;}
+
+		div.wrapper ul.navbar li a:hover,
+		div.wrapper ul.navbar li a.menuActived:link,
+		div.wrapper ul.navbar li a.menuActived:active,
+		div.wrapper ul.navbar li a.menuActived:visited,
+		div.wrapper ul.navbar li a.menuActived:hover
+		{color: #000; background: #FFF url("../images/design/bg_navbar_eventOn.gif") 0 100% repeat-x;}
+
+/* EVENT > STRUCTURE > LEFT CONTENT > SEARCH TABS
+/////////////////////////////////////////////////////*/
+
+			ul.searchTab li a:link,
+			ul.searchTab li a:active,
+			ul.searchTab li a:visited,
+			ul.searchTab li a:hover
+			{color: #FFA66A; border-left: 5px solid #FFC69F; border: 0; background: #FFE1BE;}
+
+				ul.searchTab li.tab-active a,
+				ul.searchTab li.tab-active a:link,
+				ul.searchTab li.tab-active a:visited,
+				ul.searchTab li.tab-active a:active,
+				ul.searchTab li.tab-active a:hover
+				{color: #8F2B00; background: #FFCA8D; border: 1px solid #FFA044; border-bottom: 0;}
+				
+				ul.searchTab li.tab-inactive a,
+				ul.searchTab li.tab-inactive a:link,
+				ul.searchTab li.tab-inactive a:visited,
+				ul.searchTab li.tab-inactive a:active,
+				ul.searchTab li.tab-inactive a:hover
+				{color: #FFAD58; border-bottom:1px solid #FFA044}
+
+					ul.searchTab li.tab-inactive a:hover
+					{color: #8F2B00;}
+
+
+/* EVENT > STRUCTURE > LEFT CONTENT > SEARCH CONTENT
+/////////////////////////////////////////////////////*/
+
+			div.wrapper div.content blockquote.leftContent p.standardTitle span
+			{color: #F46200;}
+			
+			div.simpleSearch
+			{color: #8F2B00; background: #FFCA8D; border: 1px solid #FFA044; border-top: 0;}
+			
+				div.simpleSearch label
+				{color: #8F2B00;}
+
+					div.simpleSearch input,
+					div.simpleSearch select
+				{ color: #8F2B00; background: #FFF3E4; border: 1px solid #FFA044; border-right-color: #FFF; border-bottom-color: #FFF;}
+				
+				div.simpleSearch input:focus
+				{ background: #FFF;}
+			
+/* EVENT > STRUCTURE > LEFT CONTENT > SEARCH DIFFERENCES
+/////////////////////////////////////////////////////*/
+		
+		div.simpleSearch ul.standardButton li input,
+		div.simpleSearch ul.standardButton li button,
+		div.simpleSearch ul.standardButton li a:link,
+		div.simpleSearch ul.standardButton li a:active,
+		div.simpleSearch ul.standardButton li a:visited,
+		div.simpleSearch ul.standardButton li a:hover
+		{color: #FCE2CE; background: #A03500 url("../images/design/bg_eventButton.gif") 0 0 repeat-x;}
+		
+			div.simpleSearch select option.searchCategory
+			{background: #FFE4D5;}
+
+			div.simpleSearch select option.searchSubcategory
+			{color: #AA4000; background: #FFF9F4;}
+			
+
+/* EVENT > STRUCTURE > MISC CLASSES > CALENDAR
+/////////////////////////////////////////////////////*/
+
+.calendarBASE
+{ text-align:center; margin:0 auto 5px auto; border-collapse: collapse; background: #FFF; border: 5px solid #EEE;}
+
+	.calendarBASE th,
+	.calendarBASE th a:link,
+	.calendarBASE th a:visited,
+	.calendarBASE th a:active,
+	.calendarBASE th:hover
+	{font: bold 8pt/15pt Verdana, Arial, Helvetica, sans-serif; padding: 2px; color: #7C3802;}
+	
+		.calendarBASE th.calendar-weekday
+		{ font: normal 10px/15pt Verdana, Arial, Helvetica, sans-serif; color: #3C5E1A; }
+
+	.calendarBASE td
+	{ font: normal 10px/normal Arial, Verdana, sans-serif; padding: 2px; }
+
+		.calendarBASE td a:link,
+		.calendarBASE td a:visited,
+		.calendarBASE td a:active,
+		.calendarBASE td a:hover
+		{ padding: 2px; display: block; }
+
+			a.dayclass,
+			a.dayclass:link,
+			a.dayclass:visited,
+			a.dayclass:active
+			{ color: #333; background: #FFF; border: 1px solid #FBFBFB; border-bottom: 3px solid #EEE; border-right: 3px solid #EEE; }
+
+				a.dayclass:hover
+				{color: #3D631C; background: #F1F7D4; }
+				
+			a.normal,
+			a.normal:link,
+			a.normal:visited,
+			a.normal:active,
+			a.normal:hover
+			{ color: #FFF; background: #3D631C; border: 1px solid #304F16;}
+
+			a.today,
+			a.today:link,
+			a.today:visited,
+			a.today:active,
+			a.today:hover
+			{ color: #FFF; background: #7C3802; border: 1px solid #682F02;}
+			
+/* EVENT > STRUCTURE > MISC CLASSES > STANDARD ICON
+/////////////////////////////////////////////////////*/
+		
+		ul.standard-iconlink {margin-bottom: 10px; font: normal 11px/20px Verdana, Arial, Helvetica, sans-serif; color:#000;}
+				
+		ul.standard-iconlink li.remove-icon {background: url("../images/icon_delete.gif") 15px 4px no-repeat; text-align: left; padding-left:35px}
+		
+		ul.standard-iconlink li.favoritesview-icon {background: url("../images/content/bullet_viewQuickListEvent.gif") 0 7px no-repeat; text-align: left; padding-left: 7px;}
+		
+			ul.standard-iconlink li.favoritesview-icon a:link,
+			ul.standard-iconlink li.favoritesview-icon a:active,
+			ul.standard-iconlink li.favoritesview-icon a:visited,
+			ul.standard-iconlink li.favoritesview-icon a:hover {color: #F46200;}
+
+			ul.standard-iconlink li.remove-icon a:link,
+			ul.standard-iconlink li.remove-icon a:active,
+			ul.standard-iconlink li.remove-icon a:visited,
+			ul.standard-iconlink li.remove-icon a:hover {color: #CC0000;}

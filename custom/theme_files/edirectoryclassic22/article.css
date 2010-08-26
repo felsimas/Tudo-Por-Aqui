@@ -1,0 +1,138 @@
+/**
+* Special color scheme for modules
+*
+* @section		scheme
+* @subsection	listing
+*/
+
+/** Navbar */
+
+.navbar
+{ border-bottom: 1px solid #669; }
+
+.navbar li a:hover, .navbar li.menuActived a, .navbar li.menuActived a:visited
+{ background:url(images/design/bg_navbar_articleOn.gif) bottom center repeat-x; }
+
+/** Typograph */
+
+.standardTitle span
+{ color: #557; }
+
+.viewMore a, .viewMore a:visited
+{ color: #669; }
+
+/** Member Join */
+
+.memberJoin h2, .memberJoin h2 a, .memberJoin h2 a:visited
+{ color: #557; }
+
+.memberJoin p, .memberJoin p a, .memberJoin p a:visited
+{ color: #333; }
+
+/** Search */
+
+.search
+{ background: #F7F5FE; border: 5px solid #E0DEED; }
+
+.search label, .search .altLabel, .search legend
+{ color: #557; }
+
+.search input, .search select, .search textarea
+{ border: 1px solid #AAAAEE; border-bottom: 1px solid #E0DEED; border-right: 1px solid #E0DEED; }
+
+.advancedSearch a, .advancedSearch a:visited,
+.advancedSearchClose a, .advancedSearchClose a:visited
+{ color: #557; }
+
+.standardButton button, .standardButton a, .standardButton a:visited
+{ background: url(images/design/bg_articleButton.gif) repeat-x 0 0; }
+
+.searchCategory
+{ background: #F8F5FE; color: #335; }
+
+.searchSubcategory
+{ background: #FFF; color: #669; }
+
+.templateActive a, .templateActive a:visited
+{ border: 1px solid #E0DEED; border-bottom: none; color: #335; }
+
+.templateTabContent
+{ border: 1px solid #E0DEED; }
+
+
+/** Categories */
+
+.sidebar .categories
+{ border: 5px solid #F7F5FE; margin: 0; padding: 5px; }
+
+.sidebar .categories h3
+{ background: none; border: none; font: bold 14px/normal Arial, Helvetica, sans-serif; padding: 5px 0 0 0; }
+
+.categories h3 a, .categories h3 a:visited
+{ background: url(images/design/bullet_article.gif) no-repeat 0 5px; }
+
+.categories h3 a:hover
+{ color: #557 !important; }
+
+/** Featured */
+
+.highlightBox
+{ background: #F7F5FE; border: 3px solid #E0DEED; }
+
+.featuredArticleImage
+{ border: 5px solid #E0DEED; }
+
+.featuredArticleImage:hover
+{ border: 5px solid #557; }
+
+.featuredItems h3 a, .featuredItems h3 a:visited
+{ color: #335; }
+
+.featuredItems .complementaryInfo a, .featuredItems .complementaryInfo a:visited
+{ color: #669; }
+
+/** Results */
+
+.standardSubTitle strong
+{ color: #557; }
+
+.summary a, .summary a:visited
+{ color: #669; }
+
+.summary h3 a, .summary h3 a:visited
+{ border-left: 5px solid #557; }
+
+.summary h3 a:hover
+{ color: #557 !important; }
+
+.summaryImage
+{ background: #F7F5FE; border: 5px solid #E0DEED; }
+
+/** Detail */
+
+.detail h2
+{ color: #557; }
+
+.detail a, .detail a:visited
+{ color: #669; }
+
+.imgDetail, .detailGallery img
+{ background: #F7F5FE; border: 5px solid #E0DEED; padding: 5px; }
+
+.detailGallery img
+{  border: 3px solid #E0DEED; }
+
+.iconNavbar a, .iconNavbar a:visited
+{ color: #335; }
+
+.iconNavbar a:hover
+{ border: 1px solid #E5EFDC; color: #557 !important; text-decoration: none; }
+
+/** Ratings */
+
+.ratingButton button
+{ background: url(images/design/bg_articleButton.gif) repeat-x 0 0; }
+
+.rateComments .complementaryInfo,
+.rateComments h4 a, .rateComments h4 a:visited
+{ color: #557; }

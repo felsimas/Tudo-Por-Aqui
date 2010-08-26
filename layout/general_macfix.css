@@ -1,0 +1,21 @@
+
+/* MAC PROBLEM - REDUCE THE FONT SIZE ON MAC
+   STRUCTURE > NAVBAR
+/////////////////////////////////////////////////////*/
+
+	div.wrapper ul.navbar li a:link,
+	div.wrapper ul.navbar li a:active,
+	div.wrapper ul.navbar li a:visited,
+	div.wrapper ul.navbar li a:hover
+	{font: bold 13px/45px Arial, Verdana, Arial, Helvetica, sans-serif;}
+
+/* MAC PROBLEM - INCREASE LINE HEIGHT AND ADD A FIXED HEIGHT TO SEARCH BUTTON
+   STRUCTURE > STANDARD BUTTON
+/////////////////////////////////////////////////////*/
+
+	ul.standardButton li button,
+	button.ui-state-default ui-corner-all
+	{display:block; line-height:24px; height:25px;}
+	
+	button.articleSearchButton
+	{display:inline; line-height:24px; height:24px; padding:0;}

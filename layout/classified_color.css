@@ -1,0 +1,104 @@
+p.standardTitle {font: normal 18px/20px Arial, Helvetica, sans-serif; color: #000; text-align:left; margin: 0; padding: 10px 15px 10px 15px;}
+
+	p.standardTitle span {color: #7D654F;}
+	
+	div.dynamicContent p,
+	div.dynamicContent h1,
+	div.dynamicContent h2,
+	div.dynamicContent h3,
+	div.dynamicContent h4,
+	div.dynamicContent h5,
+	div.dynamicContent h6
+	{color:#7D654F;}
+
+/* CLASSIFIELD > COLOR > NAVBAR
+/////////////////////////////////////////////////////*/
+
+	div.wrapper ul.navbar {border-bottom: 1px solid #5F4D3C;}
+
+		div.wrapper ul.navbar li a:hover,
+		div.wrapper ul.navbar li a.menuActived:link,
+		div.wrapper ul.navbar li a.menuActived:active,
+		div.wrapper ul.navbar li a.menuActived:visited,
+		div.wrapper ul.navbar li a.menuActived:hover {color: #000; background: #FFF url("../images/design/bg_navbar_classifiedOn.gif") 0 100% repeat-x;}
+
+/* CLASSIFIED > STRUCTURE > LEFT CONTENT > SEARCH TABS
+/////////////////////////////////////////////////////*/
+
+			ul.searchTab li a:link,
+			ul.searchTab li a:active,
+			ul.searchTab li a:visited,
+			ul.searchTab li a:hover {background: #EBE3DE; border: 0;}
+
+				ul.searchTab li.tab-active a,
+				ul.searchTab li.tab-active a:link,
+				ul.searchTab li.tab-active a:visited,
+				ul.searchTab li.tab-active a:active,
+				ul.searchTab li.tab-active a:hover {color: #413429; background: #DACFC5; border: 1px solid #BDA997; border-bottom: 0;}
+				
+				ul.searchTab li.tab-inactive a,
+				ul.searchTab li.tab-inactive a:link,
+				ul.searchTab li.tab-inactive a:visited,
+				ul.searchTab li.tab-inactive a:active,
+				ul.searchTab li.tab-inactive a:hover {color: #C6B3A4; border-bottom:1px solid #BDA997}
+
+					ul.searchTab li.tab-inactive a:hover {color: #413429;}
+
+/* CLASSIFIED > STRUCTURE > LEFT CONTENT > SEARCH CONTENT
+/////////////////////////////////////////////////////*/
+
+		div.wrapper div.content blockquote.leftContent p.standardTitle span {color: #7D654F;}
+		
+		div.simpleSearch {color: #413429; background: #DACFC5; border: 1px solid #BDA997; border-top: 0;}
+		
+				div.simpleSearch label {color: #413429;}
+
+				div.simpleSearch input,
+				div.simpleSearch select { color: #413429; background: #F7F4F2; border: 1px solid #BDA997; border-right-color: #FFF; border-bottom-color: #FFF;}
+				
+				div.simpleSearch input:focus { background: #FFF;}
+		
+/* CLASSIFIED > STRUCTURE > LEFT CONTENT > SEARCH DIFFERENCES
+/////////////////////////////////////////////////////*/
+				
+		div.simpleSearch ul.standardButton li input,
+		div.simpleSearch ul.standardButton li button,
+		div.simpleSearch ul.standardButton li a:link,
+		div.simpleSearch ul.standardButton li a:active,
+		div.simpleSearch ul.standardButton li a:visited,
+		div.simpleSearch ul.standardButton li a:hover
+		{color: #F2FAEB; background: #413429 url("../images/design/bg_classifiedButton.gif") 0 0 repeat-x;}
+		
+			div.simpleSearch select option.searchCategory {background: #EFE9E4;}
+
+			div.simpleSearch select option.searchSubcategory {color: #685442; background: #FBFAF9;}
+
+
+/* CLASSIFIED > STRUCTURE > MISC CLASSES > STANDARD ICON
+/////////////////////////////////////////////////////*/
+		
+		ul.standard-iconlink {margin-bottom: 10px; font: normal 11px/20px Verdana, Arial, Helvetica, sans-serif; color:#000;}
+				
+		ul.standard-iconlink li.remove-icon {background: url("../images/icon_delete.gif") 15px 4px no-repeat; text-align: left; padding-left:35px}
+		
+		ul.standard-iconlink li.favoritesview-icon {background: url("../images/content/bullet_viewQuickListClassified.gif") 0 7px no-repeat; text-align: left; padding-left: 7px;}
+		
+			ul.standard-iconlink li.favoritesview-icon a:link,
+			ul.standard-iconlink li.favoritesview-icon a:active,
+			ul.standard-iconlink li.favoritesview-icon a:visited,
+			ul.standard-iconlink li.favoritesview-icon a:hover {color: #7D654F;}
+
+			ul.standard-iconlink li.remove-icon a:link,
+			ul.standard-iconlink li.remove-icon a:active,
+			ul.standard-iconlink li.remove-icon a:visited,
+			ul.standard-iconlink li.remove-icon a:hover {color: #CC0000;}
+
+/* CLASSIFIED > STRUCTURE > MISC CLASSES > ICON NAVBAR
+/////////////////////////////////////////////////////*/
+
+	ul.iconNavbar li a:link,
+	ul.iconNavbar li a:active,
+	ul.iconNavbar li a:visited,
+	ul.iconNavbar li a:hover {color: #B87014;}
+
+		ul.iconNavbar li a:hover {border: 1px solid #E4E4E4;}

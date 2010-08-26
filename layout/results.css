@@ -1,0 +1,216 @@
+/**
+* eDirectory - Style Definitions on Search Results Page
+*
+* This style sheet describes the styles applied for the search results page
+* of all modules
+*
+* @package		layout
+* @author			Sis Dir 2009 - Classificados
+* @copyright	Copyright (c) 2009, Sis Dir 2009 - Classificados Inc.
+*
+* @colordef		#069; standard blue 					(link color and title highlight)
+* @colordef		#333; standard dark gray 			(text colors)
+* @colordef		#666; standard gray 					(notes, complementary information)
+* @colordef		#690; standard green color		(footer links, membros links, search box)
+* @colordef		#C00; standard red 						(standard hover link, highlight label, calendar day's hover, secondary link color)
+* @colordef		#CCC; standard border color
+* @colordef		#EEE; secondary border color
+* @colordef		#FFC; standard yellow color 	(highlight featured, calendar day's hover)
+* @colordef		#F7F7F7; tertiary border color, light gray background color
+* @colordef		#FFFFEF; secondary yellow		 	(showcase background, subcategories' dropdown)
+*/
+
+/**
+* Main Content
+*
+* Specific Main structure extended for Search Results Page
+*
+* @section				structure
+* @subsection			content
+* @subsubsection	columns-extended
+*/
+
+.mainContent 
+{ width: 740px; }
+
+/**
+* General Results
+*
+* @section	general-results
+*/
+
+.generalResults
+{ margin: 0 0 10px 0; }
+
+.generalResults dt
+{ margin: 0 0 5px 0; }
+
+	.generalResults dt a, .generalResults dt a:visited
+	{ color: #085700; }
+	
+	
+	.generalResults dt:hover
+	{ color:#085700;}
+
+/**
+* Related categories
+*
+* @section	related-categories
+*/
+
+.relatedCategories
+{ font-size: 14px; padding: 10px 0 10px 0; }
+
+/**
+* Summary results
+*
+* @section	summary
+*/
+
+.summary
+{ color: #333; height: 100%; margin: 0px 0 0 0; overflow: hidden; padding: 5px; }
+
+.baseIconNavbar
+{ height: 25px; line-height: 25px; margin: 0 0 10px 0; }
+
+.summaryTitle
+{ height: 100%; overflow: hidden; }
+
+.summaryContent
+{ float: left; padding: 0; width: 500px; }
+
+.summaryComplementaryContent
+{ float: right; text-align: right; width: 225px; }
+	
+.summaryImage
+{ float: left; margin: 10px 10px 0 0; }
+
+	.summaryImage a, .summaryImage a:visited, .summaryImage a:hover
+	{ display: block; text-decoration: none; }
+
+.noimage a, .noimage a:visited, .noimage a:hover
+{ height: 100%; width: 100%; }
+		
+.summaryNumber
+{ background: url(../images/design/bg_map_number_left.gif) no-repeat 0 0; display: block; float: left; height: 29px; margin: 0 5px 0 0; padding: 0 0 0 3px; }
+
+	.summaryNumber span
+	{ background: url(../images/design/bg_map_number_right.gif) 100% 0; color: #FFF; cursor: pointer; display: block; float: left; font-size: 18px; height: 29px; line-height: 29px; padding: 0 5px 0 2px; }
+		
+.claim a, .claim a:visited
+{ background: url(../images/design/bg_claim.gif) no-repeat 0 0; color: #C00; display: block; margin: 5px 0 0 0; padding: 0 0 0 15px; }
+
+.summarySpacer
+{ margin-bottom: 5px; }
+
+.summaryBottom
+{ display: block; height: 15px;  }
+
+/**
+* Summary Typgraph
+*
+* @section	summary
+* @section	typograph
+*/
+
+.summary h3, .summary h3 a, .summary h3 a:visited
+{ color: #000; font-size: 16px; }
+
+.summaryDescription
+{ margin: 10px 0 0 0; }
+
+.summary address
+{ font-size: 11px; font-style: normal; }
+
+	.summary address span
+	{ display: block; }
+
+.summaryComplementaryContent strong
+{ color: #C00; font-size: 11px;  }
+
+.summaryComplementaryContent .complementaryInfo a, .summaryComplementaryContent .complementaryInfo a:visited
+{ font-weight: normal; }
+
+
+/**
+* Summary Showcase
+*
+* Appy highlighting to showcase results
+*
+* @section	summary
+* @section	showcase
+*/
+
+.showcase
+{ overflow: hidden; }
+
+	.showcase. summaryContent
+	{ float: left; }
+	
+	.showcase	.summaryComplementaryContent
+	{ float: right; text-align: right; }
+	
+	.showcase	.summaryDescription
+	{ float: left; width: 380px; }
+		
+/**
+* Summary Icon Navbar 
+*
+* @section	common
+* @subsection	summary-iconnavbar
+*/
+
+.iconNavbar li a, .iconNavbar li a:visited
+{ font-weight: normal; }
+		
+/**
+* Summary rating
+*
+* @section		summary
+* @subsection	rating
+*/
+
+.rating
+{ margin: 10px 0 0 0; }
+
+/**
+* Paging Navigation
+*
+* @section	paging
+*/
+
+.paging
+{ position: relative; }
+
+	.paging .pagingNavigation
+	{ background: url(../images/design/bg_paging.gif) repeat-x bottom left; padding: 10px 10px 5px 5px; }
+
+	.paging span
+	{ position: absolute; right: 0; top: 5px; }
+
+	.paging input
+	{ font-size: 11px; height: 12px; margin-right: 3px; width: 25px; }
+
+	.paging	button
+	{ border: 0; background: url(../images/content/btn_GoTo.gif) no-repeat 0 0; color: #FFF; height: 18px; width: 20px; }
+	
+.descNavigation
+{ font-size: 14px; }
+
+	.descNavigation strong
+	{ color: #069; }
+
+.letraNavigation
+{ clear: both; color: #999; font-size: 14px; height: 30px; line-height: 18px; padding: 10px 0 0 0; }
+
+	.letraNavigation a, .letraNavigation a:visited
+	{ color: #999; padding: 0 0 0 17px; }
+
+/**
+* Results Map
+*
+* @section	map
+*/
+
+.resultsMap
+{ background: #F7F7F7 url(../images/img_loading.gif) no-repeat 50% 50%; border: 1px solid #CCC; height: 250px; margin: 0 0 15px 0; width: 738px; }

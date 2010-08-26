@@ -1,0 +1,190 @@
+/* LISTING FRONT > STRUCTURE > CATEGORIES
+/////////////////////////////////////////////////////*/
+
+div.listingCATEGORIES
+{margin: 0 15px 0 15px; background: #FFF; }
+
+
+	div.listingCATEGORIES blockquote,
+	div.listingCATEGORIES blockquote.listingCATEGORIESrightcolumn	
+	{ font: normal 10px/normal Verdana, Arial, Helvetica, sans-serif; text-align: left; padding: 0; text-transform:lowercase;}
+	
+		div.listingCATEGORIES blockquote.listingCATEGORIESrightcolumn
+		{/*width: 45%;*/}
+		
+		/* SCALABILITY FEATURE > CATEGORIES > VIEW ALL CATEGORIES */
+		div.listingCATEGORIES blockquote.allCategories
+		{width:100%; float:none;}
+		
+		div.listingCATEGORIES blockquote h1
+		{line-height:normal; display:inline; margin:0; padding:0;}
+		div.listingCATEGORIES blockquote h2
+		{line-height:normal; display:inline; margin:0; padding:0;}
+
+		div.listingCATEGORIES blockquote a:link,
+		div.listingCATEGORIES blockquote a:active,
+		div.listingCATEGORIES blockquote a:visited,
+		div.listingCATEGORIES blockquote a:hover
+		{font: normal 10px/15px Verdana, Arial, Helvetica, sans-serif; color: #333; text-decoration: none;}
+	
+			div.listingCATEGORIES blockquote a:hover
+			{color: #000; text-decoration: underline;}
+			
+		div.listingCATEGORIES blockquote h1.listingCATEGORIEStitle a:link,
+		div.listingCATEGORIES blockquote h1.listingCATEGORIEStitle a:active,
+		div.listingCATEGORIES blockquote h1.listingCATEGORIEStitle a:visited,
+		div.listingCATEGORIES blockquote h1.listingCATEGORIEStitle a:hover
+		{font: bold 9pt Arial, Helvetica, sans-serif; color: #000; display: block; text-decoration: none; margin: 0; padding: 0 0 0 7px; background: url("../images/design/bg_CATbullet.gif") 0 7px no-repeat; border: 0; line-height:20px; font-weight:bold;}
+
+				div.listingCATEGORIES blockquote h1.listingCATEGORIEStitle a:hover
+				{color: #609629; text-decoration: underline;}
+
+					div.listingCATEGORIES blockquote h1.listingCATEGORIEStitle a span {color: #999;}
+					
+			div.listingCATEGORIES p.viewAllCategories
+			{font:bold 11px/normal Verdana, Arial, Helvetica, sans-serif; border-top:1px solid #EEE; padding:10px 5px 0 0; margin-top:10px; text-align:right;}
+			
+			div.listingCATEGORIES p.viewAllCategories a:link,
+			div.listingCATEGORIES p.viewAllCategories a:active,
+			div.listingCATEGORIES p.viewAllCategories a:visited,
+			div.listingCATEGORIES p.viewAllCategories a:hover
+			{color:#96293F;}
+			
+			div.listingCATEGORIES p.viewAllCategories a:hover
+			{color:#000; text-decoration:underline;}
+
+/* LISTING FRONT > MIDDLE CONTENT > FEATURED LISTING
+/////////////////////////////////////////////////////*/
+
+table.tableFeatured {
+border-color:-moz-use-text-color -moz-use-text-color #F2EFEC;
+border-style:none;
+border-width:0 0 1px;
+margin-bottom:5px;
+margin-top:5px;
+text-align:left;
+width:280px;
+}
+
+	table.tableFeatured td,
+	table.tableFeatured th
+	{padding: 3px;}	
+
+	table.tableFeatured h1.title-featured
+	{margin: 0; padding: 0;}
+
+		table.tableFeatured h1.title-featured a:link,
+		table.tableFeatured h1.title-featured a:active,
+		table.tableFeatured h1.title-featured a:visited,
+		table.tableFeatured h1.title-featured a:hover
+		{-x-system-font:none;
+border-left:5px solid #37A0D7;
+color:#37A0D7;
+font-family:Arial,Helvetica,sans-serif;
+font-size:8pt;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:bold;
+line-height:20px;
+margin:0 0 0 5px;
+padding:0 0 0 5px;
+text-decoration:none;}
+		
+			table.table-featured h1.title-featured a:hover
+			{color: #77AA44; text-decoration: underline;}
+
+	table.tableFeatured p
+	{font: normal 11px/15px Verdana, Arial, Helvetica, sans-serif; color: #333; text-align: left; padding: 5px 5px 10px 5px; margin: 0;}
+
+		table.tableFeatured a:link,
+		table.tableFeatured a:active,
+		table.tableFeatured a:visited,
+		table.tableFeatured a:hover
+		{color: #37a0d7; text-transform: capitalize;}
+
+			table.tableFeatured a:hover
+			{color: #000; text-decoration: underline;}
+
+		/* IMAGE SIZE */
+		table.tableFeatured table.imgListingFeatured {
+background-color:#EEEEEE;
+border:3px solid #EEEEEE;
+text-align:center;
+}
+
+			table.tableFeatured table.imgListingFeatured td,
+			table.tableFeatured table.imgListingFeatured td.noimage
+			{text-align: center; vertical-align: top;}
+
+				table.tableFeatured table.imgListingFeatured td.noimage a:link,
+				table.tableFeatured table.imgListingFeatured td.noimage a:active,
+				table.tableFeatured table.imgListingFeatured td.noimage a:visited,
+				table.tableFeatured table.imgListingFeatured td.noimage a:hover
+				{display: block; text-decoration: none;}
+
+				table.tableFeatured table.imgListingFeatured td.noimage
+				{ border: 2px solid #EEEEEE; }
+
+			table.tableFeatured table.imgListingFeatured img
+			{margin: 5px;}
+			
+ /* FRONT > FEATURED BUSINESSES
+/////////////////////////////////////////////////////*/
+
+	div.frontBusinesses
+	{padding-bottom: 10px; padding-left: 10px; clear: both; border-bottom: 1px solid #EEE; width:640px;}
+
+		div.frontBusinesses *
+		{margin: 0; padding: 0;}
+
+	div.frontBusinesses p.standardTitle{padding: 0 0 10px 0; margin: 0;}
+
+		div.frontBusinesses p.standardTitle span {color: #6AA72E;}
+
+	blockquote.highlightBusinesses {
+border:0 none;
+float:left;
+height:135px;
+margin:0 0 0 10px;
+position:relative;
+width:90px;
+}
+
+		blockquote.highlightBusinesses a.frontBusinessesIMAGE:link,
+		blockquote.highlightBusinesses a.frontBusinessesIMAGE:active,
+		blockquote.highlightBusinesses a.frontBusinessesIMAGE:visited,
+		blockquote.highlightBusinesses a.frontBusinessesIMAGE:hover,
+
+		blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:link,
+		blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:active,
+		blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:visited,
+		blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:hover
+		{display: block; border: 5px solid ##f1cd00;}
+
+		blockquote.highlightBusinesses a.frontBusinessesIMAGE:hover,
+		blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:hover
+		{border: 5px solid #f1cd00;}
+
+		blockquote.highlightBusinesses	h3,
+		blockquote.highlightBusinesses	h3 a:link,
+		blockquote.highlightBusinesses	h3 a:active,
+		blockquote.highlightBusinesses	h3 a:visited,
+		blockquote.highlightBusinesses	h3 a:hover
+		{-x-system-font:none;
+color:#080808;
+font-family:Arial,Helvetica,sans-serif;
+font-size:8pt;
+font-size-adjust:none;
+font-stretch:normal;
+font-style:normal;
+font-variant:normal;
+font-weight:normal;
+line-height:normal;
+margin-top:5px;
+padding:0 0 0;
+text-align:center;}
+
+			blockquote.highlightBusinesses	h3 a:hover
+			{color: #000; text-decoration: underline;}

@@ -1,0 +1,71 @@
+/* STRUCTURE > HEADER
+//////////////////////////////////////////////////*/
+
+#header {background:#42661d url(../images/listing/bg_header.png) 0 0 repeat-x;}
+
+#header a.backButton {background:url(../images/listing/bt_back.png) top center no-repeat; width:70px; position:absolute; left:5px;}
+
+#header a.backButton:hover {background:url(../images/listing/bt_back.png) bottom center no-repeat;}
+
+#header a.homeButton {background:url(../images/listing/bt_home.png) top center no-repeat; width:34px; right:5px;}
+
+#header a.homeButton:hover {background:url(../images/listing/bt_home.png) bottom center no-repeat;}
+
+#header a.searchButton {background:url(../images/listing/bt_search.png) top center no-repeat; width:34px; right:5px;}
+
+#header a.searchButton:hover {background:url(../images/listing/bt_search.png) bottom center no-repeat;}
+
+/* STRUCTURE > CONTENT > SEARCH
+//////////////////////////////////////////////////*/
+
+#content div.search {background: url(../images/listing/search.png) 0 0 no-repeat;}
+
+/* STRUCTURE > CONTENT
+//////////////////////////////////////////////////*/
+
+#content {color:#000; font: normal 14px Arial, Helvetica, sans-serif;}
+
+/* STRUCTURE > CONTENT > FRONT
+//////////////////////////////////////////////////*/
+
+#content div.front {border-bottom:1px solid #EEE;}
+
+#content div.front h1 {margin:10px; font: bold 20px Arial, Helvetica, sans-serif; color:#006600;}
+
+#content div.front h1 span {color:#5E932C;}
+
+#content li.active {background: #609629;}
+
+/* STRUCTURE > CONTENT > RESULTS
+//////////////////////////////////////////////////*/
+
+div.results {padding:5px; border-bottom:1px solid #EEE;}
+
+div.results p.searchResults {text-align:center; font:normal 13px Arial, Helvetica, sans-serif; color:#333;}
+
+div.results div.itemViewDetail {background:url(../images/listArrow.png) right center no-repeat;}
+
+div.results div.itemViewDetail,
+div.results div.itemView {padding:10px 0 10px 0; border-top:1px solid #EEE; margin:0; font:normal 12px Arial, Helvetica, sans-serif;}
+
+div.results div.itemViewDetail h1,
+div.results div.itemViewDetail address,
+div.results div.itemViewDetail p {width:57.4%; padding:0 25px 0 0; float:right;}
+
+div.results div.itemViewDetail span img {padding:2px; background:#F2F7EE; border:2px double #E5EFDC; float:left; margin:0 5px 0 5px;}
+
+div.results div.itemViewDetail h1,
+div.results div.itemView h1 {font:bold 14px Arial, Helvetica, sans-serif; color:#77AA44;}
+
+#content div.itemViewDetail.active {background: #609629;}
+
+/* STRUCTURE > CONTENT > DETAIL
+//////////////////////////////////////////////////*/
+
+div.detail {padding:5px; font:normal 14px Arial, Helvetica, sans-serif; color:#000;}
+
+div.detail div.itemDetail h1 {font:bold 18px/22px Arial, Helvetica, sans-serif; color:#77AA44; text-align:center; border-bottom:1px solid #609629; margin:0 0 10px 0;}
+
+div.detail div.itemDetail div.img {text-align: center; margin:0 0 10px 0;}
+
+div.detail div.itemDetail div.img img {padding:2px; background:#F2F7EE; border:2px double #E5EFDC;}

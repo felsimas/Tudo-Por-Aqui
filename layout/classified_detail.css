@@ -1,0 +1,95 @@
+div.wrapper div.content blockquote.middleContentExtended {position: relative;}
+
+/* CLASSIFIED DETAIL > MIDDLE CONTENT EXTENDED > CLASSIFIEDS DETAIL 
+/////////////////////////////////////////////////////*/
+
+div.classifiedDetail
+{width: 96%; text-align: left; margin: 0 auto 10px auto; font: normal 11px/14px Verdana, Arial, Helvetica, sans-serif; color: #000;}
+	
+	blockquote.middleContentExtended div.classifiedDetail p
+	{color:#000;}
+	
+	div.classifiedDetail h1.classifiedDetailTitle
+	{font: bold 24px/30px Arial, Helvetica, sans-serif; color:#7D654F; padding-bottom:10px;}
+	
+	div.classifiedDetail p.classifiedContentTitle
+	{font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#333; margin-bottom: 0;}
+	
+	div.classifiedDetail address
+	{font-style:normal; padding-bottom:14px;}
+		
+		div.classifiedDetail address span
+		{display:block;}
+		
+	div.classifiedDetail div.contactInfo
+	{padding:14px 0 14px 0;}
+
+	/* CONTENT COLUMN */
+	div.classifiedDetail div.classifiedDetailContent
+	{width:48%; float:left;}
+	
+	div.classifiedDetail div.classifiedDetailIMAGE
+	{float:right;}
+		
+	div.classifiedDetail a:link,
+	div.classifiedDetail a:active,
+	div.classifiedDetail a:visited,
+	div.classifiedDetail a:hover
+	{color: #737348;}
+	
+	div.classifiedDetail a:hover
+	{color: #000; text-decoration:underline;}
+				
+	div.classifiedDetail a.classifiedMoreInfo:link,
+	div.classifiedDetail a.classifiedMoreInfo:active,
+	div.classifiedDetail a.classifiedMoreInfo:visited,
+	div.classifiedDetail a.classifiedMoreInfo:hover
+	{font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #96293F; /* text-align: right;  display: block; */}
+
+		div.classifiedDetail a.classifiedMoreInfo:hover
+		{color: #000;}
+
+/* CLASSIFIED DETAIL > MIDDLE CONTENT EXTENDED > CLASSIFIEDS DETAIL > GALLERY
+/////////////////////////////////////////////////////*/
+
+	div.baseClassifiedGallery
+	{width: 300px; float: right; text-align: left; padding: 10px; margin: 10px 0 10px 5px; border: 1px solid #EEE; border-right: 5px solid #EEE; border-bottom: 5px solid #EEE;}
+
+		div.baseClassifiedGallery blockquote.classifiedMainImage,
+		div.baseClassifiedGallery blockquote.classifiedMainImageNOIMAGE {text-align: center; border-bottom: 2px solid #EEE; background: #F4F4F4; padding: 10px; margin-bottom: 10px;}
+
+			div.baseClassifiedGallery blockquote.classifiedMainImageNOIMAGE {border: 1px solid #EEE;}
+			
+		div.baseClassifiedGallery a.galleryImages img
+		{border:2px solid #EEE; margin:1px 1px 1px 0;}
+	
+/* CLASSIFIED DETAIL > MIDDLE CONTENT EXTENDED > CLASSIFIELD DETAIL > GOOGLE MAP
+/////////////////////////////////////////////////////*/
+
+div.googleMapsWrapper
+{position:relative;}
+	
+div.googleBase
+{width: 342px; height: 250px; float:right; margin: 0 0 10px 0; z-index: 1; background: #E5E3DF; border: 1px solid #BAB5A9;}
+
+	div.floatLayer
+	{/* Old values: top: 460px; left: 155px; */
+		width: 350px; height: auto; top: -9px; left: -235px; position: absolute; visibility: hidden; z-index: 2; border: 3px solid #ECEBEB; voice-family:"\"}\""; voice-family:inherit; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/design/bg_googleFloatLayer.png', sizingMethod='scale')}
+	html>body div.floatLayer{background: url("../images/design/bg_googleFloatLayer.png") 0 0 repeat;}
+	
+		div.floatLayer blockquote
+		{padding: 10px;}
+		
+		div.floatLayer blockquote img
+		{float: left; margin: 0 10px 10px 0; padding: 3px; border: 1px solid #E1E1E1;}
+		
+		div.floatLayer blockquote h1
+		{font: bold 15px Arial, Helvetica, sans-serif; color: #609629;}
+		
+		div.floatLayer blockquote p
+		{font: normal 11px Verdana, Arial, Helvetica, sans-serif; color: #000;}
+		
+		div.floatLayer blockquote p.googleRating img
+		{border: 0; margin: 0; float: none;}
+		
+		#map span {font:normal 8px Arial, Helvetica, sans-serif;}

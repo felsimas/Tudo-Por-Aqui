@@ -1,0 +1,139 @@
+
+/* STRUCTURE > MISC
+//////////////////////////////////////////////////*/
+
+* {margin: 0; padding: 0; border: 0; font-family: Helvetica;}
+
+div.clear {clear: both; line-height: 0; height: 0;}
+
+body {min-height: 316px;}
+
+/* STRUCTURE > HEADER
+//////////////////////////////////////////////////*/
+
+#header {position: relative; top: 0; left: 0; display: block; width: 100%; height: 40px; background:#13487f url("../images/bg_header.png") 0 0 repeat-x; z-index: 200;}
+
+#header h1 {color: #fff; text-shadow: #000 0px -1px 0px; font-size: 20px; text-align: center; line-height: 40px;}
+
+#header a {position:absolute; top:5px; display:block; height:30px;}
+
+#header a span {display:none;}
+
+#header a.backButton {background:url(../images/bt_back.png) top center no-repeat; width:70px; position:absolute; left:5px;}
+
+#header a.backButton:hover {background:url(../images/bt_back.png) bottom center no-repeat;}
+
+#header a.homeButton {background:url(../images/bt_home.png) top center no-repeat; width:34px; right:5px;}
+
+#header a.homeButton:hover {background:url(../images/bt_home.png) bottom center no-repeat;}
+
+#header a.contactButton {background:url(../images/bt_contact.png) top center no-repeat; width:34px; right:5px;}
+
+#header a.contactButton:hover {background:url(../images/bt_contact.png) bottom center no-repeat;}
+
+#header a.searchButton {background:url(../images/bt_search.png) top center no-repeat; width:34px; right:5px;}
+
+#header a.searchButton:hover {background:url(../images/bt_search.png) bottom center no-repeat;}
+
+/* STRUCTURE > CONTENT > SEARCH
+//////////////////////////////////////////////////*/
+
+#content div.search {height:40px; background: url(../images/bg_search.png) 0 0 no-repeat;}
+
+div.search input {margin:7px 0 0 10px; padding:10px 0 0 25px; height:20px; font:normal 18px/20px Arial, Helvetica, sans-serif; color:#666;  width:300px; border:0; width:255px; background:none;}
+
+/* STRUCTURE > CONTENT 
+//////////////////////////////////////////////////*/
+
+#container {height: 359px;}
+
+/* Reposition on scroll */
+body.scrolled #container {height: 263px;}
+
+/* Reposition on orientation change */
+body[orient="landscape"] #container {height: 176px;}
+
+/* Reposition on scroll */
+body.scrolled[orient="landscape"] #container {height: 115px;}
+
+/* Content */
+#content {position: relative;}
+
+#content li {position: relative; list-style-type: none; overflow: hidden; margin: 0; padding: 0; -webkit-margin-top-collapse: separate; -webkit-margin-bottom-collapse: separate; border-top: 1px solid #e0e0e0; height: 35px; background:url(../images/listArrow.png) right center no-repeat;}
+
+#content li.active {background: #0874e1;}
+
+#content li.active span {color: #fff;}
+
+#content li span {line-height:35px; padding:0 0 0 10px; width: auto; color: #000; font-weight: bold; font-size: 14px; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; text-decoration: none;}
+
+#content div.itemViewDetail.active {background: #0874e1;}
+
+#content div.itemViewDetail.active span {color: #fff;}
+
+/* STRUCTURE > CONTENT > PAGING
+//////////////////////////////////////////////////*/
+
+#content div.paging {margin:10px auto 0 auto; text-align:center; width:140px; height:25px;}
+
+#content div.paging a {width:70px; font: bold 18px/25px Arial, Helvetica, sans-serif; color:#000; text-decoration:none;}
+
+#content div.paging a.prev {float:left;}
+
+#content div.paging a.next {float:right;}
+
+/* STRUCTURE > FOOTER
+//////////////////////////////////////////////////*/
+#footer {position: relative; top: 0; left: 0; display: block; width: 100%; background: #000 url(../images/bg_footer.png) top center repeat-x; z-index: 200;}
+
+#footer {position: absolute; top: 410px; height: 55px; background-position: center top;}
+
+/* Reposition on scroll */
+body.scrolled #footer {top: 307px;}
+
+/* Reposition on orientation change */
+body[orient="landscape"] #footer {top: 220px;}
+
+/* Reposition on scroll */
+body.scrolled[orient="landscape"] #footer {top: 159px;}
+
+#footer ul {margin: 0 auto; padding: 3px 0 0; list-style: none; display: block; height: 46px; width: 320px; text-align: center; overflow: hidden;}
+
+#footer li {margin: 0 2px; float: left; position: relative;}
+
+#footer li a {text-decoration:none;}
+
+#footer li.active {border: 3px solid; border-width: 0 3px; -webkit-border-image: url("../images/footer-hover.png") 0 3;}
+
+#footer span {padding: 31px 3px 0 3px; text-align:center; float: left; width: 54px; color: #bbb; font-weight: bold; font-size: 10px; text-decoration: none; background: url("../images/footer-buttons.png") no-repeat -2px -50px;}
+
+#footer li.active span {padding-left: 0; padding-right: 0; color: #fff;}
+
+#footer .home span {background-position: -2px -50px;}
+
+#footer .home.active span {background-position: -5px top;}
+
+#footer .listing span {background-position: -66px -50px;}
+
+#footer .listing.active span {background-position: -69px top;}
+
+#footer .event span {background-position: -130px -50px;}
+
+#footer .event.active span {background-position: -133px top;}
+
+#footer .classified span {background-position: -194px -50px;}
+
+#footer .classified.active span {background-position: -197px top;}
+
+#footer .article span {background-position: -258px -50px;}
+
+#footer .article.active span {background-position: -261px top;}
+
+#footer .contact span {background-position: -322px -50px;}
+
+#footer .contact.active span {background-position: -325px top;}
+
+/* CONTROL
+//////////////////////////////////////////////////*/
+
+#iapp_loading {opacity:.75; background: #FFF url(../images/img_loading.gif) no-repeat center center; width: 320px; height: 480px; z-index: 999; position: absolute; top: 0; left: 0;}

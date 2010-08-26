@@ -1,0 +1,214 @@
+.mainContent
+{ width: 340px; }
+
+/**
+* Module Detail
+*
+* @section	detail
+*/
+
+.detail
+{ color: #333; height: 100%; overflow: hidden; padding: 5px; }
+
+.detailContent
+{ float: left; padding: 5px 0 20px 0; width: 175px; }
+
+.detailComplementaryContent
+{ float: right; padding: 5px 0 0 0; }
+
+.baseIconNavbar
+{ }
+
+.socialBookmarkIcons
+{ padding: 5px 0 0 0; }
+
+.iconNavbar li
+{ font-size: 11px; line-height: 30px; }
+
+.claim a, .claim a:visited
+{ background: url(../images/design/bg_claim.gif) no-repeat 0 0; color: #C00; display: block; margin: 5px 0 0 0; padding: 0 0 0 15px; }
+
+.designations
+{ padding: 15px 0 0 0; }
+
+.detailSpacer
+{ padding: 10px 0 10px 0; }
+
+/**
+* Detail Typograph
+*
+* @section		detail
+* @subsection	typograph
+*/
+.titulonomapa {font-size:1.3em;}
+.detail h2
+{ color: #000; font-size: 24px; line-height: 30px; }
+
+.detail address
+{ font-style: normal; }
+
+	.detail address span
+	{ display: block; }
+
+.detailTitle
+{ background: url(../images/design/bg_title.gif) repeat-x 0 100%; font-size: 14px; font-weight: bold; margin: 0 0 5px 0; padding: 15px 0 10px 0; }
+
+	.detailTitle .complementaryInfo
+	{ position: absolute; right: 0; top: 15px; }
+	
+	.detailRatings .detailTitle
+	{ position: relative; }
+
+.summaryDescription
+{ color: #666; font-size: 11px; padding: 5px 0 5px 0; }
+	
+/**
+* Detail Media Gallery
+*
+* @section		detail
+* @subsection	gallery
+*/
+
+.imgDetail,
+.videoDetail
+{ padding: 5px 0 5px 0; text-align: center; }
+
+	.imgDetail img, .detailGallery img
+	{ border: 1px solid #000; padding: 0px; }
+
+	.imgDetail .noimage
+	{ margin: 0 auto 0 auto; }
+
+	.detailGallery .complementaryInfo
+	{ padding: 0 0 0 10px; }
+	
+	.detailGallery .viewMore
+	{ margin: 10px 0 0 0; }
+
+	.detailGallery ul
+	{ height: 100%; overflow: hidden; padding: 5px 0 5px 0; }
+
+	.detailGallery li
+	{ float: left; padding: 0 0 0 10px; }
+	
+/**
+* Google Map
+*
+* @section		detail
+* @subsection	google-maps
+*/
+
+.googleMapsWrapper
+{ position: relative; }
+	
+.googleBase
+{  background: #F7F7F7; border: 1px solid #CCC; height: 350px; margin: 0 auto 10px auto; width: 318px; z-index: 1; }
+
+	.floatLayer
+	{ background: #FFC; border: 1px solid #CCC; height: auto; left: -235px; position: absolute; top: -9px; visibility: hidden; width: 350px; z-index: 2; }
+	
+		.viewMapInfo
+		{ padding: 10px; width:200px;}
+		
+		.viewMapInfo img
+		{ background: #FFF; border: 1px solid #CCC; float: left; margin: 0 10px 10px 0; padding: 2px; }
+		
+		.viewMapInfo h1
+		{ color: #000; font-size: 14px; }
+		
+		.viewMapInfo p
+		{ font-size: 11px; }
+		
+		.viewMapInfo .googleRating img
+		{ border: 0; margin: 0; float: none; }
+		
+		#map span { font-size: 8px; }
+		
+/**
+* Google Map
+*
+* @section		detail
+* @subsection	google-maps
+*/
+
+.formDetail
+{ clear: both; }
+
+.formDetail form
+{ font-size: 11px; line-height: 18px; padding: 10px; }
+
+	.formDetail label, .formDetail .captchaImage
+	{ clear: left; color: #666; display: block; float: left; padding: 0 10px 0 0; text-align: left; white-space: nowrap; width: 130px; }
+	
+	.formDetail .required
+	{ color:#C00; padding: 0 5px 0 0; }
+	
+	.formDetail .formCaptchaWarning
+	{padding:10px 0 10px 140px; line-height:normal;}
+	
+	.formDetail input, .formDetail textarea
+	{ clear: right; float: left; margin-bottom: 5px; width: 370px; 
+
+		background:#FFFFFF url(../images/design/inputshadow.gif) repeat-x scroll left top;
+		border:1px solid #CCCCCC;
+		font-size:14px;
+		line-height:20px;
+		color:#000;
+		padding:5px 1px;
+
+		
+		
+		
+		}
+		
+.formDetail input:focus, formDetail textarea:focus{	
+		border:1px solid #0055AB;
+		padding:5px 1px;
+	
+	}
+	
+textarea:focus{
+	border:1px solid #0055AB;
+	padding:5px 1px;	
+	
+}
+	.formDetail .formCode
+	{ width: 100px; }
+		
+	.formDetail ul.standardButton
+	{ clear: right; float: right; }
+
+/**
+* Ratings
+*
+* @section		detail
+* @subsection	ratings
+*/
+
+.detailRatings
+{ clear: both; padding: 0 0 10px 0; }
+
+	.rating .ratingSeeComment, .rating .rateIt
+	{ clear: none; float: right; }
+	
+/**
+* Reviews
+*
+* @section		detail
+* @subsection	reviews
+*/
+
+.rateComments
+{ padding: 5px 10px 10px 10px; }
+
+
+.CommentArrow  {
+background-image:url("../images/comment-arrow.gif");
+background-repeat:no-repeat;
+height:14px;
+margin-bottom:-2px;
+margin-left:20px;
+width:14px;
+}
+
+

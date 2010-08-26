@@ -1,0 +1,133 @@
+/**
+* FAQ Definitions
+*
+* @section		FAQ
+* @subsection global
+*/
+
+*
+{ border: none; margin: 0; padding: 0; }
+
+ul
+{ list-style: none; }
+
+body
+{ background: none; font: normal 12px/16px Arial, Helvetica, sans-serif; color: #333; margin: 0; text-align: center; }
+
+a, a:visited
+{ color: #069; font-weight: bold; text-decoration: none; }
+
+	a:hover
+	{ text-decoration: underline; }
+
+input, select, textarea
+{ border: 1px solid #CCC; border-bottom: 1px solid #EEE; border-right: 1px solid #EEE; color: #666; padding: 2px; }
+
+.clear
+{ clear: both; display: block; height: 0px; line-height: 0px; overflow: hidden; }
+
+/**
+* Popup Structure
+*
+* @section		popup
+* @subsection structure
+*/
+
+.wrapper
+{ padding: 0; text-align: left; }
+
+/**
+* Typograph
+*
+* Headings and text styles
+*
+* @section		popup
+* @subsection	typograph
+*/
+
+h1
+{ color: #FFF; font-family: Georgia, "Times New Roman", Times, serif; font-size: 20px; font-weight: normal; line-height: 18px; margin: 0 0 10px 0; padding: 8px 0 15px 35px; }
+
+	h1 span
+	{ font-weight: bold; color: #069; }
+	
+h2
+{ color: #333; font-size: 14px; font-weight: bold; padding: 0 0 10px 0; }
+
+.complementaryInfo
+{ color: #666; display: block; font-size: 11px; font-weight: normal; }
+
+p
+{ padding: 0; }
+
+/**
+* Header
+*
+* @section		structure
+* @subsection	header
+*/
+
+.header
+{ height: 195px; position: relative; background: url('images/backdrop.jpg') 0 0 no-repeat;}
+
+.faqContent
+{ border: 1px solid #B9BF7F; border-top: none; padding: 10px; }
+
+/**
+* FAQ
+*
+* @section		popup
+* @subsection	faq
+*/
+
+.faqQuestion
+{ padding: 0 0 10px 0; }
+
+	.faqQuestion h2
+	{ padding-bottom: 5px; }
+	
+/** FAQ Paging */
+	
+.paging
+{ height: 60px; position: relative; }
+
+	.paging p
+	{ background: url(../images/design/bg_paging.gif) repeat-x bottom left; padding: 10px 10px 5px 5px; }
+
+	.paging span
+	{ position: absolute; right: 0; top: 5px; }
+
+	.paging input
+	{ font-size: 11px; height: 12px; margin-right: 3px; width: 25px; }
+
+	.paging	button
+	{ border: 0; background: url(../images/content/btn_GoTo.gif) no-repeat 0 0; color: #FFF; height: 18px; width: 20px; }
+
+.descNavigation
+{ font-size: 14px; }
+
+	.descNavigation strong
+	{ color: #069; }
+
+.letraNavigation
+{ color: #999; font-size: 14px; height: 30px; line-height: 18px; padding: 10px 0 0 0; }
+
+	.letraNavigation a, .letraNavigation a:visited
+	{ color: #999; padding: 0 0 0 17px; }
+	
+/** FAQ Search */
+
+.faqSearch
+{ bottom: 0; position: absolute; right: 0; }
+
+.faqSearch form
+{ background: url(images/design/bg_search.gif) repeat 0 0; clear: both; font-size: 11px; height: 30px; overflow: hidden; line-height: 30px; padding: 5px; float: left; }
+
+.faqSearch input
+{ float: left; margin: 5px 10px 0 10px; }
+
+.faqSearch label
+{ display: block; float: left; }
+
+.faqSearch .standardButton
+{ float: left; }

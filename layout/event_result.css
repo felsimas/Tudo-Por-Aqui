@@ -1,0 +1,69 @@
+/* EVENT RESULTS > MIDDLE CONTENT > EVENT SUMMARY
+/////////////////////////////////////////////////////*/
+
+div.eventSummary
+{width: 95%; clear: left; text-align: left; padding:0 0 10px 0; margin: 0 auto 10px auto; border-bottom: 1px solid #EEE;}
+
+	div.eventSummary a:link,
+	div.eventSummary a:active,
+	div.eventSummary a:visited,
+	div.eventSummary a:hover
+	{color: #96293F;}
+	
+	div.eventSummary a:hover
+	{color: #000; text-decoration: underline;}
+	
+	div.eventSummary h2
+	{font: bold 14px Arial, Helvetica, sans-serif; margin: 0; padding: 0; border: 0;}
+
+		div.eventSummary h2 a:link,
+		div.eventSummary h2 a:active,
+		div.eventSummary h2 a:visited,
+		div.eventSummary h2 a:hover
+		{color: #000; padding-left: 5px; border-left: 5px solid #F46200;}
+
+			div.eventSummary h2 a:hover
+			{color: #F46200;}
+			
+	div.eventSummary .baseIconNavbar
+	{padding:5px 0 0 0;}
+	
+	div.eventSummary div.eventSummaryIMAGE
+	{float:left; padding:10px 0 0 0;}
+	
+	div.eventSummary div.eventSummaryIMAGE div.imgEventSummary
+	{background: #FFF2EA; border: 5px solid #FFE6D5; padding:8px 0 8px 0; text-align:center;}
+	
+		div.eventSummaryIMAGE div.imgEventSummary div.noimage
+		{border:none; margin:0 auto 0 auto;}
+		
+	div.eventSummary div.eventSummaryContent
+	{padding:0 10px 0 0;}
+	
+	div.eventSummary div.contentShowcase
+	{float:right; width:54%; padding-top:10px;}
+	
+	div.eventSummary p,
+	div.eventSummary address
+	{font: normal 11px/12pt Verdana, Arial, Helvetica, sans-serif; color: #000;}
+	
+	div.eventSummary strong
+	{color: #DE8B46;}
+	
+	div.eventSummary p.eventSummaryDescription
+	{padding:0 0 5px 0;}
+	
+	div.eventSummary address
+	{font-style:normal;  margin: 5px 0 5px 0;}
+	
+		div.eventSummary address span
+		{display:block;}
+		
+	div.eventSummary p.moreInfo a:link,
+	div.eventSummary p.moreInfo a:active,
+	div.eventSummary p.moreInfo a:visited,
+	div.eventSummary p.moreInfo a:hover
+	{font: bold 11px Verdana, Arial, Helvetica, sans-serif; color: #B1490D; text-align: right; padding: 0; display: block;}
+
+		div.eventSummary p.moreInfo a:hover
+		{color: #000; text-decoration: underline;}

@@ -1,0 +1,109 @@
+/**
+* Special color scheme for modules
+*
+* @section		scheme
+* @subsection	listing
+*/
+
+/** Navbar */
+
+.navbar
+{ border-bottom: 1px solid #FB0; }
+
+.navbar li a:hover, .navbar li.menuActived a, .navbar li.menuActived a:visited
+{ background:url(images/design/bg_navbar_couponOn.gif) bottom center repeat-x; }
+
+/** Typograph */
+
+.standardTitle span
+{ color: #D90; }
+
+.viewMore a, .viewMore a:visited
+{ color: #664; }
+
+/** Member Join */
+
+.memberJoin h2, .memberJoin h2 a, .memberJoin h2 a:visited
+{ color: #D90; }
+
+.memberJoin p, .memberJoin p a, .memberJoin p a:visited
+{ color: #333; }
+
+/** Search */
+
+.search
+{ background: #FFE29F; border: 5px solid #FFBF2B; }
+
+.search label, .search .altLabel, .search legend
+{ color: #640; }
+
+.search input, .search select, .search textarea
+{ border: 1px solid #FFBF2B; border-bottom: 1px solid #FFF; border-right: 1px solid #FFF; }
+
+.advancedSearch a, .advancedSearch a:visited,
+.advancedSearchClose a, .advancedSearchClose a:visited
+{ color: #640; }
+
+.standardButton button, .standardButton a, .standardButton a:visited
+{ background: url(images/design/bg_couponButton.gif) repeat-x 0 0; }
+
+.searchCategory
+{ background: #FFF3D5; color: #553C00; }
+
+.searchSubcategory
+{ background: #FFFCF4; color: #AA7B00; }
+
+.templateActive a, .templateActive a:visited
+{ border: 1px solid #FFBF2B; border-bottom: none; color: #553C00; }
+
+.templateTabContent
+{ border: 1px solid #FFBF2B; }
+
+
+/** Categories */
+
+.categories
+{ border: 5px solid #FFF3D5; }
+
+.categories h3 a, .categories h3 a:visited
+{ background: url(images/design/bullet_coupon.gif) no-repeat 0 5px; }
+
+.categories h3 a:hover
+{ color: #D90 !important; }
+
+/** Featured */
+
+.highlightBox
+{ background: #FFFCF4; border: 3px solid #FFF3D5; }
+
+.featuredPromotionImage
+{ border: 5px solid #FFF3D5; height: 75px; }
+
+.featuredPromotionImage:hover
+{ border: 5px solid #D90; }
+
+.featuredItems h3 a, .featuredItems h3 a:visited
+{ color: #664; }
+
+.featuredItems .complementaryInfo a, .featuredItems .complementaryInfo a:visited
+{ color: #640; }
+
+/** Results */
+
+.standardSubTitle strong
+{ color: #D90; }
+
+.summary a, .summary a:visited
+{ color: #664; }
+
+.summary h3 a, .summary h3 a:visited
+{ border-left: 5px solid #D90; }
+
+.summary h3 a:hover
+{ color: #D90 !important; }
+
+.iconNavbar a, .iconNavbar a:visited
+{ color: #640; }
+
+.iconNavbar a:hover
+{ border: 1px solid #FFF3D5; color: #D90 !important; text-decoration: none; }

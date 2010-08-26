@@ -1,0 +1,109 @@
+
+.warning
+{margin-top: 0; padding-top: 0;}
+
+/* FAVORITES PAGE > GLOBAL SEARCH
+/////////////////////////////////////////////////////*/
+
+div.simpleSearch
+{padding: 10px 10px 0 10px; border: 5px solid #A7BFD8;}
+
+	div.simpleSearch label
+	{font: normal 18px/20px Arial, Helvetica, sans-serif; color: #162432; margin: 0 10px 10px 0; padding: 0;}
+
+		div.simpleSearch label span
+		{color: #003F7E;}
+		
+	div.simpleSearch ul.standardButton
+	{height:29px; margin-bottom:0; padding-bottom:10px;}
+
+	div.simpleSearch ul.standardButton li
+	{float: right;}
+	
+		div.simpleSearch ul.standardButton li input,
+		div.simpleSearch ul.standardButton li button
+		{width: 73px;}
+
+/* GENERAL RESULTS
+/////////////////////////////////////////////////////*/
+
+dl.generalResultsCategories
+{text-align: left; margin: 0 10px 0 10px; voice-family: "\"}\""; voice-family: inherit; padding: 0 0 20px 0;}
+html>body dl.generalResultsCategories
+{padding: 0 0 10px 0;}
+
+	dl.generalResultsCategories dt
+	{font: normal 18px/23px Arial, Verdana, Geneva, Helvetica, sans-serif; color: #609629; text-align: left; clear: both; margin: 5px 0 0 0; padding: 0 15px 0 10px; background: url("../images/design/bg_generalResultsTitle.gif") 0 6px no-repeat;}
+
+		dl.generalResultsCategories dt a:link,
+		dl.generalResultsCategories dt a:active,
+		dl.generalResultsCategories dt a:visited,
+		dl.generalResultsCategories dt a:hover
+		{color: #609629;}
+
+		dl.generalResultsCategories dt a:hover
+		{text-decoration:underline;}
+
+		dl.generalResultsCategories dt span,
+		dl.generalResultsCategories dd span
+		{color: #999;}
+
+	dl.generalResultsCategories dd
+	{font: normal 10px/18px Verdana, Arial, Helvetica, sans-serif; color: #000; padding: 0 0 0 10px; float: left;}
+
+		dl.generalResultsCategories dd a:link,
+		dl.generalResultsCategories dd a:active,
+		dl.generalResultsCategories dd a:visited,
+		dl.generalResultsCategories dd a:hover
+		{color: #999; white-space: nowrap;}
+
+			dl.generalResultsCategories dd a:hover
+			{text-decoration: underline;}
+	
+/* GENERAL RESULTS > COLORS
+/////////////////////////////////////////////////////*/
+
+		/* EVENTS */
+		
+			dl.generalResultsCategories dt.generalEventsTitle
+			{background: url("../images/design/bg_generalResultsEventTitle.gif") 0 6px no-repeat;}
+			
+				dl.generalResultsCategories dt.generalEventsTitle a:link,
+				dl.generalResultsCategories dt.generalEventsTitle a:active,
+				dl.generalResultsCategories dt.generalEventsTitle a:visited,
+				dl.generalResultsCategories dt.generalEventsTitle a:hover
+				{color: #F46200;}
+			
+		/* CLASSIFIEDS */
+
+			dl.generalResultsCategories dt.generalClassifiedsTitle
+			{background: url("../images/design/bg_generalResultsClassTitle.gif") 0 6px no-repeat;}
+		
+				dl.generalResultsCategories dt.generalClassifiedsTitle a:link,
+				dl.generalResultsCategories dt.generalClassifiedsTitle a:active,
+				dl.generalResultsCategories dt.generalClassifiedsTitle a:visited,
+				dl.generalResultsCategories dt.generalClassifiedsTitle a:hover
+				{color: #7D654F;}
+		
+		/* ARTICLES */
+
+			dl.generalResultsCategories dt.generalArticlesTitle
+			{background: url("../images/design/bg_generalResultsArticleTitle.gif") 0 6px no-repeat;}
+		
+				dl.generalResultsCategories dt.generalArticlesTitle a:link,
+				dl.generalResultsCategories dt.generalArticlesTitle a:active,
+				dl.generalResultsCategories dt.generalArticlesTitle a:visited,
+				dl.generalResultsCategories dt.generalArticlesTitle a:hover
+				{color: #6699CC;}
+		
+		/* COUPONS */
+
+			dl.generalResultsCategories dt.generalCouponsTitle
+			{background: url("../images/design/bg_generalResultsCouponTitle.gif") 0 6px no-repeat;}
+			
+				dl.generalResultsCategories dt.generalCouponsTitle a:link,
+				dl.generalResultsCategories dt.generalCouponsTitle a:active,
+				dl.generalResultsCategories dt.generalCouponsTitle a:visited,
+				dl.generalResultsCategories dt.generalCouponsTitle a:hover
+				{color: #FBAF00;}
+		

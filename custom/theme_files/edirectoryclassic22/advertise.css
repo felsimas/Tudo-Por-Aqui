@@ -1,0 +1,172 @@
+/**
+* Advertise
+*
+* @section	advertise
+*/
+
+/**
+* Advertise Tabs
+*
+* @section		advertise
+* @subsection	advertise-tabs
+*/
+
+.advertiseTabs
+{ margin: 0 auto 0 auto; width: 886px; }
+
+	.advertiseTabs li
+	{ float: left; line-height: 30px; }
+
+.advertiseTabs a, .advertiseTabs a:visited
+{ width: 176px; font: bold 11px/30px Verdana, Arial, Helvetica, sans-serif; color: #747474; text-transform: capitalize; text-align: center; padding: 0; background: #F2F2F2; display: block; border: 1px solid #E4E4E4; border-bottom: 0; border-right: 0; }
+
+	.advertiseTabs a:hover
+	{ color: #000; background: #FFF; text-decoration: none; }
+
+.advertiseTabs .advertiseMenuActive a, .advertiseTabs .advertiseMenuActive a:visited
+{ font: bold 11px/30px Verdana, Arial, Helvetica, sans-serif; color: #FFF !important; text-transform: capitalize; padding: 0; background: #81BF3F; display: block; border: 1px solid #73AB38; border-bottom: none; }
+
+/**
+* Advertise Tabs
+*
+* @section		advertise
+* @subsection	advertise-content
+*/
+
+.advertiseContent
+{ clear: both; height: 100%; margin: 0 auto 0 auto; overflow: hidden; width: 886px; }
+
+.advertiseContent div
+{ padding: 10px; }
+
+.advertiseContent blockquote
+{ padding: 10px; }
+
+.advertiseContent .dynamicContent
+{ background: #FFF; }
+
+.advertiseContent img
+{ width: 400px; }
+
+/** -->> Advertise Tabs Color <<-- */
+
+/* LISTING */
+
+	#signupMenuListing.advertiseMenuActive a,
+	#signupMenuListing.advertiseMenuActive a:visited
+	{color:#FFF; background: #692; border:none; border-bottom: 1px solid #692;}
+
+		#signupAdvertisementListing
+		{background: #CFEBB4; border: 1px solid #9D5; border-top: 1px solid #692;}
+		
+		#signupAdvertisementListing blockquote
+		{padding: 10px; background: #F2F7EE; border: 1px solid #BAE193;}
+		
+		#signupAdvertisementListing blockquote table.advertiseTable th.type
+		{color: #609629;}
+		
+/* EVENT */
+
+#signupMenuEvent.advertiseMenuActive a,
+#signupMenuEvent.advertiseMenuActive a:visited
+{ border: none; border-bottom: 1px solid #F60; color: #FFF; background: #F60; }
+
+		#signupAdvertisementEvent
+		{background: #FFC69F; border: 1px solid #F95; border-top: 1px solid #F60;}
+		
+		#signupAdvertisementEvent blockquote
+		{background: #FFF2EA; border: 1px solid #FFAF80;}
+		
+		#signupAdvertisementEvent blockquote table.advertiseTable th.type
+		{color: #F60;}
+
+/* CLASSIFIED */
+
+#signupMenuClassified.advertiseMenuActive a,
+#signupMenuClassified.advertiseMenuActive a:visited
+{color: #FFF; background: #543; border:none; border-bottom: 1px solid #543;}
+
+		#signupAdvertisementClassified
+		{background: #DACFC5; border: 1px solid #BA9; border-top: 1px solid #543;}
+		
+		#signupAdvertisementClassified blockquote
+		{background: #F5F2EF; border: 1px solid #CEBCB0;}
+		
+		#signupAdvertisementClassified blockquote table.advertiseTable th.type
+		{color: #543;}
+		
+/* ARTICLE */
+
+#signupMenuArticle.advertiseMenuActive a,
+#signupMenuArticle.advertiseMenuActive a:visited
+{width:178px; color: #FFF; background: #669; border:none; border-bottom: 1px solid #669;}
+
+		#signupAdvertisementArticle
+		{background: #E0DEED; border: 1px solid #AAD; border-top: 1px solid #669;}
+		
+		#signupAdvertisementArticle blockquote
+		{background: #F7F5FE; border: 1px solid #B0B0CF;}
+		
+		#signupAdvertisementArticle blockquote table.advertiseTable th.type
+		{color: #669;}
+		
+/* BANNER */
+
+#signupMenuBanner.advertiseMenuActive a,
+#signupMenuBanner.advertiseMenuActive a:visited
+{color: #FFF; background: #B00; border:none; border-bottom: 1px solid #B00;}
+
+		#signupAdvertisementBanner
+		{background: #FF9F9F; border: 1px solid #F55; border-top: 1px solid #B00;}
+		
+		#signupAdvertisementBanner blockquote
+		{background: #FFEAEA; border: 1px solid #FF8080;}
+		
+		#signupAdvertisementBanner blockquote table.advertiseTable th.type
+		{color: #B00;}
+
+/** -->> End - Advertise Tabs Color <<-- */
+
+.advertiseContent .type
+{ font: normal 19px/20px Arial, Verdana, Helvetica, sans-serif; color: #609629; text-transform: uppercase; padding: 10px; }
+
+.advertiseContent .prize
+{ color: #C00; font-size: 16px; font-weight: bold; float: right; padding: 0 0 5px 0; text-align: right; }
+
+.orderButton
+{ width:150px; height:41px; display:block; list-style: none; background: url("images/design/bg_advertiseButton_right.gif") 100% 50% no-repeat; margin: 10px auto 0 auto; padding: 0; }
+
+.orderButton button, .orderButton a, .orderButton a:visited
+{ width: 150px; height: 41px; font: bold 12px/41px Verdana, Arial, Helvetica, sans-serif; color: #FFF; text-decoration: none; text-align: center; display: block; background: url("images/design/bg_advertiseButton_left.gif") 0 50% no-repeat; padding: 0; }
+
+.orderButton a:hover
+{ color: #FFF !important; text-decoration: none; }
+
+.advertiseAlert
+{ display: block; font-size: 11px; }
+
+/** Advertise Screen */
+
+.advertiseScreen
+{ text-align: left; }
+
+.advertiseTable
+{ background: #FFF; width: 100%; }
+
+	.advertiseTable td
+	{ padding: 5px; vertical-align: top; width: 50%; }
+	
+	.advertiseTable th
+	{ width: 50%; }
+	
+	.advertiseScreenDesc
+	{ width: 100%; }
+	
+	.advertiseTable li
+	{ font-size: 11px; }
+
+	.advertiseScreenDesc th
+	{ font-size: 11px; }
+
+.advertiseTable li
+{ list-style: outside; padding: 0 0 5px 0; margin: 0 0 0 15px; }

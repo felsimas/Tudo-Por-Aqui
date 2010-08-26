@@ -1,0 +1,29 @@
+/* SLIDE SHOW | PHOTO GALLERY > MISC CLASSES
+/////////////////////////////////////////////////////*/
+
+.isHidden {display: none;      }
+.isShown  {visibility: visible;}
+
+/* SLIDE SHOW | PHOTO GALLERY
+/////////////////////////////////////////////////////*/
+
+div.galleryBase
+{padding: 0; margin: 10px; background-color: #FFF; border: 8px solid #253E57;}
+
+	div.galleryBase * {padding: 0; margin: 0;}
+
+	div.galleryBase dl.galleryNav
+	{width: auto; font: normal 10px/50px Verdana, Arial, Helvetica, sans-serif; color: #666; height: 50px; padding: 0 10px 0 10px; background: #F2F2F2;}
+
+		div.galleryBase dl.galleryNav dt,
+		div.galleryBase dl.galleryNav dd {float: left;}
+		
+			div.galleryBase dl.galleryNav dd {float: right; margin-right: 2px;}
+
+			div.galleryBase dl.galleryNav dd img {padding-top: 13px;}
+			
+	div.galleryBase dl.galleryNav dt {text-align: left;}
+
+	div.galleryBase blockquote.galleryPicture {padding: 10px; border: 0;}
+	
+		div.galleryBase blockquote.galleryPicture p {font: normal 10px Verdana, Arial, Helvetica, sans-serif; color: #999; padding: 15px 15px 5px 15px;}

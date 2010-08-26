@@ -1,0 +1,781 @@
+
+/* GENERAL STRUCTURE
+/////////////////////////////////////////////////////*/
+
+	body { background: #222; }
+
+div.wrapper { background: #333; border: 10px solid #555; }
+
+div.wrapper ul.navbar { background: #111; border-top: 1px solid #000; }
+
+div.wrapper ul.navbar li a:link,
+ div.wrapper ul.navbar li a:active,
+ div.wrapper ul.navbar li a:visited,
+ div.wrapper ul.navbar li a:hover { border-right: 1px solid #444; }
+
+div.wrapper ul.navbar li a:hover,
+ div.wrapper ul.navbar li a.menuActived:link,
+ div.wrapper ul.navbar li a.menuActived:active,
+ div.wrapper ul.navbar li a.menuActived:visited,
+ div.wrapper ul.navbar li a.menuActived:hover { background-color: #666 }
+
+div.wrapper div.header ul.headerLogin a:link,
+ div.wrapper div.header ul.headerLogin a:active,
+ div.wrapper div.header ul.headerLogin a:visited,
+ div.wrapper div.header ul.headerLogin a:hover { color: #AAA; }
+
+div.wrapper div.header ul.headerLogin a:hover { color: #FFF; }
+
+div.wrapper div.content { background: none; border-bottom: 5px solid #444; }
+
+div.wrapper div.content blockquote.middleContent { background: none; border-left: 1px solid #000; border-right: 1px solid #000; }
+
+div.wrapper div.content blockquote.middleContentExtended { background: none; border-left: 1px solid #000; }
+
+.rightBanner { background: #292927; }
+
+.bannerleftText a.baseRightBanner h3.right-banner-url,
+ blockquote.rightContent .bannerleftText a.baseRightBanner h3.right-banner-url { color:#5B9124 !important }
+
+div.wrapper div.footer { background: none; border-top: 1px solid #222; border-bottom: 4px solid #222; }
+
+div.wrapper div.footer blockquote { background: #253E57; }
+
+ul.standardStep li { color:#666; background: url("../../images/color/black_gray/bg_stepInactive.gif") 0 0 no-repeat; }
+
+ul.standardStep li.stepActived,
+ ul.standardStep li.stepActived span { color:#FFF !important; }
+
+table.standardForm { background: #444; border: 3px solid #222; }
+
+table.standardForm th { color:#FFF; font-weight:bold; }
+
+table.standardForm td { color:#999 }
+
+.noimage { border: 5px solid #E2ECF5; }
+
+ul.basePreviewNavbar { background: #FBFBFB; border: 1px solid #EEE; }
+
+.base-categoriesRESULTS { color: #CCC; }
+
+div.base-subcategoriesRESULTS h1 { color: #FFF; border-bottom: 1px solid #333; }
+
+div.categoriesTreeRESULTS blockquote { border-bottom: 1px solid #666; }
+
+.categoriesTreeRESULTS p.relatedCategoriesTitle { color: #CCC; }
+
+dl.rateStars dt,
+dl.rateStars dd,
+ div.couponSummary p,
+div.couponSummary h3,
+ div.articleDetail div.articleDetailIMAGE span,
+ blockquote.middleContentExtended div.classifiedDetail p strong,
+ dl.base-join div.formFieldsLogin span.automaticLogin,
+ dl.base-join div.formFieldsLogin label,
+ form.formListingDetail label,
+form.formListingDetail span.captchaImage { color:#FFF; }
+
+blockquote.middleContentExtended div.classifiedDetail p,
+ div.articleSummary p.articleSummaryDescription { color: #999; }
+
+dl.base-join dt { color: #FFF; }
+
+dl.base-join dt span { color: #AAA; }
+
+dl.base-join dd { color: #999; }
+
+div.wrapper div.content blockquote.leftContent p.standardTitle,
+div.wrapper div.content blockquote.middleContent p.standardTitle { color:#FFF; }
+
+h1.standardTitle span,
+p.standardTitle span { color:#CCC !important; }
+
+h1.standardTitle,
+p.standardTitle { color: #FFF !important }
+
+div.wrapper div.footer ul.navFooter li a:hover { color: #FFF; }
+
+ul.standard-iconlink a:link,
+ ul.standard-iconlink a:active,
+ ul.standard-iconlink a:visited,
+ ul.standard-iconlink a:hover { color:#6D9AC8; }
+
+dl.base-join dd.warning { color: #FFF; }
+
+dl.base-join a:link,
+ dl.base-join a:active,
+ dl.base-join a:visited,
+ dl.base-join a:hover { color: #CCC; }
+
+dl.base-join table.table-login th { color: #CCC; }
+
+dl.base-join form div.formFieldsLogin input { color: #000; background: #EAEAEA; border-top: 1px solid #333; border-left: 1px solid #333; }
+
+.warning { color: #999; }
+
+div.dynamicContent { color:#CCC }
+
+div.dynamicContent p,
+h1,
+h2,
+h3 { color:#CCC }
+
+div.dynamicContent a:link,
+ div.dynamicContent a:active,
+ div.dynamicContent a:visited,
+ div.dynamicContent a:hover { color:#FFF }
+
+div.galleryBase { background-color: #333333; border: 8px solid #555; }
+
+/* STRUCTURE > CONTENT > LEFT CONTENT > SEARCH
+//////////////////////////////////////////////////////*/
+
+	div.simpleSearch { background:#666; border-color:#999; color:#CCC; }
+
+div.simpleSearch input,
+ div.simpleSearch select { background:#EAEAEA; border-top:1px solid #333; border-left:1px solid #999; }
+
+div.simpleSearch label,
+ div.simpleSearch label span { color:#CCC; }
+
+div.simpleSearch dt span { color:#FFF; }
+
+ul.searchTab li a:link,
+ ul.searchTab li a:active,
+ ul.searchTab li a:visited,
+ ul.searchTab li a:hover { color: #666; background: #555; border-bottom:1px solid #999; }
+
+ul.searchTab li.tab-active a,
+ ul.searchTab li.tab-active a:link,
+ ul.searchTab li.tab-active a:visited,
+ ul.searchTab li.tab-active a:active,
+ ul.searchTab li.tab-active a:hover { background: #666; color: #CCC; border-color: #999; }
+
+ul.searchTab li.tab-inactive a,
+ ul.searchTab li.tab-inactive a:link,
+ ul.searchTab li.tab-inactive a:visited,
+ ul.searchTab li.tab-inactive a:active,
+ ul.searchTab li.tab-inactive a:hover { color: #333; border-bottom-color:#CCC }
+
+ul.searchTab li.tab-inactive a:hover { color: #FFF; }
+
+/* STRUCTURE > MISC CLASSES > RATING
+/////////////////////////////////////////////////////*/
+
+	ul.rating li.ratingReview,
+ ul.rating li.ratingReview a:link,
+ ul.rating li.ratingReview a:active,
+ ul.rating li.ratingReview a:visited,
+ ul.rating li.ratingReview a:hover,
+ ul.rating li.ratingSeeComment a:link,
+ ul.rating li.ratingSeeComment a:active,
+ ul.rating li.ratingSeeComment a:visited,
+ ul.rating li.ratingSeeComment a:hover,
+ ul.rating li.ratingImage a:link,
+ ul.rating li.ratingImage a:active,
+ ul.rating li.ratingImage a:visited,
+ ul.rating li.ratingImage a:hover,
+ ul.rating li.ratingText a:link,
+ ul.rating li.ratingText a:active,
+ ul.rating li.ratingText a:visited,
+ ul.rating li.ratingText a:hover { color: #FFF; }
+
+/* GENERAL FRONT
+/////////////////////////////////////////////////////*/
+
+	div.frontBusinesses { border-bottom: 1px solid #222; }
+
+blockquote.highlightBusinesses a.frontBusinessesIMAGE:link,
+ blockquote.highlightBusinesses a.frontBusinessesIMAGE:active,
+ blockquote.highlightBusinesses a.frontBusinessesIMAGE:visited,
+ blockquote.highlightBusinesses a.frontBusinessesIMAGE:hover,
+ blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:link,
+ blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:active,
+ blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:visited,
+ blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:hover { border: 5px solid #555; }
+
+blockquote.highlightBusinesses a.frontBusinessesIMAGE:hover,
+ blockquote.highlightBusinesses a.frontBusinessesNOIMAGE:hover { border: 5px solid #609629; }
+
+blockquote.highlightBusinesses h1 a:link,
+ blockquote.highlightBusinesses h1 a:active,
+ blockquote.highlightBusinesses h1 a:visited,
+ blockquote.highlightBusinesses h1 a:hover { color: #CCC; }
+
+ul.highlightBusinessesList li a:link,
+ ul.highlightBusinessesList li a:active,
+ ul.highlightBusinessesList li a:visited,
+ ul.highlightBusinessesList li a:hover { color:#CCC; }
+
+div.frontPromotions { border-bottom: 1px solid #222; }
+
+blockquote.highlightPromotions a.frontPromotionsIMAGE:link,
+ blockquote.highlightPromotions a.frontPromotionsIMAGE:active,
+ blockquote.highlightPromotions a.frontPromotionsIMAGE:visited,
+ blockquote.highlightPromotions a.frontPromotionsIMAGE:hover,
+ blockquote.highlightPromotions a.frontPromotionsNOIMAGE:link,
+ blockquote.highlightPromotions a.frontPromotionsNOIMAGE:active,
+ blockquote.highlightPromotions a.frontPromotionsNOIMAGE:visited,
+ blockquote.highlightPromotions a.frontPromotionsNOIMAGE:hover { border: 5px solid #555; }
+
+blockquote.highlightPromotions a.frontPromotionsIMAGE:hover,
+ blockquote.highlightPromotions a.frontPromotionsNOIMAGE:hover { border: 5px solid #FFB504; }
+
+blockquote.highlightPromotions h1 a:link,
+ blockquote.highlightPromotions h1 a:active,
+ blockquote.highlightPromotions h1 a:visited,
+ blockquote.highlightPromotions h1 a:hover { color: #CCC; }
+
+div.frontClassified { border-bottom: 1px solid #222; }
+
+blockquote.highlightClassified a.frontClassifiedIMAGE:link,
+ blockquote.highlightClassified a.frontClassifiedIMAGE:active,
+ blockquote.highlightClassified a.frontClassifiedIMAGE:visited,
+ blockquote.highlightClassified a.frontClassifiedIMAGE:hover,
+ blockquote.highlightClassified a.frontClassifiedNOIMAGE:link,
+ blockquote.highlightClassified a.frontClassifiedNOIMAGE:active,
+ blockquote.highlightClassified a.frontClassifiedNOIMAGE:visited,
+ blockquote.highlightClassified a.frontClassifiedNOIMAGE:hover { border: 5px solid #555; }
+
+blockquote.highlightClassified a.frontClassifiedIMAGE:hover,
+ blockquote.highlightClassified a.frontClassifiedNOIMAGE:hover { border: 5px solid #5F4D3C; }
+
+blockquote.highlightClassified h1 a:link,
+ blockquote.highlightClassified h1 a:active,
+ blockquote.highlightClassified h1 a:visited,
+ blockquote.highlightClassified h1 a:hover { color: #CCC; }
+
+dl.baseFrontArticles { background: #777; border: 5px solid #666; }
+
+dl.baseFrontArticles dt { border-bottom: 1px solid #333; color: #FFF; }
+
+dl.baseFrontArticles dt span { color: #6D9AC8; }
+
+dl.baseFrontArticles dd h1.frontArticlesTitle a:link,
+ dl.baseFrontArticles dd h1.frontArticlesTitle a:active,
+ dl.baseFrontArticles dd h1.frontArticlesTitle a:visited,
+ dl.baseFrontArticles dd h1.frontArticlesTitle a:hover { color: #FFF; }
+
+dl.baseFrontArticles dd h1.frontArticlesTitle a:hover { color: #FFF; }
+
+dl.baseFrontArticles dd a:link,
+ dl.baseFrontArticles dd a:active,
+ dl.baseFrontArticles dd a:visited,
+ dl.baseFrontArticles dd a:hover { color: #000; }
+
+dl.baseFrontArticles dd a:hover { color: #000; }
+
+dl.baseFrontEvents { background: #666; border: 5px solid #555; }
+
+dl.baseFrontEvents dt { border-bottom: 1px solid #333; color:#FFF }
+
+dl.baseFrontEvents dd a:link,
+ dl.baseFrontEvents dd a:active,
+ dl.baseFrontEvents dd a:visited,
+ dl.baseFrontEvents dd a:hover { color: #CCC; }
+
+ul.highlightEventList li a:link,
+ ul.highlightEventList li a:active,
+ ul.highlightEventList li a:visited,
+ ul.highlightEventList li a:hover { color:#CCC; }
+
+dl.baseFrontEvents dd.firstFrontEvents { border-bottom: 1px dashed #333; }
+
+dl.baseFrontEvents dd.firstFrontEvents img { border: 1px solid #EEE; }
+
+dl.generalResultsCategories dd a:hover { color: #FFF; text-decoration: underline; }
+
+/* GENERAL ORDER
+/////////////////////////////////////////////////////*/
+
+	table.orderTable { background: #FFF; }
+
+table.orderTable th,
+ table.orderTable td { border:1px solid #F5F4F4; }
+
+table.orderTable th.orderTitle { background: #2E4C6B; border: 1px solid #396D9D; }
+
+table.orderTable td.orderTopdetail { background: #396D9D; border: 1px solid #2E4C6B; }
+
+table.orderTable td.orderUserTable { background: #FBFBFB; }
+
+table.orderTable td.orderUserTable table { background: #FFF; border: 2px solid #EFEFEF; }
+
+table.standardChooseLevel { border: 1px solid #EEF7E6; }
+
+table.standardChooseLevel th,
+ table.standardChooseLevel td { background: #FBFBFB; border: 0; border-bottom: 1px solid #E4E4E7; }
+
+ul.signupButton li input,
+ ul.signupButton li button { background: url("../../images/color/black_gray/bt_order.gif"); }
+
+table.standardSIGNUPTable th { background: #555; color:#FFF !important; }
+
+table.standardSIGNUPTable td { background: #555; color:#CCC !important; }
+
+table.standardSIGNUPTable td span,
+ table.standardSIGNUPTable th span { color:#CCC !important }
+
+table.standardSIGNUPTable td.treeView div.treeviewLoadingMessage,
+ table.standardSIGNUPTable td.treeView div.treeviewMainMenu { background: #FFF; border: 1px solid #E6EEF7; }
+
+/* GENERAL MEMBERS
+/////////////////////////////////////////////////////*/
+
+	.bg-tablebilling-active { background: #9F9F9F !important; }
+
+.bg-tablebilling-inactive { background: #555555 !important; }
+
+dl.memberMenu dt,
+ dl.memberMenu dd { background-color: #FCFCFC; border-bottom: 1px solid #EEE; }
+
+dl.memberMenu dd { background: #FFF; }
+
+table.levelTable { background: #FFF; }
+
+table.standardChooseLevel { border: 1px solid #EEF7E6; }
+
+table.standard-table td,
+ table.standard-table th { background: #555; color:#000 }
+
+table.levelTable th.levelTitle { background: #2E4C6B; border:1px solid #396D9D; }
+
+table.levelTable td.levelTopdetail { background: #396D9D; border:1px solid #2E4C6B }
+
+table.levelTable th.tableOption { background: #E6EBF0; border: 1px solid #E0EFCF; border-top: 5px solid #E6EBF0; }
+
+table.standard-tableTOPBLUE { background:#666; border:1px solid #111; }
+
+table.standard-tableTOPBLUE th { background-color: #2E4C6B; }
+
+table.standard-tableTOPBLUE td { border:1px solid #333; color:#000; }
+
+table.standard-tableTOPBLUE td font { color:#999 !important }
+
+table.standard-tableTOPBLUE td.tableTOPBLUECheck { background: #FFF; }
+
+table.standard-tableTOPBLUE td.tableTOPBLUECheck * { background: #FFF; }
+
+table.standard-table td.treeView div.treeviewLoadingMessage,
+ table.standard-table td.treeView div.treeviewMainMenu { background: #FFF; border: 1px solid #E6EEF7; }
+
+table.warningBOX { background: #F6FFF4; border: 1px solid #DADADA; }
+
+table.warningBOXtext { background: #FFF; }
+
+table.warningBOXtext th,
+ table.warningBOXtext td { background: #FFF; }
+
+.standard-iconDESCRIPTION { color:#CCC; }
+
+.standard-iconDESCRIPTION li.rollback-icon { background: url("../../images/color/black_gray/icon_rollback.gif") no-repeat 0 50%; }
+
+.standard-iconDESCRIPTION li.rating-icon { background: url("../../images/color/black_gray/img_rateMiniStarOn.gif") no-repeat 0 50%; }
+
+.standard-iconDESCRIPTION li.pending-icon { background: url("../../images/color/black_gray/bt_approve.gif") no-repeat 0 50%; }
+
+.standard-iconDESCRIPTION li.approved-icon { background: url("../../images/color/black_gray/bt_approved.gif") no-repeat 0 50%; }
+
+.standard-iconDESCRIPTION li.claimapprove-icon { background: url("../../images/color/black_gray/icon_claimapprove.gif") no-repeat 0 50%; }
+
+.standard-iconDESCRIPTION li.claimdeny-icon { background: url("../../images/color/black_gray/icon_claimdeny.gif") no-repeat 0 50%; }
+
+.standard-iconDESCRIPTION li.moreinfo-icon { background: url("../../images/color/black_gray/icon_eye.gif") no-repeat 0 50%; }
+
+dl.base-join form,
+ blockquote.middleContent div.formFieldsLogin,
+ blockquote.middleContentExtended div.formFieldsLogin { background:#555; border: 5px solid #666; }
+
+div.formFieldsLogin { color: #FFF; font-weight:bold; }
+
+blockquote.middleContentExtended p { color: #CCC; }
+
+div.wrapper div.content blockquote.leftContent h3 { color:#FFF; }
+
+div.wrapper div.content blockquote.leftContent h3 span { color:#666; }
+
+ul.memberMenu li { border-bottom:1px solid #000; }
+
+ul.memberMenu li a:link,
+ ul.memberMenu li a:active,
+ ul.memberMenu li a:visited,
+ ul.memberMenu li a:hover { color:#000; background-color:#666 }
+
+ul.memberMenu li a:hover { color:#CCC; background-color:#444 }
+
+dl.memberMenu dt,
+ dl.memberMenu dd { color:#CCC; background:#555; border-bottom:1px solid #000 }
+
+dl.memberMenu dt a:link,
+ dl.memberMenu dt a:active,
+ dl.memberMenu dt a:visited,
+ dl.memberMenu dt a:hover { color:#000; }
+
+dl.memberMenu dt a:hover { color:#FFF; }
+
+dl.memberMenu dd a:link,
+ dl.memberMenu dd a:active,
+ dl.memberMenu dd a:visited,
+ dl.memberMenu dd a:hover { color:#AAA; }
+
+dl.memberMenu dd a:hover { color:#FFF; text-decoration:underline; }
+
+table.standard-table th.standard-tabletitle,
+ table.addBannerTable th.standard-tabletitle { color: #FFF; border-bottom: 1px solid #CCC; }
+
+blockquote.middleContentExtended p.warning { color:red; }
+
+.status-active { color: #90DB18; }
+
+.status-suspended { color: #CCC; }
+
+.status-expired { color: #EF413D; }
+
+.status-pending { color: #990000; }
+
+ul.headerNav li { color:#FFF; }
+
+blockquote.middleContentExtended h2.headerStandardTitle { color: #FFF; border-bottom: 1px solid #CCC; }
+
+.list-view li a:link,
+ .list-view li a:visited,
+ .list-view li a:active,
+ .list-view li a:hover { color:#999; }
+
+.list-view li a:hover { color: #AAA; }
+
+.list-view li.list-back a:hover { color: #CCC; }
+
+.general-item { background: #666; border: 5px solid #444; color:#AAA; }
+
+.general-item strong { color: #FFF; }
+
+table.standard-table th.tableOption { background: #999; border-bottom: 1px solid #EEE; }
+
+table.standard-table th.tableOption { background: #999; border-bottom: 1px solid #EEE; }
+
+table.standard-table th.tableOption a:link,
+ table.standard-table th.tableOption a:active,
+ table.standard-table th.tableOption a:visited,
+ table.standard-table th.tableOption a:hover { color: #000; }
+
+table.tableCategoriesADDED { background: #555 !important; }
+
+table.tableCategoriesADDED th.tableCategoriesTITLE { border: 0 !important; }
+
+table.tableCategoriesADDED td.tableCategoriesCONTENT { background: #555 !important; border: 0 !important; }
+
+table.tableCategoriesADDED td.tableCategoriesCONTENT select { border: 1px solid #EEE; }
+
+table.tableCategoriesADDED td.tableCategoriesBUTTONS { background: #555 !important; border:0 !important; }
+
+body.previewmember { background: #333; }
+
+body.previewmember h5 { font: normal 14pt Arial, Helvetica, sans-serif; color: #666; background:#CCC; text-align: left; margin: 10px; padding:10px; border-bottom: 1px dashed #EEE; border-top: 1px dashed #EEE; }
+
+/* GENERAL CONTENT
+/////////////////////////////////////////////////////*/
+
+	#main-right .list-view li span.ratings { background: url("../../images/color/black_gray/img_rateMiniStarOn.gif") 168px 0 no-repeat; }
+
+.standard-iconDESCRIPTION li.rating-icon { background: url("../../images/color/black_gray/img_rateMiniStarOn.gif") no-repeat 0 50%; }
+
+/* FRONT COLOR
+/////////////////////////////////////////////////////*/
+
+	blockquote.highlightBusinesses h3,
+ blockquote.highlightBusinesses h3 a:link,
+ blockquote.highlightBusinesses h3 a:active,
+ blockquote.highlightBusinesses h3 a:visited,
+ blockquote.highlightBusinesses h3 a:hover,
+ blockquote.highlightPromotions h3,
+ blockquote.highlightPromotions h3 a:link,
+ blockquote.highlightPromotions h3 a:active,
+ blockquote.highlightPromotions h3 a:visited,
+ blockquote.highlightPromotions h3 a:hover,
+ blockquote.highlightClassified h3,
+ blockquote.highlightClassified h3 a:link,
+ blockquote.highlightClassified h3 a:active,
+ blockquote.highlightClassified h3 a:visited,
+ blockquote.highlightClassified h3 a:hover { color: #999; }
+
+/* LISTING MODULE
+/////////////////////////////////////////////////////*/
+
+
+	div.listingCATEGORIES { background: #777; border: 5px solid #666; }
+
+table.tableFeatured a:link,
+ table.tableFeatured a:active,
+ table.tableFeatured a:visited,
+ table.tableFeatured a:hover { color: #FFF; }
+
+table.tableFeatured p { color: #AAA; }
+
+div.listingSummary address span { color:#BBB; }
+
+div.listingSummary,
+ div.listingSummary p { color: #999; }
+
+ul.left-list li a:link,
+ ul.left-list li a:visited,
+ ul.left-list li a:active,
+ ul.left-list li a:hover { color: #BBB; }
+
+ul.left-list li a:hover { color: #FFF; }
+
+div.listingDetail,
+ div.listingDetail p { color:#999; }
+
+div.listingDetail h1.listingDetailTitle { color: #77AA44; }
+
+div.listingDetail a:link,
+ div.listingDetail a:active,
+ div.listingDetail a:visited,
+ div.listingDetail a:hover { color: #FFF; }
+
+div.listingDetail a:hover { text-decoration:underline; }
+
+form.formListingDetail { background: #444; border: 4px solid #222; }
+
+table.rateComments { background: none; border: 3px solid #555; }
+
+ul.detailGallery p,
+ ul.detailGallery pre { color: #CFEBB4; text-align:center }
+
+div.emailFriendWrapper { border: 10px solid #555; }
+
+table.formRate { background: #444; border: 3px solid #666; }
+
+table.formRate th { color:#FFF; }
+
+/* EVENT MODULE
+/////////////////////////////////////////////////////*/
+
+	div.eventCATEGORIES { border: 5px solid #666; background:#777; }
+
+div.eventCATEGORIES blockquote a:hover { color: #000; }
+
+blockquote.highlightEvents h1,
+ blockquote.highlightEvents h1 a:link,
+ blockquote.highlightEvents h1 a:active,
+ blockquote.highlightEvents h1 a:visited,
+ blockquote.highlightEvents h1 a:hover { color: #FFF; }
+
+blockquote.highlightEvents h1 a:hover { color: #E16215; }
+
+blockquote.highlightEvent h1 a:link,
+ blockquote.highlightEvent h1 a:active,
+ blockquote.highlightEvent h1 a:visited,
+ blockquote.highlightEvent h1 a:hover { color: #CCC; }
+
+blockquote.highlightEvents p { color: #999; }
+
+div.eventSummary address span { color:#BBB; }
+
+div.eventSummary,
+ div.eventSummary p { color: #999; }
+
+div.eventSummary h2 a:link,
+ div.eventSummary h2 a:active,
+ div.eventSummary h2 a:visited,
+ div.eventSummary h2 a:hover { color: #F46200; }
+
+div.eventSummary h2 { color:#FFCA8D }
+
+div.eventDetail,
+ div.eventDetail p { color: #999; }
+
+div.eventDetail h1.eventDetailTitle { color: #F46200; }
+
+div.eventDetail a:link,
+ div.eventDetail a:active,
+ div.eventDetail a:visited,
+ div.eventDetail a:hover { color: #FFF; }
+
+blockquote.middleContentExtended div.eventDetail p { color: #FFF; }
+
+/* CLASSIFIED MODULE
+/////////////////////////////////////////////////////*/
+
+	div.classifiedCATEGORIES { border: 5px solid #555; background:#666; }
+
+div.classifiedCATEGORIES ul li h1.classifiedCATEGORIEStitle a:hover { color: #000; }
+
+table.tableClassified tr { border-bottom: 1px solid #444; }
+
+table.tableClassified td h1 a:link,
+ table.tableClassified td h1 a:active,
+ table.tableClassified td h1 a:visited,
+ table.tableClassified td h1 a:hover { color: #7D654F; }
+
+table.tableClassified th,
+ table.tableClassified td { color: #999; }
+
+div.classifiedSummary,
+ div.classifiedSummary p { color:#999; }
+
+div.classifiedSummary a:link,
+ div.classifiedSummary a:active,
+ div.classifiedSummary a:visited,
+ div.classifiedSummary a:hover { color: #FFF; }
+
+div.classifiedSummary h2 a:link,
+ div.classifiedSummary h2 a:active,
+ div.classifiedSummary h2 a:visited,
+ div.classifiedSummary h2 a:hover { color: #7D654F; }
+
+div.classifiedDetail,
+ div.classifiedDetail p { color: #999; }
+
+div.classifiedDetail h1.classifiedDetailTitle { color: #7D654F; }
+
+div.classifiedDetail a:link,
+ div.classifiedDetail a:active,
+ div.classifiedDetail a:visited,
+ div.classifiedDetail a:hover { color: #FFF; }
+
+div.baseClassifiedGallery { border: 1px solid #222; border-right: 5px solid #222; border-bottom: 5px solid #222; background:#666 }
+
+div.baseClassifiedGallery blockquote.classifiedMainImage,
+ div.baseClassifiedGallery blockquote.classifiedMainImageNOIMAGE { border-bottom: 1px solid #222; background: #666; }
+
+p.GreenTitle { color: #FFF; }
+
+blockquote.classifiedRandom h1 a.classifiedRandomTitle:link,
+ blockquote.classifiedRandom h1 a.classifiedRandomTitle:active,
+ blockquote.classifiedRandom h1 a.classifiedRandomTitle:visited,
+ blockquote.classifiedRandom h1 a.classifiedRandomTitle:hover { color: #609629; }
+
+blockquote.classifiedRandom p { color:#999; }
+
+/* PROMOTIONS MODULE
+/////////////////////////////////////////////////////*/
+
+	div.couponCATEGORIES { background: #666; border: 5px solid #555; }
+
+blockquote.highlightCoupons h1,
+ blockquote.highlightCoupons h1 a:link,
+ blockquote.highlightCoupons h1 a:active,
+ blockquote.highlightCoupons h1 a:visited,
+ blockquote.highlightCoupons h1 a:hover { color: #CCC; }
+
+div.couponSummary h2 a:link,
+ div.couponSummary h2 a:active,
+ div.couponSummary h2 a:visited,
+ div.couponSummary h2 a:hover { color: #D59500; }
+ div.couponSummary, div.couponSummary p, {
+color: #999;
+}
+
+div.baseCoupon { border: 10px solid #555; }
+
+/* ARTICLE MODULE
+/////////////////////////////////////////////////////*/
+
+	blockquote.articleLeftContentExtended { border-right: 1px solid #444; border-left: 1px solid #444; }
+
+fieldset.articleSearchForm label { color: #FFF; }
+
+blockquote.articleMiddleContent { border-left: 1px solid #444; border-right: 1px solid #444; }
+
+blockquote.articleRightContent { border-right: 1px solid #444; }
+
+blockquote.articleMiddleContent div.middleArticleTop,
+ blockquote.articleMiddleContent div.middleArticle { border-top: 1px solid #111; }
+
+/* ARTICLES TITLE - LINK */
+	blockquote.articleMiddleContent div.middleArticleTop h1 a:link,
+ blockquote.articleMiddleContent div.middleArticleTop h1 a:active,
+ blockquote.articleMiddleContent div.middleArticleTop h1 a:visited,
+ blockquote.articleMiddleContent div.middleArticleTop h1 a:hover,
+ blockquote.articleMiddleContent div.middleArticle h1 a:link,
+ blockquote.articleMiddleContent div.middleArticle h1 a:active,
+ blockquote.articleMiddleContent div.middleArticle h1 a:visited,
+ blockquote.articleMiddleContent div.middleArticle h1 a:hover { color: #647C97; }
+
+blockquote.articleMiddleContent div.middleArticleTop h1,
+ blockquote.articleMiddleContent div.middleArticleTop p,
+ blockquote.articleMiddleContent div.middleArticle h1,
+ blockquote.articleMiddleContent div.middleArticle p { color:#CCC; }
+
+blockquote.articleRightContent div.rightArticleTop,
+ blockquote.articleRightContent div.rightArticle { color:#666; }
+
+/* ARTICLES TITLE - LINK */
+	blockquote.articleRightContent div.rightArticleTop h2 a:link,
+ blockquote.articleRightContent div.rightArticleTop h2 a:active,
+ blockquote.articleRightContent div.rightArticleTop h2 a:visited,
+ blockquote.articleRightContent div.rightArticleTop h2 a:hover,
+ blockquote.articleRightContent div.rightArticle h2 a:link,
+ blockquote.articleRightContent div.rightArticle h2 a:active,
+ blockquote.articleRightContent div.rightArticle h2 a:visited,
+ blockquote.articleRightContent div.rightArticle h2 a:hover { color: #999; }
+
+div.articleCategories { border: 5px solid #2B2B2B; }
+
+blockquote.articleRightContent p { color: #CCC; }
+
+blockquote.articleRightContent h1 span { color:#FFF !important; }
+
+blockquote.articleRightContent div.rightArticleTop h2 span,
+ blockquote.articleRightContent div.rightArticle h2 span,
+ blockquote.articleMiddleContent div.middleArticleTop h1 span,
+ blockquote.articleMiddleContent div.middleArticle h1 span { color:#FFF; }
+
+div.articleCategories dl dt a:link,
+ div.articleCategories dl dt a:active,
+ div.articleCategories dl dt a:visited,
+ div.articleCategories dl dt a:hover { color: #8196B4; }
+
+div.articleCategories dl dd a:link,
+ div.articleCategories dl dd a:active,
+ div.articleCategories dl dd a:visited,
+ div.articleCategories dl dd a:hover { color:#FFF; }
+
+div.articleCategories dl dd a:hover { color:#F1F3F8; }
+
+div.articleDetail,
+ div.articleSummary { color: #999; }
+
+div.articleSummary h2 a:link,
+ div.articleSummary h2 a:active,
+ div.articleSummary h2 a:visited,
+ div.articleSummary h2 a:hover { color: #647C97; }
+
+div.articleDetail p.articleContentTitle { color:#FFF; }
+
+blockquote.articleImage span { color: #CCC; }
+
+div.eventSummary a:link,
+div.eventSummary a:active,
+div.eventSummary a:visited,
+div.eventSummary a:hover,
+div.listingSummary a:link,
+div.listingSummary a:active,
+div.listingSummary a:visited,
+div.listingSummary a:hover,
+ div.articleDetail ul.iconNavbar li a:link,
+ div.articleDetail ul.iconNavbar li a:active,
+ div.articleDetail ul.iconNavbar li a:visited,
+ div.articleDetail ul.iconNavbar li a:hover,
+ div.articleSummary ul.iconNavbar li a:link,
+ div.articleSummary ul.iconNavbar li a:active,
+ div.articleSummary ul.iconNavbar li a:visited,
+ div.articleSummary ul.iconNavbar li a:hover { color: #CCC !important; }
+
+div.eventSummary a:hover,
+ div.articleSummary ul.iconNavbar li a:hover,
+ div.articleDetail ul.iconNavbar li a:hover,
+ div.listingSummary a:hover { color:#FFF !important; }
+
+blockquote.highlightArticle h1,
+ blockquote.highlightArticle h1 a:link,
+ blockquote.highlightArticle h1 a:active,
+ blockquote.highlightArticle h1 a:visited,
+ blockquote.highlightArticle h1 a:hover { color: #CCC; }
+
+div.couponSummary a:link, div.couponSummary a:active, div.couponSummary a:visited, div.couponSummary a:hover,
+div.couponSummary p.moreInfo a:link, div.couponSummary p.moreInfo a:active, div.couponSummary p.moreInfo a:visited, div.couponSummary p.moreInfo a:hover  { color: #CCC;}
+
+table.standard-table td span  { color: #FFF;}

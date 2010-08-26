@@ -1,0 +1,275 @@
+/**
+* eDirectory - Style Definitions on Modules Detail
+*
+* This style sheet describes the styles applied for the detail pages
+* of all modules
+*
+* @package		layout
+* @author			Sis Dir 2009 - Classificados
+* @copyright	Copyright (c) 2009, Sis Dir 2009 - Classificados Inc.
+*
+* @colordef		#069; standard blue 					(link color and title highlight)
+* @colordef		#333; standard dark gray 			(text colors)
+* @colordef		#666; standard gray 					(notes, complementary information)
+* @colordef		#690; standard green color 		(footer links, membros links, search box)
+* @colordef		#C00; standard red 						(standard hover link, highlight label, calendar day's hover, secondary link color)
+* @colordef		#CCC; standard border color
+* @colordef		#EEE; secondary border color
+* @colordef		#F7F7F7; tertiary border color, light gray background color
+* @colordef		#FFC; standard yellow color 	(highlight featured, calendar day's hover)
+*/
+
+/**
+* Columns
+*
+* Specific main content extended for detail pages
+*
+* @section				structure
+* @subsection			content
+* @subsubsection	columns-extended
+*/
+
+.mainContent
+{ width: 740px; margin:0; padding: 0 0 0 20px; }
+
+/**
+* Module Detail
+*
+* @section	detail
+*/
+
+.detail
+{ color: #333; height: 100%; overflow: hidden; }
+
+.detailContent
+{ float: left; padding: 20px 0 0 0; width: 375px; }
+
+.detailComplementaryContent
+{ float: right; padding: 5px 0 0 0; }
+
+.baseIconNavbar
+{ background: #F7F7F7; border-bottom: 1px solid #CCC; border-top: 1px solid #CCC; height: 30px; padding: 0 10px 0 10px; }
+
+.socialBookmarkIcons
+{ padding: 5px 0 0 0; }
+
+.iconNavbar li
+{ font-size: 11px; line-height: 30px; }
+
+.claim a, .claim a:visited
+{ background: url(images/bg_claim.gif) no-repeat 0 0; color: #C00; display: block; margin: 5px 0 0 0; padding: 0 0 0 15px; }
+
+.designations
+{ padding: 15px 0 0 0; }
+
+.detailSpacer
+{ padding: 10px 0 10px 0; }
+
+/**
+* Detail Typograph
+*
+* @section		detail
+* @subsection	typograph
+*/
+
+.detail h2
+{ color: #000; font-size: 24px; line-height: 30px; }
+
+.detail address
+{ font-style: normal; }
+
+	.detail address span
+	{ display: block; }
+
+.detailTitle
+{ border-bottom: 1px solid #009900; font-size: 14px; font-weight: bold; margin: 0 0 5px 0; padding: 15px 0 5px 0; position: relative; }
+
+	.detailTitle .complementaryInfo
+	{ position: absolute; right: 0; top: 15px; }
+
+.summaryDescription
+{ color: #666; font-size: 11px; padding: 5px 0 5px 0; }
+	
+/**
+* Detail Media Gallery
+*
+* @section		detail
+* @subsection	gallery
+*/
+
+.imgDetail,
+.videoDetail
+{ padding: 5px 0 5px 0; text-align: center; }
+
+	.imgDetail img, .detailGallery img
+	{ border: 1px solid #CCC; padding: 2px; }
+
+	.imgDetail .noimage
+	{ margin: 0 auto 0 auto; }
+
+	.detailGallery .complementaryInfo
+	{ padding: 0 0 0 10px; }
+	
+	.detailGallery .viewMore
+	{ margin: 10px 0 0 0; }
+
+	.detailGallery ul
+	{ height: 100%; overflow: hidden; padding: 5px 0 5px 0; }
+
+	.detailGallery li
+	{ float: left; padding: 0 0 0 10px; }
+	
+/**
+* Google Map
+*
+* @section		detail
+* @subsection	google-maps
+*/
+
+.googleMapsWrapper
+{ position: relative; }
+	
+.googleBase
+{  background: #F7F7F7; border: 1px solid #CCC; height: 250px; margin: 0 auto 10px auto; width: 318px; z-index: 1; }
+
+	.floatLayer
+	{ background: #FFC; border: 1px solid #CCC; height: auto; left: -235px; position: absolute; top: -9px; visibility: hidden; width: 350px; z-index: 2; }
+	
+		.viewMapInfo
+		{ padding: 10px; }
+		
+		.viewMapInfo img
+		{ background: #FFF; border: 1px solid #CCC; float: left; margin: 0 10px 10px 0; padding: 2px; }
+		
+		.viewMapInfo h1
+		{ color: #000; font-size: 14px; }
+		
+		.viewMapInfo p
+		{ font-size: 11px; }
+		
+		.viewMapInfo .googleRating img
+		{ border: 0; margin: 0; float: none; }
+		
+		#map span { font-size: 8px; }
+		
+/**
+* Google Map
+*
+* @section		detail
+* @subsection	google-maps
+*/
+
+.formDetail
+{ clear: both; }
+
+.formDetail form
+{ font-size: 11px; line-height: 18px; padding: 10px; }
+
+	.formDetail label, .formDetail .captchaImage
+	{ clear: left; color: #666; display: block; float: left; padding: 0 10px 0 0; text-align: right; white-space: nowrap; width: 130px; }
+	
+	.formDetail .required
+	{ color:#C00; padding: 0 5px 0 0; }
+	
+	.formDetail .formCaptchaWarning
+	{padding:10px 0 10px 140px; line-height:normal;}
+	
+	.formDetail input, .formDetail textarea
+	{ clear: right; float: left; margin-bottom: 5px; width: 570px; }
+	
+	.formDetail .formCode
+	{ width: 100px; }
+		
+	.formDetail ul.standardButton
+	{ clear: right; float: right; }
+	
+/**
+* Icon Navbar
+*
+* @section		common
+* @subsection	icon-navbar
+*/
+
+.baseIconNavbar
+{ border-bottom: 1px solid #CCC; }
+
+.socialBookmarkIcons
+{ float: left; }
+
+	.socialBookmarkIcons li
+	{ float: left; padding: 0 5px 0 0; }
+
+.iconNavbar
+{ float: right; }
+
+	.iconNavbar li
+	{ color: #666; float: left; font-size: 11px; height: 14px; line-height: 25px; padding: 0 2px 0 3px; }
+	
+	.iconNavbar li a, .iconNavbar li a:visited
+	{ color: #416000; }
+
+
+/**
+* Ratings
+*
+* @section		common
+* @subsection	ratings
+*/
+
+.rating
+{ float: right; font-size: 11px; }
+
+	.rating li
+	{ padding: 0 3px 0 2px; }
+
+	.rating .ratingStar
+	{ float: right; padding: 2px 2px 0 0; }
+	
+	.rating .ratingStar img
+	{ padding: 0 2px 0 0; }
+
+	.rating .ratingReview
+	{ float: right; }
+	
+		.rating .ratingReview a, .rating .ratingReview a:visited
+		{ font-weight: normal; }
+	
+	.rating .ratingSeeComment, .rating .rateIt
+	{ clear: both; float: none; }
+	
+	.rating .rateIt a, .rating .rateIt a:visited
+	{ color: #690; }
+
+/**
+* Ratings
+*
+* @section		detail
+* @subsection	ratings
+*/
+
+.detailRatings
+{ clear: both; padding: 0 0 10px 0; }
+
+	.rating .ratingSeeComment, .rating .rateIt
+	{ clear: none; float: right; }
+	
+/** Rate Stars */
+
+.rateItStars
+{ font-size: 14px; font-weight: bold; line-height: 25px; margin: 0 auto 0 auto; padding: 20px 0 10px 0; text-align: center; width: 205px; }
+
+	.rateItStars span
+	{ clear: both; display: block; }
+
+	.rateItStars img
+	{ padding: 1px; }
+	
+/**
+* Reviews
+*
+* @section		detail
+* @subsection	reviews
+*/
+
+.rateComments
+{ padding: 5px 10px 10px 10px; }

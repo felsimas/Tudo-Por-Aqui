@@ -1,0 +1,92 @@
+/* EVENT FRONT > STRUCTURE > CATEGORIES
+/////////////////////////////////////////////////////*/
+
+div.eventCATEGORIES
+{font: normal 10px Verdana, Arial, Helvetica, sans-serif; text-align: left; margin: 0 15px 0 15px; padding: 5px; border: 5px solid #FFF3E4; height:100%;}
+
+	 div.eventCATEGORIES blockquote
+	 {width: 30%; float: left; margin:0 10px 0 0; border: 0;}
+	 
+	 html>body div.eventCATEGORIES blockquote
+	 {width: 30%; float: left; margin:0 15px 0 0; border: 0;}
+	 
+		/* SCALABILITY FEATURE > CATEGORIES > VIEW ALL CATEGORIES */
+		div.eventCATEGORIES blockquote.allCategories
+		{width:95%; float:none;}
+
+		 div.eventCATEGORIES blockquote img
+		 {float: left; margin: 0 10px 10px 0; border: 3px solid #F7F7F7;}
+		 
+		div.eventCATEGORIES blockquote h1,
+		div.eventCATEGORIES blockquote h2
+		{line-height:normal; display:inline; margin:0; padding:0;}
+
+		div.eventCATEGORIES blockquote a:link,
+		div.eventCATEGORIES blockquote a:active,
+		div.eventCATEGORIES blockquote a:visited,
+		div.eventCATEGORIES blockquote a:hover
+		{font: normal 10px Verdana, Arial, Helvetica, sans-serif; color: #333;}
+
+			div.eventCATEGORIES blockquote a:hover
+			{color: #555; text-decoration: underline;}
+
+			div.eventCATEGORIES blockquote h1.eventCATEGORIEStitle a:link,
+			div.eventCATEGORIES blockquote h1.eventCATEGORIEStitle a:active,
+			div.eventCATEGORIES blockquote h1.eventCATEGORIEStitle a:visited,
+			div.eventCATEGORIES blockquote h1.eventCATEGORIEStitle a:hover
+			{font: bold 14px Arial, Verdana, Helvetica, sans-serif; color: #000; text-align: left; display: block; padding: 5px 5px 5px 10px; background: url("../images/design/bullet_events.gif") 2px 9px no-repeat; border: 0;}
+
+				div.eventCATEGORIES blockquote h1.eventCATEGORIEStitle a:hover
+				{color: #F46200; text-decoration: underline;}
+				
+			div.eventCATEGORIES p.viewAllCategories
+			{font:bold 11px/normal Verdana, Arial, Helvetica, sans-serif; border-top:1px solid #EEE; padding:10px 5px 5px 0; margin:10px 5px 0 5px; text-align:right;}
+			
+			div.eventCATEGORIES p.viewAllCategories a:link,
+			div.eventCATEGORIES p.viewAllCategories a:active,
+			div.eventCATEGORIES p.viewAllCategories a:visited,
+			div.eventCATEGORIES p.viewAllCategories a:hover
+			{color:#B1490D;}
+			
+			div.eventCATEGORIES p.viewAllCategories a:hover
+			{color:#000; text-decoration:underline;}
+
+/* EVENT FRONT > MIDDLE CONTENT > FEATURED EVENTS
+/////////////////////////////////////////////////////*/
+
+div.featuredEvents
+{voice-family: "\"}\""; voice-family:inherit; padding-left: 15px;}
+
+	blockquote.highlightEvents
+	{margin: 0 0 0 13px; float: left; border: 0;}
+	
+		html>body blockquote.highlightEvents
+		{margin: 0 0 0 23px;}
+	
+		blockquote.highlightEvents a.featuredEventsImage:link,
+		blockquote.highlightEvents a.featuredEventsImage:active,
+		blockquote.highlightEvents a.featuredEventsImage:visited,
+		blockquote.highlightEvents a.featuredEventsImage:hover,
+		
+		blockquote.highlightEvents a.featuredEventsNOIMAGE:link,
+		blockquote.highlightEvents a.featuredEventsNOIMAGE:active,
+		blockquote.highlightEvents a.featuredEventsNOIMAGE:visited,
+		blockquote.highlightEvents a.featuredEventsNOIMAGE:hover
+		{display: block; background: #F4F4F4; border: 5px solid #E9E9E9;}
+	
+			div.featuredEvents a.featuredEventsImage:hover,
+			blockquote.highlightEvents a.featuredEventsNOIMAGE:hover
+			{border: 5px solid #FFC69F;}
+
+		blockquote.highlightEvents h1,
+		blockquote.highlightEvents h1 a:link,
+		blockquote.highlightEvents h1 a:active,
+		blockquote.highlightEvents h1 a:visited,
+		blockquote.highlightEvents h1 a:hover
+		{font: bold 14px Arial, Helvetica, sans-serif; color: #000; text-align: center; padding: 3px; padding-left:0; margin: 0; border: 0;}
+	
+			blockquote.highlightEvents h1 a:hover
+			{ color: #F46200; text-decoration: underline;}
+		
+		blockquote.highlightEvents p
+		{font: normal 11px Verdana, Arial, Helvetica, sans-serif; color: #333; text-align: left; margin: 0; padding: 5px; padding-left:0; border: 0;}

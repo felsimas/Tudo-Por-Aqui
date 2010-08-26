@@ -1,0 +1,201 @@
+ 
+/*****************************************************
+* Login
+*****************************************************/
+
+
+* {
+	margin:  0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+body {
+	font:       normal 100% "Lucida Grande", Helvetica, Verdana, Arial, sans-serif;
+	color:      #555;
+	margin:     0;
+	padding:    0;
+	height: 100%;
+}
+
+.clear {
+	position: relative;
+	clear: both;
+}
+
+input {
+	font: normal 14px "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+	margin: 0;
+	padding: 5px;
+	border: solid 1px #9fbbcd;
+	color: #333;
+	background: #fff;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+
+form {
+	padding: 25px 0;
+	font-size: 11px;
+}
+
+	form span.input {
+		display: block;
+		-moz-border-radius: 5px;
+	    -webkit-border-radius: 5px;
+	    border-radius: 5px;
+		background: #d0e5f2;
+		padding: 5px;
+		margin: 0 0 15px 0;
+	}
+
+#wrapper {
+	background: #d4e2ef url(../images/design/login_bg.gif) repeat-x; 
+	padding: 50px 0 0px 0;
+	height:100%;
+	
+}
+
+#container_front {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 950px;
+}
+
+	div.blue_box {
+        padding: 20px 20px 0 20px;
+        text-align: left;
+    }
+
+    div.blue_box_end {
+        height: 15px;
+    }
+
+  form .blue_box dl {
+            padding: 5px 0 0 0;
+            line-height: 100%;
+            font-size: 11px;
+            color: #000;
+			border: none;
+			margin: 0;
+			background: none;
+   }
+
+   form .blue_box dl dt {
+                float: left;
+                width: 140px;
+                padding: 15px 0 0 0;
+				margin: 0;
+				text-align: left;
+				
+    }
+	form .blue_box dl dd {
+                 float: left;
+                 position: relative;
+                 width: 365px;
+                 padding: 0;
+				 margin: 0;
+    }
+
+
+	div.blue_box {
+	background:url("../images/design/bg_azul.gif") no-repeat scroll 0 0 transparent;
+	padding:20px 20px 0;
+	text-align:left;
+	}
+	
+	div.blue_box_end {
+        height: 15px;
+        background: url(../images/design/bg_azul.gif) no-repeat left bottom;
+    }
+
+#container_front { width: 575px; }
+
+#header_front {
+	background: url(../images/design/content_top.gif) no-repeat;
+	height: 115px;
+}
+
+div.content_front { background: url(../images/design/content_bg.png) repeat-y; }
+div.content_front {
+   display: block;
+    position: relative;
+    padding: 5px 15px 0 15px;
+	zoom: 1;
+}
+
+.login div.content_end_front[class] {
+background:url("../images/design/finaldocontent.png") no-repeat scroll 0 0 transparent;
+}
+
+div.content_end_front {
+display:block;
+height:75px;
+text-align:right;
+}
+input[type="file"], input[type="image"], input[type="file"], input[type="hidden"] {
+background:none repeat scroll 0 0 transparent;
+border:0 none;
+padding:0;
+}
+
+#container_front.login form {
+	padding: 0;
+	position: relative;
+}
+
+form .blue_box dl dd.password {
+	position: relative;
+	text-align: right;
+}
+form dd.password span.input {
+		padding-right: 10px;
+}
+
+form input#login_password {
+    position: absolute;
+    width: 200px;
+    top: 5px;
+    left: 5px;
+}
+
+form input#signup_button {
+	    width: auto;
+	    margin: 0;
+		right: 15px;
+		bottom: 25px;
+		position: absolute;
+		z-index: 100;
+}
+
+
+form input.text {
+    width: 343px;
+	font: bold 18px Helvetica, Arial, Verdana, sans-serif;
+	letra-spacing: -1px;
+	vertical-align: bottom;
+}
+
+input.inputAuto {
+margin:3px 10px 3px 0;
+width:auto;
+}
+
+.content_end_front span a, .content_end_front span a:visited {
+background:url("../images/setadireita.gif") no-repeat scroll left 6px transparent;
+border:0 none;
+color:#999999;
+padding:2px 0 2px 8px;
+}
+.content_end_front span {
+    float: left;
+    font-size: 11px;
+    margin: 25px 0 0 15px;
+}
+
+

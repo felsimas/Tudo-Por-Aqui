@@ -1,0 +1,152 @@
+* {text-decoration: none; padding: 0; margin: 0; /* border: 0; */}
+
+body {margin: 10px 0 0 0;}
+
+/* ARTICLE DETAIL PRINT > ARTICLE DETAIL
+/////////////////////////////////////////////////////*/
+
+div.articleDetail
+{width: 96%; text-align: left; margin: 0 auto 10px auto; font: normal 11px/16px Verdana, Arial, Helvetica, sans-serif; color: #000;}
+	
+	blockquote.middleContentExtended div.articleDetail p
+	{color:#000;}
+	
+	div.articleDetail h1.articleDetailTitle
+	{font: bold 24px/30px Arial, Helvetica, sans-serif; color:#000;}
+	
+	div.articleDetail p.articleInfo
+	{line-height:20px; color:#666; border-top:1px solid #EEE; border-bottom:1px solid #EEE; margin:10px 0 10px 0;}
+	
+		div.articleDetail p.articleInfo span
+		{display:block; font-weight:bold; color:#666;}
+	
+	div.articleDetail p.articleContentTitle
+	{font: bold 11px Verdana, Arial, Helvetica, sans-serif; color:#333; margin-bottom: 0;}
+	
+	div.articleDetail address
+	{font-style:normal;}
+		
+		div.articleDetail address span
+		{display:block;}
+	
+	div.articleDetail p strong,
+	div.articleDetail address strong
+	{color: #666;}		
+
+	/* CONTENT COLUMN */
+	div.articleDetail div.articleDetailContent
+	{width:53%; float:left;}
+	
+	div.articleDetail div.articleDetailIMAGE
+	{float:right;}
+		
+	div.articleDetail a:link,
+	div.articleDetail a:active,
+	div.articleDetail a:visited,
+	div.articleDetail a:hover
+	{color: #000;}
+	
+	div.articleDetail a:hover
+	{color: #000; text-decoration:underline;}
+
+	/* ARTICLE IMAGE */
+	div.articleDetail div.imgArticleDetail
+	{text-align: center; padding: 0; margin:10px 0 5px 0; background-color: #F5F5F5; border: 5px solid #EEE;}
+	
+		div.articleDetail div.imgArticleDetail img
+		{ margin: 0; padding: 5px; border: 0;}
+	
+	div.articleDetail div.articleDetailIMAGE span
+	{font-size:10px; display:block; color:#000; text-align:right;}
+	
+	div.articleDetail div.articleDetailIMAGE p
+	{font-size:10px; color:#333;}
+	
+/* ARTICLE DETAIL PRINT > PHOTO GALERY
+/////////////////////////////////////////////////////*/
+
+div.articleDetailGallery
+{clear:both; margin:10px 0 0 0; padding:10px 0 0 0; border-top:1px solid #EEE;}
+
+ul.detailGallery
+{height: 150px; margin: 10px 0 0 0;}
+
+	ul.detailGallery li
+	{float: left; list-style: none; padding: 0; border: 0;}
+	
+		ul.detailGallery li img
+		{ margin: 10px 10px 0 10px; padding: 0; border: 5px solid #DDD;}
+	
+	ul.detailGallery p
+	{padding: 5px 10px 0 10px; color: #000;}
+	
+	ul.detailGallery pre
+	{font: normal 11px/16px Verdana, Arial, Helvetica, sans-serif;}
+	
+	a.articleLink:link,
+	a.articleLink:active,
+	a.articleLink:visited,
+	a.articleLink:hover
+	{display: block; text-align: right; padding: 0 10px 0 0;}
+
+		a.articleLink:hover
+		{color: #000; text-decoration: underline;}
+
+
+	a.articleBack:link,
+	a.articleBack:active,
+	a.articleBack:visited,
+	a.articleBack:hover
+	{font: bold 14px Arial, Helvetica, sans-serif; color: #000; text-transform: capitalize; text-align: left; display: block; padding: 5px 5px 10px 0;}
+	
+		a.articleBack:hover
+		{color: #000; text-decoration: underline;}
+		
+	br.clear {clear:both; line-height:0; height:0;}
+		
+/* ARTICLE DETAIL PRINT > MISC CLASS > PRINT NAVBAR
+/////////////////////////////////////////////////////*/
+
+	div.basePrint
+	{ width: 730px; margin: 0;}
+
+	ul.basePrintNavbar
+	{ height: 30px; padding: 0; margin: 0 0 10px 0; background: #FBFBFB; border: 1px solid #EEE;}
+	
+		ul.basePrintNavbar li
+		{list-style: none; float: right;}
+		
+		ul.basePrintNavbar li a:link,
+		ul.basePrintNavbar li a:active,
+		ul.basePrintNavbar li a:visited,
+		ul.basePrintNavbar li a:hover
+		{font: normal 10px Arial, Helvetica, sans-serif; color: #000; display: block; padding: 8px 10px 8px 30px; background: url("../images/content/icon_print.gif") 8px 50% no-repeat; border: 0;}
+		
+		ul.basePrintNavbar li a:hover
+		{color: #2C69B9;}
+		
+/* ARTICLE DETAIL PRINT > MISC CLASSES > MESSAGES
+/////////////////////////////////////////////////////*/
+
+.informationMessage,
+.errorMessage,
+.successMessage
+{font: bold 11px/18px Verdana, Arial, Helvetica, sans-serif; text-align:left; margin: 10px 20px 10px 20px; padding: 15px 15px 15px 45px; height:1%; /* IE HACK */}
+	
+/* ARTICLE DETAIL PRINT > MISC CLASSES > MESSAGES > INFORMATION MESSAGE
+/////////////////////////////////////////////////////*/
+
+.informationMessage
+{color: #135DA2; border: 5px solid #E6F3FB; background: #F9FDFF url(../images/design/bg_icon_information.gif) 10px center no-repeat;}
+
+/* ARTICLE DETAIL PRINT > MISC CLASSES > MESSAGES > ERROR MESSAGE
+/////////////////////////////////////////////////////*/
+
+.errorMessage
+{color: #C10924; border: 5px solid #FFEAEA; background: #FFF9F9 url(../images/design/bg_icon_error.gif) 10px 10px no-repeat;}
+
+/* ARTICLE DETAIL PRINT > MISC CLASSES > MESSAGES > SUCCESS MESSAGE
+/////////////////////////////////////////////////////*/
+
+.successMessage
+{color: #609629; border: 5px solid #F1F7D4; background: #F9FCEB url(../images/design/bg_icon_success.gif) 10px 10px no-repeat;}

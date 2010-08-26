@@ -1,0 +1,93 @@
+/* CLASSIFIED FRONT > MIDDLE CONTENT > CATEGORIES
+/////////////////////////////////////////////////////*/
+
+div.classifiedCATEGORIES {font: normal 10px Verdana, Arial, Helvetica, sans-serif; text-align: left; margin: 0 15px 0 15px; padding: 5px; border: 5px solid #F7F4F2; height:100%;}
+
+		div.classifiedCATEGORIES h1,
+		div.classifiedCATEGORIES h2
+		{line-height:normal; display:inline; margin:0; padding:0;}
+
+	 div.classifiedCATEGORIES ul {width: 47%; float: left;}
+	 
+		/* SCALABILITY FEATURE > CATEGORIES > VIEW ALL CATEGORIES */
+		div.classifiedCATEGORIES ul.allCategories
+		{width:100%; float:none;}
+	 
+	 	div.classifiedCATEGORIES ul.classifiedRightCategories {float:right;}
+	 
+		  div.classifiedCATEGORIES ul li {list-style: none; clear: left; margin-bottom: 5px;}
+			
+				html>body div.classifiedCATEGORIES ul.allCategories li
+				{padding-top:5px;}
+
+			 div.classifiedCATEGORIES ul li img {float: left; margin: 0 5px 0 0; padding: 1px; border: 1px solid #EEE;}
+
+			 div.classifiedCATEGORIES ul li img.classifiedBullet {padding: 0 2px 2px 0; margin: 0; float: none; border: 0;}
+			 
+			 div.classifiedCATEGORIES ul li span.classifiedCategoryNoImage {float: left; margin: 0 5px 0 0; padding: 1px; border: 1px solid #EEE; display:block;}
+
+			/* CATEGORIES TITLE */ 
+			div.classifiedCATEGORIES ul li h1.classifiedCATEGORIEStitle a:link,
+			div.classifiedCATEGORIES ul li h1.classifiedCATEGORIEStitle a:active,
+			div.classifiedCATEGORIES ul li h1.classifiedCATEGORIEStitle a:visited,
+			div.classifiedCATEGORIES ul li h1.classifiedCATEGORIEStitle a:hover {font: bold 14px Arial, Verdana, Helvetica, sans-serif; color: #222; text-align: left; border: 0;}
+			
+			div.classifiedCATEGORIES ul li h1.classifiedCATEGORIEStitle a:hover {color: #838352;}
+
+			/* SUB-CATEGORIES TITLE */	
+			div.classifiedCATEGORIES ul li a:link,
+			div.classifiedCATEGORIES ul li a:active,
+			div.classifiedCATEGORIES ul li a:visited,
+			div.classifiedCATEGORIES ul li a:hover {font: normal 10px Verdana, Arial, Helvetica, sans-serif; color: #333; text-decoration: none;}
+	
+				div.classifiedCATEGORIES ul li a:hover {text-decoration: underline; color: #000;}
+				
+			div.classifiedCATEGORIES p.viewAllCategories
+			{font:bold 11px/normal Verdana, Arial, Helvetica, sans-serif; border-top:1px solid #EEE; padding:10px 5px 5px 0; margin:10px 5px 0 5px; text-align:right;}
+			
+			div.classifiedCATEGORIES p.viewAllCategories a:link,
+			div.classifiedCATEGORIES p.viewAllCategories a:active,
+			div.classifiedCATEGORIES p.viewAllCategories a:visited,
+			div.classifiedCATEGORIES p.viewAllCategories a:hover
+			{color:#7D654F;}
+			
+			div.classifiedCATEGORIES p.viewAllCategories a:hover
+			{color:#000; text-decoration:underline;}
+
+/* CLASSIFIED FRONT > MIDDLE CONTENT > FEATURED CATEGORIES
+/////////////////////////////////////////////////////*/
+
+table.tableClassified {width: 95%; margin: 0 auto 0 auto; border-collapse: collapse;}
+
+	table.tableClassified tr {border-bottom: 1px solid #EEE;}
+
+	table.tableClassified th,
+	table.tableClassified td {font: normal 11px/15px Verdana, Arial, Helvetica, sans-serif; color: #333; text-align: left; padding: 5px;}
+	
+		table.tableClassified td p {padding: 10px;}
+	
+		table.tableClassified td h1 {font: bold 14px/20px Arial, Helvetica, sans-serif; color: #000; text-align: left; text-decoration: none; padding: 0 0 0 5px; margin: 10px 0 0 5px; border-left: 5px solid #5F4D3C;}
+
+		table.tableClassified td h1 a:link,
+		table.tableClassified td h1 a:active,
+		table.tableClassified td h1 a:visited,
+		table.tableClassified td h1 a:hover
+		{color: #000;}
+		
+		table.tableClassified td h1 a:hover {color: #5F4D3C; text-decoration: underline;}
+
+		/* IMAGE SIZE */
+		table.tableClassified table.imgClassifiedFeatured {text-align: center; background-color: #F5F2EF; border: 5px solid #EBE6E0;}
+
+			table.tableClassified table.imgClassifiedFeatured td,
+			table.tableClassified table.imgClassifiedFeatured td.noimage {text-align: center; vertical-align: middle;}
+
+				table.tableClassified table.imgClassifiedFeatured td.noimage a:link,
+				table.tableClassified table.imgClassifiedFeatured td.noimage a:active,
+				table.tableClassified table.imgClassifiedFeatured td.noimage a:visited,
+				table.tableClassified table.imgClassifiedFeatured td.noimage a:hover
+				{display: block; text-decoration: none;}
+
+				table.tableClassified table.imgClassifiedFeatured td.noimage { border: 0;}
+
+			table.tableClassified table.imgClassifiedFeatured img {margin: 0;}

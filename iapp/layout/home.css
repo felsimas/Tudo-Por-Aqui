@@ -1,0 +1,29 @@
+/* STRUCTURE > MISC
+//////////////////////////////////////////////////*/
+
+body {background: url(../images/bg_home.png) 0 0 repeat-x;}
+
+#content {width:226px; height:100%; margin:80px auto 0 auto; border:0;}
+
+/* STRUCTURE > NAVBAR (4ICONS)
+//////////////////////////////////////////////////*/
+
+#content a {width:99px; height:100px; display:block; float:left; margin:7px;}
+
+#content a span {display:none;}
+
+#content a.listingButton {background:url(../images/listings_ico.png) 0 0 no-repeat;}
+
+#content a.eventButton {background:url(../images/events_ico.png) 0 0 no-repeat;}
+
+#content a.classifiedButton {background:url(../images/classifieds_ico.png) 0 0 no-repeat;}
+
+#content a.articleButton {background:url(../images/articles_ico.png) 0 0 no-repeat;}
+
+/* STRUCTURE > FOOTER > POWRED BY
+//////////////////////////////////////////////////*/
+
+#footer {height:20px; top:443px;}
+
+#footer p.basePowered a,
+#footer p.basePowered {display:block; float:right; background: url(../images/poweredby.png) 0 30% no-repeat; width:138px; height:25px;}

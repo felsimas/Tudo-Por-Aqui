@@ -1,0 +1,133 @@
+/* COUPON FRONT > MIDDLE CONTENT > CATEGORIES
+/////////////////////////////////////////////////////*/
+
+div.couponCATEGORIES
+{margin: 0 15px 0 15px; padding: 10px; background: #FFF; border: 5px solid #FFF3D5;}
+
+	div.couponCATEGORIES blockquote,
+	div.couponCATEGORIES blockquote.couponCATEGORIESrightcolumn
+	{width: 50%; font: normal 10px/normal Verdana, Arial, Helvetica, sans-serif; text-align: left; padding: 0; float: left;}
+	
+		div.couponCATEGORIES blockquote.couponCATEGORIESrightcolumn
+		{width: 48%; float: right; }
+		
+		/* SCALABILITY FEATURE > CATEGORIES > VIEW ALL CATEGORIES */
+		div.couponCATEGORIES blockquote.allCategories
+		{width:100%; float:none;}
+		
+		div.couponCATEGORIES blockquote h1,
+		div.couponCATEGORIES blockquote h2
+		{line-height:normal; display:inline; margin:0; padding:0;}
+
+		div.couponCATEGORIES blockquote a:link,
+		div.couponCATEGORIES blockquote a:active,
+		div.couponCATEGORIES blockquote a:visited,
+		div.couponCATEGORIES blockquote a:hover
+		{font: normal 10px/15px Verdana, Arial, Helvetica, sans-serif; color: #333; text-decoration: none;}
+	
+			div.couponCATEGORIES blockquote a:hover
+			{color: #000; text-decoration: underline;}
+
+		div.couponCATEGORIES blockquote h1.couponCATEGORIEStitle a:link,
+		div.couponCATEGORIES blockquote h1.couponCATEGORIEStitle a:active,
+		div.couponCATEGORIES blockquote h1.couponCATEGORIEStitle a:visited,
+		div.couponCATEGORIES blockquote h1.couponCATEGORIEStitle a:hover
+		{font: bold 14px/20px Arial, Helvetica, sans-serif; color:#000; display: block; text-decoration: none; margin: 0; padding: 0 0 0 7px; background: url("../images/design/bullet_coupon.gif") 0 7px no-repeat; border: 0;}
+
+				div.couponCATEGORIES blockquote h1.couponCATEGORIEStitle a:hover
+				{color: #FFB504; text-decoration: underline;}
+				
+		div.couponCATEGORIES p.viewAllCategories
+		{font:bold 11px/normal Verdana, Arial, Helvetica, sans-serif; border-top:1px solid #EEE; padding:10px 5px 0 0; margin-top:10px; text-align:right;}
+		
+		div.couponCATEGORIES p.viewAllCategories a:link,
+		div.couponCATEGORIES p.viewAllCategories a:active,
+		div.couponCATEGORIES p.viewAllCategories a:visited,
+		div.couponCATEGORIES p.viewAllCategories a:hover
+		{color:#6F4E00;}
+		
+		div.couponCATEGORIES p.viewAllCategories a:hover
+		{color:#000; text-decoration:underline;}
+
+/* COUPON FRONT > MIDDLE CONTENT > FEATURED COUPONS (OLD)
+/////////////////////////////////////////////////////*/
+
+table.table-featured
+{width: 95%; text-align: left; margin: 0 auto 0 auto; border:0; border-bottom:1px solid #F2EFEC; }
+
+	table.table-featured td,
+	table.table-featured th
+	{padding: 3px;}	
+
+	table.table-featured h1.title-featured
+	{margin: 0; padding: 0;}
+
+		table.table-featured h1.title-featured a:link,
+		table.table-featured h1.title-featured a:active,
+		table.table-featured h1.title-featured a:visited,
+		table.table-featured h1.title-featured a:hover
+		{font: bold 14px/20px Arial, Helvetica, sans-serif; color: #000; text-decoration: none; padding: 0 0 0 5px; margin: 0 0 0 5px; border-left: 5px solid #6699CC;}
+		
+			table.table-featured h1.title-featured a:hover
+			{color: #6699CC; text-decoration: underline;}
+
+	table.table-featured p
+	{font: normal 11px/15px Verdana, Arial, Helvetica, sans-serif; color: #333; text-align: left; padding: 5px 5px 10px 5px; margin: 0;}
+
+		table.table-featured a:link,
+		table.table-featured a:active,
+		table.table-featured a:visited,
+		table.table-featured a:hover
+		{color: #003F7E; text-transform: capitalize;}
+
+			table.table-featured a:hover
+			{color: #000; text-decoration: underline;}
+
+		table.table-featured table.img-featured
+		{width: 100px; text-align: center; background-color: #E2ECF5; /* border: 1px solid #E1E1E1; border-right:1px solid #F2EFEC; border-bottom:1px solid #F2EFEC; */}
+
+			table.table-featured table.img-featured img
+			{margin: 5px;}
+
+/* COUPON FRONT > MIDDLE CONTENT > FEATURED COUPONS
+/////////////////////////////////////////////////////*/
+
+div.featuredCoupons
+{ voice-family: "\"}\"";
+  voice-family:inherit;
+  padding-left: 15px;
+  }
+
+	blockquote.highlightCoupons
+	{margin: 0 0 0 13px; float: left; border: 0;}
+	
+		html>body blockquote.highlightCoupons
+		{margin: 0 0 0 23px;}
+	
+		blockquote.highlightCoupons a.featuredCouponsImage:link,
+		blockquote.highlightCoupons a.featuredCouponsImage:active,
+		blockquote.highlightCoupons a.featuredCouponsImage:visited,
+		blockquote.highlightCoupons a.featuredCouponsImage:hover,
+
+		blockquote.highlightCoupons a.featuredCouponsNOIMAGE:link,
+		blockquote.highlightCoupons a.featuredCouponsNOIMAGE:active,
+		blockquote.highlightCoupons a.featuredCouponsNOIMAGE:visited,
+		blockquote.highlightCoupons a.featuredCouponsNOIMAGE:hover
+		{display: block; background: #F4F4F4; border: 5px solid #E9E9E9;}
+	
+			div.featuredCoupons a.featuredCouponsImage:hover,
+			div.featuredCoupons a.featuredCouponsNOIMAGE:hover
+			{border: 5px solid #FFB504;}
+	
+		blockquote.highlightCoupons	h1,
+		blockquote.highlightCoupons	h1 a:link,
+		blockquote.highlightCoupons	h1 a:active,
+		blockquote.highlightCoupons	h1 a:visited,
+		blockquote.highlightCoupons	h1 a:hover
+		{font: bold 14px Arial, Helvetica, sans-serif; color:#000; text-align: center; padding: 3px; padding-left:0; margin: 0; border: 0;}
+	
+			blockquote.highlightCoupons	h1 a:hover
+			{color: #D59500; text-decoration: underline;}
+		
+		blockquote.highlightCoupons p
+		{font: normal 11px Verdana, Arial, Helvetica, sans-serif; color: #333; text-align: left; margin: 0; padding: 5px; border: 0;}

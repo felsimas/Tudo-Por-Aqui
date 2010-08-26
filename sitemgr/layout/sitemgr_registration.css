@@ -1,0 +1,65 @@
+/* SITEMGR STRUCTURE > REGISTRATION CODE > POPUP
+/////////////////////////////////////////////////////*/
+
+div.wrapper
+{width:450px;}
+
+html>body div.wrapper
+{width:430px;}
+
+div.wrapper div.header,
+div.wrapper div.content
+{border:none;}
+
+div.wrapper div.header
+{ width: auto; }
+
+/* SPECIFIC STYLE FOR 'ABOUT EDIRECTORY' POPUP */
+div.aboutWrapper
+{background:#FFF url(../images/bg_popup.gif) no-repeat 100% 100%;}
+
+div.aboutWrapper div.content
+{background:none; width: auto;}
+
+div.aboutWrapper h1
+{font: normal 18px Arial, Helvetica, sans-serif; color: #000; text-align: left; padding: 0 15px 10px 50px;}
+
+div.aboutWrapper h1 span
+{color: #558624;}
+
+div.aboutWrapper p
+{font: normal 11px/16px Verdana, Arial, Helvetica, sans-serif; color:#000; text-align:left; padding:0 0 10px 0;}
+
+div.aboutWrapper p span
+{font-weight:bold; padding-top:5px; display:block; color:#003F7E;}
+
+div.aboutWrapper p.copyright
+{color:#666; float: none; font-weight:bold; line-height:14px; font-size:10px;}
+
+div.aboutWrapper p.copyright a:link,
+div.aboutWrapper p.copyright a:active,
+div.aboutWrapper p.copyright a:visited,
+div.aboutWrapper p.copyright a:hover
+{color:#333;}
+
+div.aboutWrapper p.copyright a:hover
+{text-decoration:underline;}
+
+div.aboutWrapper ul
+{font: normal 11px/16px Verdana, Arial, Helvetica, sans-serif; color:#000; text-align:left; padding:0 0 10px 0;}
+
+div.aboutWrapper ul li
+{list-style:none; padding: 0 0 0 15px; background:url(../images/bullet_subMenu.gif) no-repeat 0 6px;}
+
+div.aboutWrapper ul li strong
+{color:#C00;}
+
+div.aboutWrapper div.available p,
+div.aboutWrapper div.notAvailable p
+{padding:0;}
+
+div.aboutWrapper div.notAvailable p span
+{color:#C90339;}
+
+div.aboutWrapper div.notAvailable ul li
+{background:url(../images/bullet_subMenu_warning.gif) no-repeat 0 6px; color:#C00;}

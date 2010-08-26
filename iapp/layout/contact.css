@@ -1,0 +1,14 @@
+/* STRUCTURE > CONTACT PAGE
+//////////////////////////////////////////////////*/
+
+body {background:url(../images/bg_home.png) 0 0 repeat-x;}
+
+#container {background:url(../images/bg_contact.png) 50% 95% no-repeat;}
+
+#content {padding:20px; color:#FFF; font: normal 16px Arial, Helvetica, sans-serif;}
+
+#content h1 {font-size:20px; line-height:24px;}
+
+#content a {color:#89C1FB; text-decoration:underline;}
+
+#content a:hover {text-decoration:underline;}

@@ -1,0 +1,1003 @@
+/**
+* Global Definitions
+*
+* @section	global reset
+*/
+
+*
+{ border: none; margin: 0; padding: 0; }
+
+ul
+{ list-style: none; }
+
+body
+{ background: #246; color: #666; font: normal 12px/16px Arial, Helvetica, sans-serif; padding: 10px; text-align: center; }
+
+a, a:visited
+{ color: #037; text-decoration: none; }
+
+a:hover
+{ color: #000 !important; text-decoration: underline; }
+
+.clear
+{ clear: both; display: block; height: 0px; line-height: 0px; overflow: hidden; }
+
+/**
+* Page Structure
+*
+* Main structure and common components of the directory system
+* such as Wrapper, Navbar, Header and Footer
+*
+* @section	structure
+*/
+
+.wrapper
+{ background: #FFF; border: 10px solid #235; border-bottom: none; margin: 0 auto 0 auto; text-align: left; width: 965px; }
+	
+/**
+* Top Navigation
+*
+* @section		structure
+* @subsection	top-navigation
+*/
+
+.topNavbar
+{ font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; height: 20px; line-height: 20px; }
+
+	.topNavbar .wrapper
+	{ background: none; border: none; position: relative; z-index: 2; }
+
+	.headerLogin
+	{ float: right; }
+	
+		.headerLogin li
+		{ background: url(images/design/bullet_headerLogin.gif) no-repeat 5px 7px; float: left; padding: 0 5px 0 15px; }
+		
+			.headerLogin li a, .headerLogin li a:visited, .headerLogin li a:hover
+			{ color: #FFF !important; }
+	
+	.themePicker
+	{ color: #000; font-weight: bold; position: absolute; right: 100px; top: 30px; }
+	
+		.themePicker span
+		{ display: block; float: left; }
+
+		.themePicker img
+		{ float: left; margin: 5px 0 0 2px; padding: 1px; }
+
+		.themePicker .themeActive
+		{ border: 1px solid #000; padding: 0; }
+	
+	.languageFlags
+	{ padding: 0 0 0 10px; position: absolute; right: 10px; top: 25px; }
+	
+		.languageFlags img
+		{ margin: 8px 0 0 2px; padding: 1px; }
+		
+		.languageFlags .flagActive
+		{ border: 1px solid #666; padding: 0; }
+
+/**
+* Header
+*
+* @section		structure
+* @subsection	header
+*/
+
+.header
+{ background: url(images/content/logo.png) no-repeat 0 center; height: 110px; position: relative; z-index: 1; }
+
+/** Logo */
+
+h1.logo
+{ width: 210px; height: 90px; position: absolute; bottom: 0; left: 0; }
+
+	h1.logo a
+	{ display: block; height: 90px; outline: none; position: relative; width: 210px; }
+	
+		h1.logo a span
+		{ display: block; position: absolute; top: -999px; }
+
+/**
+* Navbar
+*
+* @section		structure
+* @subsection	navbar
+*/
+
+.navbar
+{ background: url(images/design/bg_navbar.gif) repeat-x 0 100%; border-top: 1px solid #F7F7F7; border-bottom: 1px solid #68B; font-size: 14px; font-weight: bold; height: 45px; text-transform: uppercase; }
+
+	.navbar li
+	{ float: left; height: 45px; line-height: 45px; }
+	
+		.navbar li a, .navbar li a:visited
+		{ border-right: 1px solid #EEE; color: #666; display: block; padding: 0 20px 0 19px; }
+	
+		.navbar li a:hover, .navbar li.menuActived a, .navbar li.menuActived a:visited
+		{ background:url(images/design/bg_navbarActived.gif) bottom center repeat-x; color: #000; text-decoration: none; }
+
+/**
+* Sub Navbar
+*
+* @section		structure
+* @subsection	subnavbar
+*/
+
+.subNavbar
+{ background: url(images/design/bg_sub_navbar.gif) repeat-x 0 100%; border-bottom: 1px solid #EEE; height: 100%; overflow: hidden; padding: 0 5px 0 5px; }
+
+	.subNavbar li
+	{ float: left; height: 30px; line-height: 30px; padding: 0 5px 0 5px; white-space: nowrap; }
+	
+		.subNavbar li a, .subNavbar li a:visited
+		{ color: #692; display: block; font-weight: bold; }
+		
+		.subNavbar li.subNavbarActive a, .subNavbar li.subNavbarActive a:visited
+		{ color: #923; }
+
+/**
+* Content
+*
+* Wrap the content and columns of the application
+*
+* @section				structure
+* @subsection			content
+*/
+
+.content
+{ border-bottom: 5px solid #F7F7F7; height: 100%; overflow: hidden; }
+
+.breadcrumb
+{ line-height: 25px; margin: 0 0 10px 0; padding: 0 0 0 10px; }
+
+/**
+* Columns
+*
+* @section				structure
+* @subsection			content
+* @subsubsection	columns
+*/
+
+.mainContent
+{ border-left: 1px solid #EEE; border-right: 1px solid #EEE; float: left; margin: 0 5px 20px 5px; width: 510px; }
+
+.mainContentExtended
+{ border-left: 1px solid #EEE; float: left; margin: 0 0 0 15px; padding: 0 0 20px 10px; width: 700px; }
+
+.sidebar
+{ float: left; padding: 0 10px 0 10px; width: 200px; }
+
+/**
+* Footer
+*
+* @section		structure
+* @subsection	footer
+*/
+
+.footer
+{ background: #FFF; border: 10px solid #235; border-top: none; font: normal 10px Verdana, Arial, Helvetica, sans-serif; height: 140px; margin: 0 auto 0 auto; position: relative; text-align: center; width: 965px; }
+
+	.footer .wrapper
+	{ background: none; border: none; border-bottom: 5px solid #124; border-top: 1px solid #EEE; height: 135px; overflow: hidden; position: relative; }
+
+	.navFooter, .secondaryNavFooter
+	{ padding: 10px 0 0 0; text-align: center; width: 100%; }
+	
+		.navFooter li,
+		.secondaryNavFooter li
+		{ display: inline; padding: 0 5px 0 5px; }
+			
+			.navFooter li a, .navFooter li a:visited,
+			.secondaryNavFooter li a, .secondaryNavFooter li a:visited
+			{ color: #999; }
+			
+			.navFooter li a:hover, .secondaryNavFooter li a:hover
+			{ color: #692 !important; }
+	
+.copyright
+{ color: #999; line-height: 18px; padding: 15px 10px 0 0; position: absolute; text-align: center; top: 45px; width: 100%; }
+
+	.copyright a, .copyright a:visited
+	{ color: #692; }
+		
+.backToTop
+{ clear: both; height: 22px; margin: 0 10px 0 0; position: absolute; right: 0; top: -30px; }
+
+	.backToTop a, .backToTop a:visited
+	{ color: #692; display: block; float: right; font-size: 11px; font-weight: bold; line-height: 22px; padding: 0 10px 0 25px; }
+
+/**
+* Typograph
+*
+* Headings and text styles
+*
+* @section		typograph
+*/
+
+.standardTitle
+{ color: #000; font-size: 18px; font-weight: normal; line-height: 18px; padding: 0 0 10px 0; position:relative; }
+
+	.standardTitle span
+	{ color: #037; }
+	
+	.mainContent .standardTitle
+	{ padding-left: 10px; }
+	
+.standardSubTitle
+{ color: #333; font-size: 14px; font-weight: bold; padding: 10px 0 5px 0; }
+
+	.standardSubTitle span, .standardSubTitle strong
+	{ color: #037; }
+	
+h3
+{ font-size: 12px; font-weight: bold; line-height: 16px; }
+
+	h3, h3 a, h3 a:visited
+	{ color: #000; }
+	
+.complementaryInfo
+{ color: #666; font-size: 11px; font-weight: normal; }
+
+	.standardTitle .complementaryInfo
+	{ position: absolute; right: 10px; top: 8px; }
+
+/**
+* Search
+*
+* @section	search
+*/
+
+.search
+{ background: #BCE; border: 5px solid #ABD; color: #333; margin: 10px auto 10px auto; position: relative; width: 935px; }
+
+	.search form
+	{ height: 100%; overflow: hidden; padding: 5px 0 20px 0; }
+	
+		.search fieldset
+		{ float: left; padding: 5px 10px 0 20px; width: 35%; }
+										
+		.search label
+		{ color: #037; display: block; font-size: 18px; line-height: 24px; }
+		
+		.search .altLabel, .search legend
+		{ clear: both; color: #037; display: block; float: left; font-size: 14px; font-weight: bold; width: 100%; }
+		
+			.search legend
+			{ float: none; }
+		
+			.search label span
+			{ color: #000; font-size: 11px; }
+		
+		.search .optionDescription
+		{ font-size: 11px; padding: 0 5px 0 5px; }
+	
+		.search input, .search select, .search textarea
+		{ border: 1px solid #8AA9CA; border-bottom: 1px solid #E1EBF4; border-right: 1px solid #E1EBF4; font: normal 14px Arial, Helvetica, sans-serif; padding: 4px; width: 95%; }
+				
+		.search .altSelect
+		{ float: left; font-size: 12px; margin: 0 0 5px 0; padding: 1px; width: 77%; }
+		
+		.search .spacedSelect
+		{ margin-left: 70px; }
+		
+		.search .inputAuto
+		{ border: none; padding: 0; vertical-align: middle; width: auto; }
+		
+		.search .inputSmall
+		{ font-size: 12px; width: 15%; }
+		
+.search .advancedSearch, .search .advancedSearchClose
+{ position: absolute; right: 10px; top: 42px; }
+
+.search .advancedSearch a, .search .advancedSearch a:visited
+{ /*background: url(images/content/img_open.gif) no-repeat 0 2px;*/ padding: 0 0 0 15px; }
+
+.search .advancedSearchClose a, .search .advancedSearchClose a:visited
+{ /*background: url(images/content/img_close.gif) no-repeat 0 2px;*/ padding: 0 0 0 15px; }
+
+
+	.advancedSearch a, .advancedSearch a:visited
+	{ color: #037; font: bold 11px Verdana, Arial, Helvetica, sans-serif; }
+		
+.search .standardButton
+{ float: left; margin: 30px 0 0 0; }
+
+.searchCategory
+{ background: #FFC; color: #333; }
+
+.searchSubcategory
+{ background: #FFFFEF; }
+		
+/**
+* Advanced Search
+*
+* @section		search
+* @subsection	advanced-search
+*/
+
+.search .baseAdvancedSearch
+{ margin-top: 10px; width: 16%; }
+	
+	.baseAdvancedSearch input, .baseAdvancedSearch select
+	{ font-size: 12px; margin-bottom: 5px; }
+	
+	.baseAdvancedSearch .inputSmall
+	{ vertical-align: middle; width: 30%; }
+
+/**
+* Template Search
+*
+* @section		search
+* @subsection	template-search
+*/
+
+.search .baseTemplateSearch
+{ margin-top: 5px; padding-top: 0; width: 820px; }
+
+	.baseTemplateSearch .altLabel
+	{ padding: 0 10px 0 0; width: auto; }
+
+	.templateSearchTab,	.templateActive
+	{ display: block; float: left; }
+	
+	.templateSearchTab a, .templateSearchTab a:visited
+	{ color: #000; display: block; line-height: 29px; padding: 0 10px 0 10px; }
+	
+	.templateActive a, .templateActive a:visited
+	{ background: #FFF; border: 1px solid #8AA9CA; border-bottom: none; color: #1B293A; display: block; line-height: 29px; outline: none; padding: 0 9px 0 9px; }
+	
+.templateTabContent
+{ background: #FFF; border: 1px solid #8AA9CA; margin-top: 29px; padding: 10px; }
+
+	.templateTabContent .loading
+	{ float: none; margin: 0; width: auto; }
+
+	.templateTabContent label
+	{ color: #333; font-size: 12px; }
+	
+	.templateTabContent input, .templateTabContent select
+	{ font-size: 12px; }
+	
+	.templateCheckbox, .templateDropdown, .templateText, .templateRange,
+	.templateDescription, .templateLongDescription
+	{ float: left; height: 30px; padding:0 10px 0 0; width: 32%; }
+	
+	.templateCheckbox label
+	{ display: inline; }
+	
+	.templateText, .templateRange, .templateDescription, .templateLongDescription
+	{ height: auto; }
+	
+	.templateRange input
+	{ width: 30%; }
+
+/**
+* Common
+*
+* General definitions of interface elements
+*
+* @section		common
+*/
+
+.claim a, .claim a:visited
+{ background: url(images/design/bg_claim.gif) no-repeat 0 0; display: block; margin: 5px 0 0 0; padding: 0 0 0 15px; }
+
+.googleAds
+{ text-align: center; }
+
+.viewMore
+{ border-top: 1px solid #EEE; font: bold 11px/24px Verdana, Arial, Helvetica, sans-serif; margin: 0 0 10px 0; text-align: right; text-transform: lowercase; }
+
+	.viewMore a, .viewMore a:visited
+	{ color: #037; }
+	
+.noBorder
+{ border: none; }
+	
+.isHidden, .controlPhoneHide, .controlFaxHide
+{ display: none; }
+
+.isVisible, .controlPhoneShow, .controlFaxShow
+{}
+
+/**
+* Standard Button
+*
+* @section		common
+* @subsection	standard-button
+*/
+
+	.standardButton button, .standardButton a, .standardButton a:visited
+	{ background: url(images/design/bg_standardButton.gif) repeat-x 0 0; color: #FFF; cursor: pointer; display: block; font: bold 10px/28px Verdana, Arial, Helvetica, sans-serif; text-align: center; }
+
+	.standardButton,
+	.standardButton button, .standardButton a, .standardButton a:visited
+	{ height: 28px; width: 75px; }
+
+/**
+* Featured Items
+*
+* @section		common
+* @subsection	featured-items
+*/
+
+.featuredItems
+{ height: 100%; overflow: hidden; padding: 10px 0 10px 0; }
+
+	.sidebar .featuredItems
+	{ padding: 0; }
+
+	.divisor
+	{ border-bottom: 1px solid #EEE; }
+	
+	.featured
+	{ padding: 5px 10 5px 10px; }
+	
+	.featured h3, .featured h3 a, .featured h3 a:visited
+	{ font-weight: normal; }
+	
+	.featuredListing, .featuredEvent, .featuredPromotion, 
+	.featuredClassified, .featuredArticle
+	{ float: left; padding: 5px 0 5px 14px; width: 110px; }
+
+	.featuredColumn
+	{ float: left; width: 180px; }
+		
+		.featuredColumn .featured
+		{ padding: 5px 0 5px 0; }
+		
+	.featuredListingImage, .featuredPromotionImage, .featuredClassifiedImage,
+	.featuredEventImage, .featuredArticleImage
+	{ border: 5px solid #EEE; display: block; height: 83px; width: 100px; }
+	
+	.sidebar .featuredEventImage
+	{ background: #FFF; border: 1px solid #EEE; height: 41px; padding: 2px; width: 50px; }
+
+	.readMore a, .readMore a:visited
+	{ color: #923; font-size: 11px; text-transform: lowercase; }
+
+/** Highlight Box  */
+
+.highlightBox
+{ background: #FAFAFA; border: 3px solid #EEE; height: 100%; margin: 0 5px 0 5px; overflow: hidden; padding: 5px; }
+
+	.sidebar .highlightBox
+	{ margin: 0; }
+
+	.highlightBox .highlightImage
+	{ float: left; margin: 0 10px 10px 0; }
+	
+	.highlightImage a:hover
+	{ text-decoration: none; }
+	
+	.highlightBox .divisor
+	{ height: 100%; overflow: hidden; padding: 0 0 10px 0; margin: 0 0 10px 0; }
+	
+	.highlightLabel
+	{ color: #C00; display: block; font-size: 11px; font-weight: bold; text-align: right; text-transform: uppercase; }
+	
+.mainContent .highlightBox
+{ float: left; margin: 0 10px 0 10px; width: 270px; }
+
+	.mainContent .highlightBox h3
+	{ font-size: 14px; }
+	
+	.mainContent .highlightBox .description
+	{ color: #333; padding: 5px 0 0 0; }
+	
+/**
+* Events Calendar
+*
+* @section		common
+* @subsection	calendar
+*/
+
+.baseCalendar
+{ font-size: 10px; margin: 0 0 10px 0; padding: 10px 0 10px 0; text-align: center; }
+
+	.baseCalendar h4
+	{ font-size: 14px; color: #333; }
+	
+	.calendar
+	{ background: #FFF; border: 5px solid #EEE; font-family: Verdana, Arial, Helvetica, sans-serif; margin: 5px 0 0 0; }
+	
+	.calendarHeader
+	{ font-size: 11px; font-weight: bold; }
+	
+		.calendarHeader td, .calendarHeader th
+		{ padding: 5px; vertical-align: top; }
+	
+		.calendarHeader a, .calendarHeader a:visited
+		{ color: #B40; }
+		
+		.calendarWeekday
+		{ color: #B40; font-weight: normal; }
+		
+		.calendarDay a,
+		.calendarDay a:visited
+		{ background: #FFF; border: 1px solid #FBFBFB; border-bottom: 3px solid #EEE; border-right: 3px solid #EEE; color: #333; display: block; font-weight: normal; padding: 2px; }
+
+			.calendarDay a:hover
+			{ background: #FFE6D5; color: #B40; text-decoration: none; }
+
+		.calendarDay a.today, .calendarDay a.today:visited, .calendarDay a.today:hover
+		{ background: #D84; border: 1px solid #B40; color: #FFF; }
+		
+		.calendarDay a.selected, .calendarDay a.selected:visited, .calendarDay a.selected:hover
+		{ background: #B40; border: 1px solid #B40; color: #FFF; }
+
+/**
+* Members Features
+*
+* @section		common
+* @subsection	membros-features
+*/
+
+.memberJoin, .memberLogin
+{ margin: 0 0 10px 0; padding: 10px 0 5px 0; }
+
+.memberJoin h2, .memberLogin h2
+{ border-bottom: 1px solid #EEE; font-size: 18px; font-weight: normal; line-height: 30px; margin: 0 0 5px 0; }
+		
+/** Join Now */
+
+	.memberJoin h2, .memberJoin h2 a, .memberJoin h2 a:visited
+	{ color: #037; font-weight: normal; }
+	
+		.memberJoin h2 span
+		{ color: #68B; }
+	
+	.memberJoin p, .memberJoin p a, .memberJoin p a:visited
+	{ color: #235; font-size: 12px; }
+	
+	.memberJoin h2 a:hover, .memberJoin p a:hover
+	{ text-decoration: none; }
+	
+/** Members Login */
+
+.memberLogin
+{ font-size: 11px; height: 100%; line-height: 24px; overflow: hidden; }
+
+	.memberLogin h2
+	{ color: #037; }
+	
+	.memberLogin label
+	{	color: #333; display: block; }
+	
+	.formFieldsLogin
+	{ border: 5px solid #EEE; clear: both; height: 100%; overflow: hidden; padding: 5px; }
+	
+	.memberLogin input, .memberLogin select, .memberLogin textarea
+	{ background: #EEE; border: 1px solid #CCC; border-bottom: none; border-right: none; font: normal 12px Arial, Helvetica, sans-serif; width: 97%; }
+	
+	.memberLogin .inputAuto
+	{ border: none; margin: 0 5px 0 0; width: auto; }
+	
+	.memberLogin span
+	{ display: block; padding: 5px 0 0 0; }
+	
+	.memberLogin .standardButton
+	{ float: right; }
+	
+		.memberLogin .standardButton button,
+		.memberLogin .standardButton a, .memberLogin .standardButton a:visited
+		{ background: url(images/design/bg_memberButton.gif) repeat-x 0 0; }
+	
+	.memberLogin .forgotPassword
+	{ line-height: 24px; text-align: center; }
+	
+		.forgotPassword a, .forgotPassword a:visited
+		{ color: #692; }
+
+/**
+* Advertisement
+*
+* @section		common
+* @subsection	advertisement
+*/
+
+.advertisement
+{ overflow: hidden; margin: 0 0 10px 0; padding: 10px; }
+
+	.advertisement span
+	{ color: #999; display: block; font-size: 10px; font-weight: bold; line-height: 20px; }
+	
+	.advertisement .advertisementLabel
+	{ float: left; text-transform: uppercase; }
+	
+	.advertisement .advertisementLink
+	{ float: right; }
+	
+	.advertisement a, .advertisement a:visited, .advertisement a:hover
+	{ color: #999 !important; }
+	
+	.advertisement .noimage
+	{ border: none; margin: 0 auto 0 auto; }
+	
+	.banner,
+	.sponsoredLink
+	{ background: #FFF; border: 1px solid #CCC; clear: both; }
+	
+	.featuredBanner
+	{ margin: 0 auto 0 auto; width: 180px; }
+	
+.baseBannerFeatured .advertisement
+{ background: #000; padding: 5px; }
+
+	.baseBannerFeatured .featuredBanner
+	{ border: 5px solid #333; }
+	
+	.baseBannerFeatured .advertisementLabel
+	{ font-size: 18px; font-weight: normal; line-height: 24px; padding: 0 0 10px 0; text-transform: none; }
+		
+.header .advertisement
+{ margin: 0; padding: 0 10px 0 10px; position: absolute; top: 25px; right: 10px; width: 470px; }
+
+.bottomAdvertisement
+{ margin: 10px auto 10px auto; width: 730px; }
+
+/** Advertisment > Sponsored Links */
+
+.baseSponsoredLinks .advertisement
+{ padding: 0; }
+
+.sponsoredLink
+{ display: block; margin: 0 0 10px 0; padding: 8px; }
+
+	.sponsoredLink:hover
+	{ text-decoration: none; }
+	
+	.sponsoredLink .sponsoredLinkTitle
+	{ color: #C00; font-size: 12px; font-weight: bold; line-height: 18px; }
+	
+	.sponsoredLink .sponsoredLinkContent
+	{ color: #666; font-size: 11px; font-weight: normal; line-height: 14px; }
+	
+	.sponsoredLink .sponsoredLinkURL
+	{ color: #690; font-size: 11px; line-height: 18px; }
+
+/**
+* Categories
+*
+* @section		common
+* @subsection	categories
+*/
+
+.categories
+{ padding: 5px 10px 15px 10px; }
+
+.sidebar .categories
+{ padding: 5px 0 15px 0; }
+
+.sidebar .categories h3
+{ background: url(images/design/bg_CATbullet.gif) no-repeat 0 9px; border-bottom: 1px solid #EEE; font: bold 11px/24px Verdana, Arial, Helvetica, sans-serif; padding: 0 0 0 12px; }
+
+.sidebar .categories .categoriesColumn
+{ float: none; padding: 0; width: auto; }
+	
+/**
+* Site Content
+*
+* @section		common
+* @subsection	site-content
+*/
+
+.dynamicContent
+{ line-height: normal; padding: 15px; }
+
+/**
+* Icon Navbar
+*
+* @section		common
+* @subsection	icon-navbar
+*/
+
+.baseIconNavbar
+{ }
+
+.socialBookmarkIcons
+{ float: left; }
+
+	.socialBookmarkIcons li
+	{ float: left; padding: 0 5px 0 0; }
+
+.iconNavbar
+{ float: right; font: normal 10px/normal Arial, Helvetica, sans-serif; }
+
+	.iconNavbar li
+	{ color: #FFF; float: right; font-size: 10px; line-height: 25px; }
+	
+	.iconNavbar li a, .iconNavbar li a:visited
+	{ border: 1px solid #EEE; padding: 2px 7px 2px 7px; }
+	
+/**
+* Password Strength
+*
+* @section		common
+* @subsection	password-strength
+*/
+
+.checkPasswordStrength
+{ height: 25px; overflow: hidden; padding: 5px 0 0 0; }
+
+	.checkPasswordStrength span
+	{ display: block; float: left; line-height: 20px; margin: 0 10px 0 0; }
+	
+	.checkPasswordStrength div
+	{ background: #FFF; border: 1px solid #D4D4D4; color:#333; float: left; font-size: 11px; height: 20px; line-height: 20px; padding:0 0 0 50px; width: 100px; }
+	
+	.checkPasswordStrength .strengthLoading
+	{ background: #FFF url(images/content/img_loading_bar.gif) no-repeat 3px 5px; }
+	
+	.checkPasswordStrength .strengthWeak
+	{ background: #FFF url(images/design/bg_strength_weak.gif) no-repeat 3px 5px; }
+	
+	.checkPasswordStrength .strengthBad
+	{ background: #FFF url(images/design/bg_strength_bad.gif) no-repeat 3px 5px; }
+	
+	.checkPasswordStrength .strengthGood
+	{ background: #FFF url(images/design/bg_strength_good.gif) no-repeat 3px 5px; }
+	
+	.checkPasswordStrength .strengthStrong
+	{ background: #FFF url(images/design/bg_strength_strong.gif) no-repeat 3px 5px; }
+	
+/**
+* Loading Box
+*
+* @section		common
+* @subsection	loading-box
+*/
+
+.loading
+{ background: #FFF url(images/content/img_loading_bar.gif) no-repeat 10px center; border: 1px solid #CCC; clear: both; color: #333; float: left; font-size: 14px; font-weight: bold; margin: 10px 0 10px 20px; padding: 10px 10px 10px 60px; width: 747px; }
+
+/**
+* Favorites
+*
+* @section		common
+* @subsection	favorites
+*/
+
+.quickList
+{ height: 100%; overflow: hidden; padding: 0 10px 0 10px; }
+
+	.quickList .featuredItems
+	{ float: left; padding: 15px 20px 10px 0; position: relative; width: 110px; }
+	
+	.quickList .quickListRemove
+	{ padding: 0 5px 0 0; }
+
+	.quickList .featuredItems .quickListRemove
+	{ background: #FFF; left: 0; padding: 2px; position: absolute; top: 15px; z-index: 1; }
+	
+	.quickList .featuredItems .favoriteListingImage,
+	.quickList .featuredItems .favoriteEventImage,
+	.quickList .featuredItems .favoriteClassifiedImage,
+	.quickList .featuredItems .favoriteArticleImage,
+	.quickList .featuredItems .favoritePromotionImage
+	{ border: 5px solid #EEE; display: block; height: 83px; width: 100px; }
+
+	.quickList h3
+	{ clear: both; }
+	
+	.quickList .featuredItems h3
+	{ padding: 5px 0 0 0; }
+	
+/**
+* System Messages
+*
+* @section		common
+* @subsection	system-messages
+*/
+
+.informationMessage, .errorMessage, .successMessage
+{ border: 1px solid #CCC; font-size: 11px; font-weight: bold; height: 100%; margin: 10px; overflow: hidden; padding: 15px 15px 15px 45px; text-align: left; }
+
+	.informationMessage
+	{ background: #F9FDFF url(images/design/bg_icon_information.gif) 10px 10px no-repeat; color: #135DA2; }
+	
+		.informationMessage a, .informationMessage a:visited
+		{ color: #2E4E6B; }
+		
+	.errorMessage
+	{ background: #FFF9F9 url(images/design/bg_icon_error.gif) 10px 10px no-repeat; color: #C10924; }
+	
+		.errorMessage a, .errorMessage a:visited
+		{ color: #C94601; }
+
+	.successMessage
+	{ background: #F9FCEB url(images/design/bg_icon_success.gif) 10px 10px no-repeat; color: #692; }
+	
+		.successMessage a, .successMessage a:visited
+		{ color: #351; }
+				
+/**
+* Standard Form
+*
+* @section		common
+* @subsection	standard-form
+*/
+
+.standardForm
+{ background: #FAFAFA; border: 3px solid #EEE; font: normal 10px Verdana, Arial, Helvetica, sans-serif; padding: 5px 10px 5px 10px; width: 95%; }
+
+	.standardForm .standardSubTitle
+	{ padding: 5px 0 5px 0; }
+	
+	.standardForm th span
+	{ color: #000; font: normal 10px Verdana, Arial, Helvetica, sans-serif; }
+
+	.standardForm input, .standardForm textarea
+	{ width: 96%; font: normal 10px Verdana, Arial, Helvetica, sans-serif; padding: 5px; border: 0; border-left: 1px solid #E7E7E7; border-top: 1px solid #E7E7E7; }
+	
+	.standardForm .formCode
+	{ width: 100px; }
+
+	.standardForm th
+	{ font-size: 10px; font-weight: normal; padding: 5px 10px 0 0; text-align: right; vertical-align: top; }
+	
+	.standardForm td
+	{ padding: 5px 0 5px 0px; }
+	
+	.standardFormButton
+	{ width: 100%; }
+
+		.standardFormButton .standardButton
+		{ float: right; }
+		
+		.standardFormButton .standardButton button
+		{ background: url(images/design/bg_memberButton.gif) repeat-x 0 0; }
+		
+/**
+* Ratings
+*
+* @section		common
+* @subsection	ratings
+*/
+
+.rating
+{ float: left; font: normal 10px Verdana, Arial, Helvetica, sans-serif;; }
+
+	.rating li
+	{ padding: 0 3px 0 2px; }
+
+	.rating .ratingStar
+	{ float: left; padding: 2px 2px 0 0; }
+	
+	.rating .ratingStar img
+	{ padding: 0 2px 0 0; }
+
+	.rating .ratingReview
+	{ float: left; }
+	
+		.rating .ratingReview a, .rating .ratingReview a:visited
+		{ color: #000; font-style: italic; font-weight: normal; }
+	
+	.rating .ratingSeeComment, .rating .rateIt
+	{ clear: both; float: none; }
+	
+	.rating .ratingSeeComment a, .rating .ratingSeeComment a:visited
+	{ color: #000; }
+	
+	.rating .rateIt a, .rating .rateIt a:visited
+	{ color: #C93; font-weight: bold; }
+	
+/** Rate Stars */
+
+.rateItStars
+{ font-size: 14px; font-weight: bold; line-height: 25px; margin: 0 auto 5px auto; padding: 20px 0 10px 0; text-align: center; width: 205px; }
+
+	.rateItStars span
+	{ clear: both; display: block; }
+
+	.rateItStars img
+	{ padding: 1px; }
+	
+/** Rate Form */
+
+.rateForm
+{ margin: 0 auto 20px auto; }
+	
+.rateForm td
+{ vertical-align: top; }
+	
+.rateForm th
+{ width: 120px; }
+
+.rateForm input, .rateForm textarea
+{ width: 180px; }
+
+.rateForm .captcha
+{ text-align: right; }
+
+.rateForm .formCaptchaWarning
+{ float: left; }
+
+#captchaimage
+{ margin: 0 10px 0 0; }
+
+.ratingButton
+{ margin: 0 auto 0 auto; }
+
+	.ratingButton button
+	{ background: url(images/design/bg_businessButton.gif) repeat-x 0 0; }
+	
+/** Special Definitions for JQuery's Thickbox */
+
+#TB_ajaxContent
+{ padding: 10px; }
+
+#TB_ajaxContent form
+{ padding: 10px 0 0 0; }
+
+#TB_ajaxContent p
+{ padding: 0; }
+
+#TB_ajaxContent .errorMessage, #TB_ajaxContent .successMessage
+{ height: auto; margin-top: 0; padding: 15px 15px 15px 45px; }
+
+/**
+* Reviews
+*
+* @section		common
+* @subsection	reviews
+*/
+
+.rateComments
+{ background: #FAFAFA; border: 3px solid #EEE; color: #000; font: normal 11px/15px Verdana, Arial, Helvetica, sans-serif; margin: 0 10 10px 10px; padding: 5px; }
+
+.recentReviews .rateComments
+{ margin: 0 10px 10px 10px; }
+
+	.rateComments h3
+	{ font-size: 11px; }
+	
+	.rateComments h4
+	{ font-size: 11px !important; font-weight: bold; }
+	
+	.rateComments .complementaryInfo
+	{ font-size: 10px; }
+
+	.rateStars
+	{ padding: 3px 0 3px 0; }
+	
+		.rateStars img
+		{ padding: 0 2px 0 0; }
+		
+	.rateComments .review
+	{ padding: 5px 0 0 0; }
+	
+	.response
+	{ padding: 5px 0 0 50px; }
+	
+	.response h4
+	{ font-size: 11px; font-weight: bold; }
+	
+	.response .review
+	{ color: #666; font-style: italic; }
+		
+/**
+* Sitemap
+*
+* @section		common
+* @subsection	sitemap
+*/
+
+.sitemapList
+{ padding: 10px 0 0 0; }
+
+.sitemapList li
+{ height: 100%; overflow: hidden; }
+
+.sitemapList ul
+{ margin: 5px 0 5px 0; }
+
+	.sitemapList ul li
+	{ float: left; font-size: 11px; padding: 0 5px 5px 0; width: 48%; }
+
+.sitemapList .viewMore
+{ border-top: 1px solid #EEE; clear: both; float: none; width: auto; }
+
+.sitemapSection, .sitemapSection:visited
+{ color: #333; }
